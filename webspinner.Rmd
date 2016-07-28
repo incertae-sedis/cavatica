@@ -1,0 +1,34 @@
+---
+title: "Webspinner"
+output: html_document
+author: "Jennifer Chang"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Fetch Network Papers from Pubmed
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+library(RISmed)
+library(ggplot2)
+
+query_term="cytoscape"
+res<-EUtilsSummary(query_term,type="esearch",db="pubmed",datetype='pdat',mindate=2006,maxdate=2017,retmax=1000)
+QueryCount(res)
+
+# Fetch Year
+result<-EUtilsGet(res)
+year<-YearPubmed(result)
+year<-na.omit(year)
+
+qplot(as.factor(year),fill=I('royalblue'),xlab="Year of Publication",ylab="Number of papers",
+      main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
+  theme_bw()+
+  geom_text(stat='count',aes(label=..count..),vjust=-0.25)
+```
