@@ -14,21 +14,193 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
+### Cytoscape
 ```{r}
 library(RISmed)
 library(ggplot2)
 
-query_term="cytoscape"
-res<-EUtilsSummary(query_term,type="esearch",db="pubmed",datetype='pdat',mindate=2006,maxdate=2017,retmax=1000)
+query_term="cytoscape" # switch this out for any software
+res<-EUtilsSummary(query_term,type="esearch",db="pubmed",datetype='pdat',mindate=1996,maxdate=2017,retmax=1000)
 QueryCount(res)
 
 # Fetch Year
 result<-EUtilsGet(res)
-year<-YearPubmed(result)
+year<-YearPubmed(result) # takes time
 year<-na.omit(year)
 
-qplot(as.factor(year),fill=I('royalblue'),xlab="Year of Publication",ylab="Number of papers",
+qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
       main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
+  scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1996,2016.5))+
   theme_bw()+
-  geom_text(stat='count',aes(label=..count..),vjust=-0.25)
+  geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+### Graphviz
+
+```{r,echo=FALSE}
+
+query_term="graphviz"
+res<-EUtilsSummary(query_term,type="esearch",db="pubmed",datetype='pdat',mindate=1996,maxdate=2017,retmax=1000)
+QueryCount(res)
+
+# Fetch Year
+result<-EUtilsGet(res)
+year<-YearPubmed(result) # takes time
+year<-na.omit(year)
+
+qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
+      main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
+  scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1996,2016.5))+
+  theme_bw()+
+  geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+### Visant
+
+```{r,echo=FALSE}
+
+query_term="visant"
+res<-EUtilsSummary(query_term,type="esearch",db="pubmed",datetype='pdat',mindate=1996,maxdate=2017,retmax=1000)
+QueryCount(res)
+
+# Fetch Year
+result<-EUtilsGet(res)
+year<-YearPubmed(result) # takes time
+year<-na.omit(year)
+
+qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
+      main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
+  scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1996,2016.5))+
+  theme_bw()+
+  geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+### Neo4j
+
+```{r,echo=FALSE}
+
+query_term="neo4j"
+res<-EUtilsSummary(query_term,type="esearch",db="pubmed",datetype='pdat',mindate=1996,maxdate=2017,retmax=1000)
+QueryCount(res)
+
+# Fetch Year
+result<-EUtilsGet(res)
+year<-YearPubmed(result) # takes time
+year<-na.omit(year)
+
+qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
+      main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
+  scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1996,2016.5))+
+  theme_bw()+
+  geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+### Gephi
+
+```{r,echo=FALSE}
+
+query_term="gephi"
+res<-EUtilsSummary(query_term,type="esearch",db="pubmed",datetype='pdat',mindate=1996,maxdate=2017,retmax=1000)
+QueryCount(res)
+
+# Fetch Year
+result<-EUtilsGet(res)
+year<-YearPubmed(result) # takes time
+year<-na.omit(year)
+
+qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
+      main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
+  scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1996,2016.5))+
+  theme_bw()+
+  geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+
+### igraph
+
+```{r,echo=FALSE}
+
+query_term="igraph"
+res<-EUtilsSummary(query_term,type="esearch",db="pubmed",datetype='pdat',mindate=1996,maxdate=2017,retmax=1000)
+QueryCount(res)
+
+# Fetch Year
+result<-EUtilsGet(res)
+year<-YearPubmed(result) # takes time
+year<-na.omit(year)
+
+qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
+      main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
+  scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1996,2016.5))+
+  theme_bw()+
+  geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+
+### NetworkX
+
+```{r,echo=FALSE}
+
+query_term="networkx"
+res<-EUtilsSummary(query_term,type="esearch",db="pubmed",datetype='pdat',mindate=1996,maxdate=2017,retmax=1000)
+QueryCount(res)
+
+# Fetch Year
+result<-EUtilsGet(res)
+year<-YearPubmed(result) # takes time
+year<-na.omit(year)
+
+qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
+      main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
+  scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1996,2016.5))+
+  theme_bw()+
+  geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+### Ingenuity Pathway Analysis
+
+```{r,echo=FALSE}
+query_term="ingenuity pathway analysis IPA"
+res<-EUtilsSummary(query_term,type="esearch",db="pubmed",datetype='pdat',mindate=1996,maxdate=2017,retmax=1000)
+QueryCount(res)
+
+# Fetch Year
+result<-EUtilsGet(res)
+year<-YearPubmed(result) # takes time
+year<-na.omit(year)
+
+qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
+      main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
+  scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1996,2016.5))+
+  theme_bw()+
+  geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+### Pathway Studio
+
+```{r,echo=FALSE}
+
+query_term="pathway studio"
+res<-EUtilsSummary(query_term,type="esearch",db="pubmed",datetype='pdat',mindate=1996,maxdate=2017,retmax=1000)
+QueryCount(res)
+
+# Fetch Year
+result<-EUtilsGet(res)
+year<-YearPubmed(result) # takes time
+year<-na.omit(year)
+
+qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
+      main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
+  scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1996,2016.5))+
+  theme_bw()+
+  geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
