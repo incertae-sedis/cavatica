@@ -28,12 +28,16 @@ result<-EUtilsGet(res)
 year<-YearPubmed(result) # takes time
 year<-na.omit(year)
 
-qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
+p<-qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
       main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
   scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1996,2016.5))+
   theme_bw()+
   geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+#install.packages("svglite")
+library(svglite)
+ggsave(filename=paste("counts-",query_term,".svg",sep=""),plot=p,dpi=600,width=10.5,height=7.69)
 ```
 
 ### Graphviz
@@ -49,12 +53,13 @@ result<-EUtilsGet(res)
 year<-YearPubmed(result) # takes time
 year<-na.omit(year)
 
-qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
+p=qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
       main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
   scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1996,2016.5))+
   theme_bw()+
   geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
+ggsave(filename=paste("counts-",query_term,".svg",sep=""),plot=p,dpi=600,width=10.5,height=7.69)
 ```
 
 ### Visant
@@ -70,12 +75,13 @@ result<-EUtilsGet(res)
 year<-YearPubmed(result) # takes time
 year<-na.omit(year)
 
-qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
+p=qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
       main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
   scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1996,2016.5))+
   theme_bw()+
   geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
+ggsave(filename=paste("counts-",query_term,".svg",sep=""),plot=p,dpi=600,width=10.5,height=7.69)
 ```
 
 ### Neo4j
@@ -91,12 +97,13 @@ result<-EUtilsGet(res)
 year<-YearPubmed(result) # takes time
 year<-na.omit(year)
 
-qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
+p=qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
       main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
   scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1996,2016.5))+
   theme_bw()+
   geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
+ggsave(filename=paste("counts-",query_term,".svg",sep=""),plot=p,dpi=600,width=10.5,height=7.69)
 ```
 
 ### Gephi
@@ -112,12 +119,13 @@ result<-EUtilsGet(res)
 year<-YearPubmed(result) # takes time
 year<-na.omit(year)
 
-qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
+p=qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
       main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
   scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1996,2016.5))+
   theme_bw()+
   geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
+ggsave(filename=paste("counts-",query_term,".svg",sep=""),plot=p,dpi=600,width=10.5,height=7.69)
 ```
 
 
@@ -134,12 +142,13 @@ result<-EUtilsGet(res)
 year<-YearPubmed(result) # takes time
 year<-na.omit(year)
 
-qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
+p=qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
       main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
   scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1996,2016.5))+
   theme_bw()+
   geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
+ggsave(filename=paste("counts-",query_term,".svg",sep=""),plot=p,dpi=600,width=10.5,height=7.69)
 ```
 
 
@@ -156,12 +165,13 @@ result<-EUtilsGet(res)
 year<-YearPubmed(result) # takes time
 year<-na.omit(year)
 
-qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
+p=qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
       main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
   scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1996,2016.5))+
   theme_bw()+
   geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
+ggsave(filename=paste("counts-",query_term,".svg",sep=""),plot=p,dpi=600,width=10.5,height=7.69)
 ```
 
 ### Ingenuity Pathway Analysis
@@ -176,12 +186,13 @@ result<-EUtilsGet(res)
 year<-YearPubmed(result) # takes time
 year<-na.omit(year)
 
-qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
+p=qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
       main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
   scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1996,2016.5))+
   theme_bw()+
   geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
+ggsave(filename=paste("counts-",query_term,".svg",sep=""),plot=p,dpi=600,width=10.5,height=7.69)
 ```
 
 ### Pathway Studio
@@ -197,10 +208,33 @@ result<-EUtilsGet(res)
 year<-YearPubmed(result) # takes time
 year<-na.omit(year)
 
-qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
+p=qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
       main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
   scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1996,2016.5))+
   theme_bw()+
   geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
+ggsave(filename=paste("counts-",query_term,".svg",sep=""),plot=p,dpi=600,width=10.5,height=7.69)
+```
+
+### Network Biology
+
+```{r,echo=FALSE}
+query_term="network biology"
+res<-EUtilsSummary(query_term,type="esearch",db="pubmed",datetype='pdat',mindate=1996,maxdate=2017,retmax=10000)
+QueryCount(res)
+
+# Fetch Year
+result<-EUtilsGet(res)
+year<-YearPubmed(result) # takes time
+year<-na.omit(year)
+
+p=qplot(year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
+      main=paste("PubMed Articles containing '",query_term,"'; n=",length(year),sep=""))+
+  scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1996,2016.5))+
+  theme_bw()+
+  geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+p
+ggsave(filename=paste("counts-",query_term,".svg",sep=""),plot=p,dpi=600,width=10.5,height=7.69)
 ```
