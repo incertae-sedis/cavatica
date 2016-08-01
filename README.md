@@ -7,8 +7,17 @@ The name comes from Charlotte's Web since her full name was Charlotte A. Cavatic
 
 [EBot](http://www.ncbi.nlm.nih.gov/Class/PowerTools/eutils/ebot.cgi)
 
+**Searching for a term on PMC and fetching data from Pubmed **
+
 ```
-$ searchpmc.pl <query_term> > <term-pmid.txt>
+$ searchpmc.pl <query_term> > <term-meta.txt>
 $ fetchPMCfulltext.pl <pmcids.txt> <output.xml>
-$ mapPMC2PM.pl <output.xml> 
+$ mapPMC2PM.pl <output.xml>
+$ fetchPubmedData.pl <pubmedids.txt> <output2.xml>
+```
+
+**Searching for a term on Pubmed and fetching data from Pubmed **
+```
+$ searchpubmed.pl <query_term> <term-pmid.txt>
+$ fetchPubmedData.pl <term-pmid.txt> <term-summary.xml>
 ```
