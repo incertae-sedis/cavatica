@@ -11,9 +11,10 @@ The name comes from Charlotte's Web since her full name was Charlotte A. Cavatic
 
 ```
 $ searchpmc.pl <query_term> > <term-meta.txt>
+$ pulloutPMC.pl <term-meta.txt> > <pmcids.txt>
 $ fetchPMCfulltext.pl <pmcids.txt> <output.xml>
-$ mapPMC2PM.pl <output.xml>
-$ fetchPubmedData.pl <pubmedids.txt> <output2.xml>
+$ mapPMC2PM.pl <output.xml> > <term-pmids.txt>
+$ fetchPubmedData.pl <term-pmids.txt> <output2.xml>
 ```
 
 **Searching for a term on Pubmed and fetching data from Pubmed **
