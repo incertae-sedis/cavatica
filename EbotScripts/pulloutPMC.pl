@@ -6,7 +6,7 @@ use warnings;
 while(<>){
     chomp;
     if(/<Id>(\d+)<\/Id>/){
-	print "PMCID: $1\n";
+	print "$1\n";
    }
 #    if(/<Item Name="pmid" Type="String">(\d+)<\/Item>/){
 #	if($1>0) {print "$1\n";}
