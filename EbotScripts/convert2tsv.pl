@@ -23,6 +23,9 @@ while(<>){
     if(/<\/PubmedArticle>/){
 	printoutput;
 	$pmid="pmid";
+	$year="year";
+	$journal="journal";
+	$title="title";
     }
     if(/<PMID Version="1">(\d+)<\/PMID>/){
 	if($pmid eq $check){
@@ -39,6 +42,12 @@ while(<>){
 	$getyear=1;
     }
     if(/<\/ArticleDate>/){
+	$getyear=0;
+    }
+    if(/<PubMedPubDate /){
+	$getyear=1;
+    }
+    if(/<\/PubMedPubDate>/){
 	$getyear=0;
     }
     if(/<Year>(\d+)<\/Year>/){

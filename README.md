@@ -28,4 +28,17 @@ $ fetchPubmedData.pl <term-pmidsD.txt> <term-pubmedD.xml>
 $ sort <term-pmids.txt> > term-pmidsS.txt
 $ sort <term-pmidsD.txt> > term-pmidsDS.txt
 $ comm -12 <term-pmidsS.txt> term-pmidsDS.txt > term-commonids.txt
+$ wc -l term-pmids*
+```
+
+###Combine pubmed and pmc results
+```
+$ cat <term-pmids.txt> <term-pmidsD.txt> | sort| uniq > <term-pmidsA.txt>
+$ fetchPubmedData.pl <term-pmidsA.txt> <term-pubmedA.xml>
+```
+
+###Get paper to author network
+```
+$ perl convert2tsv <term-pubmedA.xml> > <term-papers.tsv>
+$ perl getPM2Author.pl <term-pubmedA.xml> > <term-coauthor.tsv>
 ```
