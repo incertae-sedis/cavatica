@@ -1,5 +1,6 @@
 #! /usr/bin/env bash
 
+mkdir data
 # ====================================================================================
 TERM="igraph"
 echo $TERM "loading... from PMC search\n"
