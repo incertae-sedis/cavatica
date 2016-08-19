@@ -42,3 +42,31 @@ $ fetchPubmedData.pl <term-pmidsA.txt> <term-pubmedA.xml>
 $ perl convert2tsv <term-pubmedA.xml> > <term-papers.tsv>
 $ perl getPM2Author.pl <term-pubmedA.xml> > <term-coauthor.tsv>
 ```
+
+### Mango
+
+Use loadnet.gel to load networks into mango and visualize
+```
+node(string id, int year, string journal, string title, string type) nt;
+link<string affiliation> lt;
+graph(nt,lt) visant=import("data/visant-coauthor.tsv","\t",1);
+visant.+=import("data/visant-papers.tsv","\t");
+
+layout(visant,"random");
+foreach link in visant set in.type="paper",out.type="author";
+foreach link in visant set in._b=1,out._r=1;
+visant.-={("pmid")};
+foreach link in visant set out._x=in._x+rand(-1,1),out._y=in._y+rand(-1,1),out._z=in._z+rand(-1,1);
+
+foreach node in visant set _radius=0.2;
+foreach node in visant where type=="author" && (in+out)>1 set _radius=0.5,_g=0.5;
+foreach link in visant where out._radius>0.3 set in._radius=0.5;
+auto cross=select node from visant where _radius>0.3;
+
+/* FD cross */
+
+foreach link in visant where in._radius>0.3 set out._radius=0.5;
+cross.+=select node from visant where _radius>0.3;
+foreach link in cross set out._x=in._x+rand(-1,1),out._y=in._y+rand(-1,1),out._z=in._z+rand(-1,1);
+foreach link in cross set _width=0.1;
+```
