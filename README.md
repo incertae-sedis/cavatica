@@ -27,7 +27,7 @@ $ fetchPubmedData.pl <term-pmidsD.txt> <term-pubmedD.xml>
 ```
 $ sort <term-pmids.txt> > term-pmidsS.txt
 $ sort <term-pmidsD.txt> > term-pmidsDS.txt
-$ comm -12 <term-pmidsS.txt> term-pmidsDS.txt > term-commonids.txt
+$ comm -12 <term-pmidsS.txt> term-pmidsDS.txt > term-pmidsC.txt
 $ wc -l term-pmids*
 ```
 
