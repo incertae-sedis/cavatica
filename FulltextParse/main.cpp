@@ -52,8 +52,6 @@ void PrintStr(unsigned char* str, size_t size){
 */
 
 int main(int argc, char* argv[]){
-  printf("Hello World!\n");
-
   if(argc<2){
     printf("Not enough arguments!\n");
     exit(1);
@@ -74,6 +72,38 @@ int main(int argc, char* argv[]){
     //    st->SetLabel("Status: XML file corrupted. Can't parse.");
     exit(1);
   }
-  printf("Success!\n");
 
+  for(pugi::xml_node article=doc.child("pmc-articleset").child("article");
+      article;
+      article=article.next_sibling("article")){
+    // Article type
+    printf("%s",article.attribute("article-type").value());
+
+    printf("\t");
+    // Pubmed ID
+    for(pugi::xml_node id=article.child("front").child("article-meta").child("article-id");
+	id;
+	id=id.next_sibling("article-id")){
+      if(strcmp(id.attribute("pub-id-type").value(),"pmid")==0){
+	printf("%s",id.child_value());
+	//	std::cout<<"\t"<<id.child_value();
+      }
+    }
+
+    // Article Title
+    std::string ss=article.child("front").child("article-meta").child("title-group").child("article-title").child_value();
+    ss.erase(std::remove(ss.begin(),ss.end(),'\n'),ss.end());
+    printf("\t %s",ss.c_str());
+    
+    printf("\n");
+    
+    // Body
+    /*
+    for(pugi::xml_node p=article.child("body").child("p");
+	p;
+	p=p.next_sibling("p")){
+      std::cout<<"\nPara:"<<p.child_value();
+    }
+    */
+  }
 }
