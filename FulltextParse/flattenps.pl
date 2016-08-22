@@ -14,6 +14,7 @@ sub printoutput{
     $text=~s/<\/bold>//g;
     $text=~s/</(&gt)/g;
     $text=~s/>/(&lt)/g;
+
     print "<p>$text</p>\n";
 }
 

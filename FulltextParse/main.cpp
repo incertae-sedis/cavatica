@@ -9,6 +9,12 @@
 /* recursive function */
 std::vector<std::string> loc;
 
+void pcomplex(pugi::xml_node p){
+  for(pugi::xml_node child: p.children()){
+    printf("VAL=%s\n\n",child.child_value());
+  }
+}
+
 void PrintParagraph(pugi::xml_node node, std::vector<std::string> l){
   /*
   printf("PrintParagraph loc.size=%li loc:",loc.size());
@@ -40,6 +46,7 @@ void PrintParagraph(pugi::xml_node node, std::vector<std::string> l){
       //printf("Push %s\n",cc.c_str());
       PrintParagraph(child,loc);
       loc.pop_back();
+
       //printf("Pop \n");
     }else{
       printf("LOC: ");
@@ -48,6 +55,7 @@ void PrintParagraph(pugi::xml_node node, std::vector<std::string> l){
       }
       printf("\n");
       printf("PARA: %s\n\n",child.child_value());
+      //      pcomplex(child);
     }
     
   }
@@ -101,8 +109,6 @@ void FindNextParagraph(pugi::xml_node node,std::vector<std::string>& loc){
       
     }
   }
-
-
 
 }
 */
