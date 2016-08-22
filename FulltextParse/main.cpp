@@ -3,51 +3,107 @@
 #include <iostream>      	// cout
 #include <cstdlib>       	// malloc
 #include <string>
+#include <vector>
 #include "pugixml.hpp"
 
-/*
-size_t GetFileSize(FILE* input){
-  fseek(input, 0, SEEK_END);    // Move reader to end of file
-#ifdef _WIN64
-  size_t size=_ftelli64(input); // Windows 64
-#else
-  size_t size=ftell(input);     // All Other Operating Systems
-#endif
-  rewind(input);                // Move reader to beginning of file
-  return size;
-}
-unsigned char* LoadFile(char* filename, size_t& size) throw(std::string){
-  FILE *input=fopen(filename, "rb");     // read in as binary
-  std::string except=filename;           // exception message, runtime error handling
-  if(input==NULL){
-	except.append("No such file: "); throw except;
+/* recursive function */
+std::vector<std::string> loc;
+
+void PrintParagraph(pugi::xml_node node, std::vector<std::string> l){
+  /*
+  printf("PrintParagraph loc.size=%li loc:",loc.size());
+  for(int i=0; i<loc.size(); i++){
+    printf("%s ",loc[i].c_str());
   }
-  size=GetFileSize(input);               // Get number of characters in file
-  if(size<=0){
-	except.append("Empty File or problem opening file");
-	fclose(input); throw except;
+  printf("\n");
+  */
+  
+  std::string cc;
+  std::string temp="";
+  if(loc.size()>0){
+    temp=loc[loc.size()-1];
   }
-  // Allocate memory
-  unsigned char* str = (unsigned char*)malloc(size*sizeof(unsigned char));
-  size_t tt=fread(str, sizeof(char), size, input);  
-  fclose(input);                          // close file
-  if(tt!=size){
-	std::string except="Not reading file completely.";
-	free(str); throw except;
+  for(pugi::xml_node child : node.children()){
+    cc=child.name();
+    
+    //printf("\t%s|%s -> %s\n",temp.c_str(),node.name(),cc.c_str());
+    if((strcmp(cc.c_str(),"p"))!=0){
+      /*
+      if((strcmp(cc.c_str(),"title"))==0){
+	cc=cc+":"+(child.child_value());
+      }
+      */
+      if((strcmp(cc.c_str(),"sec"))==0){
+	cc=cc+":"+(child.attribute("disp-level").value())+":"+child.child("title").child_value();
+      }
+      loc.push_back(cc);
+      //printf("Push %s\n",cc.c_str());
+      PrintParagraph(child,loc);
+      loc.pop_back();
+      //printf("Pop \n");
+    }else{
+      printf("LOC: ");
+      for(int i=0; i<loc.size(); i++){
+	printf("%s |",loc[i].c_str());
+      }
+      printf("\n");
+      printf("PARA: %s\n\n",child.child_value());
+    }
+    
   }
-  return str;
 }
 
-void PrintStr(unsigned char* str, size_t size){
-    for(int i=0 ;i<size; i++){
-        if(str[i]=='\0'){               // Treat '\0' characters as new line characters
-            std::cout<<std::endl;
-        }else {
-            std::cout<<str[i];          // print out each character separated by a ‘|’ character
-            std::cout<<'|';
-        }
+/*
+void FindNextParagraph(pugi::xml_node node,std::vector<std::string>& loc){
+  int ii=0; 
+  for(pugi::xml_node child : node.children()){
+    ii++;
+    std::string cc=child.name();
+    
+    printf("%i child name |%s| %li\n",ii, cc.c_str(),loc.size());
+    
+    if(strcmp(cc.c_str(),"p")==0){
+      printf("found p %li\n",loc.size());
+      printf("\nLOC:");
+      for(int i=0; i<loc.size(); i++){
+	printf("%s |",loc[i].c_str());
+      }
+      printf("\nPARA:%s\n",child.child_value());
+    }else{
+      printf("not p %li, clen=%li\n",loc.size(),cc.length());
+      if(cc.length()==0){
+	printf("ZERO!!\n");
+	return;
+      }else{
+	printf("not zero\n");
+      }
+      
+      if(strcmp(cc.c_str(),"sec")==0){
+	cc=cc+":"+(child.attribute("disp-level").value());
+      }else{
+	if(strcmp(cc.c_str(),"title")==0){
+	  cc=cc+":"+(child.child_value());
+	}
+      }
+      
+      if(cc.length()>0){
+	loc.push_back(cc);
+	printf("push here\n");
+	printf("%s %li\n",cc.c_str(),loc.size());
+	FindNextParagraph(child,loc);
+	if(loc.size()>0){
+	  //    loc.push_back("hi");
+	  loc.pop_back();
+	  printf("%i pop here\n", ii);
+	}
+	//	if(loc.size()>0) loc.pop_back();
+      }
+      
     }
-    std::cout<<std::endl;               // Put in a final new line in case
+  }
+
+
+
 }
 */
 
@@ -58,52 +114,57 @@ int main(int argc, char* argv[]){
   }
 
   char* filename=argv[1];
-  /*
-  size_t size;
-  unsigned char* str;
-  str=LoadFile(filename,size);
-  */
   
   pugi::xml_document doc;
   pugi::xml_parse_result result = doc.load_file(filename);
   if(!result){ // if unsuccessful at loading XML file
     printf("XML [%s] parsed with errors",filename);
     printf("Error description: %s",result.description());
-    //    st->SetLabel("Status: XML file corrupted. Can't parse.");
     exit(1);
   }
 
   for(pugi::xml_node article=doc.child("pmc-articleset").child("article");
       article;
       article=article.next_sibling("article")){
+
     // Article type
     printf("%s",article.attribute("article-type").value());
-
     printf("\t");
+
     // Pubmed ID
     for(pugi::xml_node id=article.child("front").child("article-meta").child("article-id");
 	id;
 	id=id.next_sibling("article-id")){
       if(strcmp(id.attribute("pub-id-type").value(),"pmid")==0){
 	printf("%s",id.child_value());
-	//	std::cout<<"\t"<<id.child_value();
       }
     }
 
     // Article Title
     std::string ss=article.child("front").child("article-meta").child("title-group").child("article-title").child_value();
-    ss.erase(std::remove(ss.begin(),ss.end(),'\n'),ss.end());
+    std::string::size_type pos=0;
+    while((pos=ss.find("\n",pos))!=std::string::npos){
+      ss[pos]=' ';
+    }
+    //    ss.erase(std::remove(ss.begin(),ss.end(),'\n'),ss.end());
     printf("\t %s",ss.c_str());
-    
-    printf("\n");
     
     // Body
     /*
     for(pugi::xml_node p=article.child("body").child("p");
 	p;
 	p=p.next_sibling("p")){
-      std::cout<<"\nPara:"<<p.child_value();
+      printf("\nPara: %s",p.child_value());
     }
+    printf("\n===\n\n");
     */
+
+    printf("\n");
+    // Can I find out children?
+    std::vector<std::string> ll;
+    loc.clear();
+    PrintParagraph(article.child("body"),loc);
+    //    FindNextParagraph(article.child("body"),loc);
+    printf("\n===\n\n");
   }
 }
