@@ -1,22 +1,15 @@
 #! /usr/bin/env bash
 
-TERM="igraph"
-perl pubmed_text_analyzer2.pl $TERM data/$TERM-pubmedA.xml > data/$TERM.html
+INDIR="data20Years"
+arr="igraph neo4j gephi cytoscape pathway+studio IPA+Ingenuity+Pathway+Analysis"
 
-TERM="graphlab"
-perl pubmed_text_analyzer2.pl $TERM data/$TERM-pubmedA.xml > data/$TERM.html
+for TERM in $arr
+do
+    perl pubmed_text_analyzer2.pl $TERM $INDIR/$TERM-pubmed.xml > $TERM.html
+done
 
-TERM="neo4j"
-perl pubmed_text_analyzer2.pl $TERM data/$TERM-pubmedA.xml > data/$TERM.html
+#Special cases
+perl pubmed_text_analyzer2.pl IPA $INDIR/IPA+Ingenuity+Pathway+Analysis-pubmed.xml > IPA.html
+perl pubmed_text_analyzer2.pl "Ingenuity Pathway Analysis" $INDIR/IPA+Ingenuity+Pathway+Analysis-pubmed.xml > Ingenuity+Pathway+Analysis.html
+perl pubmed_text_analyzer2.pl "pathway studio" $INDIR/pathway+studio-pubmed.xml > pathway+studio.html
 
-TERM="graphviz"
-perl pubmed_text_analyzer2.pl $TERM data/$TERM-pubmedA.xml > data/$TERM.html
-
-TERM="gephi"
-perl pubmed_text_analyzer2.pl $TERM data/$TERM-pubmedA.xml > data/$TERM.html
-
-TERM="visant"
-perl pubmed_text_analyzer2.pl $TERM data/$TERM-pubmedA.xml > data/$TERM.html
-
-TERM="cytoscape"
-perl pubmed_text_analyzer2.pl $TERM data/$TERM-pubmedA.xml > data/$TERM.html
