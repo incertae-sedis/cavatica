@@ -1,7 +1,4 @@
-EbotScripts/data20Years
-FulltextParse/data
-FulltextParse/data20Years
-MkFigures/data
-MkFigures/data20Years
+*/data
+*/data20Years
 MkFigures/*.png
 *.html
