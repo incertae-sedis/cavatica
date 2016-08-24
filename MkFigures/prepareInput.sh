@@ -5,7 +5,7 @@ set -e
 OUTDIR=data
 [[ -d $OUTDIR ]] || mkdir $OUTDIR
 
-arr="neo4j gephi igraph cytoscape pathway+studio IPA+Ingenuity+Pathway+Analysis"
+arr="neo4j gephi igraph cytoscape pathway+studio IPA+Ingenuity+Pathway+Analysis VisANT graphviz graphlab"
 
 for TERM in $arr
 do
