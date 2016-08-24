@@ -81,14 +81,14 @@ my $base = "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/";
 
 $params{maxdate} = "2016/01/01";
 $params{email} = "jenchang@iastate.edu";
-$params{db} = "pubmed";
+$params{db} = "pmc";
 $params{mindate} = "1996/01/01";
 $params{tool} = "ebot";
 $params{datetype} = "PDAT";
-$params{term} = $ARGV[0];
+$params{term} = $ARGV[0];#"cytoscape";
 %params = esearch(%params);
 
-$params{outfile} = $ARGV[1];# "output.txt";
+$params{outfile} = $ARGV[1];#"output.txt";
 @uids = get_uids(%params);
 open(OUTFILE, ">$params{outfile}");
 foreach (@uids) { print OUTFILE "$_\n"; }
