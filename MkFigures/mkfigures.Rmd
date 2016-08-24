@@ -14,13 +14,11 @@ library(svglite)
 dimwidth=9.375; #par("din")[1]
 dimheight=7.694; #par("din")[2]
 
-tools<-c("neo4j","igraph","cytoscape")
-tools<-c("pathway+studio","IPA+Ingenuity+Pathway+Analysis")
+tools<-c("neo4j","igraph","cytoscape","pathway+studio","IPA+Ingenuity+Pathway+Analysis")
 
 for(query_term in tools){
-
-  data<-read.table(paste("data20years/",query_term,"-papers.tsv",sep=""),sep="\t",header=TRUE)
-  head(data)
+  data<-read.table(paste("data/",query_term,"-years.ssv",sep=""),sep=" ",header=TRUE)
+  
   p<-qplot(data$year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
     main=paste("PubMed Articles containing '",query_term,"'; n=",length(data$year),sep=""))+
     scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1995.5,2016.5))+
