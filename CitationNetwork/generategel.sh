@@ -7,6 +7,7 @@ arr=`ls data/* | tr '/' ' ' | sed 's/[-]/ /g' |awk '{print $2}'|uniq`
 echo "node(string pmid, int year, string journal, string title, string type) nt;"
 echo "link<string affiliation> lt;"
 echo "node(nt) c_node;"
+echo "int i=0;"
 
 for TERM in $arr
 do
@@ -15,14 +16,13 @@ do
     echo "node(c_node,nnt) c_node;"
     echo "graph(nnt,lt) $net=import(\"data/$TERM-cit.tsv\",\"\t\",1);"
     echo "foreach link in $net set in.type=\"paper\", out.type=\"author\",out._g=1;"
+    echo "foreach link in $net set affiliation=\"citation\";"
     echo "foreach node in $net set $net=1;"
     
     echo "foreach node in $net where type==\"paper\" set _x=rand(-10,10),_y=rand(-10,10);"
     echo "foreach link in $net set out._x=in._x+rand(-1,1),out._y=in._y+rand(-1,1);"
-    echo "int ${net}_papers=0;"
-    echo "int ${net}_authors=0;"
-    echo "foreach node in $net where type==\"paper\" set ${net}_papers++;"
-    echo "foreach node in $net where type==\"author\" set ${net}_authors++;"
+    echo "foreach node in $net where in>0 set _z=1;"
+    echo "for(i=1; i<10; i++){foreach link in $net where in._z==i set out._z=(i+1);}"
     echo ""
 done
 

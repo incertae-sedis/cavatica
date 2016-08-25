@@ -6,7 +6,7 @@ INDIR=data20Years
 [[ -d $INDIR ]] || ln -s ../EbotScripts/$INDIR .
 
 OUTDIR=data
-[[ -d $OUTDIR]] || mkdir $OUTDIR
+[[ -d $OUTDIR ]] || mkdir $OUTDIR
 
 arr=`ls $INDIR/* | tr '/' ' ' | sed 's/[-]/ /g' |awk '{print $2}'|uniq`
 
