@@ -1,0 +1,4 @@
+run "loadall.gel";
+mul.+=select link from c where out._radius>0.3;
+
+foreach node in mul where type=="paper" set _text=year;
