@@ -1,3 +1,5 @@
+#! /usr/bin/env Rscript
+
 library(ggplot2)
 
 #par("din")[1]

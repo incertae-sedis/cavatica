@@ -5,9 +5,12 @@ set -e
 OUTDIR=data
 [[ -d $OUTDIR ]] || mkdir $OUTDIR
 
-arr="neo4j gephi igraph cytoscape pathway+studio IPA+Ingenuity+Pathway+Analysis VisANT graphviz graphlab"
+INDIR=data20Years
+[[ -d $INDIR ]] || ln -s ../EbotScripts/$INDIR .
+
+arr=`ls data20Years/* | tr '/' ' ' | sed 's/[-]/ /g' |awk '{print $2}'|uniq`
 
 for TERM in $arr
 do
-    awk '{print $1,$2}' data20Years/$TERM-papers.tsv > $OUTDIR/$TERM-years.ssv
+    awk '{print $1,$2}' $INDIR/$TERM-papers.tsv > $OUTDIR/$TERM-years.ssv
 done
