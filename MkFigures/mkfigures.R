@@ -8,7 +8,7 @@ library(ggplot2)
 dimwidth=8
 dimheight=4.916
 
-tools<-c("neo4j","igraph","gephi","cytoscape","pathway+studio","IPA+Ingenuity+Pathway+Analysis","VisANT","graphviz","graphlab")
+tools<-c(system("ls data/* | tr '/' ' '| sed 's/-/ /g' | awk '{print $2}'| uniq",intern=TRUE))
 
 for(query_term in tools){
   data<-read.table(paste("data/",query_term,"-years.ssv",sep=""),sep=" ",header=TRUE)

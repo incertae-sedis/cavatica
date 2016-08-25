@@ -3,7 +3,7 @@ set -e
 set -u
 
 INDIR=data20Years
-[[ -d $INDIR ]] || ln -s ../EbotScripts/data20Years .
+[[ -d $INDIR ]] || ln -s ../EbotScripts/$INDIR .
 
 arr=`ls $INDIR/* | tr '/' ' ' | sed 's/[-]/ /g' |awk '{print $2}'|uniq`
 

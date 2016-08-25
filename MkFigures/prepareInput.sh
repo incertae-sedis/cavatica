@@ -8,7 +8,7 @@ OUTDIR=data
 INDIR=data20Years
 [[ -d $INDIR ]] || ln -s ../EbotScripts/$INDIR .
 
-arr=`ls data20Years/* | tr '/' ' ' | sed 's/[-]/ /g' |awk '{print $2}'|uniq`
+arr=`ls $INDIR/* | tr '/' ' ' | sed 's/[-]/ /g' |awk '{print $2}'|uniq`
 
 for TERM in $arr
 do

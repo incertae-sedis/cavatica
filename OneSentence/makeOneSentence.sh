@@ -1,12 +1,13 @@
 #! /usr/bin/env bash
 
 INDIR="data20Years"
+[[ -d $INDIR ]] || ln -s ../EbotScripts/$INDIR .
 
-arr=`ls data20Years/* | tr '/' ' ' | sed 's/[-]/ /g' |awk '{print $2}'|uniq`
+arr=`ls $INDIR/* | tr '/' ' ' | sed 's/[-]/ /g' |awk '{print $2}'|uniq`
 
 for TERM in $arr
 do
-    small=`ls data20Years/${TERM}-pubmed.xml | tr '/' ' ' | sed 's/-/ /g'| awk '{print $2}'| sed 's/+/ /g'`
+    small=`ls $INDIR/${TERM}-pubmed.xml | tr '/' ' ' | sed 's/-/ /g'| awk '{print $2}'| sed 's/+/ /g'`
     perl pubmed_text_analyzer2.pl "$small" $INDIR/$TERM-pubmed.xml > $TERM.html
 done
 
