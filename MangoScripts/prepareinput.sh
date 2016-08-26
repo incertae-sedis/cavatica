@@ -20,7 +20,7 @@ do
     echo "foreach node in $net set type=\"paper\";"
     echo "$net.+=import(\"$INDIR/$TERM-coauthors.tsv\",\"\t\",1);"
     echo "$net.-={(\"pmid\"),(\"forename_lastname\")};"
-    echo "foreach link in $net set in.type=\"paper\", out.type=\"author\",out._g=1;"
+    echo "foreach link in $net set in.type=\"paper\", out.type=\"author\",out._g=0.65;"
     echo "foreach node in $net set $net=1;"
     
     echo "foreach node in $net where type==\"paper\" set _x=rand(-10,10),_y=rand(-10,10),_z=-8;"
