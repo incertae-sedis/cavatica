@@ -5,7 +5,7 @@ set -e
 OUTDIR=data20Years
 [[ -d $OUTDIR ]] || mkdir $OUTDIR
 
-arr="neo4j gephi" #"igraph graphlab cytoscape" # neo4j graphviz gephi visant cytoscape pathway+studio IPA+Ingenuity+Pathway+Analysis"
+arr="neo4j gephi igraph graphlab cytoscape graphviz VisANT pathway+studio IPA+Ingenuity+Pathway+Analysis"
 
 for TERM in $arr
 do	    
