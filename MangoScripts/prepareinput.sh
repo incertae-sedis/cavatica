@@ -17,7 +17,9 @@ do
     echo "node(nt, int $net) nnt;"
     echo "node(c_node,nnt) c_node;"
     echo "graph(nnt,lt) $net=import(\"$INDIR/$TERM-papers.tsv\",\"\t\");"
+    echo "foreach node in $net set type=\"paper\";"
     echo "$net.+=import(\"$INDIR/$TERM-coauthors.tsv\",\"\t\",1);"
+    echo "$net.-={(\"pmid\")};"
     echo "foreach link in $net set in.type=\"paper\", out.type=\"author\",out._g=1;"
     echo "foreach node in $net set $net=1;"
     
