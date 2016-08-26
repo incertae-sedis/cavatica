@@ -27,7 +27,7 @@ while(<>){
 	$forename="forename";
 	$affiliation="";
     }
-    if(/<PMID Version="1">(\d+)<\/PMID>/){
+    if(/<PMID Version="\d+">(\d+)<\/PMID>/){
 	if($pmid eq $check){
 	    $pmid=$1;
 	}
