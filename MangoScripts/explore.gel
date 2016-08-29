@@ -68,9 +68,21 @@ foreach node in temp where type=="author" && (in+out)>1 set _r=1;
 temp.+=cytoscape;
 foreach link in temp where out._r<0.4 set out._x=in._x+rand(-1,1),out._y=in._y+rand(-1,1);
 foreach link in temp where out._r>0.5 set _width=1;
+foreach node in temp where type=="author" set _z=rand(-7,-9);
 foreach node in temp set _z=-8;
+
 foreach node in temp where type=="author" set _z=(in+out)/2-8;
 cytoscape=temp;
 
-
+/* IPA */
+auto temp=select node from IPA where (in+out)>1 || type=="paper";
+temp.-=select node from temp where (in+out)==0;
 foreach node in mul where type=="paper" set _text=year;
+foreach node in temp set _x=_x*1.25,_y=_y*1.25; 
+foreach node in temp where type=="author" && (in+out)>1 set _r=1;
+temp.+=IPA;
+foreach link in temp where out._r<0.4 set out._x=in._x+rand(-1,1),out._y=in._y+rand(-1,1);
+foreach link in temp where out._r>0.5 set _width=1;
+foreach node in temp where type=="author" set _z=rand(-7,-9);
+foreach node in temp set _z=-8;
+IPA=temp;
