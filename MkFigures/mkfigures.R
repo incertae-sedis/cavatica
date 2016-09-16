@@ -32,5 +32,3 @@ for(query_term in tools){
 
   ggsave(filename=paste(query_term,"-pubmedcounts.png",sep=""),plot=p,width=dimwidth,height=dimheight,dpi=600)
 }
-
-```
