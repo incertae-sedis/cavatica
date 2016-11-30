@@ -91,6 +91,9 @@ qplot(graph,clusters,data=datasummary)
 clusters(g_c)$no
 names(clusters(g_c))
 
+#distance matrix
+dd<-distances(g$c)
+
 @
 
 
