@@ -22,7 +22,7 @@ frame=single}
 <<eval=FALSE>>=
 # -------------------------------------- Libraries
 
-install.packages("igraph")
+#install.packages("igraph")
 library(igraph)
 library(ggplot2)
 
@@ -54,17 +54,34 @@ g$V <- edge2graph(data)
 data <- read.table("data/pathway+studio-network.ssv", header = TRUE, stringsAsFactors = FALSE, sep = " ");
 g$P <- edge2graph(data)
 
+data <- read.table("data/cytoscape-subset.ssv", header = TRUE, stringsAsFactors = FALSE, sep = " ");
+g$c <- edge2graph(data)
+data <- read.table("data/IPA-subset.ssv", header = TRUE, stringsAsFactors = FALSE, sep = " ");
+g$j <- edge2graph(data)
+data <- read.table("data/VisANT-subset.ssv", header = TRUE, stringsAsFactors = FALSE, sep = " ");
+g$v <- edge2graph(data)
+data <- read.table("data/pathway+studio-subset.ssv", header = TRUE, stringsAsFactors = FALSE, sep = " ");
+g$p <- edge2graph(data)
+
 # Connected Components
 graphnames <- c("Cytoscape","IPA","VisANT","PathwayStudio")
-summaryGraphs <- data.frame(graph=graphnames,clusters=rep(0,length(graphnames)))
+summaryGraphs <- data.frame(graph=graphnames,clusters=rep(0,length(graphnames)),subset=rep(0,length(graphnames)))
+summaryGraphs$subset=rep(0,4)
 rownames(summaryGraphs) <- graphnames
 
 summaryGraphs["Cytoscape","clusters"] <- clusters(g$C)$no
 summaryGraphs["IPA","clusters"] <- clusters(g$J)$no
 summaryGraphs["VisANT","clusters"] <- clusters(g$V)$no
 summaryGraphs["PathwayStudio","clusters"] <- clusters(g$P)$no
+summaryGraphs["Cytoscape","subset"] <- clusters(g$c)$no
+summaryGraphs["IPA","subset"] <- clusters(g$j)$no
+summaryGraphs["VisANT","subset"] <- clusters(g$v)$no
+summaryGraphs["PathwayStudio","subset"] <- clusters(g$p)$no
 
 summaryGraphs
+
+data <- read.table("data/cyto-small.ssv", header = TRUE, stringsAsFactors = FALSE, sep = " ");
+tail(data) # DEBUG: make sure load whole file
 
 temp <- data.frame(degree=degree(g_c), betweenness=betweenness(g_c), closeness=closeness(g_c)) 
 qplot(closeness, degree, data=subset(temp,degree>1))
