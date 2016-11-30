@@ -1,0 +1,19 @@
+node(string id, string type) nt;
+link<> lt;
+
+/* design and debug */
+graph(nt,lt) G=import("data/cytoscape-network.ssv"," ",1);
+foreach node in G set _x=rand(-10,10),_y=rand(-10,10);
+foreach link in G set in.type="paper",out.type="author";
+foreach node in G where type=="paper" set _b=1;
+foreach node in G where type=="author" && (in+out)>1 set _r=1;
+foreach link in G where out._r>0 set in._g=1;
+auto subG=select link from G where in._g>0;
+
+/* short hand, in=paper, out=author */
+graph(nt,lt) G=import("data/cytoscape-network.ssv"," ",1);
+foreach link in G set in.type="paper",out.type="author";
+foreach node in G where type=="author" && (in+out)>1 set _r=1;
+foreach link in G where out._r>0 set in._g=1;
+auto subG=select link from G where in._g>0;
+export("data/cyto-small.tsv","tsv",subG);
