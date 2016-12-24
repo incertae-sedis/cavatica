@@ -1,3 +1,4 @@
+#! /usr/bin/env Rscript
 # pkgs <- c("RISmed","ggplot2")
 #install.packages(pkgs)
 library(RISmed)
@@ -11,6 +12,7 @@ for(i in 1:nrow(terms)){
   query_term <- terms$term[i]
   start <-terms$start[i]
   end <- terms$end[i]
+  print(paste("Loading network:",query_term,"..."))
   res <- EUtilsSummary(query_term,type='esearch',db='pubmed',datetype='pdat',mindate=start,maxdate=end,retmax=10000)
   # QueryCount(res)
 
@@ -44,16 +46,16 @@ for(i in 1:nrow(terms)){
   coauthors <- data.frame(Author(pmids)[1])
   names(coauthors)<-c("LastName","ForeName","Initials","order")
   coauthors$author<-str_replace_all(paste(coauthors$ForeName,"_",coauthors$LastName,sep=""), " ","_")
-  coauthors$pmids=PMID(pmids)[1]
-  coa <- data.frame(pmids=coauthors$pmids,author=coauthors$author,order=coauthors$order)
+  coauthors$pmid=PMID(pmids)[1]
+  coa <- data.frame(pmid=coauthors$pmid,author=coauthors$author,order=coauthors$order)
 
   ll <- length(PMID(pmids))
   for(j in 2:ll){
     coauthors <- data.frame(Author(pmids)[j])
     names(coauthors)<-c("LastName","ForeName","Initials","order")
     coauthors$author<-str_replace_all(paste(coauthors$ForeName,"_",coauthors$LastName,sep=""), " ","_")
-    coauthors$pmids=PMID(pmids)[j]
-    coa<-rbind(coa,data.frame(pmids=coauthors$pmids,author=coauthors$author,order=coauthors$order))
+    coauthors$pmid=PMID(pmids)[j]
+    coa<-rbind(coa,data.frame(pmid=coauthors$pmid,author=coauthors$author,order=coauthors$order))
   }
   write.table(coa,file=paste(query_term,"-authors.tsv",sep=""),sep="\t",row.names=FALSE,col.names=TRUE,quote=FALSE)
 }
