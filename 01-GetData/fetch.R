@@ -10,11 +10,15 @@ dimheight=4.916
 terms <- read.table("../config.txt",sep=",",stringsAsFactors=FALSE,header=TRUE)
 for(i in 1:nrow(terms)){
   query_term <- terms$term[i]
+    "SNAP"
+    "NetworkX"
+    terms$term[i]
   start <-terms$start[i]
   end <- terms$end[i]
   print(paste("Loading network:",query_term,"..."))
   res <- EUtilsSummary(query_term,type='esearch',db='pubmed',datetype='pdat',mindate=start,maxdate=end,retmax=10000)
-  # QueryCount(res)
+  # 
+  QueryCount(res)
 
   pmids <- EUtilsGet(res)
   data <- data.frame(year=YearPubmed(pmids),title=ArticleTitle(pmids))
@@ -42,7 +46,8 @@ for(i in 1:nrow(terms)){
   # slotNames(pmids) # list all names
   data <- data.frame(pmid=PMID(pmids),year=YearPubmed(pmids),title=ArticleTitle(pmids),journal=Title(pmids),affiliation=Affiliation(pmids),country=Country(pmids))
   write.table(data,file=paste(query_term,"-papers.tsv",sep=""),sep="\t",row.names=FALSE,col.names=TRUE,quote=FALSE)
-
+  saveRDS(data,paste(query_term,"-papers.RDS",sep=""))
+  
   coauthors <- data.frame(Author(pmids)[1])
   names(coauthors)<-c("LastName","ForeName","Initials","order")
   coauthors$author<-str_replace_all(paste(coauthors$ForeName,"_",coauthors$LastName,sep=""), " ","_")
@@ -58,4 +63,5 @@ for(i in 1:nrow(terms)){
     coa<-rbind(coa,data.frame(pmid=coauthors$pmid,author=coauthors$author,order=coauthors$order))
   }
   write.table(coa,file=paste(query_term,"-authors.tsv",sep=""),sep="\t",row.names=FALSE,col.names=TRUE,quote=FALSE)
+  saveRDS(coa,paste(query_term,"-authors.RDS",sep=""))
 }
