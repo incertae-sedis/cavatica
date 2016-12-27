@@ -4,7 +4,7 @@
 #install.packages("igraph")
 library(igraph)
 library(ggplot2)
-
+library(readr)
 # -------------------------------------- Functions
 
 # Converts an edgelist to a graph
@@ -17,8 +17,25 @@ edge2graph <- function(x,directed=FALSE){
 }
 
 # -------------------------------------- Analysis
-Cyto <- readRDS("../DATA/Cytoscape-authors.RDS");
+suppressMessages(terms <- read_delim("../config.txt",","))
 
-g<-list()  # Will contain all graphs
-g$C <- edge2graph(coa[,1:2])
-clusters(g$C)$no
+g<-as.list(terms$term) # will contain list of graph objects
+names(g)<-terms$term
+
+for(i in 1:nrow(terms)){
+  query_term<-terms$term[i]
+  suppressMessages(data<-read_delim(paste("../DATA/",query_term,"-coauthors.tsv",sep=""),"\t"))
+  g[[query_term]] <- edge2graph(data[,1:2])
+}
+
+# Graph Summaries
+summaryG <- data.frame(graph=terms$term)
+row.names(summaryG) <- terms$term
+summaryG$graph=NULL
+for(ttt in terms$term){
+  summaryG[ttt,"clusters"]<-clusters(g[[ttt]])$no
+}
+summaryG
+
+
+
