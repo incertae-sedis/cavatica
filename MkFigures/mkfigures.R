@@ -1,17 +1,18 @@
 #! /usr/bin/env Rscript
-
+# =================================== Libraries
 library(ggplot2)
+library(readr)
 
 #par("din")[1]
 #par("din")[2]
+dimwidth <- 8         # figure dimensions
+dimheight<- 4.916
+# =================================== Start Analysis
+suppressMessages(terms <- read_delim("../config.txt",","))        # faster
 
-dimwidth=8
-dimheight=4.916
-
-tools<-c(system("ls DATAHERE/* | sed 's/[/-]/ /g' | awk '{print $2}'| uniq",intern=TRUE))
-
-for(query_term in tools){
-  data<-read.table(paste("DATAHERE/",query_term,"-years.ssv",sep=""),sep=" ",header=TRUE)
+for(query_term in terms$term){
+  print(paste("Loading: ",query_term))
+  suppressMessages(data<-read_delim(paste("../DATA/",query_term,"-papers.tsv",sep=""),"\t"))
   
   p<-qplot(data$year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
     main=paste("PubMed Articles containing '",query_term,"'; n=",length(data$year),sep=""))+
@@ -31,4 +32,5 @@ for(query_term in tools){
   }
 
   ggsave(filename=paste(query_term,"-pubmedcounts.png",sep=""),plot=p,width=dimwidth,height=dimheight,dpi=600)
+  print(paste(" ",query_term,"-pubmedcounts.png saved",sep=""))
 }
