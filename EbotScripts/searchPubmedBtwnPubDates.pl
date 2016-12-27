@@ -79,15 +79,17 @@ my $base = "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/";
 #*************************************************************
 #** SCRIPT MAIN BODY *****************************************
 
-$params{maxdate} = "2016/01/01";
+$params{maxdate} = "2017/01/01";
 $params{email} = "jenchang@iastate.edu";
 $params{db} = "pubmed";
 $params{mindate} = "1996/01/01";
 $params{tool} = "ebot";
 $params{datetype} = "PDAT";
 $params{term} = $ARGV[0];
+$params{http} = "get";
 %params = esearch(%params);
 
+$params{http} = "get";
 $params{outfile} = $ARGV[1];# "output.txt";
 @uids = get_uids(%params);
 open(OUTFILE, ">$params{outfile}");
@@ -239,8 +241,10 @@ foreach my $opt (@options) {
 
 if ($params{http} eq 'get') {
 # use HTTP Get
-   $url = $base . "esearch.fcgi?$url_params";
-   $raw_cont = get($url);
+    $url = $base . "esearch.fcgi?$url_params";
+#    print "URL: $url \n";
+    $raw_cont = get($url);
+#    print "RAWCONT: $raw_cont \n";
 }
 else {
 # use HTTP Post

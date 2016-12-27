@@ -83,8 +83,10 @@ $params{email} = "hhchou@iastate.edu";
 $params{db} = "pmc";
 $params{tool} = "ebot";
 $params{id} = $ARGV[0]; #"small.txt";
+$params{http} = "get";
 %params = epost_file(%params);
 
+$params{http} = "get";
 $params{retmode} = "xml";
 $params{outfile} = $ARGV[1];#"oo2.txt";
 efetch_batch(%params);

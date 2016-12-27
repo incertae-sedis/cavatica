@@ -2,10 +2,10 @@
 set -u
 set -e
 
-OUTDIR=data20Years
+OUTDIR=DATAHERE
 [[ -d $OUTDIR ]] || mkdir $OUTDIR
 
-arr="neo4j gephi igraph graphlab cytoscape graphviz VisANT pathway+studio IPA+Ingenuity+Pathway+Analysis"
+arr=`awk -F',' 'NR>1 {print $1}' ../config.txt |less`
 
 for TERM in $arr
 do	    

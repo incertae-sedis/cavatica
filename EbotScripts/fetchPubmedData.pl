@@ -83,8 +83,10 @@ $params{email} = "jenchang@iastate.edu";
 $params{db} = "pubmed";
 $params{tool} = "ebot";
 $params{id} = $ARGV[0]; #"pubmedids.txt";
+$params{http} = "get";  # needed this in 2016
 %params = epost_file(%params);
 
+$params{http} = "get";  # needed this in 2016
 $params{retmode} = "xml";
 $params{outfile} = $ARGV[1];#"output2.txt";
 efetch_batch(%params);

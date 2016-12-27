@@ -86,8 +86,10 @@ $params{mindate} = "1996/01/01";
 $params{tool} = "ebot";
 $params{datetype} = "PDAT";
 $params{term} = $ARGV[0];#"cytoscape";
+$params{http} = "get";
 %params = esearch(%params);
 
+$params{http} = "get";
 $params{outfile} = $ARGV[1];#"output.txt";
 @uids = get_uids(%params);
 open(OUTFILE, ">$params{outfile}");
