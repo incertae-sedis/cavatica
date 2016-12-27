@@ -5,7 +5,7 @@ set -e
 OUTDIR=DATAHERE
 [[ -d $OUTDIR ]] || mkdir $OUTDIR
 
-arr=`awk -F',' 'NR>1 {print $1}' ../config.txt |less`
+arr=`awk -F',' 'NR>1 {print $1}' ../config.txt`
 
 for TERM in $arr
 do	    
