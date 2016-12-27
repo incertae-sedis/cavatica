@@ -2,13 +2,13 @@
 set -u
 set -e
 
-OUTDIR=data
+OUTDIR=DATAHERE
 [[ -d $OUTDIR ]] || mkdir $OUTDIR
 
-INDIR=data20Years
+INDIR=../DATA
 [[ -d $INDIR ]] || ln -s ../EbotScripts/$INDIR .
 
-arr=`ls $INDIR/* | tr '/' ' ' | sed 's/[-]/ /g' |awk '{print $2}'|uniq`
+arr=`ls $INDIR/* | sed 's/[/-]/ /g' |awk '{print $3}'|uniq`
 
 for TERM in $arr
 do
