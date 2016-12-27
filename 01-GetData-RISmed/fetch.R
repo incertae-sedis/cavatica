@@ -1,14 +1,17 @@
 #! /usr/bin/env Rscript
 # =================================== Libraries
-# pkgs <- c("RISmed","ggplot2")
-#install.packages(pkgs)
+# pkgs <- c("RISmed","ggplot2","readr)
+# install.packages(pkgs)
 library(RISmed)
 library(ggplot2)
 library(stringr)
-dimwidth <- 8
+library(readr)
+
+dimwidth  <- 8        # figure dimensions
 dimheight <- 4.916
 # =================================== Start Analysis
-terms <- read.table("../config.txt",sep=",",stringsAsFactors=FALSE,header=TRUE)
+# terms <- read.table("../config.txt",sep=",",stringsAsFactors=FALSE,header=TRUE)
+suppressMessages(terms <- read_delim("../config.txt",","))        # faster
 for(i in 1:nrow(terms)){
   query_term<-terms$term[i]
   start<-terms$start[i]
@@ -61,5 +64,5 @@ for(i in 1:nrow(terms)){
   }
   write.table(coa,file=paste(query_term,"-authors.tsv",sep=""),sep="\t",row.names=FALSE,col.names=TRUE,quote=FALSE)
   saveRDS(coa,paste(query_term,"-authors.RDS",sep=""))
-  print(paste(" saved: ",query_term,"-papers.tsv, authors.tsv, png, and RDS files",sep=""))
+  print(paste(" saved: ",query_term,"-papers.tsv, authors.tsv, png, and RDS files\n",sep=""))
 }
