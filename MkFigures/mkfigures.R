@@ -5,8 +5,8 @@ library(readr)
 
 #par("din")[1]
 #par("din")[2]
-dimwidth <- 8         # figure dimensions
-dimheight<- 4.916
+dimwidth <- 8         # par("din")[1]  #figure dimensions
+dimheight<- 4.916     # par("din")[2]
 # =================================== Start Analysis
 suppressMessages(terms <- read_delim("../config.txt",","))        # faster
 
