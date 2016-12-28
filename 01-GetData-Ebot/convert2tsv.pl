@@ -44,7 +44,7 @@ while(<>){
     if(/<\/ArticleDate>/){
 	$getyear=0;
     }
-    if(/<PubMedPubDate /){
+    if(/<PubMedPubDate PubStatus="pubmed">/){
 	$getyear=1;
     }
     if(/<\/PubMedPubDate>/){
