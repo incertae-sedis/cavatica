@@ -36,7 +36,7 @@ while (<>) {
   if (/<AbstractText.*?>(.+)<\/AbstractText/) {
     my $abstract = $1;
     my $first = 1;
-    while ($abstract =~ /(\. |^)([^.]*?$keyword.*?\.( |$))/ig) {
+    while ($abstract =~ /(\. |^)(([^.]|\S\.\S)*?$keyword.*?\.( |$))/ig) {
       print PMID "$pmid\n";
       print "<p><a href=\"http://www.ncbi.nlm.nih.gov/pubmed/?term=$pmid\">$pmid</a> $title<ul>" if $first;
       my $s = $2;
