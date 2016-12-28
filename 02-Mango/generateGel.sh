@@ -2,10 +2,11 @@
 set -e
 set -u
 
-INDIR=data20Years
-[[ -d $INDIR ]] || ln -s ../EbotScripts/$INDIR .
+INDIR=../DATA
+[[ -d $INDIR ]] || echo "No input files. Run 01-GetData-Ebot scripts first"
+[[ -d $INDIR ]] || exit 0
 
-arr=`ls $INDIR/* | tr '/' ' ' | sed 's/[-]/ /g' |awk '{print $2}'|uniq`
+arr=`awk -F',' 'NR>1 {print $1}' ../config.txt`
 
 echo "node(string pmid, int year, string journal, string title, string type) nt;"
 echo "link<string affiliation> lt;"
@@ -13,14 +14,16 @@ echo "node(nt) c_node;"
 
 for TERM in $arr
 do
-    net=`ls $INDIR/$TERM-coauthors.tsv|tr '/' ' '| sed 's/[+-]/ /g'| awk '{print $2}'`
+    net=`echo ${TERM} | sed 's/+/ /g' |awk '{print $1}'`
+#    `ls $INDIR/$TERM-authors.tsv|tr '/' ' '| sed 's/[+-]/ /g'| awk '{print $2}'`
     echo "node(nt, int $net) nnt;"
     echo "node(c_node,nnt) c_node;"
     echo "graph(nnt,lt) $net=import(\"$INDIR/$TERM-papers.tsv\",\"\t\");"
     echo "foreach node in $net set type=\"paper\";"
-    echo "$net.+=import(\"$INDIR/$TERM-coauthors.tsv\",\"\t\",1);"
+    echo "$net.+=import(\"$INDIR/$TERM-authors.tsv\",\"\t\",1);"
     echo "$net.-={(\"pmid\"),(\"forename_lastname\")};"
     echo "foreach link in $net set in.type=\"paper\", out.type=\"author\",out._g=0.65;"
+    echo "foreach node in $net where (in+out)>1 && type==\"author\" set _r=0.8;"
     echo "foreach node in $net set $net=1;"
     
     echo "foreach node in $net where type==\"paper\" set _x=rand(-10,10),_y=rand(-10,10),_z=-8;"
@@ -37,8 +40,9 @@ echo "graph(c_node,lt) c;"
 item="0"
 
 for TERM in $arr
-do
-    net=`ls $INDIR/$TERM-coauthors.tsv|tr '/' ' '| sed 's/[+-]/ /g'| awk '{print $2}'`
+do    
+    net=`echo $TERM | sed 's/+/ /g' |awk '{print $1}'`
+#    net=`ls $INDIR/$TERM-authors.tsv|tr '/' ' '| sed 's/[+-]/ /g'| awk '{print $2}'`
     item="$item+$net"
     echo "c.+=$net;"
 done
