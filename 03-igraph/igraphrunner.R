@@ -32,10 +32,12 @@ for(i in 1:nrow(terms)){
 summaryG <- data.frame(graph=terms$term)
 row.names(summaryG) <- terms$term
 summaryG$graph=NULL
+
+centG<-data.frame(degree=double(),betweenness=double(),graph=character())
 for(ttt in terms$term){
   summaryG[ttt,"clusters"]<-clusters(g[[ttt]])$no
+  centG<-rbind(centG,data.frame(degree=degree(g[[ttt]]),betweenness=betweenness(g[[ttt]]),graph=ttt))
+  
 }
 summaryG
-
-
-
+qplot(log(degree),log(betweenness),data=centG,color=graph,alpha=I(0.5))
