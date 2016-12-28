@@ -12,6 +12,7 @@ dimheight <- 4.916
 # =================================== Start Analysis
 # terms <- read.table("../config.txt",sep=",",stringsAsFactors=FALSE,header=TRUE)
 suppressMessages(terms <- read_delim("../config.txt",","))        # faster
+i=8
 for(i in 1:nrow(terms)){
   query_term<-terms$term[i]
   start<-terms$start[i]
@@ -44,7 +45,9 @@ for(i in 1:nrow(terms)){
   ggsave(filename=paste(query_term,"-pubmedcounts.png",sep=""),plot=p,width=dimwidth,height=dimheight,dpi=600)
   
   # slotNames(pmids) # list all names
-  data<-data.frame(pmid=PMID(pmids),year=YearPubmed(pmids),title=ArticleTitle(pmids),journal=Title(pmids),affiliation=Affiliation(pmids),country=Country(pmids))
+  # data<-data.frame(pmid=PMID(pmids),year=YearPubmed(pmids),title=ArticleTitle(pmids),journal=Title(pmids),affiliation=Affiliation(pmids),country=Country(pmids))
+  data <- data.frame(pmid=PMID(pmids),year=YearPubmed(pmids),journal=MedlineTA(pmids),title=ArticleTitle(pmids))
+  affil<-Affiliation(pmids)
   write.table(data,file=paste(query_term,"-papers.tsv",sep=""),sep="\t",row.names=FALSE,col.names=TRUE,quote=FALSE)
   saveRDS(data,paste(query_term,"-papers.RDS",sep=""))
   
@@ -52,7 +55,9 @@ for(i in 1:nrow(terms)){
   names(coauthors)<-c("LastName","ForeName","Initials","order")
   coauthors$author<-str_replace_all(paste(coauthors$ForeName,"_",coauthors$LastName,sep=""), " ","_")
   coauthors$pmid=PMID(pmids)[1]
-  coa<-data.frame(pmid=coauthors$pmid,author=coauthors$author,order=coauthors$order)
+  coauthors$affiliation<-""
+  coauthors$affiliation[1]<-affil[1]
+  coa<-data.frame(pmid=coauthors$pmid,author=coauthors$author,affiliation=coauthors$affiliation)
   
   ll <- length(PMID(pmids))
   for(j in 2:ll){
@@ -60,8 +65,11 @@ for(i in 1:nrow(terms)){
     names(coauthors)<-c("LastName","ForeName","Initials","order")
     coauthors$author<-str_replace_all(paste(coauthors$ForeName,"_",coauthors$LastName,sep=""), " ","_")
     coauthors$pmid=PMID(pmids)[j]
-    coa<-rbind(coa,data.frame(pmid=coauthors$pmid,author=coauthors$author,order=coauthors$order))
+    coauthors$affiliation<-""
+    coauthors$affiliation[1]<-affil[j]
+    coa<-rbind(coa,data.frame(pmid=coauthors$pmid,author=coauthors$author,affiliation=coauthors$affiliation))
   }
+  names(coa)<-c("pmid","forename_lastname","affiliation") # force consistency with Ebot, may change Ebot later...
   write.table(coa,file=paste(query_term,"-authors.tsv",sep=""),sep="\t",row.names=FALSE,col.names=TRUE,quote=FALSE)
   saveRDS(coa,paste(query_term,"-authors.RDS",sep=""))
   print(paste(" saved: ",query_term,"-papers.tsv, authors.tsv, png, and RDS files\n",sep=""))
