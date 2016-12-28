@@ -1,9 +1,9 @@
 iGraph
 --
-Calculate size of clusters and centrality measures
+Load networks using readr. Calculate size of largest cluster and plot centrality measres.
 
 ```
-$ open -a Rstudio script.Rmd
+$ Rscript igraphrunner.R
 ```
 
 Citation Information:
