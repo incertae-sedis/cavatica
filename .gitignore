@@ -5,3 +5,8 @@ MkFigures/*.png
 *.html
 */OLD
 *~
+*.tsv
+*.RDS
+*.png
+DATA
+DATA/*
