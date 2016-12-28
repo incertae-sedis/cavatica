@@ -20,7 +20,7 @@ HEADER
 
 
 my ($pmid, $title);
-
+open(PMID, ">pmid.txt");
 while (<>) {
   if (/<PubmedArticle>/) {
     $pmid = "";
@@ -37,6 +37,7 @@ while (<>) {
     my $abstract = $1;
     my $first = 1;
     while ($abstract =~ /(\. |^)([^.]*?$keyword.*?\.( |$))/ig) {
+      print PMID "$pmid\n";
       print "<p><a href=\"http://www.ncbi.nlm.nih.gov/pubmed/?term=$pmid\">$pmid</a> $title<ul>" if $first;
       my $s = $2;
       $s =~ s/($keyword)/<b>$1<\/b>/gi;
@@ -46,7 +47,7 @@ while (<>) {
     print "</ul></p>" unless $first;
   }
 }
-
+close PMID;
 print << "ENDER";
 </body>
 ENDER
