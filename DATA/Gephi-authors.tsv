@@ -1,100 +1,100 @@
-pmid	author	order
-27928960	Qianqian_Zhao	1
-27928960	Weixiang_Zhang	2
-27928960	Runmiao_Wang	3
-27928960	Yitao_Wang	4
-27928960	Defang_Ouyang	5
-27853520	Braxton_Fitts	1
-27853520	Ziran_Zhang	2
-27853520	Massoud_Maher	3
-27853520	Barry_Demchak	4
-27777109	Manoj_Kumar_Gupta	1
-27777109	Santosh_Kumar_Behara	2
-27777109	Ramakrishna_Vadde	3
-27729352	Paraskevas_Vezyridis	1
-27729352	Stephen_Timmons	2
-27086506	Kenneth_Bryan	1
-27086506	Mohamed-Ali_Jarboui	2
-27086506	Cinzia_Raso	3
-27086506	Manuel_Bernal-Llinares	4
-27086506	Brendan_McCann	5
-27086506	Jens_Rauch	6
-27086506	Karsten_Boldt	7
-27086506	David_J_Lynn	8
-27030797	Junling_Deng	1
-27030797	Kaweng_Sitou	2
-27030797	Yongping_Zhang	3
-27030797	Ru_Yan	4
-27030797	Yuanjia_Hu	5
-26970371	Danica_Liebenberg	1
-26970371	Stuart_Piketh	2
-26970371	Huib_van_Hamburg	3
-26924143	X_Y_Zhao	1
-26924143	L_Sheng	2
-26924143	T_X_Diao	3
-26924143	Y_Zhang	4
-26924143	L_Wang	5
-26924143	Z_Yanjun	6
-26863411	Thomas_Luechtefeld	1
-26863411	Alexandra_Maertens	2
-26863411	Daniel_P_Russo	3
-26863411	Costanza_Rovida	4
-26863411	Hao_Zhu	5
-26863411	Thomas_Hartung	6
-26719978	Max_Ernst_Bender	1
-26719978	Suzanne_Edwards	2
-26719978	Peter_von_Philipsborn	3
-26719978	Fridolin_Steinbeis	4
-26719978	Thomas_Keil	5
-26719978	Peter_Tinnemann	6
-26704067	Eugenio_Parente	1
-26704067	Luca_Cocolin	2
-26704067	Francesca_De_Filippis	3
-26704067	Teresa_Zotta	4
-26704067	Ilario_Ferrocino	5
-26704067	Orla_O'Sullivan	6
-26704067	Erasmo_Neviani	7
-26704067	Maria_De_Angelis	8
-26704067	Paul_D_Cotter	9
-26704067	Danilo_Ercolini	10
-25602893	Brittany_Seymour	1
-25602893	Rebekah_Getman	2
-25602893	Avinash_Saraf	3
-25602893	Lily_H_Zhang	4
-25602893	Elsbeth_Kalenderian	5
-25340971	Ariane_Allain	1
-25340971	Isaure_Chauvot_de_Beauchêne	2
-25340971	Florent_Langenfeld	3
-25340971	Yann_Guarracino	4
-25340971	Elodie_Laine	5
-25340971	Luba_Tchertanov	6
-25000497	Julie_Kauffman	1
-25000497	Aristotelis_Kittas	2
-25000497	Laura_Bennett	3
-25000497	Sophia_Tsoka	4
-24987669	Fang_Liu	1
-24987669	Yaning_Feng	2
-24987669	Zhenye_Li	3
-24987669	Chao_Pan	4
-24987669	Yuncong_Su	5
-24987669	Rui_Yang	6
-24987669	Liying_Song	7
-24987669	Huilong_Duan	8
-24987669	Ning_Deng	9
-24914678	Mathieu_Jacomy	1
-24914678	Tommaso_Venturini	2
-24914678	Sebastien_Heymann	3
-24914678	Mathieu_Bastian	4
-27433520	Peng_Wan	1
-27433520	Dongsheng_Che	2
-25954579	Jake_Luo	1
-25954579	Clara_Pelfrey	2
-25954579	Guo-Qiang_Zhang	3
-23401611	Adam_J_Rossano	1
-23401611	Amit_K_Chouhan	2
-23401611	Gregory_T_Macleod	3
-20484371	Vivek_Kaimal	1
-20484371	Eric_E_Bardes	2
-20484371	Scott_C_Tabar	3
-20484371	Anil_G_Jegga	4
-20484371	Bruce_J_Aronow	5
+pmid	forename_lastname	affiliation
+27928960	Qianqian_Zhao	affiliation
+27928960	Weixiang_Zhang	
+27928960	Runmiao_Wang	
+27928960	Yitao_Wang	
+27928960	Defang_Ouyang	State Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences (ICMS), University of Macau, Macau, China. defangouyang@umac.mo.
+27853520	Braxton_Fitts	Department of Computer Science and Engineering, UC San Diego, San Diego, USA.
+27853520	Ziran_Zhang	Department of Computer Science and Engineering, UC San Diego, San Diego, USA.
+27853520	Massoud_Maher	Department of Computer Science and Engineering, UC San Diego, San Diego, USA.
+27853520	Barry_Demchak	Department of Health Sciences, UC San Diego, San Diego, USA.
+27777109	Manoj_Kumar_Gupta	Department of Biotechnology &amp; Bioinformatics, Yogi Vemana University, Kadapa 516003, Andhra Pradesh, India. Electronic address: mkgupta.bioinfo@gmail.com.
+27777109	Santosh_Kumar_Behara	Biomedical Informatics Centre, Regional Medical Research Centre (ICMR), Bhubaneswar 751023, Odisha, India. Electronic address: bioinfo.santosh@gmail.com.
+27777109	Ramakrishna_Vadde	Department of Biotechnology &amp; Bioinformatics, Yogi Vemana University, Kadapa 516003, Andhra Pradesh, India. Electronic address: vrkrishna70@gmail.com.
+27729352	Paraskevas_Vezyridis	Centre for Health Innovation, Leadership and Learning (CHILL), Nottingham University Business School, Nottingham, UK.
+27729352	Stephen_Timmons	Centre for Health Innovation, Leadership and Learning (CHILL), Nottingham University Business School, Nottingham, UK.
+27086506	Kenneth_Bryan	EMBL Australia Biomedical Informatics Group, Infection &amp; Immunity Theme, South Australian Health and Medical Research Institute , North Terrace, Adelaide, South Australia 5000, Australia.
+27086506	Mohamed-Ali_Jarboui	Medical Proteome Center Institute for Ophthalmic Research, Eberhard-Karls Universität Tübingen , Nägelestrasse 5, D-72074 Tübingen, Germany.
+27086506	Cinzia_Raso	Systems Biology Ireland, University College Dublin , Belfield, Dublin 4, Ireland.
+27086506	Manuel_Bernal-Llinares	EMBL Australia Biomedical Informatics Group, Infection &amp; Immunity Theme, South Australian Health and Medical Research Institute , North Terrace, Adelaide, South Australia 5000, Australia.
+27086506	Brendan_McCann	Systems Biology Ireland, University College Dublin , Belfield, Dublin 4, Ireland.
+27086506	Jens_Rauch	Systems Biology Ireland, University College Dublin , Belfield, Dublin 4, Ireland.
+27086506	Karsten_Boldt	Medical Proteome Center Institute for Ophthalmic Research, Eberhard-Karls Universität Tübingen , Nägelestrasse 5, D-72074 Tübingen, Germany.
+27086506	David_J_Lynn	School of Medicine, Flinders University , Bedford Park, South Australia 5042, Australia.
+27030797	Junling_Deng	State Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao, China.
+27030797	Kaweng_Sitou	State Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao, China.
+27030797	Yongping_Zhang	Guiyang College of Traditional Chinese Medicine, Guiyang, Guizhou China.
+27030797	Ru_Yan	State Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao, China.
+27030797	Yuanjia_Hu	State Key Laboratory of Quality Research in Chinese Medicine, Institute of Chinese Medical Sciences, University of Macau, Macao, China.
+26970371	Danica_Liebenberg	Unit for Environmental Sciences and Management, North-West University, Potchefstroom campus, Private Bag X6001, Potchefstroom 2520, South Africa; Faculty of Education Sciences, School for Natural Sciences and Technology for Education, North-West University, Potchefstroom campus, Private Bag X6001, Potchefstroom 2520, South Africa. Electronic address: Danica.LiebenbergWeyers@nwu.ac.za.
+26970371	Stuart_Piketh	Unit for Environmental Sciences and Management, North-West University, Potchefstroom campus, Private Bag X6001, Potchefstroom 2520, South Africa.
+26970371	Huib_van_Hamburg	Unit for Environmental Sciences and Management, North-West University, Potchefstroom campus, Private Bag X6001, Potchefstroom 2520, South Africa.
+26924143	X_Y_Zhao	
+26924143	L_Sheng	
+26924143	T_X_Diao	
+26924143	Y_Zhang	
+26924143	L_Wang	
+26924143	Z_Yanjun	
+26863411	Thomas_Luechtefeld	Center for Alternatives to Animal Testing (CAAT), Johns Hopkins Bloomberg School of Public Health, Environmental Health Sciences, Baltimore, MD, USA.
+26863411	Alexandra_Maertens	Center for Alternatives to Animal Testing (CAAT), Johns Hopkins Bloomberg School of Public Health, Environmental Health Sciences, Baltimore, MD, USA.
+26863411	Daniel_P_Russo	The Rutgers Center for Computational &amp; Integrative Biology, Rutgers University at Camden, NJ, USA.
+26863411	Costanza_Rovida	CAAT-Europe, University of Konstanz, Konstanz, Germany.
+26863411	Hao_Zhu	Department of Chemistry, Rutgers University at Camden, NJ, USA.
+26863411	Thomas_Hartung	CAAT-Europe, University of Konstanz, Konstanz, Germany.
+26719978	Max_Ernst_Bender	Universities Allied for Essential Medicines Europe e.V. (UAEM), Berlin, Germany.
+26719978	Suzanne_Edwards	Department of Health Care Management, Berlin University of Technology, Berlin, Germany.
+26719978	Peter_von_Philipsborn	Faculty of Medicine, Technische Universität München, Munich, Germany.
+26719978	Fridolin_Steinbeis	Faculty of Medicine, Charité-Universitätsmedizin Berlin, Berlin, Germany.
+26719978	Thomas_Keil	Institute for Social Medicine, Epidemiology and Health Economics, Charité-Universitätsmedizin Berlin, Berlin, Germany.
+26719978	Peter_Tinnemann	Institute for Social Medicine, Epidemiology and Health Economics, Charité-Universitätsmedizin Berlin, Berlin, Germany.
+26704067	Eugenio_Parente	Dipartimento di Scienze, Università degli Studi della Basilicata, Potenza, Italy. Electronic address: eugenio.parente@unibas.it.
+26704067	Luca_Cocolin	Department of Agricultural, Forest and Food Science, University of Torino, Grugliasco, Italy.
+26704067	Francesca_De_Filippis	Department of Agricultural Sciences, Division of Microbiology, University of Naples Federico II, Portici, Italy.
+26704067	Teresa_Zotta	Istituto di Scienze dell'Alimentazione, CNR, Avellino, Italy.
+26704067	Ilario_Ferrocino	Department of Agricultural, Forest and Food Science, University of Torino, Grugliasco, Italy.
+26704067	Orla_O'Sullivan	Teagasc Food Research Centre, Moorepark, Fermoy, Ireland; APC Microbiome Institute, Cork, Ireland.
+26704067	Erasmo_Neviani	Department of Food Science, Parma University, Parco Area delle Scienze 48, /A, Parma, Italy.
+26704067	Maria_De_Angelis	Department of Soil, Plant and Food Science, University of Bari Aldo Moro, Bari, Italy.
+26704067	Paul_D_Cotter	Teagasc Food Research Centre, Moorepark, Fermoy, Ireland; APC Microbiome Institute, Cork, Ireland.
+26704067	Danilo_Ercolini	Department of Agricultural Sciences, Division of Microbiology, University of Naples Federico II, Portici, Italy.
+25602893	Brittany_Seymour	Brittany Seymour and Elsbeth Kalenderian are with the Department of Oral Health Policy and Epidemiology, Harvard School of Dental Medicine, Boston, MA. Rebekah Getman is with the Harvard Global Health Institute, Cambridge, MA. Avinash Saraf and Lily H. Zhang are students at Harvard College, Cambridge, and interns at the Harvard Global Health Institute, Cambridge.
+25602893	Rebekah_Getman	
+25602893	Avinash_Saraf	
+25602893	Lily_H_Zhang	
+25602893	Elsbeth_Kalenderian	
+25340971	Ariane_Allain	Bioinformatics, Molecular Dynamics &amp; Modeling (BiMoDyM), Laboratoire de Biologie et Pharmacologie Appliquée (LBPA UMR8113 CNRS), École Normale Supérieure de Cachan, 61 avenue du Président Wilson, 94235 Cachan, France. Luba.Tchertanov@lbpa.ens-cachan.fr.
+25340971	Isaure_Chauvot_de_Beauchêne	
+25340971	Florent_Langenfeld	
+25340971	Yann_Guarracino	
+25340971	Elodie_Laine	
+25340971	Luba_Tchertanov	
+25000497	Julie_Kauffman	Department of Informatics, King's College London, Strand, London, United Kingdom.
+25000497	Aristotelis_Kittas	Department of Informatics, King's College London, Strand, London, United Kingdom.
+25000497	Laura_Bennett	Centre for Process Systems Engineering, Department of Chemical Engineering, University College London, Torrington Place, London, United Kingdom.
+25000497	Sophia_Tsoka	Department of Informatics, King's College London, Strand, London, United Kingdom.
+24987669	Fang_Liu	Department of Biomedical Engineering, Key Laboratory for Biomedical Engineering of Ministry of Education, Zhejiang University, Hangzhou 310027, China.
+24987669	Yaning_Feng	Department of Biomedical Engineering, Key Laboratory for Biomedical Engineering of Ministry of Education, Zhejiang University, Hangzhou 310027, China.
+24987669	Zhenye_Li	General Hospital of Ningxia Medical University, Yinchuan 750004, China.
+24987669	Chao_Pan	Department of Biomedical Engineering, Key Laboratory for Biomedical Engineering of Ministry of Education, Zhejiang University, Hangzhou 310027, China.
+24987669	Yuncong_Su	Department of Biomedical Engineering, Key Laboratory for Biomedical Engineering of Ministry of Education, Zhejiang University, Hangzhou 310027, China.
+24987669	Rui_Yang	Department of Biomedical Engineering, Key Laboratory for Biomedical Engineering of Ministry of Education, Zhejiang University, Hangzhou 310027, China.
+24987669	Liying_Song	Department of Biomedical Engineering, Key Laboratory for Biomedical Engineering of Ministry of Education, Zhejiang University, Hangzhou 310027, China.
+24987669	Huilong_Duan	Department of Biomedical Engineering, Key Laboratory for Biomedical Engineering of Ministry of Education, Zhejiang University, Hangzhou 310027, China.
+24987669	Ning_Deng	Department of Biomedical Engineering, Key Laboratory for Biomedical Engineering of Ministry of Education, Zhejiang University, Hangzhou 310027, China.
+24914678	Mathieu_Jacomy	Sciences Po, médialab, Paris, France; Equipex DIME SHS, Paris, France; Gephi Consortium, Paris, France.
+24914678	Tommaso_Venturini	Sciences Po, médialab, Paris, France.
+24914678	Sebastien_Heymann	Gephi Consortium, Paris, France; LIP6 - CNRS - Universite Pierre et Marie Curie, Paris, France.
+24914678	Mathieu_Bastian	Gephi Consortium, Paris, France.
+27433520	Peng_Wan	Department of Computer Science, East Stroudsburg University, 200 Prospect Street, East Stroudsburg, PA 18301, USA.
+27433520	Dongsheng_Che	Department of Computer Science, East Stroudsburg University, 200 Prospect Street, East Stroudsburg, PA 18301, USA.
+25954579	Jake_Luo	College of Health Science, University of Wisconsin Milwaukee.
+25954579	Clara_Pelfrey	School of Medicine, Case Western Reserve University.
+25954579	Guo-Qiang_Zhang	School of Medicine, Case Western Reserve University.
+23401611	Adam_J_Rossano	Department of Physiology, University of Texas Health Science Center at San Antonio, San Antonio, TX 78229, USA.
+23401611	Amit_K_Chouhan	
+23401611	Gregory_T_Macleod	
+20484371	Vivek_Kaimal	Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, USA.
+20484371	Eric_E_Bardes	
+20484371	Scott_C_Tabar	
+20484371	Anil_G_Jegga	
+20484371	Bruce_J_Aronow	

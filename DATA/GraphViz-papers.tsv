@@ -1,19 +1,19 @@
-pmid	year	title	journal	affiliation	country
-27853520	2016	dot-app: a Graphviz-Cytoscape conversion plug-in.	F1000Research	Department of Computer Science and Engineering, UC San Diego, San Diego, USA.	England
-23297033	2013	RamiGO: an R/Bioconductor package providing an AmiGO visualize interface.	Bioinformatics (Oxford, England)	School of Biomolecular and Biomedical Science, Conway Institute, University College Dublin, Belfield, Dublin 4, Ireland. markus.schroeder@ucdconnect.ie	United States
-23180784	2012	RiceFREND: a platform for retrieving coexpressed gene networks in rice.	Nucleic acids research	Genome Resource Unit, Agrogenomics Research Center, National Institute of Agrobiological Sciences, 2-1-2 Kannondai, Tsukuba, Ibaraki 305-8602, Japan.	England
-22732016	2012	In silico analysis of HLA associations with drug-induced liver injury: use of a HLA-genotyped DNA archive from healthy volunteers.	Genome medicine	Department of Molecular and Clinical Pharmacology, Institute of Translational Medicine, University of Liverpool, The Waterhouse Building, Brownlow Street 1-5, Liverpool, L69 3GL, UK. Ana.Alfirevic@liv.ac.uk.	United Kingdom
-19925686	2009	HAMSTER: visualizing microarray experiments as a set of minimum spanning trees.	Source code for biology and medicine	Bioinformatics Center, Institute for Chemical Research, Kyoto University, Gokasho, Uji, 611-0011, Japan. r.wan@aist.go.jp.	England
-18692072	2008	Natural/random protein classification models based on star network topological indices.	Journal of theoretical biology	REQUIMTE-University of Porto, Faculty of Science, Chemistry Department, University of Porto 4169-007, Portugal. muntisa@gmail.com	England
-18581820	2008	Managing an emergency department by analysing HIS medical data: a focus on elderly patient clinical pathways.	Health care management science	Faculté de Médecine, Université de Rennes 1, Rennes EA3888, France.	Netherlands
-18511468	2008	Ontologizer 2.0--a multifunctional tool for GO term enrichment analysis and data exploration.	Bioinformatics (Oxford, England)	Institute of Medical Genetics, Charité Universitätsmedizin Berlin, Augustenburger Platz 1, 13353 Berlin, Germany. sebastian.bauer@charite.de	England
-18467777	2008	HBAT: a complete package for analysing strong and weak hydrogen bonds in macromolecular crystal structures.	In silico biology	School of Chemistry, University of Hyderabad, Hyderabad 500 046, India.	Netherlands
-18236171	2008	A graphical approach to tracking and reporting target status in structural genomics.	Journal of structural and functional genomics	Center for Eukaryotic Structural Genomics, Department of Biochemistry, University of Wisconsin-Madison, 433 Babcock Drive, Madison, WI 53706, USA.	United States
-18084648	2007	HBNG: Graph theory based visualization of hydrogen bond networks in protein structures.	Bioinformation	GVK Biosciences, Informatics Division, Hyderabad 500037, India. abhishek.twr@gmail.com	Singapore
-17911834	2007	Towards a decision support system for optimising clinical pathways of elderly patients in an emergency department.	Studies in health technology and informatics	EA3888, Faculté de Médecine, Université de Rennes1, France.	Netherlands
-17855420	2007	AVIS: AJAX viewer of interactive signaling networks.	Bioinformatics (Oxford, England)	Department of Pharmacology and Systems Therapeutics, Mount Sinai School of Medicine, 1425 Madison Avenue, New York 10029, USA.	United States
-16527832	2006	The SBML ODE Solver Library: a native API for symbolic and fast numerical analysis of reaction networks.	Bioinformatics (Oxford, England)	Institute for Theoretical Chemistry, University of Vienna, 1090 Vienna, Austria.	England
-16488908	2006	Pedigree-drawing with R and graphviz.	Bioinformatics (Oxford, England)	MRC Epidemiology Unit, Strangeways Research Laboratory Cambridge CB1 8RN, UK. jinghua.zhao@mrc-epid.cam.ac.uk	England
-15297301	2004	Network structures and algorithms in Bioconductor.	Bioinformatics (Oxford, England)	Channing Laboratory, Brigham and Women's Hospital 75 Francis Street, Boston, MA 02115, USA. stvjc@channing.harvard.edu	United States
-14728297	2004	Graphical visualization and navigation of genetic disease information.	AMIA ... Annual Symposium proceedings. AMIA Symposium	U.S. National Library of Medicine, NLM, DHHS, Bethesda, Maryland, USA.	United States
-11262970	2001	PIES, a protein interaction extraction system.	Pacific Symposium on Biocomputing. Pacific Symposium on Biocomputing	Kent Ridge Digital Labs, 21 Heng Mui Keng Terrace, Singapore 119613. limsoon@krdl.org.sg	United States
+pmid	year	journal	title
+27853520	2016	F1000Res	dot-app: a Graphviz-Cytoscape conversion plug-in.
+23297033	2013	Bioinformatics	RamiGO: an R/Bioconductor package providing an AmiGO visualize interface.
+23180784	2012	Nucleic Acids Res.	RiceFREND: a platform for retrieving coexpressed gene networks in rice.
+22732016	2012	Genome Med	In silico analysis of HLA associations with drug-induced liver injury: use of a HLA-genotyped DNA archive from healthy volunteers.
+19925686	2009	Source Code Biol Med	HAMSTER: visualizing microarray experiments as a set of minimum spanning trees.
+18692072	2008	J. Theor. Biol.	Natural/random protein classification models based on star network topological indices.
+18581820	2008	Health Care Manag Sci	Managing an emergency department by analysing HIS medical data: a focus on elderly patient clinical pathways.
+18511468	2008	Bioinformatics	Ontologizer 2.0--a multifunctional tool for GO term enrichment analysis and data exploration.
+18467777	2008	In Silico Biol. (Gedrukt)	HBAT: a complete package for analysing strong and weak hydrogen bonds in macromolecular crystal structures.
+18236171	2008	J. Struct. Funct. Genomics	A graphical approach to tracking and reporting target status in structural genomics.
+18084648	2007	Bioinformation	HBNG: Graph theory based visualization of hydrogen bond networks in protein structures.
+17911834	2007	Stud Health Technol Inform	Towards a decision support system for optimising clinical pathways of elderly patients in an emergency department.
+17855420	2007	Bioinformatics	AVIS: AJAX viewer of interactive signaling networks.
+16527832	2006	Bioinformatics	The SBML ODE Solver Library: a native API for symbolic and fast numerical analysis of reaction networks.
+16488908	2006	Bioinformatics	Pedigree-drawing with R and graphviz.
+15297301	2004	Bioinformatics	Network structures and algorithms in Bioconductor.
+14728297	2004	AMIA Annu Symp Proc	Graphical visualization and navigation of genetic disease information.
+11262970	2001	Pac Symp Biocomput	PIES, a protein interaction extraction system.

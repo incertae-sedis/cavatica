@@ -1,8 +1,8 @@
-pmid	author	order
-25192741	Murat_Can_Cobanoglu	1
-25192741	Zolt√°n_N_Oltvai	2
-25192741	D_Lansing_Taylor	3
-25192741	Ivet_Bahar	4
-27447253	Vijay_Srinivas_Agneeswaran	1
-27447253	Pranay_Tonpay	2
-27447253	Jayati_Tiwary	3
+pmid	forename_lastname	affiliation
+25192741	Murat_Can_Cobanoglu	Department of Computational and Systems Biology, University of Pittsburgh, School of Medicine, Pittsburgh, PA, The University of Pittsburgh Drug Discovery Institute, Pittsburgh, PA 15260 and Department of Pathology, University of Pittsburgh, School of Medicine, Pittsburgh, PA 15213, USA Department of Computational and Systems Biology, University of Pittsburgh, School of Medicine, Pittsburgh, PA, The University of Pittsburgh Drug Discovery Institute, Pittsburgh, PA 15260 and Department of Pathology, University of Pittsburgh, School of Medicine, Pittsburgh, PA 15213, USA.
+25192741	Zolt·n_N_Oltvai	Department of Computational and Systems Biology, University of Pittsburgh, School of Medicine, Pittsburgh, PA, The University of Pittsburgh Drug Discovery Institute, Pittsburgh, PA 15260 and Department of Pathology, University of Pittsburgh, School of Medicine, Pittsburgh, PA 15213, USA Department of Computational and Systems Biology, University of Pittsburgh, School of Medicine, Pittsburgh, PA, The University of Pittsburgh Drug Discovery Institute, Pittsburgh, PA 15260 and Department of Pathology, University of Pittsburgh, School of Medicine, Pittsburgh, PA 15213, USA.
+25192741	D_Lansing_Taylor	Department of Computational and Systems Biology, University of Pittsburgh, School of Medicine, Pittsburgh, PA, The University of Pittsburgh Drug Discovery Institute, Pittsburgh, PA 15260 and Department of Pathology, University of Pittsburgh, School of Medicine, Pittsburgh, PA 15213, USA Department of Computational and Systems Biology, University of Pittsburgh, School of Medicine, Pittsburgh, PA, The University of Pittsburgh Drug Discovery Institute, Pittsburgh, PA 15260 and Department of Pathology, University of Pittsburgh, School of Medicine, Pittsburgh, PA 15213, USA.
+25192741	Ivet_Bahar	Department of Computational and Systems Biology, University of Pittsburgh, School of Medicine, Pittsburgh, PA, The University of Pittsburgh Drug Discovery Institute, Pittsburgh, PA 15260 and Department of Pathology, University of Pittsburgh, School of Medicine, Pittsburgh, PA 15213, USA.
+27447253	Vijay_Srinivas_Agneeswaran	Impetus Infotech India Private Limited Bangalore, Karnataka, India.
+27447253	Pranay_Tonpay	Impetus Infotech India Private Limited Bangalore, Karnataka, India.
+27447253	Jayati_Tiwary	Impetus Infotech India Private Limited Bangalore, Karnataka, India.

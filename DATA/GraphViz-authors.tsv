@@ -1,85 +1,85 @@
-pmid	author	order
-27853520	Braxton_Fitts	1
-27853520	Ziran_Zhang	2
-27853520	Massoud_Maher	3
-27853520	Barry_Demchak	4
-23297033	Markus_S_SchrÃ¶der	1
-23297033	Daniel_Gusenleitner	2
-23297033	John_Quackenbush	3
-23297033	AedÃ­n_C_Culhane	4
-23297033	Benjamin_Haibe-Kains	5
-23180784	Yutaka_Sato	1
-23180784	Nobukazu_Namiki	2
-23180784	Hinako_Takehisa	3
-23180784	Kaori_Kamatsuki	4
-23180784	Hiroshi_Minami	5
-23180784	Hiroshi_Ikawa	6
-23180784	Hajime_Ohyanagi	7
-23180784	Kazuhiko_Sugimoto	8
-23180784	Jun-Ichi_Itoh	9
-23180784	Baltazar_A_Antonio	10
-23180784	Yoshiaki_Nagamura	11
-22732016	Ana_Alfirevic	1
-22732016	Faviel_Gonzalez-Galarza	2
-22732016	Catherine_Bell	3
-22732016	Klara_Martinsson	4
-22732016	Vivien_Platt	5
-22732016	Giovanna_Bretland	6
-22732016	Jane_Evely	7
-22732016	Maike_Lichtenfels	8
-22732016	Karin_Cederbrant	9
-22732016	Neil_French	10
-22732016	Dean_Naisbitt	11
-22732016	B_Kevin_Park	12
-22732016	Andrew_R_Jones	13
-22732016	Munir_Pirmohamed	14
-19925686	Raymond_Wan	1
-19925686	Larisa_Kiseleva	2
-19925686	Hajime_Harada	3
-19925686	Hiroshi_Mamitsuka	4
-19925686	Paul_Horton	5
-18692072	Cristian_Robert_Munteanu	1
-18692072	Humberto_GonzÃ¡lez-DÃ­az	2
-18692072	Fernanda_Borges	3
-18692072	Alexandre_Lopes_de_MagalhÃ£es	4
-18581820	Delphine_Rossille	1
-18581820	Marc_Cuggia	2
-18581820	Aude_Arnault	3
-18581820	Jacques_Bouget	4
-18581820	Pierre_Le_Beux	5
-18511468	Sebastian_Bauer	1
-18511468	Steffen_Grossmann	2
-18511468	Martin_Vingron	3
-18511468	Peter_N_Robinson	4
-18467777	Abhishek_Tiwari	1
-18467777	Sunil_K_Panigrahi	2
-18236171	Xiaokang_Pan	1
-18236171	Gary_E_Wesenberg	2
-18236171	John_L_Markley	3
-18236171	Brian_G_Fox	4
-18236171	George_N_Phillips	5
-18236171	Craig_A_Bingman	6
-18084648	Abhishek_Tiwari	1
-18084648	Vivek_Tiwari	2
-17911834	Marc_Cuggia	1
-17911834	Delphine_Rossille	2
-17911834	Aude_Arnault	3
-17911834	Jacques_Bouget	4
-17911834	Pierre_Le_Beux	5
-17855420	Seth_I_Berger	1
-17855420	Ravi_Iyengar	2
-17855420	Avi_Ma'ayan	3
-16527832	Rainer_MachnÃ©	1
-16527832	Andrew_Finney	2
-16527832	Stefan_MÃ¼ller	3
-16527832	James_Lu	4
-16527832	Stefanie_Widder	5
-16527832	Christoph_Flamm	6
-16488908	Jing_Hua_Zhao	1
-15297301	Vincent_J_Carey	1
-15297301	Jeff_Gentry	2
-15297301	Elizabeth_Whalen	3
-15297301	Robert_Gentleman	4
-14728297	Olivier_Bodenreider	1
-14728297	Joyce_A_Mitchell	2
-11262970	L_Wong	1
+pmid	forename_lastname	affiliation
+27853520	Braxton_Fitts	Department of Computer Science and Engineering, UC San Diego, San Diego, USA.
+27853520	Ziran_Zhang	Department of Computer Science and Engineering, UC San Diego, San Diego, USA.
+27853520	Massoud_Maher	Department of Computer Science and Engineering, UC San Diego, San Diego, USA.
+27853520	Barry_Demchak	Department of Health Sciences, UC San Diego, San Diego, USA.
+23297033	Markus_S_Schröder	School of Biomolecular and Biomedical Science, Conway Institute, University College Dublin, Belfield, Dublin 4, Ireland. markus.schroeder@ucdconnect.ie
+23297033	Daniel_Gusenleitner	
+23297033	John_Quackenbush	
+23297033	Aedín_C_Culhane	
+23297033	Benjamin_Haibe-Kains	
+23180784	Yutaka_Sato	Genome Resource Unit, Agrogenomics Research Center, National Institute of Agrobiological Sciences, 2-1-2 Kannondai, Tsukuba, Ibaraki 305-8602, Japan.
+23180784	Nobukazu_Namiki	
+23180784	Hinako_Takehisa	
+23180784	Kaori_Kamatsuki	
+23180784	Hiroshi_Minami	
+23180784	Hiroshi_Ikawa	
+23180784	Hajime_Ohyanagi	
+23180784	Kazuhiko_Sugimoto	
+23180784	Jun-Ichi_Itoh	
+23180784	Baltazar_A_Antonio	
+23180784	Yoshiaki_Nagamura	
+22732016	Ana_Alfirevic	Department of Molecular and Clinical Pharmacology, Institute of Translational Medicine, University of Liverpool, The Waterhouse Building, Brownlow Street 1-5, Liverpool, L69 3GL, UK. Ana.Alfirevic@liv.ac.uk.
+22732016	Faviel_Gonzalez-Galarza	
+22732016	Catherine_Bell	
+22732016	Klara_Martinsson	
+22732016	Vivien_Platt	
+22732016	Giovanna_Bretland	
+22732016	Jane_Evely	
+22732016	Maike_Lichtenfels	
+22732016	Karin_Cederbrant	
+22732016	Neil_French	
+22732016	Dean_Naisbitt	
+22732016	B_Kevin_Park	
+22732016	Andrew_R_Jones	
+22732016	Munir_Pirmohamed	
+19925686	Raymond_Wan	Bioinformatics Center, Institute for Chemical Research, Kyoto University, Gokasho, Uji, 611-0011, Japan. r.wan@aist.go.jp.
+19925686	Larisa_Kiseleva	
+19925686	Hajime_Harada	
+19925686	Hiroshi_Mamitsuka	
+19925686	Paul_Horton	
+18692072	Cristian_Robert_Munteanu	REQUIMTE-University of Porto, Faculty of Science, Chemistry Department, University of Porto 4169-007, Portugal. muntisa@gmail.com
+18692072	Humberto_González-Díaz	
+18692072	Fernanda_Borges	
+18692072	Alexandre_Lopes_de_Magalhães	
+18581820	Delphine_Rossille	Faculté de Médecine, Université de Rennes 1, Rennes EA3888, France.
+18581820	Marc_Cuggia	
+18581820	Aude_Arnault	
+18581820	Jacques_Bouget	
+18581820	Pierre_Le_Beux	
+18511468	Sebastian_Bauer	Institute of Medical Genetics, Charité Universitätsmedizin Berlin, Augustenburger Platz 1, 13353 Berlin, Germany. sebastian.bauer@charite.de
+18511468	Steffen_Grossmann	
+18511468	Martin_Vingron	
+18511468	Peter_N_Robinson	
+18467777	Abhishek_Tiwari	School of Chemistry, University of Hyderabad, Hyderabad 500 046, India.
+18467777	Sunil_K_Panigrahi	
+18236171	Xiaokang_Pan	Center for Eukaryotic Structural Genomics, Department of Biochemistry, University of Wisconsin-Madison, 433 Babcock Drive, Madison, WI 53706, USA.
+18236171	Gary_E_Wesenberg	
+18236171	John_L_Markley	
+18236171	Brian_G_Fox	
+18236171	George_N_Phillips	
+18236171	Craig_A_Bingman	
+18084648	Abhishek_Tiwari	GVK Biosciences, Informatics Division, Hyderabad 500037, India. abhishek.twr@gmail.com
+18084648	Vivek_Tiwari	
+17911834	Marc_Cuggia	EA3888, Faculté de Médecine, Université de Rennes1, France.
+17911834	Delphine_Rossille	
+17911834	Aude_Arnault	
+17911834	Jacques_Bouget	
+17911834	Pierre_Le_Beux	
+17855420	Seth_I_Berger	Department of Pharmacology and Systems Therapeutics, Mount Sinai School of Medicine, 1425 Madison Avenue, New York 10029, USA.
+17855420	Ravi_Iyengar	
+17855420	Avi_Ma'ayan	
+16527832	Rainer_Machné	Institute for Theoretical Chemistry, University of Vienna, 1090 Vienna, Austria.
+16527832	Andrew_Finney	
+16527832	Stefan_Müller	
+16527832	James_Lu	
+16527832	Stefanie_Widder	
+16527832	Christoph_Flamm	
+16488908	Jing_Hua_Zhao	MRC Epidemiology Unit, Strangeways Research Laboratory Cambridge CB1 8RN, UK. jinghua.zhao@mrc-epid.cam.ac.uk
+15297301	Vincent_J_Carey	Channing Laboratory, Brigham and Women's Hospital 75 Francis Street, Boston, MA 02115, USA. stvjc@channing.harvard.edu
+15297301	Jeff_Gentry	
+15297301	Elizabeth_Whalen	
+15297301	Robert_Gentleman	
+14728297	Olivier_Bodenreider	U.S. National Library of Medicine, NLM, DHHS, Bethesda, Maryland, USA.
+14728297	Joyce_A_Mitchell	
+11262970	L_Wong	Kent Ridge Digital Labs, 21 Heng Mui Keng Terrace, Singapore 119613. limsoon@krdl.org.sg

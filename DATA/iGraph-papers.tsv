@@ -1,3 +1,3 @@
-pmid	year	title	journal	affiliation	country
-24748432	2014	Interaction network analysis revealed biomarkers in myocardial infarction.	Molecular biology reports	Department of Cardiology, The Fourth Affiliated Hospital of Harbin Medical University, No. 37 Yiyuan Street of Nangang District, Harbin, 150001, Heilongjiang Province, China.	Netherlands
-22115179	2011	iRefR: an R package to manipulate the iRefIndex consolidated protein interaction database.	BMC bioinformatics	Department for Molecular Biosciences, University of Oslo, P,O, Box 1041 Blindern, 0316 Oslo, Norway.	England
+pmid	year	journal	title
+24748432	2014	Mol. Biol. Rep.	Interaction network analysis revealed biomarkers in myocardial infarction.
+22115179	2011	BMC Bioinformatics	iRefR: an R package to manipulate the iRefIndex consolidated protein interaction database.

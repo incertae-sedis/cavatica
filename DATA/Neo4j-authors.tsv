@@ -1,57 +1,57 @@
-pmid	author	order
-27993779	Irina_Balaur	1
-27993779	Alexander_Mazein	2
-27993779	Mansoor_Saqi	3
-27993779	Artem_Lysenko	4
-27993779	Christopher_J_Rawlings	5
-27993779	Charles_Auffray	6
-27919219	Vasundra_Touré	1
-27919219	Alexander_Mazein	2
-27919219	Dagmar_Waltemath	3
-27919219	Irina_Balaur	4
-27919219	Mansoor_Saqi	5
-27919219	Ron_Henkel	6
-27919219	Johann_Pellet	7
-27919219	Charles_Auffray	8
-27587666	Siavash_Sheikhizadeh	1
-27587666	M_Eric_Schranz	2
-27587666	Mehmet_Akdel	3
-27587666	Dick_de_Ridder	4
-27587666	Sandra_Smit	5
-27462371	Artem_Lysenko	1
-27462371	Irina_A_Roznovăţ	2
-27462371	Mansoor_Saqi	3
-27462371	Alexander_Mazein	4
-27462371	Christopher_J_Rawlings	5
-27462371	Charles_Auffray	6
-27196054	Joseph_Mullen	1
-27196054	Simon_J_Cockell	2
-27196054	Peter_Woollard	3
-27196054	Anil_Wipat	4
-26998997	Martin_Preusse	1
-26998997	Fabian_J_Theis	2
-26998997	Nikola_S_Mueller	3
-26708334	Daniel_Bottomly	1
-26708334	Shannon_K_McWeeney	2
-26708334	Beth_Wilmot	3
-26657893	Xinbin_Dai	1
-26657893	Jun_Li	2
-26657893	Tingsong_Liu	3
-26657893	Patrick_Xuechun_Zhao	4
-26272981	Georg_Summer	1
-26272981	Thomas_Kelder	2
-26272981	Keiichiro_Ono	3
-26272981	Marijana_Radonjic	4
-26272981	Stephane_Heymans	5
-26272981	Barry_Demchak	6
-26262393	Dimitar_Hristovski	1
-26262393	Andrej_Kastrin	2
-26262393	Dejan_Dinevski	3
-26262393	Thomas_C_Rindflesch	4
-25520553	David_Johnson	1
-25520553	Anthony_J_Connor	2
-25520553	Steve_McKeever	3
-25520553	Zhihui_Wang	4
-25520553	Thomas_S_Deisboeck	5
-25520553	Tom_Quaiser	6
-25520553	Eliezer_Shochat	7
+pmid	forename_lastname	affiliation
+27993779	Irina_Balaur	European Institute for Systems Biology and Medicine (EISBM), CIRI UMR CNRS 5308, CNRS-ENS-UCBL-INSERM, Lyon, France, Campus Charles Mérieux - Université de Lyon, 50 Avenue Tony Garnier, 69007 Lyon, France ibalaur@eisbm.org.
+27993779	Alexander_Mazein	European Institute for Systems Biology and Medicine (EISBM), CIRI UMR CNRS 5308, CNRS-ENS-UCBL-INSERM, Lyon, France, Campus Charles Mérieux - Université de Lyon, 50 Avenue Tony Garnier, 69007 Lyon, France.
+27993779	Mansoor_Saqi	European Institute for Systems Biology and Medicine (EISBM), CIRI UMR CNRS 5308, CNRS-ENS-UCBL-INSERM, Lyon, France, Campus Charles Mérieux - Université de Lyon, 50 Avenue Tony Garnier, 69007 Lyon, France.
+27993779	Artem_Lysenko	Rothamsted Research, Harpenden, West Common, Hertfordshire, AL5 2JQ, UK.
+27993779	Christopher_J_Rawlings	Rothamsted Research, Harpenden, West Common, Hertfordshire, AL5 2JQ, UK.
+27993779	Charles_Auffray	European Institute for Systems Biology and Medicine (EISBM), CIRI UMR CNRS 5308, CNRS-ENS-UCBL-INSERM, Lyon, France, Campus Charles Mérieux - Université de Lyon, 50 Avenue Tony Garnier, 69007 Lyon, France.
+27919219	Vasundra_Touré	European Institute for Systems Biology and Medicine (EISBM), CIRI UMR 5308, CNRS-ENS-UCBL-INSERM, Université de Lyon, 50 Avenue Tony Garnier, Lyon, 69007, France. vasundra.toure@uni-rostock.de.
+27919219	Alexander_Mazein	European Institute for Systems Biology and Medicine (EISBM), CIRI UMR 5308, CNRS-ENS-UCBL-INSERM, Université de Lyon, 50 Avenue Tony Garnier, Lyon, 69007, France.
+27919219	Dagmar_Waltemath	Department of Systems Biology and Bioinformatics, University of Rostock, Rostock, 18051, Germany.
+27919219	Irina_Balaur	European Institute for Systems Biology and Medicine (EISBM), CIRI UMR 5308, CNRS-ENS-UCBL-INSERM, Université de Lyon, 50 Avenue Tony Garnier, Lyon, 69007, France.
+27919219	Mansoor_Saqi	European Institute for Systems Biology and Medicine (EISBM), CIRI UMR 5308, CNRS-ENS-UCBL-INSERM, Université de Lyon, 50 Avenue Tony Garnier, Lyon, 69007, France.
+27919219	Ron_Henkel	Department of Business Information Systems, University of Rostock, Rostock, 18051, Germany.
+27919219	Johann_Pellet	European Institute for Systems Biology and Medicine (EISBM), CIRI UMR 5308, CNRS-ENS-UCBL-INSERM, Université de Lyon, 50 Avenue Tony Garnier, Lyon, 69007, France.
+27919219	Charles_Auffray	European Institute for Systems Biology and Medicine (EISBM), CIRI UMR 5308, CNRS-ENS-UCBL-INSERM, Université de Lyon, 50 Avenue Tony Garnier, Lyon, 69007, France.
+27587666	Siavash_Sheikhizadeh	Bioinformatics Group, Wageningen University, Droevendaalsesteeg 1, 6708PB, Wageningen, The Netherlands.
+27587666	M_Eric_Schranz	Biosystematics Group, Wageningen University, Droevendaalsesteeg 1, 6708PB, The Netherlands.
+27587666	Mehmet_Akdel	Bioinformatics Group, Wageningen University, Droevendaalsesteeg 1, 6708PB, Wageningen, The Netherlands.
+27587666	Dick_de_Ridder	Bioinformatics Group, Wageningen University, Droevendaalsesteeg 1, 6708PB, Wageningen, The Netherlands.
+27587666	Sandra_Smit	Bioinformatics Group, Wageningen University, Droevendaalsesteeg 1, 6708PB, Wageningen, The Netherlands.
+27462371	Artem_Lysenko	Rothamsted Research, Harpenden, West Common, Hertfordshire, AL5 2JQ UK.
+27462371	Irina_A_Roznovăţ	European Institute for Systems Biology and Medicine (EISBM), CIRI UMR CNRS 5308, CNRS-ENS-UCBL-INSERM, Lyon, France.
+27462371	Mansoor_Saqi	European Institute for Systems Biology and Medicine (EISBM), CIRI UMR CNRS 5308, CNRS-ENS-UCBL-INSERM, Lyon, France.
+27462371	Alexander_Mazein	European Institute for Systems Biology and Medicine (EISBM), CIRI UMR CNRS 5308, CNRS-ENS-UCBL-INSERM, Lyon, France.
+27462371	Christopher_J_Rawlings	Rothamsted Research, Harpenden, West Common, Hertfordshire, AL5 2JQ UK.
+27462371	Charles_Auffray	European Institute for Systems Biology and Medicine (EISBM), CIRI UMR CNRS 5308, CNRS-ENS-UCBL-INSERM, Lyon, France.
+27196054	Joseph_Mullen	Interdisciplinary Computing and Complex BioSystems (ICOS) Research Group, School of Computing Science, Newcastle University, Newcastle upon Tyne, United Kingdom.
+27196054	Simon_J_Cockell	Bioinformatics Support Unit, Newcastle University, Newcastle upon Tyne, United Kingdom.
+27196054	Peter_Woollard	Computational Biology Department, Quantitative Sciences, GlaxoSmithKline Research &amp; Development Ltd, Stevenage, Hertfordshire, United Kingdom.
+27196054	Anil_Wipat	Interdisciplinary Computing and Complex BioSystems (ICOS) Research Group, School of Computing Science, Newcastle University, Newcastle upon Tyne, United Kingdom.
+26998997	Martin_Preusse	Institute of Diabetes and Regeneration Research, Helmholtz Zentrum München, German Research Center for Environmental Health, Neuherberg, Germany.
+26998997	Fabian_J_Theis	Institute for Mathematical Sciences, Technische Universität München, Munich, Germany.
+26998997	Nikola_S_Mueller	Institute of Computational Biology, Helmholtz Zentrum München, German Research Center for Environmental Health, Neuherberg, Germany.
+26708334	Daniel_Bottomly	Knight Cancer Institute, Oregon Clinical and Translational Research Institute and.
+26708334	Shannon_K_McWeeney	Knight Cancer Institute, Oregon Clinical and Translational Research Institute and Division of Bioinformatics and Computational Biology, Department of Medical Informatics and Clinical Epidemiology, Oregon Health and Science University, Portland OR 97239, USA.
+26708334	Beth_Wilmot	Knight Cancer Institute, Oregon Clinical and Translational Research Institute and Division of Bioinformatics and Computational Biology, Department of Medical Informatics and Clinical Epidemiology, Oregon Health and Science University, Portland OR 97239, USA.
+26657893	Xinbin_Dai	Plant Biology Division, The Samuel Roberts Noble Foundation, 2510 Sam Noble Parkway, Ardmore, OK 73401, USA.
+26657893	Jun_Li	Plant Biology Division, The Samuel Roberts Noble Foundation, 2510 Sam Noble Parkway, Ardmore, OK 73401, USA.
+26657893	Tingsong_Liu	Plant Biology Division, The Samuel Roberts Noble Foundation, 2510 Sam Noble Parkway, Ardmore, OK 73401, USA.
+26657893	Patrick_Xuechun_Zhao	Plant Biology Division, The Samuel Roberts Noble Foundation, 2510 Sam Noble Parkway, Ardmore, OK 73401, USA pzhao@noble.org.
+26272981	Georg_Summer	Center for Heart Failure Research, Cardiovascular Research Institute Maastricht (CARIM), University Hospital Maastricht, Maastricht, The Netherlands, TNO, Zeist, The Netherlands.
+26272981	Thomas_Kelder	EdgeLeap B.V., Utrecht, The Netherlands and.
+26272981	Keiichiro_Ono	Department of Medicine, University of California, San Diego, La Jolla, CA, USA.
+26272981	Marijana_Radonjic	EdgeLeap B.V., Utrecht, The Netherlands and.
+26272981	Stephane_Heymans	Center for Heart Failure Research, Cardiovascular Research Institute Maastricht (CARIM), University Hospital Maastricht, Maastricht, The Netherlands.
+26272981	Barry_Demchak	Department of Medicine, University of California, San Diego, La Jolla, CA, USA.
+26262393	Dimitar_Hristovski	Faculty of Medicine, University of Ljubljana, Ljubljana, Slovenia.
+26262393	Andrej_Kastrin	Faculty of Information Studies, Novo mesto, Slovenia.
+26262393	Dejan_Dinevski	Faculty of Medicine, University of Maribor, Maribor, Slovenia.
+26262393	Thomas_C_Rindflesch	National Library of Medicine, Bethesda, MD, USA.
+25520553	David_Johnson	Department of Computing, Imperial College London, London, UK. ; Data Science Institute, Imperial College London, London, UK.
+25520553	Anthony_J_Connor	Department of Computer Science, University of Oxford, Oxford, UK.
+25520553	Steve_McKeever	Department of Informatics and Media, Uppsala University, Uppsala, Sweden. ; St. Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO), St. Petersburg, Russian Federation.
+25520553	Zhihui_Wang	Department of Pathology, University of New Mexico, Albuquerque, NM, USA.
+25520553	Thomas_S_Deisboeck	Harvard-MIT (HST) Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital, Charlestown, MA, USA.
+25520553	Tom_Quaiser	Roche Pharmaceutical Research and Early Development (pRED), Roche Innovation Center, Penzberg, Germany.
+25520553	Eliezer_Shochat	Roche Pharmaceutical Research and Early Development, Roche Innovation Center, Basel, Switzerland.

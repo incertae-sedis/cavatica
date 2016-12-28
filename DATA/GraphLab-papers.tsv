@@ -1,3 +1,3 @@
-pmid	year	title	journal	affiliation	country
-25192741	2014	BalestraWeb: efficient online evaluation of drug-target interactions.	Bioinformatics (Oxford, England)	Department of Computational and Systems Biology, University of Pittsburgh, School of Medicine, Pittsburgh, PA, The University of Pittsburgh Drug Discovery Institute, Pittsburgh, PA 15260 and Department of Pathology, University of Pittsburgh, School of Medicine, Pittsburgh, PA 15213, USA Department of Computational and Systems Biology, University of Pittsburgh, School of Medicine, Pittsburgh, PA, The University of Pittsburgh Drug Discovery Institute, Pittsburgh, PA 15260 and Department of Pathology, University of Pittsburgh, School of Medicine, Pittsburgh, PA 15213, USA.	United States
-27447253	2013	Paradigms for Realizing Machine Learning Algorithms.	Big data	Impetus Infotech India Private Limited Bangalore, Karnataka, India.	United States
+pmid	year	journal	title
+25192741	2014	Bioinformatics	BalestraWeb: efficient online evaluation of drug-target interactions.
+27447253	2013	Big Data	Paradigms for Realizing Machine Learning Algorithms.
