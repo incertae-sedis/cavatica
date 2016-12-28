@@ -1,0 +1,36 @@
+Processing Cytoscape
+     700 Cytoscape-pmid.txt
+     716 ../01-GetData-Ebot/DATAHERE/Cytoscape-pmids.txt
+ Cytoscape.html saved
+Processing Pathway+Studio
+      79 Pathway+Studio-pmid.txt
+     255 ../01-GetData-Ebot/DATAHERE/Pathway+Studio-pmids.txt
+ Pathway+Studio.html saved
+Processing Ingenuity+Pathway+Analysis
+       0 Ingenuity+Pathway+Analysis-pmid.txt
+    1636 ../01-GetData-Ebot/DATAHERE/Ingenuity+Pathway+Analysis-pmids.txt
+ Ingenuity+Pathway+Analysis.html saved
+Processing VisANT
+     265 VisANT-pmid.txt
+     266 ../01-GetData-Ebot/DATAHERE/VisANT-pmids.txt
+ VisANT.html saved
+Processing Gephi
+      20 Gephi-pmid.txt
+      20 ../01-GetData-Ebot/DATAHERE/Gephi-pmids.txt
+ Gephi.html saved
+Processing GraphViz
+      17 GraphViz-pmid.txt
+      18 ../01-GetData-Ebot/DATAHERE/GraphViz-pmids.txt
+ GraphViz.html saved
+Processing iGraph
+       2 iGraph-pmid.txt
+       2 ../01-GetData-Ebot/DATAHERE/iGraph-pmids.txt
+ iGraph.html saved
+Processing Neo4j
+      10 Neo4j-pmid.txt
+      11 ../01-GetData-Ebot/DATAHERE/Neo4j-pmids.txt
+ Neo4j.html saved
+Processing GraphLab
+       2 GraphLab-pmid.txt
+       2 ../01-GetData-Ebot/DATAHERE/GraphLab-pmids.txt
+ GraphLab.html saved
