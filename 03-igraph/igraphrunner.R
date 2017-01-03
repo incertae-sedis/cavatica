@@ -37,7 +37,23 @@ centG<-data.frame(degree=double(),betweenness=double(),graph=character())
 for(ttt in terms$term){
   summaryG[ttt,"clusters"]<-clusters(g[[ttt]])$no
   centG<-rbind(centG,data.frame(degree=degree(g[[ttt]]),betweenness=betweenness(g[[ttt]]),graph=ttt))
-  
 }
 summaryG
 qplot(log(degree),log(betweenness),data=centG,color=graph,alpha=I(0.5))
+
+dimwidth <- 8         # par("din")[1]  #figure dimensions
+dimheight<- 4.916     # par("din")[2]
+for(i in 1:nrow(terms)){
+  query_term<-terms$term[i]
+  dd<-degree.distribution(g[[query_term]])
+  aa<-c(1:length(dd))
+  p<-qplot(log(aa),log(dd),main=paste(query_term,"degree distribution"),xlab="log(degree)",ylab="log(nodes)")
+  ggsave(filename=paste(query_term,"-degree.png",sep=""),plot=p,width=dimwidth,height=dimheight,dpi=600)
+}
+dd<-degree.distribution(g$Cytoscape)
+str(dd)
+aa<-c(1:length(dd))
+p<-qplot(log(aa),log(dd),main="Cytoscape degree distribution",xlab="log(degree)",ylab="log(nodes)")
+ggsave(filename=paste(query_term,"-pubmedcounts.png",sep=""),plot=p,width=dimwidth,height=dimheight,dpi=600)
+names(dd$Cytoscape)
+p
