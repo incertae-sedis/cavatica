@@ -55,8 +55,6 @@ while(<>){
 	    $year=$1;
 	}
     }
-    # check if monitor turns off, 10 min
-    # if not off turn off when I leave
     
 }
 
