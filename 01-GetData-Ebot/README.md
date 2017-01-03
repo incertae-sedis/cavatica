@@ -5,7 +5,7 @@ Use a combination of Ebot (NCBI) scripts and personal perl scripts to fetch co-a
 Edit ../config.txt to list query terms. Then fetch data with the following command.
 
 ```
-$ perl FetchData.pl
+$ ./FetchData.sh
 ```
 
 Fetched data will be inside the generated folder **DATAHERE**.
