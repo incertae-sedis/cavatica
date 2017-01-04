@@ -5,6 +5,8 @@ Multi-network analysis of network analysis papers and their software
 
 <img src="https://github.com/j23414/cavatica/blob/master/IMG/plan.png" width="600" alt="Plan">
 
+<img src="https://github.com/j23414/cavatica/blob/master/IMG/plan2.png" width="600" alt="Plan2">
+
 -----
 
 The name comes from Charlotte's Web since her full name was Charlotte A. Cavatica. Although Cavatica also refers to barn spider.
