@@ -45,7 +45,6 @@ while (<>) {
     %refs = ( );
   } elsif (/<article-id pub-id-type=\"pmc\">(\d+)<\/article-id>/ && length($pmcid)==0) {
       $pmcid = $1;
-      print $fh "$pmcid\n";
   } elsif (/<article-id pub-id-type=\"pmid\">(\d+)<\/article-id>/ && length($pmid)==0) {
     $pmid = $1;
   } elsif (/<article-title>/ && length($title)==0) {
@@ -102,6 +101,7 @@ while (<>) {
 	} else {
 	  print OUTPUT "<p><u>No PMID</u> <b>($count)</b> $title<ul>"; 
 	}
+	print $fh "$pmcid\n";
       }
       while ($s =~ /(<xref[^>]+>[^<]+<\/xref)/gi) {
 	my $tag = $1;
