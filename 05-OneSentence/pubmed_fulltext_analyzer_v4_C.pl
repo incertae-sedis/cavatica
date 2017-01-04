@@ -35,7 +35,7 @@ ENDER
 
 *OUTPUT = *STDOUT;
 print_HTML_header;
-$keyword = lc $keyword;
+#$keyword = lc $keyword;
 
 open(my $fh, ">pmcid.txt") or die "Could not open file pmcid.txt #!";
 
