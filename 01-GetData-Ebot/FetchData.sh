@@ -12,7 +12,7 @@ do
     echo "Searching Pubmed between 1996 and 2016: $TERM"
     perl searchPubmedBtwnPubDates.pl $TERM $OUTDIR/$TERM-pmids.txt
     wc -l $OUTDIR/$TERM-pmids.txt
-    perl fetchPubmedData.pl $OUTDIR/$TERM-pmids.txt $OUTDIR/$TERM-pubmed.xml
+    perl warpAroundfetchPubmedData.pl $OUTDIR/$TERM-pmids.txt $OUTDIR/$TERM-pubmed.xml
     perl convert2tsv.pl $OUTDIR/$TERM-pubmed.xml > $OUTDIR/$TERM-papers.tsv
     perl getPM2Author.pl $OUTDIR/$TERM-pubmed.xml > $OUTDIR/$TERM-authors.tsv
 
