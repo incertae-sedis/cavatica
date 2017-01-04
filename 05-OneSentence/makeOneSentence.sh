@@ -27,7 +27,7 @@ TERM="VisANT"
 echo "Processing $TERM"
 query="VisA"
 perl pubmed_text_analyzer3.pl "$query" $INDIR/$TERM-pubmed.xml > $TERM.html
-perl pubmed_fulltext_analyzer_v4.pl "$query" $INDIR/$TERM-fulltext_C.xml > $TERM-full.html
+perl pubmed_fulltext_analyzer_v4_C.pl "$query" $INDIR/$TERM-fulltext.xml > $TERM-full.html
 uniq pmcid.txt ${TERM}-pmcid.txt
 uniq pmid.txt ${TERM}-pmid.txt
 wc -l ${TERM}-pmid.txt
