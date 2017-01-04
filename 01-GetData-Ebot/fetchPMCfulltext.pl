@@ -79,7 +79,7 @@ my $base = "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/";
 #*************************************************************
 #** SCRIPT MAIN BODY *****************************************
 
-$params{email} = "hhchou@iastate.edu";
+$params{email} = "jenchang@iastate.edu";
 $params{db} = "pmc";
 $params{tool} = "ebot";
 $params{id} = $ARGV[0]; #"small.txt";

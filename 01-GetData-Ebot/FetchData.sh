@@ -19,6 +19,6 @@ do
     echo "Searching Pubmed Central between 1996 and 2016: $TERM"
     perl searchPMCBtwnPubDates.pl $TERM $OUTDIR/$TERM-pmcids.txt
     wc -l $OUTDIR/$TERM-pmcids.txt
-    perl fetchPMCfulltext.pl $OUTDIR/$TERM-pmcids.txt $OUTDIR/$TERM-fulltext.xml
+    perl warpAroundfetchPMCfulltext.pl $OUTDIR/$TERM-pmcids.txt $OUTDIR/$TERM-fulltext.xml
 done
 

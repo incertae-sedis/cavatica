@@ -79,7 +79,7 @@ my $base = "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/";
 #*************************************************************
 #** SCRIPT MAIN BODY *****************************************
 
-$params{maxdate} = "2016/01/01";
+$params{maxdate} = "2017/01/01";
 $params{email} = "jenchang@iastate.edu";
 $params{db} = "pmc";
 $params{mindate} = "1996/01/01";
