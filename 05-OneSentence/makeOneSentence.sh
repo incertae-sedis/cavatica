@@ -18,6 +18,7 @@ do
     wc -l $INDIR/${TERM}-pmids.txt
     wc -l ${TERM}-pmcid.txt
     wc -l $INDIR/${TERM}-pmcids.txt
+    wc -l $INDIR/${TERM}-pmc-papers.tsv
     echo " ${TERM}.html saved"
     echo " ${TERM}-full.html saved"
 done
