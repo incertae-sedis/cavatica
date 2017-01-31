@@ -9,7 +9,8 @@ dimwidth <- 8         # par("din")[1]  #figure dimensions
 dimheight<- 4.916     # par("din")[2]
 # =================================== Start Analysis
 suppressMessages(terms <- read_delim("../config.txt",","))        # faster
-query_term="Pathway+Studio"
+#query_term="Pathway+Studio"
+#query_term="Ingenuity+Pathway+Analysis"
 for(query_term in terms$term){
   print(paste("Loading: ",query_term))
   suppressMessages(data<-read_delim(paste("../DATA/",query_term,"-pmc-papers.tsv",sep=""),"\t"))
