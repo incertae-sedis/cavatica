@@ -66,7 +66,7 @@ while (<>) {
   } elsif (/<\/body>/) {
     chomp;
     $text .= $_;
-    my $copy = lc $text;
+    my $copy = $text; #lc $text;
     my $count = () = $copy =~ /$keyword/g;
     $count -= () = $copy =~ /\.$keyword\./g; # uncount cases like www.cytoscape.org
     $first = 1;
