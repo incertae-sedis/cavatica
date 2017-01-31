@@ -24,7 +24,7 @@ names(g)<-terms$term
 
 for(i in 1:nrow(terms)){
   query_term<-terms$term[i]
-  suppressMessages(data<-read_delim(paste("../DATA/",query_term,"-authors.tsv",sep=""),"\t"))
+  suppressMessages(data<-read_delim(paste("../DATA/",query_term,"-pmc-authors.tsv",sep=""),"\t"))
   g[[query_term]] <- edge2graph(data[,1:2])
 }
 
