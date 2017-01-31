@@ -1,5 +1,5 @@
 foreach link in temp set _text=in._text;
-export("mult.tsv","tsv",temp);
+export("mult2.tsv","tsv",temp);
 
 foreach node in c set _text=(Cytoscape+Gephi+GraphLab+GraphViz+Ingenuity+Neo4j+Pathway+VisANT+iGraph);
 

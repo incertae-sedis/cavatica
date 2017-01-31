@@ -17,3 +17,4 @@ foreach node in c set _z=_z+8;
 c.+=Ingenuity;
 foreach node in c set _z=_z-16;
 foreach link in c where in._z!=out._z set _b=0.8,_width=0.2;
+foreach node in c set _text="";
