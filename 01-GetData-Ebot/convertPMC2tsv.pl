@@ -28,14 +28,17 @@ while (<>) {
     @authors = ( );
     %affiliations = ( );
     $article_c++;
-  } elsif (/<article-id pub-id-type=\"pmc\">(\d+)<\/article-id>/ && length($pmcid)==0) {
+  } 
+  if (/<article-id pub-id-type=\"pmc\">(\d+)<\/article-id>/ && length($pmcid)==0) {
     $pmcid = $1;
     #print STDERR "$pmcid\n";
     $pmcid_c++;
-  } elsif (/<article-id pub-id-type=\"pmid\">(\d+)<\/article-id>/ && length($pmid)==0) {
+  } 
+  if (/<article-id pub-id-type=\"pmid\">(\d+)<\/article-id>/ && length($pmid)==0) {
     $pmid = $1;
     $pmid_c++;
-  } elsif (/<article-title>/ && length($title)==0) {
+  } 
+  if (/<article-title>/ && length($title)==0) {
     chomp;
     $title = $_;
     while ($_ !~ /<\/article-title>/) {
@@ -46,7 +49,8 @@ while (<>) {
     $title =~ /<article-title>(.+)<\/article-title>/;
     $title = $1;
     $title_c++;
-  } elsif (/<contrib .*contrib-type=\"author\"/) {
+  } 
+  if (/<contrib .*contrib-type=\"author\"/) {
     my @a;
     while ($_ !~ /<\/contrib>/) {
       $a[1] = $1 if /<surname>(.+?)<\/surname>/;
@@ -60,7 +64,8 @@ while (<>) {
     } else {
       push @authors, \@a;
     }
-  } elsif (/<aff id=\".+?\"/) {
+  } 
+  if (/<aff id=\".+?\"/) {
     chomp;
     my ($i, $a) = ( "", $_);
     while ($_ !~ /<\/aff>/) {
@@ -74,9 +79,11 @@ while (<>) {
     $a =~ s/<email>.*<\/email>//g; # uncomment this line if you want email addresses removed
     $a =~ s/<.+?>//g; # uncomment this line if you want HTML markups removed, too
     $affiliations{$i} = $a;
-  } elsif (/<aff>(.+?)<\/aff>/) {
+  } 
+  if (/<aff>(.+?)<\/aff>/) {
     $shared_aff = $1;
-  } elsif (/<pub-date .*?(pub-type=\"[pe]pub\"|date-type=\"pub\")/ && length($year)==0) {
+  } 
+  if (/<pub-date .*?(pub-type=\"[pe]pub\"|date-type=\"pub\")/ && length($year)==0) {
     while (1) {
       if (/<year.*?>(\d+)<\/year/) {
 	$year = $1;
@@ -87,10 +94,12 @@ while (<>) {
       }
       $_ = <>;
     }
-  } elsif (/<body>/ && defined($text)) {
+  } 
+  if (/<body>/ && defined($text)) {
     chomp;
     $text = $_;
-  } elsif (/<\/body>/ && defined($text)) {
+  } 
+  if (/<\/body>/ && defined($text)) {
     chomp;
     $text .= $_;
     my $copy = lc $text; # drop 'lc' for case sensitive search
@@ -133,7 +142,8 @@ while (<>) {
     }
     undef $text;
     $text_c++;
-  } elsif (defined($text)) {
+  } 
+  if (defined($text)) {
     chomp;
     $text .= $_;
   }
