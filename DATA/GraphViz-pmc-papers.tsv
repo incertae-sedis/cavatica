@@ -1,0 +1,350 @@
+pmid	year	count	title	otherid
+5178346	2016	1	<monospace>Seqenv</monospace>: linking sequences to environments through text mining	28028456
+5103826	2016	1	RGFA: powerful and convenient handling of assembly graphs	27843717
+5129702	2016	1	PLAT: An Automated Fault and Behavioural Anomaly Detection Tool for PLC Controlled Manufacturing Systems	27974882
+5085095	2016	1	Heritable DNA Methylation in CD4<sup>+</sup> Cells among Complex Families Displays Genetic and Non-Genetic Effects	27792787
+5105883	2016	52	dot-app: a Graphviz-Cytoscape conversion plug-in	27853520
+5071336	2016	1	A Foxp2 Mutation Implicated in Human Speech Deficits Alters Sequencing of Ultrasonic Vocalizations in Adult Male Mice	27812326
+5089131	2016	1	CoNet app: inference of biological association networks using Cytoscape	27853510
+5051932	2016	1	Modelling Creativity: Identifying Key Components through a Corpus-Based Approach	27706185
+5048203	2016	1	Connectomics-based structural network alterations in obsessive-compulsive disorder	27598966
+5008583	2016	2	Genome-wide DNA methylation profiling and its involved molecular pathways from one individual with thyroid malignant/benign tumor and hyperplasia	27583899
+4982630	2016	2	Analysis of <italic>Mycobacterium tuberculosis</italic> Genotypic Lineage Distribution in Chile and Neighboring Countries	27518286
+4971676	2016	1	Mango: combining and analyzing heterogeneous biological networks	27489569
+4985287	2016	1	Adaptation in protein fitness landscapes is facilitated by indirect paths	27391790
+4928784	2016	1	FISHtrees 3.0: Tumor Phylogenetics Using a Ploidy Probe	27362268
+5018370	2016	1	MIA: non-targeted mass isotopolome analysis	27273671
+4869388	2016	1	CINOEDV: a co-information based method for detecting and visualizing <italic>n</italic>-order epistatic interactions	27184783
+4825623	2016	1	Learning from Co-expression Networks: Possibilities and Challenges	27092161
+4824424	2016	2	A Knowledge-Based System for Display and Prediction of <italic>O</italic>-Glycosylation Network Behaviour in Response to Enzyme Knockouts	27054587
+4823825	2016	1	Spatial and temporal homogeneity of driver mutations in diffuse intrinsic pontine glioma	27048880
+4820913	2016	1	The systems biology format converter	27044654
+4911943	2016	1	Two Influential Primate Classifications Logically Aligned	27009895
+4780814	2016	1	Analysis of the Structure of Surgical Activity for a Suturing and Knot-Tying Task	26950551
+4761173	2016	1	Molecular foundations of chilling-tolerance of modern maize	26897027
+4757102	2016	1	Comprehensive Map of Molecules Implicated in Obesity	26886906
+4736182	2016	1	End-to-end automated microfluidic platform for synthetic biology: from design to functional analysis	26839585
+4810238	2016	1	Regulation of Expression and Evolution of Genes in Plastids of Rhodophytic Branch	26840333
+4734150	2016	1	RNA-seq analysis of impact of PNN on gene expression and alternative splicing in corneal epithelial cells	26900324
+4711071	2016	1	Aligning the unalignable: bacteriophage whole genome alignments	26757899
+4743151	2015	1	CausalTrail: Testing hypothesis using causal Bayesian networks	26913195
+4669170	2015	3	SBOL Visual: A Graphical Language for Genetic Designs	26633141
+4702909	2016	2	Aging Chart: a community resource for rapid exploratory pathway analysis of age-related processes	26602690
+4803388	2016	3	Annotation of rule-based models with formal semantics to enable creation, analysis, reuse and visualization	26559508
+5028899	2015	4	Attractor-Based Obstructions to Growth in Homogeneous Cyclic Boolean Automata	27660398
+4642046	2015	4	TEES 2.2: Biomedical Event Extraction for Diverse Corpora	26551925
+4620995	2015	1	<italic>In Silico</italic> Gene Regulatory Network of the Maurer&#x2019;s Cleft Pathway in <italic>Plasmodium falciparum</italic>	26526876
+4743622	2016	2	An algorithm to detect and communicate the differences in computational models describing biological systems	26490504
+4569291	2015	1	Prospective Optimization with Limited Resources	26367309
+4534355	2015	2	Distilling a Visual Network of Retinitis Pigmentosa Gene-Protein Interactions to Uncover New Disease Candidates	26267445
+4973823	2015	1	Constructing, conducting and interpreting animal social network analysis	26172345
+4485340	2015	1	Ambiguity and variability of database and software names in bioinformatics	26131352
+4462051	2015	1	Modelling the Transport of Nanoparticles under Blood Flow using an Agent-based Approach	26058969
+4602057	2015	1	Visual annotation display (VLAD): a tool for finding functional themes in lists of genes	26047590
+4447287	2015	2	Network Reconstruction Based on Proteomic Data and Prior Knowledge of Protein Connectivity Using Graph Theory	26020784
+4491883	2015	1	NetworkPainter: dynamic intracellular pathway animation in Cytobank	26003204
+4427507	2015	1	BrainSignals Revisited: Simplifying a Computational Model of Cerebral Physiology	25961297
+4424001	2015	2	Hierarchical Feedback Modules and Reaction Hubs in Cell Signaling Networks	25951347
+4416712	2015	2	Quantification of Interactions between Dynamic Cellular Network Functionalities by Cascaded Layering	25933116
+4423727	2015	1	Heterozygous genome assembly via binary classification of homologous sequence	25952609
+4423570	2015	1	An integrative framework for the identification of double minute chromosomes using next generation sequencing data	25953282
+4392734	2015	1	Wormpath: searching for molecular interaction networks in <italic>Caenorhabditis elegans</italic>	25866556
+4383150	2015	1	Male mice song syntax depends on social contexts and influences female preferences	25883559
+4381105	2015	1	BioSurfDB: knowledge and algorithms to support biosurfactants and biodegradation studies	25833955
+4368792	2015	1	GRYFUN: A Web Application for GO Term Annotation Visualization and Analysis in Protein Sets	25794277
+4409855	2015	21	Open source libraries and frameworks for biological data visualisation: A guide for developers	25475079
+4263714	2014	1	Study of <italic>Mycobacterium tuberculosis</italic> Complex Genotypic Diversity in Malaysia Reveals a Predominance of Ancestral East-African-Indian Lineage with a Malaysia-Specific Signature	25502956
+4271363	2014	1	Pathomx: an interactive workflow-based tool for the analysis of metabolomic data	25490956
+4260790	2014	1	Characterization of the Genetic Diversity of Extensively-Drug Resistant <italic>Mycobacterium tuberculosis</italic> Clinical Isolates from Pulmonary Tuberculosis Patients in Peru	25489950
+4986451	2014	1	Diversity and Variability of NOD-Like Receptors in Fungi	25398782
+4254287	2014	1	Seasonal Patterns of Mixed Species Groups in Large East African Mammals	25470495
+4253998	2014	1	QTLs associated with dry matter intake, metabolic mid-test weight, growth and feed efficiency have little overlap across 4 beef cattle studies	25410110
+4236011	2014	1	CollaborationViz: Interactive Visual Exploration of Biomedical Research Collaboration Networks	25405477
+4383881	2015	2	Proteome TopFIND 3.0 with TopFINDer and PathFINDer: database and analysis tools for the association of protein termini to pre- and post-translational events	25332401
+4341016	2014	1	Men Who Have Sex with Men in Mozambique: Identifying a Hidden Population at High-risk for HIV	25234252
+4170814	2014	1	Curation and Analysis of Multitargeting Agents forPolypharmacological Modeling	25133604
+4133633	2014	3	Helium: visualization of large scale plant pedigrees	25085009
+4124153	2014	2	The BiSciCol Triplifier: bringing biodiversity data to the Semantic Web	25073721
+4108374	2014	1	Mining TCGA Data Using Boolean Implications	25054200
+4094451	2014	4	NetworkViewer: visualizing biochemical reaction networks with embedded rendering of molecular interaction rules	24934175
+4062771	2014	1	Pulmonary alveolar proteinosis in children on La R&#xE9;union Island: a new inherited disorder?	24927752
+4070555	2014	1	REGNET: mining context-specific human transcription networks using composite genomic information	24912499
+4102727	2014	1	Large-effect pleiotropic or closely linked QTL segregate within and across ten US cattle breeds	24906442
+4229970	2014	6	From sequence to enzyme mechanism using multi-label machine learning	24885296
+4086138	2014	1	TogoTable: cross-database annotation system using the Resource Description Framework (RDF) data model	24829452
+4021136	2014	1	Computational identification of potential multitarget treatments for ameliorating the adverse effects of amyloid-&#x3B2; on synaptic plasticity	24847263
+4014419	2014	1	Epistatically Interacting Substitutions Are Enriched during Adaptive Protein Evolution	24811236
+4017807	2014	2	EndoNet: an information resource about the intercellular signaling network	24758335
+3991582	2014	2	Population Structure among <italic>Mycobacterium tuberculosis</italic> Isolates from Pulmonary Tuberculosis Patients in Colombia	24747767
+4009162	2014	2	Modeling and Visualizing Cell Type Switching	24834107
+4018516	2014	1	Genome-wide transcriptomic analysis of response to low temperature reveals candidate genes determining divergent cold-sensitivity of maize inbred lines	24623520
+4102619	2014	1	High <italic>Rhodotorula</italic> sequences in skin transcriptome of patients with diffuse systemic sclerosis	24608988
+3948430	2014	1	YTRP: a repository for yeast transcriptional regulatory pathways	24608172
+3966356	2014	1	Strain Diversity of <italic>Mycobacterium tuberculosis</italic> Isolates from Pulmonary Tuberculosis Patients in Afar Pastoral Region of Ethiopia	24734230
+3958686	2014	1	Genetic Biodiversity of Italian Olives (<italic>Olea europaea</italic>) Germplasm Analyzed by SSR Markers	24723801
+3969750	2014	1	Pathogens and host immunity in the ancient human oral cavity	24562188
+4001443	2014	3	Long-distance gene flow outweighs a century of local selection and prevents local adaptation in the Irish famine pathogen <italic>Phytophthora infestans</italic>	24822079
+3945768	2014	1	<italic>BioJS DAGViewer</italic>: A reusable JavaScript component for&#xA0;displaying directed graphs	24627804
+3967092	2014	1	The essential role of sugar metabolism in the acclimation response of <italic>Arabidopsis thaliana</italic> to high light intensities	24523502
+4009765	2014	11	R-Based Software for the Integration of Pathway Data into Bioinformatic Algorithms	24833336
+3922638	2014	1	Inferring clonal evolution of tumors from single nucleotide somatic mutations	24484323
+3903814	2014	1	Using single cell sequencing data to model the evolutionary history of a tumor	24460695
+3885437	2014	1	A Provisional Gene Regulatory Atlas for Mouse Heart Development	24421884
+3873426	2013	1	Molecular Epidemiology of Tuberculosis in Finland, 2008-2011	24386443
+3861357	2013	1	The Relationship between Economic Status, Knowledge on Dengue, Risk Perceptions and Practices	24349145
+3964979	2014	1	SCOP2 prototype: a new approach to protein structure mining	24293656
+3843720	2013	1	Pathotype and Genetic Diversity amongst Indian Isolates of <italic>Xanthomonas oryzae</italic> pv. <italic>oryzae</italic>	24312391
+3836729	2013	1	The Effects of Somatic Hypermutation on Neutralization and Binding in the PGT121 Family of Broadly Neutralizing HIV Antibodies	24278016
+4003408	2013	1	From Model Specification to Simulation of Biologically Constrained Networks of Spiking Neurons	24253973
+3817170	2013	1	Modeling the Structure of RNA Molecules with Small-Angle X-Ray Scattering Data	24223750
+3816297	2013	1	Provenance in bioinformatics workflows	24564294
+3852244	2013	1	A genome-wide MeSH-based literature mining system predicts implicit gene-to-gene relationships and networks	24555475
+3851320	2013	1	BinAligner: a heuristic method to align biological networks	24266981
+3789834	2013	1	Incorporating Motif Analysis into Gene Co-expression Networks Reveals Novel Modular Expression Pattern and New Signaling Pathways	24098147
+3901290	2013	1	A Comprehensive Workflow of Mass Spectrometry-Based Untargeted Metabolomics in Cancer Metabolic Biomarker Discovery Using Human Plasma and Urine	24958150
+3844597	2013	1	Novel drug-regulated transcriptional networks in brain reveal pharmacological properties of psychotropic drugs	24010892
+3846367	2013	3	Automated analysis of immunoglobulin genes from high-throughput sequencing: life without a template	23977981
+3765910	2013	1	Conversion of KEGG metabolic pathways to SBGN maps including automatic layout	23953132
+3972674	2013	1	Spatial Rule-Based Modeling: A Method and Its Application to the Human Mitotic Kinetochore	24709796
+3694964	2013	3	Regulation of Transcriptional Networks by PKC Isozymes: Identification of c-Rel as a Key Transcription Factor for PKC-Regulated Genes	23826267
+3713881	2013	1	Collection and Visualization of Dietary Behavior and Reasons for Eating Using Twitter	23796439
+3691179	2013	1	Genetic Diversity of <italic>Mycobacterium tuberculosis</italic> in Peru and Exploration of Phylogenetic Associations with Drug Resistance	23826083
+3747863	2013	2	Bioinformatic pipelines in Python with Leaf	23786315
+3692099	2013	1	PGMRA: a web server for (phenotype &#xD7; genotype) many-to-many relation analysis in GWAS	23761451
+3702256	2013	5	Pathview: an R/Bioconductor package for pathway-based data integration and visualization	23740750
+3662787	2013	1	IMSA: Integrated Metagenomic Sequence Analysis for Identification of Exogenous Reads in a Host Genomic Background	23717627
+3654441	2013	1	Stability-mediated epistasis constrains the evolution of an influenza protein	23682315
+3692125	2013	1	CMCompare webserver: comparing RNA families via covariance models	23640335
+3692080	2013	1	PlantGSEA: a gene set enrichment analysis toolkit for plant community	23632162
+3673213	2013	2	CellH5: a format for data exchange in high-content screening	23595665
+3644240	2013	1	A metabolite-centric view on flux distributions in genome-scale metabolic models	23587327
+3678297	2013	2	OptiMAS: A Decision Support Tool for Marker-Assisted Assembly of Diverse Alleles	23576670
+3606598	2013	1	Pearl millet [<italic>Pennisetum glaucum</italic> (L.) R. Br.] consensus linkage map constructed using four RIL mapping populations and newly developed EST-SSRs	23497368
+3820305	2013	1	Modeling to Optimize Terminal Stem Cell Differentiation	24278782
+3548679	2013	5	Visualization of protein interaction networks: problems and solutions	23368786
+4336120	2013	8	iPathCase<sup>KEGG</sup>: An iPad interface for KEGG metabolic pathways	25825656
+3605163	2013	3	Knowledge Driven Variable Selection (KDVS) &#x2013; a new approach to enrichment analysis of gene signatures obtained from high&#x2013;throughput data	23302187
+3605253	2013	1	Inference of dynamical gene-regulatory networks based on time-resolved multi-stimuli multi-experiment data applying NetGenerator V2.0	23280066
+3527363	2012	9	Managing biological complexity across orthologs with a visual knowledgebase of documented biomolecular interactions	23264875
+3522694	2012	1	Graph Based Study of Allergen Cross-Reactivity of Plant Lipid Transfer Proteins (LTPs) Using Microarray in a Multicenter Study	23272072
+3520928	2012	1	Discrete Kinetic Models from Funneled Energy Landscape Simulations	23251375
+3521384	2012	1	CMPF: Class-switching minimized pathfinding in metabolic networks	23282238
+3511476	2012	1	Genealogy-Based Methods for Inference of Historical Recombination and Gene Flow and Their Application in <italic>Saccharomyces cerevisiae</italic>	23226196
+3511450	2012	1	Non Linear Programming (NLP) Formulation for Quantitative Modeling of Protein Signal Transduction Pathways	23226239
+3531108	2013	4	RiceFREND: a platform for retrieving coexpressed gene networks in rice	23180784
+3610154	2012	2	VANTED v2: a framework for systems biology applications	23140568
+3605281	2012	1	CellNOptR: a flexible toolkit to train protein signaling networks to data using multiple logic formalisms	23079107
+3483157	2012	4	MetNet Online: a novel integrated resource for plant systems biology	23066841
+3471866	2012	1	Comparative Expression Profiles of Midgut Genes in Dengue Virus Refractory and Susceptible <italic>Aedes aegypti</italic> across Critical Period for Virus Infection	23077596
+3534586	2012	1	Constructive neutral evolution: exploring evolutionary theory&#x2019;s curious disconnect	23062217
+3465338	2012	1	Neurotree: A Collaborative, Graphical Database of the Academic Genealogy of Neuroscience	23071595
+3464212	2012	1	Genome Analyses of an Aggressive and Invasive Lineage of the Irish Potato Famine Pathogen	23055926
+3468381	2012	5	Bio.Phylo: A unified toolkit for processing, analyzing and visualizing phylogenetic trees in Biopython	22909249
+3519615	2012	1	CLAG: an unsupervised non hierarchical clustering algorithm handling biological data	23216858
+3413702	2012	2	PATHLOGIC-S: A Scalable Boolean Framework for Modelling Cellular Signalling	22879903
+3409126	2012	1	The Organelle Genomes of <italic>Hassawi</italic> Rice (<italic>Oryza sativa</italic> L.) and Its Hybrid in Saudi Arabia: Genome Variation, Rearrangement, and Origins	22870184
+3418642	2012	1	Multidimensional Scaling Applied to Histogram-Based DNA Analysis	22919286
+3386886	2012	1	Design preferences and cognitive styles: experimentation by automated website synthesis	22748000
+3698530	2012	4	<italic>In silico </italic>analysis of HLA associations with drug-induced liver injury: use of a HLA-genotyped DNA archive from healthy volunteers	22732016
+3364978	2012	2	Transcriptome Profiling of Citrus Fruit Response to Huanglongbing Disease	22675433
+3355334	2012	1	An eQTL biological data visualization challenge and approaches from the visualization community	22607587
+3514294	2012	1	CytoITMprobe: a network information flow plugin for Cytoscape	22587372
+3359715	2012	1	Inference of Tumor Phylogenies from Genomic Assays on Heterogeneous Samples	22654484
+3394266	2012	1	SurvNet: a web server for identifying network-based biomarkers that most correlate with patient survival data	22570412
+3355869	2012	1	Identification of a Gene Expression Signature Common to Distinct Cancer Pathways	22619501
+3338714	2012	4	Identification of Key Residues for pH Dependent Activation of Violaxanthin De-Epoxidase from <italic>Arabidopsis thaliana</italic>	22558195
+3446303	2012	5	RedeR: R/Bioconductor package for representing modular structures, nested networks and multiple levels of hierarchical associations	22531049
+3334670	2012	1	Data Mining in Networks of Differentially Expressed Genes during Sow Pregnancy	22532788
+3316585	2012	1	Formal Modeling and Analysis of the MAL-Associated Biological Regulatory Network: Insight into Cerebral Malaria	22479409
+3342218	2012	1	A multilevel layout algorithm for visualizing physical and genetic interaction networks, with emphasis on their modular organization	22448851
+3308169	2012	2	Ontology searching and browsing at the Rat Genome Database	22434847
+3314555	2012	1	AtPAN: an integrated system for reconstructing transcriptional regulatory networks in <italic>Arabidopsis thaliana</italic>	22397531
+3274560	2012	1	Characterisation of <italic>Clostridium difficile</italic> Hospital Ward&#x2013;Based Transmission Using Extensive Epidemiological Data and Molecular Typing	22346738
+3334586	2012	1	Uberon, an integrative multi-species anatomy ontology	22293552
+3293931	2011	1	Employing machine learning for reliable miRNA target identification in plants	22206472
+3232230	2011	1	A High Density Consensus Map of Rye (<italic>Secale cereale</italic> L.) Based on DArT Markers	22163026
+3245041	2012	1	MMDB: 3D structures and macromolecular interactions	22135289
+3287832	2011	1	Application of Bayesian network structure learning to identify causal variant SNPs from resequencing data	22373088
+3245167	2012	1	ProPortal: a resource for integrated systems biology of <italic>Prochlorococcus</italic> and its phage	22102570
+3245142	2012	1	IBIS (Inferred Biomolecular Interaction Server) reports, predicts and integrates multiple types of conserved interactions for proteins	22102591
+3216916	2011	1	Global Cross-Talk of Genes of the Mosquito <italic>Aedes aegypti</italic> in Response to Dengue Virus Infection	22102922
+3204613	2011	1	CELLPEDIA: a repository for human cell information for cell studies and differentiation analyses	22039163
+3195076	2011	2	Mainstreams of Horizontal Gene Exchange in Enterobacteria: Consideration of the Outbreak of Enterohemorrhagic <italic>E. coli</italic> O104:H4 in Germany in 2011	22022434
+3197509	2011	1	Medusa: A tool for exploring and clustering biological networks	21978489
+3283314	2011	1	A method for computing an inventory of metazoan mitochondrial gene order rearrangements	22151086
+3228539	2011	3	GOmotif: A web server for investigating the biological role of protein sequence motifs	21943350
+3215301	2011	1	Characterizing genetic interactions in human disease association studies using statistical epistasis networks	21910885
+3180464	2011	2	Agile parallel bioinformatics workflow management using Pwrake	21899774
+3167196	2011	1	The Cognitive Atlas: Toward a Knowledge Foundation for Cognitive Neuroscience	21922006
+3159964	2011	1	Nipype: A Flexible, Lightweight and Extensible Neuroimaging Data Processing Framework in Python	21897815
+3157397	2011	1	Rhythmic Diel Pattern of Gene Expression in Juvenile Maize Leaf	21858187
+3179964	2011	1	New algorithm improves fine structure of the barley consensus SNP map	21831315
+3145606	2011	1	Recombination and Population Structure in <italic>Salmonella enterica</italic>	21829375
+3144901	2011	1	Do Parents Recognize Autistic Deviant Behavior Long before Diagnosis? Taking into Account Interaction Using Computational Methods	21818320
+3154873	2011	3	ADAM: Analysis of Discrete Models of Biological Systems Using Computer Algebra	21774817
+3146886	2011	1	Inferring signalling networks from longitudinal data using sampling based approaches in the R-package 'ddepn'	21771315
+3142533	2011	2	InterMitoBase: An annotated database and analysis platform of protein-protein interactions for human mitochondria	21718467
+3225201	2011	1	Fusion of metabolomics and proteomics data for biomarkers discovery: case study on the experimental autoimmune encephalomyelitis	21696593
+3110499	2011	1	Cocos: Constructing multi-domain protein phylogenies	21686311
+3107214	2011	1	Inflammatory Gene Regulatory Networks in Amnion Cells Following                    Cytokine Stimulation: Translational Systems Approach to Modeling Human                    Parturition	21655103
+3213123	2011	1	Transcriptomic assessment of resistance to effects of an aryl hydrocarbon receptor (AHR) agonist in embryos of Atlantic killifish (<italic>Fundulus heteroclitus</italic>) from a marine Superfund site	21609454
+3102043	2011	1	SNiPlay: a web-based tool for detection, management and analysis of SNPs. Application to grapevine diversity projects	21545712
+3082765	2011	1	Emergence of Physiological Oscillation Frequencies in a Computer Model of Neocortex	21541305
+3125723	2011	6	The University of Minnesota Pathway Prediction System: multi-level prediction and visualization	21486753
+3061897	2011	2	MIR@NT@N: a framework integrating transcription factors, microRNAs and their targets to identify sub-network motifs in a meta-regulation network model	21375730
+3048376	2011	7	Training Signaling Pathway Maps to Biochemical Data with Constrained Fuzzy Logic: Quantitative Analysis of Liver Cell Responses to Inflammatory Stimuli	21408212
+3036712	2011	1	Analysis of the Transcriptional Program of Developing Induced Regulatory T Cells	21347372
+3032379	2011	1	Exploiting Statistical Methodologies and Controlled Vocabularies for Prioritized Functional Analysis of Genomic Experiments: the StRAnGER Web Application	21293737
+3024222	2011	1	Logical Development of the Cell Ontology	21208450
+3017751	2011	1	The Viking viewer for connectomics: scalable multi-user annotation and summarization of large volume data sets	21118201
+3037078	2011	1	OryzaExpress: An Integrated Database of Gene Expression Networks and Omics Annotations in Rice	21186175
+3000367	2010	1	A Scalable Approach for Discovering Conserved Active Subnetworks across Species	21170309
+3156954	2010	4	Constructing a fish metabolic network model	21114829
+2998519	2010	3	MetNetAPI: A flexible method to access and manipulate biological network data from MetNet	21083943
+2967744	2010	1	Multi-dimensional discovery of biomarker and phenotype complexes	21044361
+2964294	2010	1	N-P Co-Limitation of Primary Production and Response of Arthropods to N and P in Early Primary Succession on Mount St. Helens Volcano	21049006
+3026360	2010	1	Quail Genomics: a knowledgebase for Northern bobwhite	20946596
+2956103	2010	1	Practical Application of Toxicogenomics for Profiling Toxicant-Induced Biological Perturbations	20957103
+2946353	2010	1	MetNetGE: interactive views of biological networks and ontologies	20849585
+2932713	2010	1	Community Landscapes: An Integrative Approach to Determine Overlapping Network Module Hierarchy, Identify Key Nodes and Predict Network Dynamics	20824084
+3017783	2010	1	RoBuST: an integrated genomics resource for the root and bulb crop families Apiaceae and Alliaceae	20691054
+2997605	2010	1	HyperCAT: an extension of the SuperCAT database for global multi-scheme and multi-datatype phylogenetic analysis of the <italic>Bacillus cereus</italic> group population	20651034
+2926787	2010	1	Analysis of the copy number profiles of several tumor samples from the same patient reveals the successive steps in tumorigenesis	20649963
+2909219	2010	1	SOPRA: Scaffolding algorithm for paired reads via statistical optimization	20576136
+2898770	2010	2	Co-lethality studied as an asset against viral drug escape: the HIV protease case	20565756
+2896195	2010	1	SPOT: a web-based tool for using biological databases to prioritize SNPs after a genome-wide association study	20529875
+2997550	2010	1	Index-Free De Novo Assembly and Deconvolution of Mixed Mitochondrial Genomes	20624744
+2896117	2010	1	SOBA: sequence ontology bioinformatics analysis	20494974
+2896126	2010	1	MAGIA, a web-based tool for miRNA and Genes Integrated Analysis	20484379
+2896096	2010	1	DynaMod: dynamic functional modularity analysis	20460468
+2872004	2010	3	Arcadia: a visualization tool for metabolic pathways	20453003
+2896167	2010	1	agriGO: a GO analysis toolkit for the agricultural community	20435677
+2874806	2010	3	BiGG: a Biochemical Genetic and Genomic knowledgebase of large scale metabolic reconstructions	20426874
+2872655	2010	2	The Supertree Tool Kit	20377857
+2845581	2010	1	miRSel: Automated extraction of associations between microRNAs and genes from the biomedical literature	20233441
+2835740	2010	2	A PubMed-Wide Associational Study of Infectious Diseases	20224767
+2813256	2010	1	Identification of Crosstalk between Phosphoprotein Signaling Pathways in RAW 264.7 Macrophage Cells	20126526
+2825225	2010	2	LucidDraw: Efficiently visualizing complex biochemical networks within MATLAB	20074382
+2826331	2010	1	Phylogenetic comparative assembly	20047659
+2813854	2009	1	IRIS: a method for reverse engineering of regulatory relations in gene networks	20030818
+2788369	2009	2	MINER: exploratory analysis of gene interaction networks by machine learning from expression data	19958480
+3225860	2009	4	A metadata approach for clinical data management in translational genomics studies in breast cancer	19948017
+2784758	2009	11	HAMSTER: visualizing microarray experiments as a set of minimum spanning trees	19925686
+2791103	2009	1	Inferring branching pathways in genome-scale metabolic networks	19874610
+2776027	2009	1	Inferring within-patient HIV-1 evolutionary dynamics under anti-HIV therapy using serial virus samples with vSPA	19863822
+2762066	2009	6	Protopia: a protein-protein interaction tool	19828077
+2764712	2009	1	KEGGconverter: a tool for the in-silico modelling of metabolic networks of the KEGG Pathways database	19814801
+2808867	2010	1	3D-footprint: a database for the structural analysis of protein&#x2013;DNA complexes	19767616
+2736564	2009	1	Population Genetic Analysis Infers Migration Pathways of <italic>Phytophthora ramorum</italic> in US Nurseries	19774068
+2758837	2009	1	Dissecting the fission yeast regulatory network reveals phase-specific control elements of its cell cycle	19758441
+2761902	2009	6	Exploratory and inferential analysis of gene cluster neighborhood graphs	19751523
+2725318	2009	3	Evolutionary Triplet Models of Structured RNA	19714212
+2723048	2009	9	Visualizing Data Mining Results with the Brede Tools	19668704
+2988213	2009	1	Trends for nanotechnology development in China, Russia, and India	21170128
+2717919	2009	3	Interactive visualization of clusters in microarray data: an efficient tool for improved metabolic analysis of E. coli	19604371
+2720980	2009	4	BiGGEsTS: integrated environment for biclustering analysis of time series gene expression data	19583847
+2714316	2009	6	GOGrapher: A Python library for GO graph representation and analysis	19583843
+2747124	2009	1	Initial Implementation of a Comparative Data Analysis Ontology	19812726
+2712453	2009	1	BowTieBuilder: modeling signal transduction pathways	19566957
+2735661	2009	1	ITM Probe: analyzing information flow in protein networks	19561335
+2711083	2009	1	Computational analysis of the interaction between transcription factors and the predicted secreted proteome of the yeast <italic>Kluyveromyces lactis</italic>	19555482
+2697637	2009	1	iBarcode.org: web-based molecular biodiversity analysis	19534739
+2794349	2009	1	Constraint-based probabilistic learning of metabolic pathways from tomato volatiles	20046866
+2718524	2009	1	The Cell Cycle Ontology: an application ontology for the representation and integrated analysis of the cell cycle process	19480664
+2703900	2009	1	WebLab: a data-centric, knowledge-sharing bioinformatic platform	19465388
+2703976	2009	2	d-Omix: a mixer of generic protein domain analysis tools	19465389
+2689195	2009	3	SDRF2GRAPH &#x2013; a visualization tool of a spreadsheet-based description of experimental processes	19422683
+2688930	2009	1	FANTOM4 EdgeExpressDB: an integrated database of promoters, genes, microRNAs, expression dynamics and regulatory interactions	19374773
+2656534	2009	1	Functional correlation of bacterial LuxS with their quaternary associations: interface analysis of the structure networks	19243584
+2644678	2009	1	<italic>GOrilla</italic>: a tool for discovery and visualization of enriched GO terms in ranked gene lists	19192299
+2637233	2009	7	SNAVI: Desktop application for analysis and visualization of large-scale signaling networks	19154595
+2640387	2008	4	GeNESiS: gene network evolution simulation software	19087333
+2646195	2008	1	GT-Miner: a graph-theoretic data miner, viewer, and model processor	19255640
+2636684	2008	1	A survey of visualization tools for biological network analysis	19040716
+2620273	2008	1	Models of deletion for visualizing bacterial variation: an application to tuberculosis spoligotypes	19036166
+2639003	2009	4	AmiGO: online access to ontology and annotation data	19033274
+2686497	2009	1	PIPs: human protein&#x2013;protein interaction prediction database	18988626
+2601049	2008	1	The prediction of protein-protein interaction networks in rice blast fungus	18976500
+2988202	2008	3	Nano Mapper: an Internet knowledge mapping system for nanotechnology development	21170121
+2584015	2008	1	TCMGeneDIT: a database for associated traditional Chinese medicine, gene and disease information using text mining	18854039
+2686432	2009	1	PMAP: databases for analyzing proteolytic events and pathways	18842634
+2686461	2009	1	PID: the Pathway Interaction Database	18832364
+2638998	2009	1	MAGETabulator, a suite of tools to support the microarray data format MAGE-TAB	19038988
+2556685	2008	1	A human genome-wide library of local phylogeny predictions for whole-genome inference problems	18710563
+2493022	2008	6	Transcriptional regulatory network analysis during epithelial-mesenchymal transformation of retinal pigment epithelium	18682805
+2447880	2008	1	Prediction by Graph Theoretic Measures of Structural Effects in Proteins Arising from Non-Synonymous Single Nucleotide Polymorphisms	18654622
+2530881	2008	2	MetaRoute: fast search for relevant metabolic routes for interactive network navigation and visualization	18635573
+2424176	2008	1	Unraveling Protein Networks with Power Graph Analysis	18617988
+2718638	2008	2	Assessing the functional structure of genomic data	18586732
+2515154	2008	1	Meta-Analysis Approach identifies Candidate Genes and associated Molecular Networks for Type-2 Diabetes Mellitus	18590522
+2447754	2008	1	Comparative Pathway Analyzer&#x2014;a web server for comparative analysis, clustering and visualization of metabolic networks in multiple organisms	18539612
+2447789	2008	3	xREI: a phylo-grammar visualization webserver	18522975
+2423434	2008	1	Drug interaction prediction using ontology-driven hypothetical assertion framework for pathway generation followed by numerical simulation	18541046
+2447731	2008	3	Hubba: hub objects analyzer&#x2014;a framework of interactome hubs identification for network biology	18503085
+2447756	2008	1	GOEAST: a web-based software toolkit for Gene Ontology enrichment analysis	18487275
+2447767	2008	2	E3Miner: a text mining tool for ubiquitin-protein ligases	18483079
+2447783	2008	1	GeneCAT&#x2014;novel webtools that combine BLAST and co-expression analyses	18480120
+2447774	2008	2	GraphWeb: mining heterogeneous biological networks for gene modules with functional significance	18460544
+2324197	2008	1	An Analysis of the Abstracts Presented at the Annual Meetings of the Society for Neuroscience from 2001 to 2006	18446237
+2447728	2008	1	CoPub: a literature-based keyword enrichment tool for microarray data analysis	18442992
+2349298	2008	1	Monitoring the evolutionary aspect of the Gene Ontology to enhance predictability and usability	18426552
+2330044	2008	3	A perl package and an alignment tool for phylogenetic networks	18371228
+2323660	2008	1	The MoVIN server for the analysis of protein interaction networks	18387199
+2248622	2008	1	A Visual Data Mining Tool that Facilitates Reconstruction of Transcription Regulatory Networks	18320038
+2277412	2008	1	MADIBA: A web server toolkit for biological interpretation of Plasmodium and plant gene clusters	18307768
+2276318	2008	2	LSID Tester, a tool for testing Life Science Identifier resolution services	18282290
+2375118	2008	6	The Annotation, Mapping, Expression and Network (AMEN) suite of tools for molecular systems biology	18254954
+2238930	2008	1	PepCyber:P&#x223C;PEP: a database of human protein&#x2013;protein interactions mediated by phosphoprotein-binding domains	18160410
+2759121	2007	1	New Insights into the Genetic Regulation of Plasmodium Falciparum Obtained by Bayesian Modeling	19936084
+2238947	2008	1	EndoNet: an information resource about regulatory networks of cell-to-cell communication<xref ref-type="author-notes" rid="FN1"><sup>&#x2020;</sup></xref>	18045786
+2533588	2007	2	Neurobiologically Inspired Mobile Robot Navigation and Planning	18958274
+2228312	2007	1	Emergence and maintenance of functional modules in signaling pathways	17974002
+1995545	2007	9	Graphs in molecular biology	17903289
+1964534	2007	1	Metabolome Based Reaction Graphs of <italic>M. tuberculosis</italic> and <italic>M. leprae</italic>: A Comparative Network Analysis	17849010
+2001198	2007	1	Putative cold acclimation pathways in <italic>Arabidopsis thaliana </italic>identified by a combined analysis of mRNA co-expression patterns, promoter motifs and transcription factors	17764576
+2039856	2007	1	Prot&#xE9;g&#xE9;: A Tool for Managing and Using Terminology in Radiology Applications	17687607
+1988837	2007	2	Annotation and query of tissue microarray data using the NCI Thesaurus	17686183
+1963338	2007	1	An exploration of alternative visualisations of the basic helix-loop-helix protein interaction network	17683601
+2323235	2007	1	PHIDIAS: a pathogen-host interaction data integration and analysis system	17663773
+1940007	2007	1	EasyGO: Gene Ontology-based annotation and functional enrichment analysis tool for agronomical species	17645808
+2139992	2007	5	HBNG: Graph theory based visualization of hydrogen bond networks in protein structures	18084648
+1940024	2007	2	A transversal approach to predict gene product networks from ontology-based similarity	17605807
+1933187	2007	2	PathExpress: a web-based tool to identify relevant pathways in gene expression data	17586825
+1933130	2007	1	Structure SNP (StSNP): a web server for mapping and modeling nsSNPs on protein structures with linkage to metabolic pathways	17537826
+1933239	2007	1	MetaPath Online: a web server implementation of the network expansion algorithm	17483511
+1885848	2007	1	Biowep: a workflow enactment portal for bioinformatics applications	17430563
+1805499	2007	2	A UMLS-based spell checker for natural language processing in vaccine safety	17295907
+1899106	2007	2	SYSTOMONAS &#x2014; an integrated database for systems biology analysis of <italic>Pseudomonas</italic>	17202169
+1764472	2006	1	SPIDer: <italic>Saccharomyces </italic>protein-protein interaction database	17254300
+1751554	2007	1	Snap: an integrated SNP annotation platform	17135198
+1657047	2006	5	Inference of Splicing Regulatory Activities by Sequence Neighborhood Analysis	17121466
+1636673	2006	1	3D Complex: A Structural Classification of Protein Complexes	17112313
+1669780	2007	1	RegTransBase&#x2014;a database of regulatory sequences and interactions in a wide range of prokaryotic genomes	17142223
+1669773	2007	1	CutDB: a proteolytic event database	17142225
+1669749	2007	1	The SUPERFAMILY database in 2007: families and functions	17098927
+1705507	2006	1	Respondent-Driven Sampling of Injection Drug Users in Two U.S.&#x2013;Mexico Border Cities: Recruitment Dynamics and Impact on Estimates of HIV and Syphilis Prevalence	17072761
+1513268	2006	1	Extracting Gene Networks for Low-Dose Radiation Using Graph Theoretical Algorithms	16854212
+1539029	2006	1	BBP: <italic>Brucella </italic>genome annotation with literature mining and curation	16842628
+1538870	2006	1	AliWABA: alignment on the web through an A-Bruijn approach	16845083
+1538798	2006	1	JProGO: a novel tool for the functional interpretation of prokaryotic microarray data using Gene Ontology information	16845060
+1482722	2006	1	Combining evidence, biomedical literature and statistical dependence: new insights for functional annotation of gene sets	16674810
+1524990	2006	1	Exploration of biological network centralities with CentiBiN	16630347
+1810316	2006	1	A classification-based framework for predicting and analyzing gene regulatory response	16723008
+3525150	2006	2	Integrated analysis of genetic data with R	16460651
+1347483	2006	1	EndoNet: an information resource about endocrine networks	16381928
+1347447	2006	1	MODOMICS: a database of RNA modification pathways	16381833
+1414113	2005	1	Discovery of biological networks from diverse functional genomic data	16420673
+1208856	2005	2	stam &#x2013; a Bioconductor compliant R package for structured analysis of microarray data	16122395
+1190157	2005	1	GObar: A Gene Ontology based analysis and visualization tool for gene sets	16042800
+1637031	2005	1	A microarray study of MPP<sup>+</sup>-treated PC12 Cells: Mechanisms of toxicity (MOT) analysis using bioinformatics tools	16026605
+1160236	2005	2	WebGestalt: an integrated system for exploring gene sets in various biological contexts	15980575
+1160198	2005	4	Metabolic PathFinding: inferring relevant pathways in biochemical networks	15980483
+1160124	2005	1	Fragnostic: walking through protein structure space	15980462
+1174863	2005	1	CAGER: classification analysis of gene expression regulation using multiple information sources	15890068
+1087473	2005	3	Providing visualisation support for the analysis of anatomy ontology data	15790390
+550656	2005	6	Ontological visualization of protein-protein interactions	15707487
+545600	2004	2	Bioconductor: open software development for computational biology and bioinformatics	15461798
+368161	2004	3	Interaction Networks in Yeast Define and Enumerate the Signaling Steps of the Vertebrate Aryl Hydrocarbon Receptor	15024417
+395836	2004	1	<sc>COM</sc>e: the ontology of bioinorganic proteins	15113423
+373441	2004	1	GOTree Machine (GOTM): a web-based platform for interpreting sets of interesting genes using Gene Ontology hierarchies	14975175
+140019	2002	4	Preparation of name and address data for record linkage using hidden Markov models	12482326
