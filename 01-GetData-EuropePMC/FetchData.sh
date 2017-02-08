@@ -9,7 +9,7 @@ arr=`awk -F',' 'NR>1 {print $1}' ../config.txt`
 
 for TERM in $arr
 do	    
-    echo "Searching Europe PMC between 1996 and 2016: $TERM"
+    echo "Searching Europe PMC: $TERM"
     wget http://www.ebi.ac.uk/europepmc/webservices/rest/search?query=$TERM
 done
 
