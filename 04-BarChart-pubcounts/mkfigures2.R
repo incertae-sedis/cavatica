@@ -16,7 +16,7 @@ for(query_term in terms$term){
   suppressMessages(data<-read_delim(paste("../DATA/",query_term,"-pmc-papers.tsv",sep=""),"\t"))
   
   p<-qplot(data$year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
-    main=paste("PubMed Articles Central containing '",query_term,"'; n=",length(data$year),sep=""))+
+    main=paste("PubMed Central Articles containing '",query_term,"'; n=",length(data$year),sep=""))+
     scale_x_continuous(breaks=seq(1996,2016,1),limits=c(1995.5,2016.5))+
     theme_bw()+
     geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
