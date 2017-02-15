@@ -12,15 +12,15 @@ my $sum=0.0;
 my $dyear=0;
 
 my $papers=0;
-# when to print
-#  when new year except first year in community
-#  when new community
-#  end at last community
 
 sub printSum(){
-    print "  Sum: $count $lcount $dyear =",($count-$lcount)/$dyear,"\n";
-    $sum+=($count-$lcount)/$dyear;
-    $papers+=$count;
+    #    print "  Sum: $count $lcount $dyear =",($count-$lcount)/$dyear,"\n";
+    if($year!=2017){
+	print "  Sum: $count $year =",($count)/(2017-$year),"\n";
+	$sum+=($count)/(2017-$year);
+	#    $sum+=($count-$lcount)/$dyear;
+	$papers+=$count;
+    }
 }
 
 sub printTotal(){
@@ -30,7 +30,6 @@ sub printTotal(){
 while(<>){
     chomp;
     if(/^(\d+)\t(\d\d\d\d)\t/){
-
 	
 	if($com != $1){
 	    if($com>=0){
@@ -57,7 +56,6 @@ while(<>){
 	
 	print "$1\t$2\n";
     }
-    
 }
 
 if($com>=0){

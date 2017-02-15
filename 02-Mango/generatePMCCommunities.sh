@@ -29,7 +29,7 @@ do
     echo "auto temp2= select link from temp where in._text!=\"\";"
     echo "foreach link in temp2 set in._text=in._text.\":\".out.pmid;"
     echo "auto temp3=select node from temp2 where type==\"paper\";"
-    echo "export(\"${net}-community.tsv\",\"tsv\",temp3);"
+    echo "export(\"${net}-pmc-community.tsv\",\"tsv\",temp3);"
     echo ""
 done
 
