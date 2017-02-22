@@ -15,10 +15,10 @@ $ mv *.tsv ../DATA/.
 $ mv *.png ../IMG/.
 ```
 
-Example Barchart:
+## Example Barchart:
 <img src="https://github.com/j23414/cavatica/blob/master/IMG/Cytoscape-pubmedcounts.png" width="600" alt="Cytoscape">
 
-Citation for the RISmed R Package
+## Citation for the RISmed R Package
 ```
   Stephanie Kovalchik (2016). RISmed: Download Content from NCBI Databases. R package version 2.1.6.
   https://CRAN.R-project.org/package=RISmed
