@@ -1,5 +1,12 @@
 # Cavatica
-Multi-network analysis of network analysis papers and their software
+Multi-network analysis of network analysis papers and their software.
+
+The name comes from Charlotte's Web since her full name was Charlotte A. Cavatica. Although Cavatica also refers to barn spider.
+
+[List of Entrez Databases](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/einfo.fcgi)
+
+[EBot](http://www.ncbi.nlm.nih.gov/Class/PowerTools/eutils/ebot/ebot.cgi)
+
 
 ## Plan
 
@@ -9,16 +16,7 @@ Multi-network analysis of network analysis papers and their software
 
 -----
 
-The name comes from Charlotte's Web since her full name was Charlotte A. Cavatica. Although Cavatica also refers to barn spider.
-
-[List of Entrez Databases](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/einfo.fcgi)
-
-[EBot](http://www.ncbi.nlm.nih.gov/Class/PowerTools/eutils/ebot/ebot.cgi)
-
-
-       
-
-## Directory Description
+## OLD Directory Description (need to clean up)
 
 * **EbotScripts**: collection of scripts to fetch Pubmed and PubmedCentral data that matches a query term. Some scripts modified from NCBI Ebot.
 * **MkFigures**: from the fetched data, generate a histogram of paper counts by year using an Rscript and ggplot2.
