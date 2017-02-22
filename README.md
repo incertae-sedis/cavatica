@@ -1,7 +1,5 @@
 # Cavatica
-Multi-network analysis of network analysis papers and their software.
-
-The name comes from Charlotte's Web since her full name was Charlotte A. Cavatica. Although Cavatica also refers to barn spider.
+Multi-network analysis of network analysis papers and their software. The name comes from Charlotte's Web since her full name was Charlotte A. Cavatica. Although Cavatica also refers to barn spider.
 
 [List of Entrez Databases](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/einfo.fcgi)
 
@@ -11,8 +9,6 @@ The name comes from Charlotte's Web since her full name was Charlotte A. Cavatic
 ## Plan
 
 <img src="https://github.com/j23414/cavatica/blob/master/IMG/plan.png" width="600" alt="Plan">
-
-<img src="https://github.com/j23414/cavatica/blob/master/IMG/plan2.png" width="600" alt="Plan2">
 
 -----
 
