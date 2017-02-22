@@ -5,10 +5,13 @@ Multi-network analysis of network analysis papers and their software. The name c
 
 [EBot](http://www.ncbi.nlm.nih.gov/Class/PowerTools/eutils/ebot/ebot.cgi)
 
+Start by placing your query terms and year search range in **config.txt**. If you have a multi-term query, separate your terms with a `+` symbol. 
 
-## Plan
-
-<img src="https://github.com/j23414/cavatica/blob/master/IMG/plan.png" width="600" alt="Plan">
+```
+Ingenuity+Pathway,1996,2016
+Cytoscape,1996,2016
+...
+```
 
 -----
 
