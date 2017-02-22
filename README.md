@@ -1,9 +1,20 @@
 # Cavatica
-Multi-network analysis of network analysis papers and their software. The name comes from Charlotte's Web since her full name was Charlotte A. Cavatica. Although Cavatica also refers to barn spider.
+Code and pipeline for fetching PubMed and PubMed Central data and co-author network analysis. This tool can be used to identify author trends among several search terms. 
 
+An example, I've used these scripts to do a multi-network analysis of network analysis papers and their software. 
+[Wiki Page Here](https://github.com/j23414/cavatica/wiki)
+
+The name comes from Charlotte's Web since her full name was Charlotte A. Cavatica. Although Cavatica also refers to barn spider.
+
+## Pipeline
+
+<img src="https://github.com/j23414/cavatica/blob/master/IMG/plan.png" width="600" alt="Plan">
+
+<!--
 [List of Entrez Databases](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/einfo.fcgi)
 
 [EBot](http://www.ncbi.nlm.nih.gov/Class/PowerTools/eutils/ebot/ebot.cgi)
+-->
 
 ## Step One: Query Term(s)
 
