@@ -5,13 +5,41 @@ Multi-network analysis of network analysis papers and their software. The name c
 
 [EBot](http://www.ncbi.nlm.nih.gov/Class/PowerTools/eutils/ebot/ebot.cgi)
 
-Start by placing your query terms and year search range in **config.txt**. If you have a multi-term query, separate your terms with a `+` symbol. 
+## Step One: Query Term(s)
 
+Start by placing your query terms and year search range in **config.txt**. If you have a multi-term query, separate your terms with a `+` symbol. The first line of the config file is for ease of reading and will be ignored by the scripts.
+
+** Example config.txt file **
 ```
-Ingenuity+Pathway,1996,2016
+term,start,end
+Ingenuity+Pathway+Analysis,1996,2016
 Cytoscape,1996,2016
-...
+Pathway+Studio,1996,2016
+Gephi,1996,2016
+GraphViz,1996,2016
+VisANT,1996,2016
+Neo4j,1996,2016
+iGraph,1996,2016
+GraphLab,1996,2016
 ```
+
+## Step Two: Fetch Data
+
+Right now there are two options to fetch data from PubMed---Ebot and RISmed. I fyou wish to fetch data from PubMed Central as well, use Ebot.
+
+Depending on which method you choose, enter the **01-GetData-Ebot** or **01-GetData-RISmed** folder. Each of them have README's with instructions.
+
+Copy fetched authors and papers tabular datafiles into the DATA folder. 
+
+## Step Three: Verify Data
+
+If you used RISmed, then you already have barcharts. If you used Ebot, enter 04-BarChart-pubcounts to generate barcharts showing number of publication by year.
+
+Enter **05-OneSentence** to pull out sentences that contain your query term by paper in a html file. This helps manual filtering of many papers.
+
+## Step Four: Network Analysis
+
+Enter **02-Mango**. 3D visualization of networks. Multi-network addition. Identify multi-term authors. 
 
 -----
 
