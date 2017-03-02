@@ -48,6 +48,10 @@ If you used RISmed, then you already have barcharts. If you used Ebot, enter 04-
 
 Enter **05-OneSentence** to pull out sentences that contain your query term by paper in a html file. This helps manual filtering of many papers.
 
+**Example**: Searching Cytoscape papers for "Cytoscape" results in the following HTML file.
+
+<p><a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=28025995">28025995</a> Prediction of key genes and miRNAs responsible for loss of muscle force in patients during an acute exacerbation of chronic obstructive pulmonary disease.<ul><li>Additionally, key miRNAs were enriched using gene set enrichment analysis (GSEA) software and a miR-gene regulatory network was constructed using <b>Cytoscape</b> software. </ul></p><p><a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=28003598">28003598</a> An iTRAQ-based quantitative proteomics study of refractory mycoplasma pneumoniae pneumonia patients.<ul><li>Functional classification, sub-cellular localization, and protein interaction network were carried out based on PANTHER and <b>cytoscape</b> analysis. </ul></p><p><a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=28000890">28000890</a> Combined analysis of gene expression, miRNA expression and DNA methylation profiles of osteosarcoma.<ul><li>Besides, miRNA-gene regulation network was obtained based on the pairs of involved DEMIs and overlapping genes between DEMs and DEGs and visualized through <b>Cytoscape</b> software. </ul></p>
+
 ## Step Four: Network Analysis
 
 Enter **02-Mango**. 3D visualization of networks. Multi-network addition. Identify multi-term authors. 
