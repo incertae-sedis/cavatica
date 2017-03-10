@@ -3,6 +3,7 @@
 use strict;
 use warnings;
 
+# May need to change one letter codes
 my @tools=("C","J","P","V","G","N","I","L","Z");
 
 # filename = temp-big.tsv
