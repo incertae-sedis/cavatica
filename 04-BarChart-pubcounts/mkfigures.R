@@ -1,4 +1,7 @@
 #! /usr/bin/env Rscript
+
+args = commandArgs(trailingOnly=TRUE)
+
 # =================================== Libraries
 library(ggplot2)
 library(readr)
@@ -8,7 +11,15 @@ library(readr)
 dimwidth <- 8         # par("din")[1]  #figure dimensions
 dimheight<- 4.916     # par("din")[2]
 # =================================== Start Analysis
-suppressMessages(terms <- read_delim("../config.txt",","))        # faster
+
+if(length(args)==0){
+print("no args")
+suppressMessages(terms <- read_delim("../config.txt",","))        # faster	
+}else{
+print("args")
+terms<-data.frame(term=args) # Yay can take multiple arguments
+}
+
 
 for(query_term in terms$term){
   print(paste("Loading: ",query_term))
