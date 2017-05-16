@@ -8,8 +8,8 @@ library(readr)
 
 #par("din")[1]
 #par("din")[2]
-dimwidth <- 8         # par("din")[1]  #figure dimensions
-dimheight<- 4.916     # par("din")[2]
+dimwidth <- 19.05 # 8         # par("din")[1]  #figure dimensions
+dimheight<- 11.85 # 4.916     # par("din")[2]
 # =================================== Start Analysis
 
 if(length(args)==0){
@@ -21,6 +21,7 @@ terms<-data.frame(term=args) # Yay can take multiple arguments
 }
 
 
+#query_term="Cytoscape"
 for(query_term in terms$term){
   print(paste("Loading: ",query_term))
   suppressMessages(data<-read_delim(paste("../DATA/",query_term,"-papers.tsv",sep=""),"\t"))
@@ -41,7 +42,12 @@ for(query_term in terms$term){
       geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
       theme(axis.text.x = element_text(angle = 45, hjust = 1))
   }
-
-  ggsave(filename=paste(query_term,"-pubmedcounts.png",sep=""),plot=p,width=dimwidth,height=dimheight,dpi=600)
-  print(paste(" ",query_term,"-pubmedcounts.png saved",sep=""))
+  
+  # required dimensions for PLOS ONE
+  ggsave(filename=paste(query_term,"-pubmedcounts.tiff",sep=""), plot = p,
+         width = 19.05,height=11.85, units = "cm",
+         dpi = 300)
+  
+  #ggsave(filename=paste(query_term,"-pubmedcounts.png",sep=""),plot=p,width=dimwidth,height=dimheight,dpi=600)
+  print(paste(" ",query_term,"-pubmedcounts.tiff saved",sep=""))
 }

@@ -43,6 +43,11 @@ for(query_term in terms$term){
       theme(axis.text.x = element_text(angle = 45, hjust = 1))
   }
 
-  ggsave(filename=paste(query_term,"-full-pubmedcounts.png",sep=""),plot=p,width=dimwidth,height=dimheight,dpi=600)
-  print(paste(" ",query_term,"-full-pubmedcounts.png saved",sep=""))
+  # required dimensions for PLOS ONE
+  ggsave(filename=paste(query_term,"-full-pubmedcounts.tiff",sep=""), plot = p,
+         width = 19.05,height=11.85, units = "cm",
+         dpi = 300)
+  
+  #ggsave(filename=paste(query_term,"-full-pubmedcounts.png",sep=""),plot=p,width=dimwidth,height=dimheight,dpi=600)
+  print(paste(" ",query_term,"-full-pubmedcounts.tiff saved",sep=""))
 }
