@@ -4,8 +4,28 @@ use strict;
 use warnings;
 
 # May need to change one letter codes
-my @tools=("C","J","P","V","G","N","I","L","Z");
+#my @tools=("C","J","P","V","G","N","I","L","Z");
 
+# FIXED :D :D :D, use full name, however if one term is inside another term will still have problems
+my @tools=();
+my $fn="../config.txt";
+my $fh;
+open($fh, '<:encoding(UTF-8)',$fn)
+    or die "Could not open file '$fn' $!";
+
+while (<$fh>){
+    chomp;
+    if(/^term/){
+    }else{
+	my @temp=split(/,/,$_);
+	$temp[0] =~ s/\+/_/g;
+	#print $temp[0],"\n";
+	push @tools,$temp[0];
+    }
+}
+
+#my @tools=`awk -F',' 'NR>1 {print $1}' ../config.txt`;
+    
 # filename = temp-big.tsv
 my $count;
 my $left;

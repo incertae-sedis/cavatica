@@ -14,7 +14,7 @@ echo "node(nt) c_node;"
 
 for TERM in $arr
 do
-    net=`echo ${TERM} | sed 's/+/ /g' |awk '{print $1}'`
+    net=`echo ${TERM} | sed 's/+/_/g' |awk '{print $1}'`
     echo "node(nt, int ${net}_I) nnt;"
     echo "node(c_node,nnt) c_node;"
     echo "graph(nnt,lt) $net=import(\"$INDIR/$TERM-pmc-papers.tsv\",\"\t\");"
@@ -41,7 +41,7 @@ item="0"
 # Create Combined Graph
 for TERM in $arr
 do    
-    net=`echo $TERM | sed 's/+/ /g' |awk '{print $1}'`
+    net=`echo $TERM | sed 's/+/_/g' |awk '{print $1}'`
     item="$item+${net}_I"
     echo "c.+=$net;"
     echo "foreach node in c set _z=_z-8;"
@@ -56,7 +56,7 @@ echo "auto mul=select link from c where out.sum>1;"
 echo "foreach node in mul where type==\"paper\" set _text=year.\":\";"
 for TERM in $arr
 do
-    net=`echo $TERM | sed 's/+/ /g' | awk '{print $1}'`
+    net=`echo $TERM | sed 's/+/_/g' | awk '{print $1}'`
     echo "foreach node in mul where type==\"paper\" && ${net}_I==1 set _text=_text.\"$net\";"
 done
 
