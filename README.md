@@ -49,7 +49,6 @@ After editing the config.txt to list all search terms, **basicrun1.sh** will:
 * Fetch PubMed and PubMed Central Search Results
 * Convert PubMed and PubMed Central XML to author and paper tsv files
 * Generate the Mango gel scripts for the dataset
-* Identify multi-term authors and save their subnetwork in **multitool-pubmed.tsv** and **multitool-pmc.tsv**
 
 ```
 $ ./basicrun1.sh
@@ -61,10 +60,9 @@ Open Mango Graph Studio. From there, open **02-Mango/pubmed.gel** and run the ge
 run "pubmed.gel";
 run "pmc.gel";
 ```
+* Mango Graph Studio identifies multi-term authors and saves their subnetwork in **multitool-pubmed.tsv** and **multitool-pmc.tsv**
 
-* generates the multitool-pubmed.tsv and multitool-pmc.tsv files
-
-Print out the transition table by running **basicrun2.sh**
+From the multitool network files, calculate and print out the transition table by running **basicrun2.sh**
 
 ```
 $ ./basicrun2.sh
@@ -78,11 +76,11 @@ Depending on which method you choose, enter the **01-GetData-Ebot** or **01-GetD
 
 Copy fetched authors and papers tabular datafiles into the DATA folder. 
 
-## Step Three: Verify Data
+## Step Three: Verify Data (optional)
 
 If you used RISmed, then you already have barcharts. If you used Ebot, enter 04-BarChart-pubcounts to generate barcharts showing number of publication by year.
 
-Enter **05-OneSentence** to pull out sentences that contain your query term by paper in a html file. This helps manual filtering of many papers.
+Enter **05-OneSentence** to pull out sentences that contain your query term by paper in a html file. This helps manual filtering of many papers. This step is optional and only provided to help human curation of the data. This step is not necessary to run the pipeline and generate the final transition table. 
 
 **Example**: Searching Cytoscape papers for "Cytoscape" results in the following HTML file.
 
