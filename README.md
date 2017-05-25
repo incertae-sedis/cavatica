@@ -67,6 +67,32 @@ From the multitool network files, calculate and print out the transition table b
 ```
 $ ./basicrun2.sh
 ```
+**Example Transitions Output**
+
+Here is an example output when using search terms Gephi, GraphViz, Neo4j, iGraph, and GraphLab. Term transitions are listed FROM:TO and number of transitions.
+
+```
+=============PubMed Transitions
+1 transitions
+Neo4j:Gephi 1
+Neo4j:GraphViz 1
+Neo4j:iGraph 1
+=============PubMed Central Transitions
+182 transitions
+Gephi:GraphViz 2
+Gephi:Neo4j 3
+Gephi:iGraph 31
+GraphViz:Gephi 19
+GraphViz:Neo4j 10
+GraphViz:iGraph 58
+Neo4j:Gephi 4
+Neo4j:GraphViz 4
+Neo4j:iGraph 1
+iGraph:Gephi 34
+iGraph:GraphViz 9
+iGraph:Neo4j 13
+```
+To improve the data quality and have a more accurate transition table, it is recommended to do **Step 3** listed below: verify data. However, that step is not required.
 
 ## Step Two: Fetch Data
 
