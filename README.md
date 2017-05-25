@@ -42,6 +42,34 @@ iGraph,1996,2016
 GraphLab,1996,2016
 ```
 
+## NEW: Automatic Transition Table
+
+After editing the config.txt to list all search terms, **basicrun1.sh** will:
+
+* Fetch PubMed and PubMed Central Search Results
+* Convert PubMed and PubMed Central XML to author and paper tsv files
+* Generate the Mango gel scripts for the dataset
+* Identify multi-term authors and save their subnetwork in **multitool-pubmed.tsv** and **multitool-pmc.tsv**
+
+```
+$ ./basicrun1.sh
+```
+
+Open Mango Graph Studio. From there, open **02-Mango/pubmed.gel** and run the generated gel scripts by typing the following into the console.
+
+```
+run "pubmed.gel";
+run "pmc.gel";
+```
+
+* generates the multitool-pubmed.tsv and multitool-pmc.tsv files
+
+Print out the transition table by running **basicrun2.sh**
+
+```
+$ ./basicrun2.sh
+```
+
 ## Step Two: Fetch Data
 
 Right now there are two options to fetch data from PubMed---Ebot and RISmed. I fyou wish to fetch data from PubMed Central as well, use Ebot.
