@@ -10,21 +10,25 @@ $ .generateGel.sh > loadPubMed.gel
 Open **Mango**, click on console and run
 
 ```
-run "loadPubMed.gel";
+run "pubmed.gel";
+run "pmc.gel";
 ```
 
-However it's best if you open the gel file in Mango, and change the multi-labels to one letter codes. Right now it is labeling papers with full name of query term. The same one letter codes should be used in **hack.pl** script later.
+These scripts load and merge multiple network files, identifies multi-term authors and exports the corresponding multi-term subnetwork as:
 
-This will display a starting visualization for each network, merge all networks, identify multi-term authors, and export multi-term author information as **multitool-pubmed.tsv**. The exported file can then be used to create the transition matrix.
+* multitool-pubmed.tsv
+* multitool-pmc.tsv
 
-**Right now the transition matrix is created by hack.pl where single letter codes are hard-coded. Need to make this more general purpose.**
+The tsv files are the input for basicrun2.pl in order to generate the author adoption table.
 
-For now open **hack.pl** and change the one letter codes.
+If you want to visualize the co-authorship publication network, it is highly recommended that you open the "pubmed.gel" or "pmc.gel" scripts, comment out the export command, and change the labeles from the full terms to one letter codes for ease of reading. 
+
+The exported tsv files can then be used to create the transition matrix.
 
 ```
 $ bash counttrends.sh multitool-pubmed.tsv 
 ```
 
-Citation information
+Citation information for Mango Graph Studio
 
 [Chang, J., Cho, H., and Chou, H., "Mango: combining and analyzing heterogeneous biological networks", BioData Mining, August 2016](http://rdcu.be/nv2u)
