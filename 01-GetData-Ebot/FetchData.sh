@@ -23,22 +23,26 @@ do
     echo "Searching Pubmed between 1996 and 2016: $TERM"
     echo "Searching Pubmed between 1996 and 2016: $TERM" >> $OUTDIR/logfile.txt
    
-    perl searchPubmedBtwnPubDates.pl $TERM $OUTDIR/$TERM-pmids.txt
+#    perl searchPubmedBtwnPubDates.pl $TERM $OUTDIR/$TERM-pmids.txt
+    bash pubmed_ids.sh $TERM > $OUTDIR/$TERM-pmids.txt
     wc -l $OUTDIR/$TERM-pmids.txt
     wc -l $OUTDIR/$TERM-pmids.txt >> $OUTDIR/logfile.txt
     
     echo "    if number of ids is greater than 500, this may take a few minutes. Please be patient."
-    perl warpAroundfetchPubmedData.pl $OUTDIR/$TERM-pmids.txt $OUTDIR/$TERM-pubmed.xml > /dev/null # stops the pubmed script reporting messages, fetches 500 records at a time
+#    perl warpAroundfetchPubmedData.pl $OUTDIR/$TERM-pmids.txt $OUTDIR/$TERM-pubmed.xml > /dev/null # stops the pubmed script reporting messages, fetches 500 records at a time
+    bash pubmed_xml.sh $OUTDIR/$TERM-pmids.txt > $OUTDIR/$TERM-pubmed.xml 
     perl convert2tsv.pl $OUTDIR/$TERM-pubmed.xml > $OUTDIR/$TERM-papers.tsv
     perl getPM2Author.pl $OUTDIR/$TERM-pubmed.xml > $OUTDIR/$TERM-authors.tsv
 
     echo "Searching Pubmed Central between 1996 and 2016: $TERM"
     echo "Searching Pubmed Central between 1996 and 2016: $TERM" >> $OUTDIR/logfile.txt
-    perl searchPMCBtwnPubDates.pl $TERM $OUTDIR/$TERM-pmcids.txt
+#    perl searchPMCBtwnPubDates.pl $TERM $OUTDIR/$TERM-pmcids.txt
+    bash pmc_ids.sh $TERM > $OUTDIR/$TERM-pmcids.txt
     wc -l $OUTDIR/$TERM-pmcids.txt
     wc -l $OUTDIR/$TERM-pmcids.txt >> $OUTDIR/logfile.txt
     echo "    if number of ids is greater than 500, this may take a few minutes. Please be patient."
-    perl warpAroundfetchPMCfulltext.pl $OUTDIR/$TERM-pmcids.txt $OUTDIR/$TERM-fulltext.xml > /dev/null
+#    perl warpAroundfetchPMCfulltext.pl $OUTDIR/$TERM-pmcids.txt $OUTDIR/$TERM-fulltext.xml > /dev/null
+    bash pmc_xml.sh $OUTDIR/$TERM-pmcids.txt > $OUTDIR/$TERM-fulltext.xml
     KEYWORD=`echo $TERM | sed 's/+/ /g'`
     perl convertPMC2tsv.pl "$KEYWORD" $OUTDIR/$TERM-pmc-papers.tsv $OUTDIR/$TERM-pmc-authors.tsv $OUTDIR/$TERM-fulltext.xml 2> /dev/null # silence if there's incomplete author information
     wc -l $OUTDIR/$TERM-*.tsv
