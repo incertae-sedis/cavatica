@@ -35,3 +35,6 @@ then
 fi
 # ======================= printout all the fetched pubmed XML
 cat .pmtmp/*.xml 
+
+# ======================= cleanup
+[[ -d .pmtmp ]] && rm -rf .pmtmp

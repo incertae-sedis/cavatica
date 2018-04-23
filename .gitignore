@@ -10,3 +10,5 @@ MkFigures/*.png
 *.png
 DATA
 DATA/*
+*.DS_Store
+*.Rhistory
