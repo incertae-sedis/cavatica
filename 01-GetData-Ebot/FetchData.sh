@@ -5,6 +5,7 @@ set -e
 OUTDIR=DATAHERE
 [[ -d $OUTDIR ]] || mkdir $OUTDIR
 
+CODEDIR=../code
 arr=""
 
 # User can pass in a term, instead of using config.txt
@@ -30,9 +31,9 @@ do
     
     echo "    if number of ids is greater than 500, this may take a few minutes. Please be patient."
 #    perl warpAroundfetchPubmedData.pl $OUTDIR/$TERM-pmids.txt $OUTDIR/$TERM-pubmed.xml > /dev/null # stops the pubmed script reporting messages, fetches 500 records at a time
-    bash pubmed_xml.sh $OUTDIR/$TERM-pmids.txt > $OUTDIR/$TERM-pubmed.xml 
-    perl convert2tsv.pl $OUTDIR/$TERM-pubmed.xml > $OUTDIR/$TERM-papers.tsv
-    perl getPM2Author.pl $OUTDIR/$TERM-pubmed.xml > $OUTDIR/$TERM-authors.tsv
+    bash ${CODEDIR}/pubmed_xml.sh $OUTDIR/$TERM-pmids.txt > $OUTDIR/$TERM-pubmed.xml 
+    perl ${CODEDIR}/paperlist_pm.pl ${OUTDIR}/${TERM}-pubmed.xml > ${OUTDIR}/${TERM}-papers.tsv
+    perl ${CODEDIR}/authorlist_pm.pl ${OUTDIR}/${TERM}-pubmed.xml > ${OUTDIR}/${TERM}-authors.tsv
 
     echo "Searching Pubmed Central between 1996 and 2016: $TERM"
     echo "Searching Pubmed Central between 1996 and 2016: $TERM" >> $OUTDIR/logfile.txt

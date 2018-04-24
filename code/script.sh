@@ -9,6 +9,10 @@ set -u
 ARR=(wilson)
 CODEDIR=../../code
 
+touch logfile.txt
+date
+date >> logfile.txt
+
 for TERM in "${ARR[@]}"
 do
     echo "===== Fetch PubMed and PMC XML files"
@@ -26,5 +30,5 @@ do
     [[ -f "${TERM}_pm.tiff" ]] || ${CODEDIR}/mkBarchart.R ${TERM}_papers_pm.tsv ${TERM}_pm.tiff
     [[ -f "${TERM}_pmc.tiff" ]] || ${CODEDIR}/mkBarchart.R ${TERM}_papers_pmc.tsv ${TERM}_pmc.tiff
 done
-
+ls -ltr >> logfile.txt
 ls -ltr

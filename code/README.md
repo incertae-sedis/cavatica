@@ -31,3 +31,20 @@ Pulls out the paper list from the PubMed XML files
 ```
 $ perl paperlist_pm.pl query_pm.xml > query_papers_pm.tsv
 ```
+
+**bothlist_pmc.pl**
+
+Pulls out the author and paper list from the PMC XML files
+
+```
+$ perl bothlist_pmc.pl "." query_papers_pmc.tsv query_authors_pmc.tsv query_pm.xml > query_papers_pm.tsv
+```
+
+**mkBarchart.R**
+
+Create barchart of number of papers by year. Can pass in a range of years for the x axis.
+
+```
+$ Rscript mkBarchart.R query_papers_pm.tsv query_pm.tiff
+$ Rscript mkBarchart.R query_papers_pm.tsv query_pm.tiff 1996 2016
+```
