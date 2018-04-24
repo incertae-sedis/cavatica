@@ -42,9 +42,11 @@ $ perl bothlist_pmc.pl "." query_papers_pmc.tsv query_authors_pmc.tsv query_pm.x
 
 **mkBarchart.R**
 
-Create barchart of number of papers by year. Can pass in a range of years for the x axis.
+Number of publications by year. Create barchart of number of papers by year. Will generate barcharts of number of publications by year for PubMed and PubMed Central Results. Can pass in a range of years for the x axis.
 
 ```
 $ Rscript mkBarchart.R query_papers_pm.tsv query_pm.tiff
 $ Rscript mkBarchart.R query_papers_pm.tsv query_pm.tiff 1996 2016
 ```
+
+<img src="https://github.com/j23414/cavatica/blob/master/IMG/Cytoscape-pubmedcounts.png" width="300" alt="Plan"><img src="https://github.com/j23414/cavatica/blob/master/IMG/Cytoscape-full-pubmedcounts.png" width="300" alt="Plan">
