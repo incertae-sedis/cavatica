@@ -8,7 +8,7 @@ use warnings;
 
 # FIXED :D :D :D, use full name, however if one term is inside another term will still have problems
 my @tools=();
-my $fn="../config.txt";
+my $fn="config.txt";
 my $fh;
 open($fh, '<:encoding(UTF-8)',$fn)
     or die "Could not open file '$fn' $!";
