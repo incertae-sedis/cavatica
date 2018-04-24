@@ -1,9 +1,5 @@
 #! /usr/bin/env bash
 
-INDIR="../01-GetData-Ebot/DATAHERE"
-[[ -d $INDIR ]] || echo "No input files. Run 01-GetData-Ebot scripts first"
-[[ -d $INDIR ]] || exit 0
-
 arr=""
 
 # User can pass in a term, instead of using config.txt
@@ -11,7 +7,7 @@ if [ $# -ge 1 ]
 then
     arr=$1
 else
-    arr=`awk -F',' 'NR>1 {print $1}' ../config.txt`
+    arr=`awk -F',' 'NR>1 {print $1}' config.txt`
 fi
 
 for TERM in $arr
