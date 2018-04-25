@@ -12,10 +12,12 @@ FILE=100;
 [[ -d .pmtmp ]] && rm -rf .pmtmp
 mkdir .pmtmp
 
+IDLIST=$1
+TOT=`grep -cv "^$" ${IDLIST}`
 while read IDS; do
     if [ $NUM -ge 100 ]
     then
-	echo "===== Fetching ids $((FILE-99)) to $FILE" >&2
+	echo "===== Fetching ids $((FILE-99)) to $FILE of ${TOT} total IDs" >&2
 	curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc${QUERY}&retmode=xml&tool=ebot" > .pmtmp/${FILE}.xml
 	sleep 0.2;
 	NUM=1;
@@ -25,16 +27,16 @@ while read IDS; do
 	NUM=$((NUM+1))
 	QUERY="$QUERY&id=${IDS}"
     fi
-done < $1
+done < ${IDLIST}
 
 # ======================= if number of IDs is not a multiple of 100, fetch last group
 if [ $NUM -gt 0 ]
 then
-    echo "===== Fetching ids $((FILE-99)) to $((FILE-100+NUM))" >&2
+    echo "===== Fetching ids $((FILE-99)) to $((FILE-100+NUM)) of ${TOT} IDs" >&2
     curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc${QUERY}&retmode=xml&tool=ebot" > .pmtmp/${FILE}.xml
 fi
 # ======================= printout all the fetched pubmed XML
 cat .pmtmp/*.xml 
 
-# ======================= cleanup
+# ======================= Cleanup
 [[ -d .pmtmp ]] && rm -rf .pmtmp
