@@ -1,0 +1,408 @@
+Searching Pubmed between 1996 and 2016: Cytoscape
+     716 DATAHERE/Cytoscape-pmids.txt
+Posted 716 records to pubmed.
+ALERT: ESearch found no records for this query:
+%231
+ALERT: Only 0 records are current!
+Retrieving 716 records from pubmed...
+Wide character in print at fetchPubmedData.pl line 744, <INPUT> line 716.
+Received records 1 - 500.
+Wide character in print at fetchPubmedData.pl line 744, <INPUT> line 716.
+Received records 501 - 716.
+Wrote data to DATAHERE/Cytoscape-pubmed.xml.
+Searching Pubmed Central between 1996 and 2016: Cytoscape
+    7616 DATAHERE/Cytoscape-pmcids.txt
+Posted 7616 records to pmc.
+ALERT: ESearch found no records for this query:
+%23
+ALERT: Only 0 records are current!
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Retrieving 7616 records from pmc...
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 1 - 500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 501 - 1000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 1001 - 1500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 1501 - 2000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 2001 - 2500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 2501 - 3000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 3001 - 3500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 3501 - 4000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 4001 - 4500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 4501 - 5000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 5001 - 5500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 5501 - 6000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 6001 - 6500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 6501 - 7000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 7001 - 7500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 7501 - 7616.
+Wrote data to DATAHERE/Cytoscape-fulltext.xml.
+Searching Pubmed between 1996 and 2016: Pathway+Studio
+     255 DATAHERE/Pathway+Studio-pmids.txt
+Posted 255 records to pubmed.
+ALERT: ESearch found no records for this query:
+%231
+ALERT: Only 0 records are current!
+Retrieving 255 records from pubmed...
+Wide character in print at fetchPubmedData.pl line 744, <INPUT> line 255.
+Received records 1 - 255.
+Wrote data to DATAHERE/Pathway+Studio-pubmed.xml.
+Searching Pubmed Central between 1996 and 2016: Pathway+Studio
+    4882 DATAHERE/Pathway+Studio-pmcids.txt
+Posted 4882 records to pmc.
+ALERT: ESearch found no records for this query:
+%23
+ALERT: Only 0 records are current!
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Retrieving 4882 records from pmc...
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 1 - 500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 501 - 1000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 1001 - 1500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 1501 - 2000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 2001 - 2500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 2501 - 3000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 3001 - 3500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 3501 - 4000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 4001 - 4500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 4501 - 4882.
+Wrote data to DATAHERE/Pathway+Studio-fulltext.xml.
+Searching Pubmed between 1996 and 2016: Ingenuity+Pathway+Analysis
+    1636 DATAHERE/Ingenuity+Pathway+Analysis-pmids.txt
+Posted 1636 records to pubmed.
+ALERT: ESearch found no records for this query:
+%23
+ALERT: Only 0 records are current!
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Retrieving 1636 records from pubmed...
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 1 - 500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 501 - 1000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 1001 - 1500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 1501 - 1636.
+Wrote data to DATAHERE/Ingenuity+Pathway+Analysis-pubmed.xml.
+Searching Pubmed Central between 1996 and 2016: Ingenuity+Pathway+Analysis
+   11514 DATAHERE/Ingenuity+Pathway+Analysis-pmcids.txt
+Posted 11514 records to pmc.
+ALERT: ESearch found no records for this query:
+%23
+ALERT: Only 0 records are current!
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Retrieving 11514 records from pmc...
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 1 - 500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 501 - 1000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 1001 - 1500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 1501 - 2000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 2001 - 2500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 2501 - 3000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 3001 - 3500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 3501 - 4000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 4001 - 4500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 4501 - 5000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 5001 - 5500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 5501 - 6000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 6001 - 6500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 6501 - 7000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 7001 - 7500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 7501 - 8000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 8001 - 8500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 8501 - 9000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 9001 - 9500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 9501 - 10000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 10001 - 10500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 10501 - 11000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 11001 - 11500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 11501 - 11514.
+Wrote data to DATAHERE/Ingenuity+Pathway+Analysis-fulltext.xml.
+Searching Pubmed between 1996 and 2016: VisANT
+     266 DATAHERE/VisANT-pmids.txt
+Posted 266 records to pubmed.
+ALERT: ESearch found no records for this query:
+%231
+ALERT: Only 0 records are current!
+Retrieving 266 records from pubmed...
+Wide character in print at fetchPubmedData.pl line 744, <INPUT> line 266.
+Received records 1 - 266.
+Wrote data to DATAHERE/VisANT-pubmed.xml.
+Searching Pubmed Central between 1996 and 2016: VisANT
+    1161 DATAHERE/VisANT-pmcids.txt
+Posted 1161 records to pmc.
+ALERT: ESearch found no records for this query:
+%23
+ALERT: Only 0 records are current!
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Retrieving 1161 records from pmc...
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 1 - 500.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 501 - 1000.
+
+WARNING: EFetch requires &db and either &id or (&WebEnv, &query_key)!
+
+Received records 1001 - 1161.
+Wrote data to DATAHERE/VisANT-fulltext.xml.
+Searching Pubmed between 1996 and 2016: Gephi
+      20 DATAHERE/Gephi-pmids.txt
+Posted 20 records to pubmed.
+ALERT: ESearch found no records for this query:
+%231
+ALERT: Only 0 records are current!
+Retrieving 20 records from pubmed...
+Wide character in print at fetchPubmedData.pl line 744, <INPUT> line 20.
+Received records 1 - 20.
+Wrote data to DATAHERE/Gephi-pubmed.xml.
+Searching Pubmed Central between 1996 and 2016: Gephi
+     421 DATAHERE/Gephi-pmcids.txt
+Posted 421 records to pmc.
+ALERT: ESearch found no records for this query:
+%231
+ALERT: Only 0 records are current!
+Retrieving 421 records from pmc...
+Received records 1 - 421.
+Wrote data to DATAHERE/Gephi-fulltext.xml.
+Searching Pubmed between 1996 and 2016: GraphViz
+      18 DATAHERE/GraphViz-pmids.txt
+Posted 18 records to pubmed.
+ALERT: ESearch found no records for this query:
+%231
+ALERT: Only 0 records are current!
+Retrieving 18 records from pubmed...
+Received records 1 - 18.
+Wrote data to DATAHERE/GraphViz-pubmed.xml.
+Searching Pubmed Central between 1996 and 2016: GraphViz
+     481 DATAHERE/GraphViz-pmcids.txt
+Posted 481 records to pmc.
+ALERT: ESearch found no records for this query:
+%231
+ALERT: Only 0 records are current!
+Retrieving 481 records from pmc...
+Received records 1 - 481.
+Wrote data to DATAHERE/GraphViz-fulltext.xml.
+Searching Pubmed between 1996 and 2016: iGraph
+       2 DATAHERE/iGraph-pmids.txt
+Posted 2 records to pubmed.
+ALERT: ESearch found no records for this query:
+%231
+ALERT: Only 0 records are current!
+Retrieving 2 records from pubmed...
+Received records 1 - 2.
+Wrote data to DATAHERE/iGraph-pubmed.xml.
+Searching Pubmed Central between 1996 and 2016: iGraph
+     804 DATAHERE/iGraph-pmcids.txt
+Posted 804 records to pmc.
+ALERT: ESearch found no records for this query:
+%231
+ALERT: Only 0 records are current!
+Retrieving 804 records from pmc...
+Received records 1 - 500.
+Received records 501 - 804.
+Wrote data to DATAHERE/iGraph-fulltext.xml.
+Searching Pubmed between 1996 and 2016: Neo4j
+      11 DATAHERE/Neo4j-pmids.txt
+Posted 11 records to pubmed.
+ALERT: ESearch found no records for this query:
+%231
+ALERT: Only 0 records are current!
+Retrieving 11 records from pubmed...
+Wide character in print at fetchPubmedData.pl line 744, <INPUT> line 11.
+Received records 1 - 11.
+Wrote data to DATAHERE/Neo4j-pubmed.xml.
+Searching Pubmed Central between 1996 and 2016: Neo4j
+      55 DATAHERE/Neo4j-pmcids.txt
+Posted 55 records to pmc.
+ALERT: ESearch found no records for this query:
+%231
+ALERT: Only 0 records are current!
+Retrieving 55 records from pmc...
+Received records 1 - 55.
+Wrote data to DATAHERE/Neo4j-fulltext.xml.
+Searching Pubmed between 1996 and 2016: GraphLab
+       2 DATAHERE/GraphLab-pmids.txt
+Posted 2 records to pubmed.
+ALERT: ESearch found no records for this query:
+%231
+ALERT: Only 0 records are current!
+Retrieving 2 records from pubmed...
+Received records 1 - 2.
+Wrote data to DATAHERE/GraphLab-pubmed.xml.
+Searching Pubmed Central between 1996 and 2016: GraphLab
+       9 DATAHERE/GraphLab-pmcids.txt
+Posted 9 records to pmc.
+ALERT: ESearch found no records for this query:
+%231
+ALERT: Only 0 records are current!
+Retrieving 9 records from pmc...
+Received records 1 - 9.
+Wrote data to DATAHERE/GraphLab-fulltext.xml.

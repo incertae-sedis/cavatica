@@ -1,3 +1,5 @@
+Cavatica has been adopted by the incertae-sedis group. This repo maintained for historical purposes.
+
 # Cavatica
 Code and pipeline for fetching PubMed and PubMed Central data and co-author network analysis. This tool can be used to identify author trends among several search terms. 
 
