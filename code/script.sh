@@ -20,8 +20,10 @@ do
     echo -e "===== ${TERM}\n"
 
     echo -e "===== Search ${TERM} in PubMed\n"
-    echo "perl ${CODEDIR}/searchPubmedBtwnPubDates.pl ${TERM} ${TERM}_pm.ids"
-    [[ -f "${TERM}_pm.ids" ]] || perl ${CODEDIR}/searchPubmedBtwnPubDates.pl ${TERM} ${TERM}_pm.ids
+#    echo "perl ${CODEDIR}/searchPubmedBtwnPubDates.pl ${TERM} ${TERM}_pm.ids"
+#    [[ -f "${TERM}_pm.ids" ]] || perl ${CODEDIR}/searchPubmedBtwnPubDates.pl ${TERM} ${TERM}_pm.ids
+    echo "bash ${CODEDIR}/pubmed_ids.sh ${TERM} > ${TERM}_pm.ids"
+    [[ -f "${TERM}_pm.ids" ]] || bash ${CODEDIR}/pubmed_ids.sh ${TERM} > ${TERM}_pm.ids
     echo "${CODEDIR}/pubmed_xml.sh ${TERM}_pm.ids > ${TERM}_pm.xml"
     [[ -f "${TERM}_pm.xml" ]] || ${CODEDIR}/pubmed_xml.sh ${TERM}_pm.ids > ${TERM}_pm.xml
 

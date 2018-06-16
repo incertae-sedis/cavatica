@@ -19,7 +19,7 @@ while read IDS; do
     then
 	echo "===== Fetching ids $((FILE-99)) to $FILE of ${TOT} total IDs" >&2
 	curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed${QUERY}&retmode=xml&tool=ebot" > .pmtmp/${FILE}.xml
-	sleep 0.2;
+	sleep 0.3;
 	NUM=1;
 	QUERY="&id=${IDS}";
 	FILE=$((FILE+100));
