@@ -1,10 +1,14 @@
-Cavatica has been adopted by the incertae-sedis group. This repo maintained for historical purposes.
+Author: Jennifer Chang
+
+Date: 
+
+Cavatica has been adopted by the incertae-sedis group.
 
 # Cavatica
 Code and pipeline for fetching PubMed and PubMed Central data and co-author network analysis. This tool can be used to identify author trends among several search terms. 
 
 An example, I've used these scripts to do a multi-network analysis of network analysis papers and their software. 
-[Wiki Page Here](https://github.com/j23414/cavatica/wiki)
+[Wiki Page Here](https://github.com/incertae-sedis/cavatica/wiki)
 
 <img src="https://github.com/j23414/cavatica/blob/master/IMG/Adder.png" width="600" alt="Added">
 
@@ -25,6 +29,26 @@ The name comes from Charlotte's Web since her full name was Charlotte A. Cavatic
 * R (check if installed by typing Rscript --version)
 * perl (check if installed by typing perl --version)
 * Mango Graph Studio for multi-network analysis
+
+## Installation
+
+```
+git clone https://github.com/incertae-sedis/cavatica.git
+```
+
+## Basic Example
+
+Here is a basic example fetching PubMed and PMC papers containing the word "Neo4j". 
+
+```
+cd cavatica/data
+mkdir test
+cd test
+echo "Neo4j" > config.txt
+../../code/script.sh
+```
+
+This will create several files.
 
 ## Step One: Query Term(s)
 
