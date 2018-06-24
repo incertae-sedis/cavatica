@@ -1,4 +1,4 @@
-**Author**: Jennifer Chang | **Initial Commit**: July 2016
+**Author**: Jennifer Chang | **Initial Commit**: July 2016 |  [![Build Status](https://travis-ci.org/incertae-sedis/cavatica.svg?branch=dev)](https://travis-ci.org/incertae-sedis/cavatica)
 
 <p style="text-align: center;">***** Cavatica has been adopted by the incertae-sedis group. *****</p>
 
