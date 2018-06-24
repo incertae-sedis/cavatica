@@ -50,9 +50,11 @@ echo "Cytoscape" >> config.txt
 This will create tabular files (list of papers `Neo4j_papers_pm.tsv` and list of authors `Neo4j_authors_pm.tsv`). Open the png files `Neo4j_pm.png` to see a barchart of the number of papers by year.
 
 
+<img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Neo4j-pubmedcounts.png" width="400" alt="Neo4j count">
 
+<img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Cytoscape-pubmedcounts.png" width="400" alt="Neo4j count">
 
-It will also create a script `pubmed.gel`. Open Mango Graph Studio, open `pubmed.gel` and type the following into the Mango Console.
+It will also create a script `pubmed.gel`. Open [Mango Graph Studio](https://www.complexcomputation.com/en/product/mango-community-edition/), open `pubmed.gel` and type the following into the Mango Console.
 
 ```
 run "pubmed.gel";
@@ -64,13 +66,13 @@ This will create a transition table and export the file. Going back to your term
 ../../code/script.sh
 ```
 
-The transitions should be saved in trends_pm.txt. It will then commence searching PMC, fetching list of papers and authors and generating a "pmc.gel" file. Once again open the "pmc.gel" file in Mango and type the following into Mango Console.
+The transitions should be saved in `trends_pm.txt`. It will then commence searching PMC, fetching list of papers and authors and generating a "pmc.gel" file. Once again open the "pmc.gel" file in Mango and type the following into Mango Console.
 
 ```
 run "pmc.gel";
 ```
 
-Then rerun the script to continue tabulating the trends which should be saved in trends_pmc.txt. You can also view the number of papers fetched in barchart form
+Then rerun the script to continue tabulating the trends which should be saved in `trends_pmc.txt`. You can also view the number of papers fetched in barchart form
 
 
 ```

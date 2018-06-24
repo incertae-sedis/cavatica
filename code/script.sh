@@ -54,6 +54,7 @@ ls -ltr pubmed.gel
 [[ -f trends-temp3.txt ]] || awk -F'\t' '{print $4}' trends-temp2.txt |sort | uniq -c > trends-temp3.txt
 perl ${CODEDIR}/hack.pl trends-temp3.txt >> logfile.txt
 perl ${CODEDIR}/hack.pl trends-temp3.txt
+perl ${CODEDIR}/hack.pl trends-temp3.txt > trends_pm.txt
 
 # ================================ PMC Search
 for TERM in "${ARR[@]}"
@@ -87,3 +88,4 @@ perl ${CODEDIR}/printTransitions.pl trends-temp.txt > trends-temp2.txt
 awk -F'\t' '{print $4}' trends-temp2.txt |sort | uniq -c > trends-temp3.txt
 perl ${CODEDIR}/hack.pl trends-temp3.txt >> logfile.txt
 perl ${CODEDIR}/hack.pl trends-temp3.txt
+perl ${CODEDIR}/hack.pl trends-temp3.txt > trends_pmc.txt
