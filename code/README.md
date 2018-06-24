@@ -72,7 +72,7 @@ $ Rscript mkBarchart.R query_papers_pm.tsv query_pm.tiff
 $ Rscript mkBarchart.R query_papers_pm.tsv query_pm.tiff 1996 2016
 ```
 
-<img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Cytoscape-pubmedcounts.png" width="300" alt="Plan"><img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Cytoscape-full-pubmedcounts.png" width="300" alt="Plan">
+<img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Cytoscape-pubmedcounts.png" width="300" alt="PubMed counts"><img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Cytoscape-full-pubmedcounts.png" width="300" alt="PMC counts">
 
 --
 **rismed_pm.R**

@@ -47,7 +47,7 @@ wc -l *pm.tsv >> logfile.txt
 
 ls -ltr pubmed.gel
 
-[[ -f multitool-pubmed.tsv ]] || exit;
+[[ -f multitool-pubmed.tsv ]] || exit 0;
 
 [[ -f trends-temp.txt ]] || LC_CTYPE=C sed -n '/#From/,$p' multitool-pubmed.tsv | awk -F'\t' '{print $2,"\t",$8}' |sort -k2,1 > trends-temp.txt
 [[ -f trends-temp2.txt ]] || perl ${CODEDIR}/printTransitions.pl trends-temp.txt > trends-temp2.txt
@@ -81,7 +81,7 @@ wc -l *pmc.tsv >> logfile.txt
 
 ls -ltr pmc.gel
 
-[[ -f multitool-pmc.tsv ]] || exit;
+[[ -f multitool-pmc.tsv ]] || exit 0;
 
 LC_CTYPE=C sed -n '/#From/,$p' multitool-pmc.tsv | awk -F'\t' '{print $2,"\t",$8}' |sort -k2,1 > trends-temp.txt
 perl ${CODEDIR}/printTransitions.pl trends-temp.txt > trends-temp2.txt
