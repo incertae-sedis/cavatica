@@ -1,5 +1,6 @@
-**Author**: Jennifer Chang | **Initial Commit**: July 2016 |  [![Build Status](https://travis-ci.org/incertae-sedis/cavatica.svg?branch=dev)](https://travis-ci.org/incertae-sedis/cavatica)
+[![Build Status](https://travis-ci.org/incertae-sedis/cavatica.svg?branch=dev)](https://travis-ci.org/incertae-sedis/cavatica) [![github release](https://img.shields.io/github/release/incertae-sedis/cavatica.svg?label=current+release)](https://github.com/incertae-sedis/cavatica/releases)
 
+**Author**: Jennifer Chang | **Initial Commit**: July 2016 
 <p style="text-align: center;">***** Cavatica has been adopted by the incertae-sedis group. *****</p>
 
 # Cavatica
