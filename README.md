@@ -14,6 +14,8 @@ The name comes from Charlotte's Web since her full name was Charlotte A. Cavatic
 
 ## Pipeline
 
+<p style="text-align: center;">***** Cavatica pipeline has been modified so no longer relies on Ebot. *****</p>
+
 <img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/plan.png" width="600" alt="Plan">
 
 <!--
@@ -21,6 +23,7 @@ The name comes from Charlotte's Web since her full name was Charlotte A. Cavatic
 
 [EBot](http://www.ncbi.nlm.nih.gov/Class/PowerTools/eutils/ebot/ebot.cgi)
 -->
+
 ## Dependencies
 
 * Some type of Linux Terminal where you can run Bash. (Cygwin if you're on Windows. Terminal already preinstalled on Mac)
@@ -36,7 +39,7 @@ git clone https://github.com/incertae-sedis/cavatica.git
 
 ## Basic Example
 
-Here is a basic example fetching PubMed and PMC papers containing the word "Neo4j". 
+Here is a basic example fetching PubMed and PMC papers containing the word "Neo4j" and "Cytoscape". 
 
 ```
 cd cavatica/data
@@ -112,7 +115,29 @@ run "pmc.gel";
 
 Then rerun the script to continue tabulating the trends which should be saved in `trends_pmc.txt`.
 
-PMC results usually return more papers since the "Neo4j" or "Cytoscape" is being matched to the fulltext, instead of just the title and abstract. This may return more accurate trend tables since sometimes software names are only mentioned in the methods and not in the abstract.
+The output of a 2017 run comparing "Neo4j", "Gephi", "GraphViz" and "iGraph" is shown below:
+
+```
+=============PubMed Transitions
+Neo4j:Gephi 1
+Neo4j:GraphViz 1
+Neo4j:iGraph 1
+=============PubMed Central Transitions
+Gephi:GraphViz 2
+Gephi:Neo4j 3
+Gephi:iGraph 31
+GraphViz:Gephi 19
+GraphViz:Neo4j 10
+GraphViz:iGraph 58
+Neo4j:Gephi 4
+Neo4j:GraphViz 4
+Neo4j:iGraph 1
+iGraph:Gephi 34
+iGraph:GraphViz 9
+iGraph:Neo4j 13
+```
+
+PMC results usually return more papers since search terms like "Neo4j" or "Cytoscape" are being matched to the fulltext, instead of just the title and abstract. This may return more accurate trend tables since sometimes software names are only mentioned in the methods and not in the abstract.
 
 ## Publications
 
