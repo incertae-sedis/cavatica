@@ -20,4 +20,4 @@ before_script:
 script:
   - ../../code/script.sh
 after_script:
-  -ls
+  - ls
