@@ -1,4 +1,6 @@
-#!/usr/bin/perl
+#! /usr/bin/env perl
+# Auth: Jennifer Chang
+# Date: 2018/05/21
 
 use strict;
 use warnings;
@@ -19,15 +21,19 @@ print << "HEADER";
 HEADER
 
 
-my ($pmid, $title);
+my ($pmid, $title, $year);
 open(PMID, ">pmid.txt");
 while (<>) {
   if (/<PubmedArticle>/) {
     $pmid = "";
     $title = "";
+    $year = "";
   }
   if (/PMID Version=.+>(\d+)<\/PMID>/ && length($pmid)==0) {
     $pmid = $1;
+  }
+  if (/<Year>(.+)<\/Year>/&& length($year)==0) {
+    $year = $1;
   }
   if (/<ArticleTitle>(.+)<\/ArticleTitle>/&& length($title)==0) {
     $title = $1;
@@ -38,7 +44,7 @@ while (<>) {
     my $first = 1;
     while ($abstract =~ /(\. |^)(([^.]|\S\.\S)*?$keyword.*?\.( |$))/ig) {
       print PMID "$pmid\n";
-      print "<p><a href=\"http://www.ncbi.nlm.nih.gov/pubmed/?term=$pmid\">$pmid</a> $title<ul>" if $first;
+      print "<p>$year <a href=\"http://www.ncbi.nlm.nih.gov/pubmed/?term=$pmid\">$pmid</a> $title<ul>" if $first;
       my $s = $2;
       $s =~ s/($keyword)/<b>$1<\/b>/gi;
       print "<li>$s";

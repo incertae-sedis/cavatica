@@ -6,48 +6,40 @@ use strict;
 use warnings;
 
 # ===================== Variables
+my $unknown="-";
+
 my $pmid="pmid";
 my $forename="forename";
 my $lastname="lastname";
 my $affiliation="affiliation";
 
-my $check="pmid";
-my $getyear=0;
-
 # ===================== Functions
 sub printoutput{
-    print("$pmid\t${forename}_${lastname}\t$affiliation\n");
+    print join("\t",$pmid, "${forename}_${lastname}", $affiliation,),"\n";
+    $lastname=$unknown;
+    $forename=$unknown;
+    $affiliation=$unknown;
 }
 
 # ===================== Main
 printoutput;
+$pmid=$unknown;
+
 while(<>){
-    chomp;
     if(/<\/PubmedArticle>/){
-	$pmid="pmid";
-    }
-    if(/<\/Author>/){
-	printoutput;
-	$lastname="lastname";
-	$forename="forename";
-	$affiliation="";
-    }
-    if(/<PMID Version="\d+">(\d+)<\/PMID>/){
-	if($pmid eq $check){
-	    $pmid=$1;
-	}
-    }
-    if(/<LastName>(.+)<\/LastName>/){
+	$pmid=$unknown;
+    }elsif(/<\/Author>/){
+	printoutput;	
+    }elsif(/<PMID Version="\d+">(\d+)<\/PMID>/ && $pmid eq $unknown){
+	$pmid=$1;
+    }elsif(/<LastName>(.+)<\/LastName>/){
 	$lastname=$1;
 	$lastname=~s/ /_/g;
-    }
-    if(/<ForeName>(.+)<\/ForeName>/){
+    }elsif(/<ForeName>(.+)<\/ForeName>/){
 	$forename=$1;
 	$forename=~s/ /_/g;
-    }
-    if(/<Affiliation>(.+)<\/Affiliation>/){
+    }elsif(/<Affiliation>(.+)<\/Affiliation>/){
 	$affiliation=$1;
     }
-
 }
 

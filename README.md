@@ -1,24 +1,30 @@
-Cavatica has been adopted by the incertae-sedis group. This repo maintained for historical purposes.
+[![Build Status](https://travis-ci.org/incertae-sedis/cavatica.svg?branch=dev)](https://travis-ci.org/incertae-sedis/cavatica) [![github release](https://img.shields.io/github/release/incertae-sedis/cavatica.svg?label=current+release)](https://github.com/incertae-sedis/cavatica/releases)
+
+**Author**: Jennifer Chang | **Initial Commit**: July 2016 
+<p style="text-align: center;">***** Cavatica has been adopted by the incertae-sedis group. *****</p>
 
 # Cavatica
 Code and pipeline for fetching PubMed and PubMed Central data and co-author network analysis. This tool can be used to identify author trends among several search terms. 
 
 An example, I've used these scripts to do a multi-network analysis of network analysis papers and their software. 
-[Wiki Page Here](https://github.com/j23414/cavatica/wiki)
+[Wiki Page Here](https://github.com/incertae-sedis/cavatica/wiki)
 
-<img src="https://github.com/j23414/cavatica/blob/master/IMG/Adder.png" width="600" alt="Added">
+<img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Adder.png" width="600" alt="Added">
 
 The name comes from Charlotte's Web since her full name was Charlotte A. Cavatica. Although Cavatica also refers to barn spider.
 
 ## Pipeline
 
-<img src="https://github.com/j23414/cavatica/blob/master/IMG/plan.png" width="600" alt="Plan">
+<p style="text-align: center;">***** Cavatica pipeline has been modified so no longer relies on Ebot. *****</p>
+
+<img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/plan.png" width="600" alt="Plan">
 
 <!--
 [List of Entrez Databases](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/einfo.fcgi)
 
 [EBot](http://www.ncbi.nlm.nih.gov/Class/PowerTools/eutils/ebot/ebot.cgi)
 -->
+
 ## Dependencies
 
 * Some type of Linux Terminal where you can run Bash. (Cygwin if you're on Windows. Terminal already preinstalled on Mac)
@@ -26,61 +32,98 @@ The name comes from Charlotte's Web since her full name was Charlotte A. Cavatic
 * perl (check if installed by typing perl --version)
 * Mango Graph Studio for multi-network analysis
 
-## Step One: Query Term(s)
-
-Start by placing your query terms and year search range in **config.txt**. If you have a multi-term query, separate your terms with a `+` symbol. The first line of the config file is for ease of reading and will be ignored by the scripts.
-
-** Example config.txt file **
-```
-term,start,end
-Ingenuity+Pathway+Analysis,1996,2016
-Cytoscape,1996,2016
-Pathway+Studio,1996,2016
-Gephi,1996,2016
-GraphViz,1996,2016
-VisANT,1996,2016
-Neo4j,1996,2016
-iGraph,1996,2016
-GraphLab,1996,2016
-```
-
-## NEW: Automatic Transition Table
-
-After editing the config.txt to list all search terms, **basicrun1.sh** will:
-
-* Fetch PubMed and PubMed Central Search Results
-* Convert PubMed and PubMed Central XML to author and paper tsv files
-* Generate the Mango gel scripts for the dataset
+## Installation
 
 ```
-$ ./basicrun1.sh
+git clone https://github.com/incertae-sedis/cavatica.git
 ```
 
-Open Mango Graph Studio. From there, open **02-Mango/pubmed.gel** and run the generated gel scripts by typing the following into the console.
+## Basic Example
+
+Here is a basic example fetching PubMed and PMC papers containing the word "Neo4j" and "Cytoscape". 
+
+```
+cd cavatica/data
+mkdir test
+cd test
+echo "Neo4j" > config.txt
+echo "Cytoscape" >> config.txt
+../../code/script.sh
+```
+
+This will create tabular files (list of papers `Neo4j_papers_pm.tsv` and list of authors `Neo4j_authors_pm.tsv`). Open the png files `Neo4j_pm.png` to see a barchart of the number of papers by year.
+
+
+<img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Neo4j-pubmedcounts.png" width="400" alt="Neo4j count"><img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Cytoscape-pubmedcounts.png" width="400" alt="Cavatica count">
+
+Can also open the html files to check the one sentence usages of Neo4j and Cavatica
+
+<table>
+<tr>
+<td>
+<h1>Sentences that contain Neo4j</h1>
+<p>2018 <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=29377902">29377902</a>
+ Reactome graph database: Efficient access to complex pathway data.<ul><li>Here 
+we present the rationale behind the adoption of a graph database (<b>Neo4j</b>) as well as the new ContentService (REST API) that provides access to these data. </ul></p><p>2018 <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=28936969">28936969</a> Systematic integration of biomedical knowledge prioritizes drugs for repurposing.<ul><li>First, we constructed Hetionet (<b>neo4j</b>.het.io), an integrative network encoding knowledge from millions of biomedical studies. </ul></p><p>2017 <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=28416946">28416946</a> Use of Graph Database for the Integration of Heterogeneous Biological Data.<ul><li>Here, we demonstrate the feasibility of using a graph-based database for complex biological relationships by comparing the performance between MySQL and <b>Neo4j</b>, one of the most widely used graph databases. <li>When we tested the query execution performance of MySQL versus <b>Neo4j</b>, we found that <b>Neo4j</b> outperformed MySQL in all cases. <li>These results show that using graph-based databases, such as <b>Neo4j</b>, is an efficient way to store complex biological relationships. </ul></p>
+
+...
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+<h1>Sentences that contain Cytoscape</h1>
+<p>2018 <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=29894068">29894068</a> Identification of potential miRNAs and candidate genes of cervical intraepithelial neoplasia by bioinformatic analysis.<ul><li>Then the miRNA- mRNA regulatory network was constructed using <b>Cytoscape</b> software. </ul></p><p>2018 <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=29872319">29872319</a> An integrated analysis of key microRNAs, regulatory pathways and clinical relevance in bladder cancer.<ul><li>Protein-protein interaction (PPI) and miRNA-mRNA regulatory networks were established by using the Search Tool for the Retrieval of Interacting Genes/Proteins and <b>Cytoscape</b> tool. </ul></p><p>2018 <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=29760609">29760609</a> Identification of potential crucial genes and construction of microRNA-mRNA negative regulatory networks in osteosarcoma.<ul><li>Protein-protein interaction (PPI) network was constructed by STRING and visualized in <b>Cytoscape</b>. </ul></p>
+
+...
+</td>
+</tr>
+</table>
+
+It will also create a script `pubmed.gel`. Open [Mango Graph Studio](https://www.complexcomputation.com/en/product/mango-community-edition/), open `pubmed.gel` and type the following into the Mango Console.
 
 ```
 run "pubmed.gel";
+```
+
+This will create a transition table and export the file. It will also load and visualize the author-paper networks.
+
+<table>
+<tr><td>Neo4j</td><td>Cytoscape</td</tr>
+<tr><td><img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Neo4j.png" width="300" alt="Neo4j network"></td>
+<td><img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Cytoscape.png" width="300" alt="Cavatica network"></td</tr>
+</table>
+Going back to your terminal, rerun the script file and it will continue.
+
+```
+../../code/script.sh
+```
+
+The transitions should be saved in `trends_pm.txt`. The following trends_pm.txt indicates that authors switched from cytoscape to Neo4j 9 times, while authors switched from Neo4j to Cytoscape 3 times.
+
+```
+Cytoscape:Neo4j 9
+Neo4j:Cytoscape 3
+```
+
+It will then commence searching PMC, fetching list of papers and authors and generating a "pmc.gel" file. Once again open the "pmc.gel" file in Mango and type the following into Mango Console.
+
+```
 run "pmc.gel";
 ```
-* Mango Graph Studio identifies multi-term authors and saves their subnetwork in **multitool-pubmed.tsv** and **multitool-pmc.tsv**
 
-From the multitool network files, calculate and print out the transition table by running **basicrun2.sh**
+Then rerun the script to continue tabulating the trends which should be saved in `trends_pmc.txt`.
 
-```
-$ ./basicrun2.sh
-```
-**Example Transitions Output**
-
-Here is an example output when using search terms Gephi, GraphViz, Neo4j, iGraph, and GraphLab. Term transitions are listed FROM:TO and number of transitions.
+The output of a 2017 run comparing "Neo4j", "Gephi", "GraphViz" and "iGraph" is shown below:
 
 ```
 =============PubMed Transitions
-1 transitions
 Neo4j:Gephi 1
 Neo4j:GraphViz 1
 Neo4j:iGraph 1
 =============PubMed Central Transitions
-182 transitions
 Gephi:GraphViz 2
 Gephi:Neo4j 3
 Gephi:iGraph 31
@@ -94,37 +137,10 @@ iGraph:Gephi 34
 iGraph:GraphViz 9
 iGraph:Neo4j 13
 ```
-To improve the data quality and have a more accurate transition table, it is recommended to do **Step 3** listed below: verify data. However, that step is not required.
 
-## Step Two: Fetch Data
+PMC results usually return more papers since search terms like "Neo4j" or "Cytoscape" are being matched to the fulltext, instead of just the title and abstract. This may return more accurate trend tables since sometimes software names are only mentioned in the methods and not in the abstract.
 
-Right now there are two options to fetch data from PubMed---Ebot and RISmed. I fyou wish to fetch data from PubMed Central as well, use Ebot.
+## Publications
 
-Depending on which method you choose, enter the **01-GetData-Ebot** or **01-GetData-RISmed** folder. Each of them have README's with instructions.
+* J. Chang and H. Chou, "[Cavatica: A pipeline for identifying author adoption trends among software or methods](https://www.computer.org/csdl/proceedings/bibm/2017/3050/00/08217990-abs.html)," 2017 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Kansas City, MO, USA, 2017, pp. 2145-2150.
 
-Copy fetched authors and papers tabular datafiles into the DATA folder. 
-
-## Step Three: Verify Data (optional)
-
-If you used RISmed, then you already have barcharts. If you used Ebot, enter 04-BarChart-pubcounts to generate barcharts showing number of publication by year.
-
-Enter **05-OneSentence** to pull out sentences that contain your query term by paper in a html file. This helps manual filtering of many papers. This step is optional and only provided to help human curation of the data. This step is not necessary to run the pipeline and generate the final transition table. 
-
-**Example**: Searching Cytoscape papers for "Cytoscape" results in the following HTML file.
-
-<p><a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=28025995">28025995</a> Prediction of key genes and miRNAs responsible for loss of muscle force in patients during an acute exacerbation of chronic obstructive pulmonary disease.<ul><li>Additionally, key miRNAs were enriched using gene set enrichment analysis (GSEA) software and a miR-gene regulatory network was constructed using <b>Cytoscape</b> software. </ul></p><p><a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=28003598">28003598</a> An iTRAQ-based quantitative proteomics study of refractory mycoplasma pneumoniae pneumonia patients.<ul><li>Functional classification, sub-cellular localization, and protein interaction network were carried out based on PANTHER and <b>cytoscape</b> analysis. </ul></p><p><a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=28000890">28000890</a> Combined analysis of gene expression, miRNA expression and DNA methylation profiles of osteosarcoma.<ul><li>Besides, miRNA-gene regulation network was obtained based on the pairs of involved DEMIs and overlapping genes between DEMs and DEGs and visualized through <b>Cytoscape</b> software. </ul></p>
-
-## Step Four: Network Analysis
-
-Enter **02-Mango**. 3D visualization of networks. Multi-network addition. Identify multi-term authors. 
-
------
-
-## OLD Directory Description (need to clean up)
-
-* **EbotScripts**: collection of scripts to fetch Pubmed and PubmedCentral data that matches a query term. Some scripts modified from NCBI Ebot.
-* **MkFigures**: from the fetched data, generate a histogram of paper counts by year using an Rscript and ggplot2.
-* **OneSentence**: from the fetched data, list sentences that contain the query term in the pubmed abstracts.
-* **FullTextParse**: from the fetched data, list sentences that contain the query term and location (in methods section or not) from the Pubmed Central full text.
-* **CitationNetwork**: from the fetched data, generate the citation network from Pubmed Central full text. Papers identified by their pubmed ids. If no pubmed id is listed then the citation or paper is ignored.
-* **MangoScripts**: from the fetched pubmed data, generate the co-author network and compare networks. Generates the gel script loading networks and placing them in default layout with authors in green and papers in black. 
