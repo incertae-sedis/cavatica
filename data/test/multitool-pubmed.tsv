@@ -1,0 +1,120 @@
+#graph: mul
+#pmid	year	journal	title	type	Neo4j_I	Cytoscape_I	sum	_x	_y	_z	_r	_g	_b	_radius	_text
+Stephane_Heymans	0			author	1	1	2	3.120000	-6.650000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+23132118	2012	Nat. Methods	A travel guide to Cytoscape plugins.	paper	0	1	1	-6.080000	-3.690000	4.000000	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+Simon_J_Cockell	0			author	1	1	2	-3.340000	-4.450000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+25177485	2014	F1000Res	KEGGscape: a Cytoscape app for pathway data integration.	paper	0	1	1	-0.880000	-2.290000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+25409614	2014	Tumour Biol.	A comprehensive analysis of candidate genes and pathways in pancreatic cancer.	paper	0	1	1	2.120000	1.310000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+Sergio_E_Baranzini	0			author	1	1	2	-7.340000	-3.410000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+22385417	2012	J. Proteome Res.	Analyzing protein-protein interaction networks.	paper	0	1	1	-8.280000	-0.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+23228031	2012	Genome Biol.	A network module-based method for identifying cancer prognostic signatures.	paper	0	1	1	-9.480000	-5.290000	4.000000	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+27196054	2016	PLoS ONE	An Integrated Data Driven Approach to Drug Repositioning Using Gene-Disease Associations.	paper	1	0	1	-2.680000	-4.890000	-4.000000	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+28694847	2017	BioData Min	Arete - candidate gene prioritization using biological network topology with additional evidence types.	paper	0	1	1	-0.480000	0.310000	4.000000	0.000000	0.000000	0.000000	0.200000	2017:Cytoscape
+Keiichiro_Ono	0			author	1	1	2	3.580000	-6.510000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+21121031	2010	Pac Symp Biocomput	"Dynamic, multi-level network models of clinical trials."	paper	0	1	1	0.320000	-1.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+27993779	2016	Bioinformatics	Recon2Neo4j: applying graph database technologies for managing comprehensive genome-scale networks.	paper	1	0	1	6.320000	-2.890000	-4.000000	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+27587666	2016	Bioinformatics	"PanTools: representation, storage and exploration of pan-genomic data."	paper	1	0	1	-3.280000	9.710001	-4.000000	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+Guanming_Wu	0			author	1	1	2	1.360000	5.550000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Barry_Demchak	0			author	1	1	2	3.140000	-7.730000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+25165537	2014	F1000Res	Cytoscape: the network visualization tool for GenomeSpace workflows.	paper	0	1	1	-1.480000	-6.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+21414991	2011	Bioinformatics	Customizable views on semantically integrated networks for systems biology.	paper	0	1	1	3.320000	1.510000	4.000000	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+27203685	2016	PLoS Comput. Biol.	Reactome from a WikiPathways Perspective.	paper	0	1	1	2.120000	-2.290000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+24340000	2013	PLoS ONE	CyTargetLinker: a cytoscape app to integrate regulatory interactions in network analysis.	paper	0	1	1	-0.680000	5.910000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+Henning_Hermjakob	0			author	1	1	2	0.460000	5.270000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Thomas_Kelder	0			author	1	1	2	3.860000	-7.390000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+27347378	2016	F1000Res	CyLineUp: A Cytoscape app for visualizing data in network small multiples.	paper	0	1	1	9.520000	8.710001	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+25309732	2014	F1000Res	ReactomeFIViz: a Cytoscape app for pathway and network-based data analysis.	paper	0	1	1	4.320000	5.910000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+Lincoln_Stein	0			author	1	1	2	0.600000	4.530000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+25580224	2014	F1000Res	The Cytoscape app article collection.	paper	0	1	1	5.320000	-4.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+21149340	2010	Bioinformatics	Cytoscape 2.8: new features for data integration and network visualization.	paper	0	1	1	5.520000	-0.690000	4.000000	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+25199793	2014	Curr Protoc Bioinformatics	Biological network exploration with Cytoscape 3.	paper	0	1	1	9.120000	9.910000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+Jun_Li	0			author	1	1	2	-9.240000	-5.610000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Artem_Lysenko	0			author	1	1	2	4.280000	0.810000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+25075307	2014	F1000Res	Porting and using PanGIA for Cytoscape 3: challenges and solutions.	paper	0	1	1	3.520000	-6.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+Seon-Kyu_Kim	0			author	1	1	2	-7.860000	4.010000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+20847220	2010	Bioinformatics	Evidence mining and novelty assessment of protein-protein interactions with the ConsensusPathDB plugin for Cytoscape.	paper	0	1	1	0.320000	-5.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+Dick_de_Ridder	0			author	1	1	2	-2.480000	9.510000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Anil_Wipat	0			author	1	1	2	-2.900000	-4.950000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+21943367	2011	BMC Bioinformatics	iCTNet: a Cytoscape plugin to produce and analyze integrative complex traits networks.	paper	0	1	1	2.920000	6.310000	4.000000	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+17947979	2007	Nat Protoc	Integration of biological networks and gene expression data using Cytoscape.	paper	0	1	1	-7.880000	-3.690000	4.000000	0.000000	0.000000	0.000000	0.200000	2007:Cytoscape
+25520778	2014	F1000Res	Cytoscape tools for the web age: D3.js and Cytoscape.js exporters.	paper	0	1	1	5.520000	2.110000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+26672762	2015	F1000Res	CyREST: Turbocharging Cytoscape Access for External Tools via a RESTful API.	paper	0	1	1	-4.080000	-5.490000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+29377902	2018	PLoS Comput. Biol.	Reactome graph database: Efficient access to complex pathway data.	paper	1	0	1	0.720000	5.510000	-4.000000	0.000000	0.000000	0.000000	0.200000	2018:Neo4j
+21278188	2011	Bioinformatics	PiNGO: a Cytoscape plugin to find candidate genes in biological networks.	paper	0	1	1	4.120000	-1.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+29595070	2018	Am. J. Chin. Med.	The Anticancer Effects of Garlic Extracts on Bladder Cancer Compared to Cisplatin: A Common Mechanism of Action via Centromere Protein M.	paper	0	1	1	-6.880000	-2.690000	4.000000	0.000000	0.000000	0.000000	0.200000	2018:Cytoscape
+28498422	2017	Int. J. Oncol.	"Garlic extract in bladder cancer prevention: Evidence from T24 bladder cancer cell xenograft model, tissue microarray, and gene network analysis."	paper	0	1	1	-6.280000	-3.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2017:Cytoscape
+25260698	2014	Bioinformatics	PINBPA: cytoscape app for network analysis of GWAS data.	paper	0	1	1	-4.480000	-7.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+28150241	2017	Methods Mol. Biol.	Functional Interaction Network Construction and Analysis for Disease Discovery.	paper	0	1	1	-1.080000	8.309999	4.000000	0.000000	0.000000	0.000000	0.200000	2017:Cytoscape
+Pouya_Khankhanian	0			author	1	1	2	-9.040000	-4.090000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+29023449	2017	PLoS Comput. Biol.	Network propagation in the cytoscape cyberinfrastructure.	paper	0	1	1	4.520000	6.710000	4.000000	0.000000	0.000000	0.000000	0.200000	2017:Cytoscape
+Marijana_Radonjic	0			author	1	1	2	4.860000	-6.830000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+26834985	2015	F1000Res	iCTNet2: integrating heterogeneous biological interactions to understand complex traits.	paper	0	1	1	9.520000	6.310000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+26272981	2015	Bioinformatics	cyNeo4j: connecting Neo4j and Cytoscape.	paper	1	1	2	3.920000	-6.890000	-4.000000	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+27462371	2016	BioData Min	Representing and querying disease networks using graph databases.	paper	1	0	1	3.320000	-0.090000	-4.000000	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+27853520	2016	F1000Res	dot-app: a Graphviz-Cytoscape conversion plug-in.	paper	0	1	1	9.920000	2.910000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+25205120	2014	Mol. Biol. Rep.	Text mining and network analysis of molecular interaction in non-small cell lung cancer by using natural language processing.	paper	0	1	1	-3.280000	2.510000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+Georg_Summer	0			author	1	1	2	3.220000	-6.070000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+29946442	2018	F1000Res	Automation of ReactomeFIViz via CyREST API.	paper	0	1	1	-8.880000	-6.490000	4.000000	0.000000	0.000000	0.000000	0.200000	2018:Cytoscape
+26657893	2015	Plant Cell Physiol.	"HRGRN: A Graph Search-Empowered Integrative Database of Arabidopsis Signaling Transduction, Metabolism and Gene Regulation Networks."	paper	1	0	1	-9.280000	-5.490000	-4.000000	0.000000	0.000000	0.000000	0.200000	2015:Neo4j
+28936969	2017	Elife	Systematic integration of biomedical knowledge prioritizes drugs for repurposing.	paper	1	0	1	-8.280000	-4.290000	-4.000000	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+28416946	2017	Genomics Inform	Use of Graph Database for the Integration of Heterogeneous Biological Data.	paper	1	0	1	-7.280000	3.110000	-4.000000	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+-
+#From	To	affiliation	_r	_g	_b	_width	_text
+21943367	Sergio_E_Baranzini	-	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+21943367	Pouya_Khankhanian	-	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+25199793	Barry_Demchak	-	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+28694847	Artem_Lysenko	"Laboratory for Medical Science Mathematics, RIKEN Center for Integrative Medical Sciences, 1-7-22 Suehiro-cho, Tsurumi, Yokohama, 230-0045 Japan."	0.000000	0.000000	0.000000	0.200000	2017:Cytoscape
+21121031	Sergio_E_Baranzini	-	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+21149340	Keiichiro_Ono	-	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+25075307	Barry_Demchak	"University of California, San Diego, La Jolla, CA 92093, USA."	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+23132118	Keiichiro_Ono	-	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+23228031	Lincoln_Stein	-	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+23228031	Guanming_Wu	-	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+22385417	Henning_Hermjakob	-	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+25165537	Barry_Demchak	"Department of Medicine, University of California, San Diego, La Jolla, 92093-0688, USA."	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+25309732	Lincoln_Stein	"Ontario Institute for Cancer Research, Toronto, Ontario M5G 0A3, Canada ; Department of Molecular Genetics, University of Toronto, Toronto, Ontario M5S 1A8, Canada."	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+25309732	Guanming_Wu	"Ontario Institute for Cancer Research, Toronto, Ontario M5G 0A3, Canada ; DMICE, Oregon Health &amp; Science University, Portland, Oregon 97239, USA."	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+27347378	Dick_de_Ridder	"Bioinformatics Group, Wageningen University, Wageningen, Netherlands."	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+24340000	Thomas_Kelder	-	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+25409614	Jun_Li	-	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+25177485	Keiichiro_Ono	"Department of Medicine, University of California San Diego, La Jolla, CA 92093, USA."	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+27462371	Artem_Lysenko	"Rothamsted Research, Harpenden, West Common, Hertfordshire, AL5 2JQ UK."	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+20847220	Keiichiro_Ono	-	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+28936969	Pouya_Khankhanian	"Center for Neuroengineering and Therapeutics, University of Pennsylvania, Philadelphia, United States."	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+28936969	Sergio_E_Baranzini	"Department of Neurology, University of California, San Francisco, San Francisco, United States."	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+17947979	Keiichiro_Ono	-	0.000000	0.000000	0.000000	0.200000	2007:Cytoscape
+29377902	Lincoln_Stein	"Department of Molecular Genetics, University of Toronto, Toronto, (Canada)."	0.000000	0.000000	0.000000	0.200000	2018:Neo4j
+29377902	Henning_Hermjakob	"State Key Laboratory of Proteomics, Beijing Proteome Research Center, Beijing Institute of Radiation Medicine, National Center for Protein Sciences, Beijing, China."	0.000000	0.000000	0.000000	0.200000	2018:Neo4j
+29377902	Guanming_Wu	"Oregon Health and Science University, Portland, Oregon, United States of America."	0.000000	0.000000	0.000000	0.200000	2018:Neo4j
+25520778	Barry_Demchak	"Department of Medicine, University of California, San Diego, La Jolla, CA 92093-0688, USA."	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+25520778	Keiichiro_Ono	"Department of Medicine, University of California, San Diego, La Jolla, CA 92093-0688, USA."	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+26672762	Barry_Demchak	"Department of Medicine, University of California, San Diego, CA, 92093-0688, USA."	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+26672762	Keiichiro_Ono	"Department of Medicine, University of California, San Diego, CA, 92093-0688, USA."	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+21278188	Keiichiro_Ono	-	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+27203685	Guanming_Wu	"Ontario Institute for Cancer Research, MaRS Centre, Toronto, Ontario, Canada."	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+21414991	Anil_Wipat	-	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+21414991	Simon_J_Cockell	-	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+28498422	Seon-Kyu_Kim	"Medical Genomics Research Center, Korean Bioinformation Center, Korea Research Institute of Bioscience and Biotechnology, Department of Functional Genomics, University of Science and Technology, Daejeon 34113, Republic of Korea."	0.000000	0.000000	0.000000	0.200000	2017:Cytoscape
+25260698	Sergio_E_Baranzini	"School of Computing, Queen's University, 25 Union Street, Goodwin Hall, Kingston, Ontario K7L 3N6, Canada and Department of Neurology, University of California San Francisco, 675 Nelson Rising Lane, Room 215, San Francisco, CA 94158, USA."	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+28150241	Guanming_Wu	"Department of Medical Informatics and Clinical Epidemiology, Oregon Health &amp; Science University, Portland, OR, USA. guanmingwu@gmail.com."	0.000000	0.000000	0.000000	0.200000	2017:Cytoscape
+29595070	Seon-Kyu_Kim	"∥ Medical Genomics Research Center, Korean Bioinformation Center, Korea Research Institute of Bioscience and Biotechnology, Department of Functional Genomics, University of Science and Technology, Daejeon, South Korea."	0.000000	0.000000	0.000000	0.200000	2018:Cytoscape
+26657893	Jun_Li	"Plant Biology Division, The Samuel Roberts Noble Foundation, 2510 Sam Noble Parkway, Ardmore, OK 73401, USA."	0.000000	0.000000	0.000000	0.200000	2015:Neo4j
+29946442	Guanming_Wu	"Department of Medical Informatics and Clinical Epidemiology, Oregon Health &amp; Science University, Portland, OR, USA."	0.000000	0.000000	0.000000	0.200000	2018:Cytoscape
+26834985	Sergio_E_Baranzini	"Department of Neurology, University of California San Francisco, San Francisco, CA, 94158, USA; Graduate Program in Biological and Medical Informatics, University of California, San Francisco, San Francisco, CA, 94143-0523, USA."	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+25580224	Keiichiro_Ono	"University of California, San Diego, La Jolla, CA 92093, USA."	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+25580224	Barry_Demchak	"University of California, San Diego, La Jolla, CA 92093, USA."	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+26272981	Barry_Demchak	"Department of Medicine, University of California, San Diego, La Jolla, CA, USA."	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+26272981	Stephane_Heymans	"Center for Heart Failure Research, Cardiovascular Research Institute Maastricht (CARIM), University Hospital Maastricht, Maastricht, The Netherlands."	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+26272981	Marijana_Radonjic	"EdgeLeap B.V., Utrecht, The Netherlands and."	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+26272981	Thomas_Kelder	"EdgeLeap B.V., Utrecht, The Netherlands and."	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+26272981	Keiichiro_Ono	"Department of Medicine, University of California, San Diego, La Jolla, CA, USA."	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+26272981	Georg_Summer	"Center for Heart Failure Research, Cardiovascular Research Institute Maastricht (CARIM), University Hospital Maastricht, Maastricht, The Netherlands, TNO, Zeist, The Netherlands."	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+27853520	Barry_Demchak	"Department of Health Sciences, UC San Diego, San Diego, USA."	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+27196054	Anil_Wipat	"Interdisciplinary Computing and Complex BioSystems (ICOS) Research Group, School of Computing Science, Newcastle University, Newcastle upon Tyne, United Kingdom."	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+27196054	Simon_J_Cockell	"Bioinformatics Support Unit, Newcastle University, Newcastle upon Tyne, United Kingdom."	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+29023449	Barry_Demchak	"Department of Medicine, University of California-San Diego, San Diego, California, United States of America."	0.000000	0.000000	0.000000	0.200000	2017:Cytoscape
+27993779	Artem_Lysenko	"Rothamsted Research, Harpenden, West Common, Hertfordshire AL5 2JQ, UK."	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+25205120	Jun_Li	"Department of Hematology and Oncology, China-Japan Union Hospital of Jilin University, Changchun, 130031, Jilin, People's Republic of China."	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+27587666	Dick_de_Ridder	"Bioinformatics Group, Wageningen University, Droevendaalsesteeg 1, 6708PB, Wageningen, The Netherlands."	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+28416946	Seon-Kyu_Kim	"Personalized Genomic Medicine Research Center, Korea Research Institute of Bioscience and Biotechnology (KRIBB), Daejeon 34141, Korea."	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+

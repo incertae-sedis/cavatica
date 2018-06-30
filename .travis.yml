@@ -3,9 +3,7 @@ R:
   - "3.5"
 cache: packages
 before_install:
-  - mkdir -p data/test
   - cd data/test
-  - echo "Neo4j" > config.txt
 install:
   - echo "installation here"
 before_script:

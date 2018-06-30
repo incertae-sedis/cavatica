@@ -1,0 +1,685 @@
+#graph: mul
+#pmid	year	journal	title	otherid	type	Neo4j_I	Cytoscape_I	sum	_x	_y	_z	_r	_g	_b	_radius	_text
+Qi_Liu	0				author	1	1	2	0.110000	5.170000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+2542360	2008	1	The genome-scale metabolic model <italic>iIN800 </italic>of <italic>Saccharomyces cerevisiae </italic>and its validation: a scaffold to query lipid metabolism	18687109	paper	0	1	1	-7.490000	-7.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2008:Cytoscape
+Intawat_Nookaew	0				author	1	1	2	6.610000	-2.690000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Changjun_Ding	0				author	1	1	2	0.350000	5.970000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Eve Syrkin_Wurtele	0				author	1	1	2	9.850000	-1.270000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Christopher J._Rawlings	0				author	1	1	2	9.790001	-3.830000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Hyejin_Cho	0				author	1	1	2	4.490000	-7.250000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Martina_Kutmon	0				author	1	1	2	-8.170000	-5.210000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Alexandre G._de Brevern	0				author	1	1	2	8.530001	9.850000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Benjamin S._Glicksberg	0				author	1	1	2	-3.390000	5.310000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+3245176	2012	3	modMine: flexible access to modENCODE data	22080565	paper	0	1	1	-8.090000	3.510000	4.000000	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+Ling_Li	0				author	1	1	2	9.150000	-0.910000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+3964965	2014	6	Protein Ontology: a controlled structured network of protein entities	24270789	paper	0	1	1	-8.090000	-6.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+Hui-Hsien_Chou	0				author	1	1	2	4.390000	-6.910000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+2958306	2010	1	Proteomics data repositories: Providing a safe haven for your data and acting as a springboard for further research	20615486	paper	0	1	1	-0.290000	-0.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+Peter N._Robinson	0				author	1	1	2	-0.670000	6.410000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+2686536	2009	1	Reactome knowledgebase of human biological pathways and processes	18981052	paper	0	1	1	-4.290000	-3.690000	4.000000	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+4767623	2016	2	Integrative genomic analysis by interoperation of bioinformatics tools in GenomeSpace	26780094	paper	0	1	1	1.310000	4.510000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+2731838	2009	5	Evolutionarily Conserved Herpesviral Protein Interaction Networks	19730696	paper	0	1	1	8.710001	-5.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+4838348	2016	1	Transcriptional regulatory networks in <italic>Arabidopsis thaliana</italic> during single and combined stresses	26681689	paper	0	1	1	9.710001	9.110001	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+2718524	2009	2	The Cell Cycle Ontology: an application ontology for the representation and integrated analysis of the cell cycle process	19480664	paper	0	1	1	-0.490000	2.710000	4.000000	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+Sunghwan_Kim	0				author	1	1	2	-1.610000	-9.809999	-4.000000	0.000000	0.650000	0.000000	0.200000	
+2649164	2009	6	BioMart &#x2013; biological queries made easy	19144180	paper	0	1	1	3.310000	3.110000	4.000000	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+Lars Juhl_Jensen	0				author	1	1	2	1.350000	-8.410000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+3967113	2014	5	Ondex Web: web-based visualization and exploration of heterogeneous biological networks	24363379	paper	0	1	1	9.510000	-4.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4383992	2015	1	CDD: NCBI's conserved domain database	25414356	paper	0	1	1	6.310000	2.310000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4286171	2014	1	LC&#x2013;MS Metabolomicsof Psoriasis Patients RevealsDisease Severity-Dependent Increases in Circulating Amino Acids ThatAre Ameliorated by Anti-TNF&#x3B1; Treatment	25361234	paper	0	1	1	6.310000	9.910000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+5221424	2017	1	"Translational bioinformatics in the era of real-time biomedical, health care and wellness data streams"	26876889	paper	1	0	1	-3.290000	5.910000	-4.000000	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+2714472	2009	8	Mining Biological Pathways Using WikiPathways Web Services	19649250	paper	0	1	1	-5.890000	-8.889999	4.000000	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+4670728	2015	5	An experimentally supported model of the <italic>Bacillus subtilis</italic> global transcriptional regulatory network	26577401	paper	0	1	1	-4.690000	-7.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+Jie_Chen	0				author	1	1	2	-1.670000	-9.170000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+3531147	2013	1	ArrayExpress update&#x2014;trends in database growth and links to data analysis tools	23193272	paper	0	1	1	2.510000	9.510000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+4244535	2014	1	Antitumor effect and biological pathways of a recombinant adeno-associated virus as a human renal cell carcinoma suppressor	25091575	paper	0	1	1	9.309999	6.710000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4460923	2015	1	Network-based prediction and knowledge mining of disease genes	26043920	paper	0	1	1	-0.090000	-3.290000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4175592	2014	1	Human Tra2 proteins jointly control a <italic>CHEK1</italic> splicing switch among alternative and constitutive target exons	25208576	paper	0	1	1	3.310000	-5.690000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+Jennifer_Chang	0				author	1	1	2	3.590000	-6.290000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Juan Antonio_Vizca&#xED;no	0				author	1	1	2	-1.490000	-3.310000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+4908366	2016	3	Comparative analyses of population-scale phenomic data in electronic medical records reveal race-specific disease networks	27307606	paper	0	1	1	-2.090000	-8.889999	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+Georg_Summer	0				author	1	1	2	-3.450000	9.690001	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Zhihong_Song	0				author	1	1	2	9.350000	-1.850000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Hannah_Tipney	0				author	1	1	2	9.090000	4.370000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+4873016	2016	2	An Integrated Data Driven Approach to Drug Repositioning Using Gene-Disease Associations	27196054	paper	1	0	1	3.510000	-7.890000	-4.000000	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+4736989	2016	1	Mining integrated semantic networks for drug repositioning opportunities	26844016	paper	1	0	1	9.510000	4.310000	-4.000000	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+Fabian J._Theis	0				author	1	1	2	-0.130000	4.610000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+2958747	2010	14	Evidence mining and novelty assessment of protein&#x2013;protein interactions with the ConsensusPathDB plugin for Cytoscape	20847220	paper	0	1	1	0.510000	-0.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+2935528	2010	4	"Challenges of molecular nutrition research 6: the nutritional phenotype database to store, share and evaluate nutritional systems biology studies"	21052526	paper	0	1	1	-8.690001	8.309999	4.000000	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+Michael_Yu	0				author	1	1	2	2.090000	3.070000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+4045758	2014	1	Integrative Analysis of Transcriptional Regulatory Network and Copy Number Variation in Intrahepatic Cholangiocarcinoma	24897108	paper	0	1	1	3.110000	8.910000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+Jackie_Shanks	0				author	1	1	2	9.130001	-1.350000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+4316181	2015	2	"Merging and scoring molecular interactions utilising existing community standards: tools, use-cases and a case study"	25652942	paper	0	1	1	-0.090000	4.710000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+Johannes F_Fahrmann	0				author	1	1	2	8.830000	-4.430000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Janusz_Dutkowski	0				author	1	1	2	1.030000	2.130000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+4055858	2014	1	Reconstruction of gene regulatory network related to photosynthesis in <italic>Arabidopsis thaliana</italic>	24982665	paper	0	1	1	-6.290000	8.110001	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+Robert E. W._Hancock	0				author	1	1	2	-1.510000	-2.350000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+3031041	2011	25	Cytoscape 2.8: new features for data integration and network visualization	21149340	paper	0	1	1	1.710000	2.510000	4.000000	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+3669790	2013	1	An improved hypergeometric probability method for identification of functionally linked proteins using phylogenetic profiles	23750082	paper	0	1	1	-2.690000	1.510000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+4981870	2016	3	PoplarGene: poplar gene network and resource for mining functional information for genes from woody plants	27515999	paper	1	1	2	0.710000	5.510000	-4.000000	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4981961	2016	3	Identification of conserved and novel microRNAs in <italic>Porphyridium purpureum</italic> via deep sequencing and bioinformatics	27516065	paper	0	1	1	-7.690000	3.110000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+3245032	2012	2	WikiPathways: building research communities on biological pathways	22096230	paper	0	1	1	-9.090000	2.510000	4.000000	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+Rui_Wang	0				author	1	1	2	-1.690000	-4.910000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Chris T. A._Evelo	0				author	1	1	2	-7.949999	-4.250000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+2475545	2008	1	WikiPathways: Pathway Editing for the People	18651794	paper	0	1	1	7.110000	1.310000	4.000000	0.000000	0.000000	0.000000	0.200000	2008:Cytoscape
+Simon J._Cockell	0				author	1	1	2	2.910000	-7.070000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+4058954	2014	1	Inferring gene ontologies from pairwise similarity data	24932003	paper	0	1	1	2.710000	-5.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4383880	2015	3	Disease Ontology 2015 update: an expanded and updated database of human diseases for linking biomedical knowledge through disease data	25348409	paper	1	0	1	-7.490000	2.110000	-4.000000	0.000000	0.000000	0.000000	0.200000	2015:Neo4j
+Seth_Carbon	0				author	1	1	2	0.330000	5.490000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Christopher J._Mungall	0				author	1	1	2	-8.490000	2.710000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Robert_Stevens	0				author	1	1	2	-4.150000	-1.250000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+James P._Balhoff	0				author	1	1	2	-0.730000	4.910000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Suzanna E._Lewis	0				author	1	1	2	0.070000	5.950000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+4252261	2014	5	White adipose tissue reference network: a knowledge resource for exploring health-relevant relations	25466819	paper	0	1	1	7.910000	-3.690000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4474540	2015	1	Dysregulated transcription across diverse cancer types reveals the importance of RNA-binding protein in carcinogenesis	26100984	paper	0	1	1	7.310000	-4.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+Christopher J_Rawlings	0				author	1	1	2	-4.810000	-8.990000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Trey_Ideker	0				author	1	1	2	2.210000	2.670000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+2824678	2010	8	"The BridgeDb framework: standardized access to gene, protein and metabolite identifier mapping services"	20047655	paper	0	1	1	6.910000	9.910000	4.000000	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+Vanessa_Sochat	0				author	1	1	2	8.990000	-8.490000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+3110186	2011	1	Unraveling Molecular Signatures of Immunostimulatory Adjuvants in the Female Genital Tract through Systems Biology	21666746	paper	0	1	1	-0.090000	2.110000	4.000000	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+Damian_Smedley	0				author	1	1	2	0.410000	5.970000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+2998519	2010	12	MetNetAPI: A flexible method to access and manipulate biological network data from MetNet	21083943	paper	0	1	1	7.110000	3.710000	4.000000	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+3653101	2013	3	A knowledge based approach to matching human neurodegenerative disease and animal models	23717278	paper	0	1	1	9.710001	8.510000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+Susan L._Coort	0				author	1	1	2	-8.090000	-3.330000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Zebulun_Arendsee	0				author	1	1	2	9.750000	-1.170000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Khader_Shameer	0				author	1	1	2	-3.510000	6.870000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+4482044	2015	2	A comprehensive quantitative phosphoproteome analysis of rice in response to bacterial blight	26112675	paper	0	1	1	-4.490000	-3.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+3170566	2011	5	The 2nd DBCLS BioHackathon: interoperable bioinformatics Web services for integrated applications	21806842	paper	0	1	1	1.310000	9.309999	4.000000	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+3001121	2010	2	BioPAX &#x2013; A community standard for pathway data sharing	20829833	paper	0	1	1	8.309999	3.310000	4.000000	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+4015281	2013	1	Transcriptome signatures in <italic>Helicobacter pylori</italic>-infected mucosa identifies acidic mammalian chitinase loss as a corpus atrophy marker	24119614	paper	0	1	1	6.710000	-4.490000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+4446272	2015	3	Network-based integration of molecular and physiological data elucidates regulatory mechanisms underlying adaptation to high-fat diet	26017391	paper	0	1	1	-7.490000	3.110000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+3031552	2011	6	The <italic>Pseudomonas aeruginosa</italic> Autoinducer 3O-C12 Homoserine Lactone Provokes Hyperinflammatory Responses from Cystic Fibrosis Airway Epithelial Cells	21305014	paper	0	1	1	5.110000	-4.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+Jian_Zhang	0				author	1	1	2	-0.490000	-10.330000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+5103253	2016	3	2015 Brainhack Proceedings		paper	1	0	1	9.110001	-8.889999	-4.000000	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+2653649	2009	8	"Biomedical Discovery Acceleration, with Applications to Craniofacial Development"	19325874	paper	0	1	1	-7.490000	-7.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+3013646	2011	1	"Reactome: a database of reactions, pathways and biological processes"	21067998	paper	0	1	1	9.510000	1.910000	4.000000	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+Jane_He	0				author	1	1	2	-0.930000	-8.770000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+3597018	2013	4	"Phenotypic overlap in the contribution of individual genes to CNV pathogenicity revealed by cross-species computational analysis of single-gene mutations in humans, mice and zebrafish"	23104991	paper	0	1	1	8.309999	1.110000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+4825662	2016	2	"Sexual Polyploidization in <italic>Medicago sativa</italic> L.: Impact on the Phenotype, Gene Transcription, and Genome Methylation"	26858330	paper	0	1	1	8.910000	-5.690000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+Matthew_Brush	0				author	1	1	2	-0.990000	6.370000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Marijana_Radonjic	0				author	1	1	2	-2.710000	10.370001	-4.000000	0.800000	0.650000	0.000000	0.200000	
+3105496	2011	3	Mining semantic networks of bioinformatics e-resources from the literature	21388573	paper	0	1	1	7.310000	0.310000	4.000000	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+3077072	2011	8	Customizable views on semantically integrated networks for systems biology	21414991	paper	0	1	1	7.310000	-2.290000	4.000000	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+3592423	2013	4	Reverse engineering and analysis of large genome-scale gene networks	23042249	paper	0	1	1	1.310000	-8.490000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+2582614	2008	1	Protein networks markedly improve prediction of subcellular localization in multiple eukaryotic species	18836191	paper	0	1	1	5.110000	-9.490000	4.000000	0.000000	0.000000	0.000000	0.200000	2008:Cytoscape
+2238868	2008	1	NetworKIN: a resource for exploring cellular phosphorylation networks	17981841	paper	0	1	1	6.110000	-6.290000	4.000000	0.000000	0.000000	0.000000	0.200000	2008:Cytoscape
+3950724	2014	1	GPLEXUS: enabling genome-scale gene association network reconstruction and analysis for very large-scale expression data	24178033	paper	0	1	1	0.910000	7.710000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+Nicole_Vasilevsky	0				author	1	1	2	-0.410000	5.470000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+3847961	2013	3	DeGNServer: Deciphering Genome-Scale Gene Networks through High Performance Reverse Engineering Analysis	24328032	paper	0	1	1	-5.890000	8.710001	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+Thomas_Kelder	0				author	1	1	2	-7.449999	-4.890000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+2896180	2010	1	<italic>R</italic> spider: a network-based analysis of gene lists by combining signaling and metabolic pathways from Reactome and KEGG databases	20519200	paper	0	1	1	-4.490000	-7.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+Dror Y._Kenett	0				author	1	1	2	-7.730000	8.370001	-4.000000	0.800000	0.650000	0.000000	0.200000	
+4772745	2016	1	Translation of Genotype to Phenotype by a Hierarchy of Cell Subsystems	26949740	paper	0	1	1	-7.690000	-5.290000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4141640	2014	35	KEGGscape: a Cytoscape app for pathway data integration	25177485	paper	0	1	1	5.310000	-8.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+Henning_Hermjakob	0				author	1	1	2	-1.070000	-4.570000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Anil_Wipat	0				author	1	1	2	3.890000	-7.590000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Jun_Li	0				author	1	1	2	1.330000	5.350000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Stephen H._Bryant	0				author	1	1	2	-1.590000	-10.450001	-4.000000	0.800000	0.650000	0.000000	0.200000	
+2745575	2009	2	Systems Integration of Biodefense Omics Data for Analysis of Pathogen-Host Interactions and Identification of Potential Targets	19779614	paper	0	1	1	-7.290000	2.110000	4.000000	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+3848080	2013	2	A Systems' Biology Approach to Study MicroRNA-Mediated Gene Regulatory Networks	24350286	paper	0	1	1	9.710001	-0.490000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+C&#xE9;cile_Fairhead	0				author	1	1	2	9.230000	9.530001	-4.000000	0.000000	0.650000	0.000000	0.200000	
+3182870	2011	1	Protein Networks as Logic Functions in Development and Cancer	21980275	paper	0	1	1	-8.690001	-8.289999	4.000000	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+3483157	2012	3	MetNet Online: a novel integrated resource for plant systems biology	23066841	paper	0	1	1	-2.490000	8.510000	4.000000	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+Wenxu_Zhou	0				author	1	1	2	10.010000	-1.550000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+2971579	2010	1	"Investigating the correlations among the chemical structures, bioactivity profiles and molecular targets of small molecules"	20947527	paper	0	1	1	-8.289999	-9.490000	4.000000	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+5067895	2016	1	Supporting the analysis of ontology evolution processes through the combination of static and dynamic scaling functions in OQuaRE	27751176	paper	1	0	1	-3.690000	-0.890000	-4.000000	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+4998145	2016	2	Construction of protein interaction network involved in lung adenocarcinomas using a novel algorithm	27588126	paper	0	1	1	-5.890000	1.110000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4363943	2014	6	Network signatures link hepatic effects of anti-diabetic interventions with systemic disease parameters	25204982	paper	0	1	1	8.910000	-6.490000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4626853	2015	2	A Molecular-Level Landscape of Diet-Gut Microbiome Interactions: Toward Dietary Interventions Targeting Bacterial Genes	26507230	paper	0	1	1	-8.889999	-2.490000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+Alexander_Mazein	0				author	1	1	2	-5.450000	-9.590000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Vidya_Iyer	0				author	1	1	2	9.670000	-1.250000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+3420874	2012	18	The Protein Architecture of Human Secretory Vesicles Reveals Differential Regulation of Signaling Molecule Secretion by Protein Kinases	22916103	paper	0	1	1	5.110000	4.910000	4.000000	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+Alain_Malpertuy	0				author	1	1	2	8.809999	8.110001	-4.000000	0.000000	0.650000	0.000000	0.200000	
+2835567	2010	1	Feedback between p21 and reactive oxygen production is necessary for cell senescence	20160708	paper	0	1	1	-3.290000	-6.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+2289880	2008	1	Functional Maps of Protein Complexes from Quantitative Genetic Interaction Data	18421374	paper	0	1	1	1.310000	7.910000	4.000000	0.000000	0.000000	0.000000	0.200000	2008:Cytoscape
+4743622	2016	6	An algorithm to detect and communicate the differences in computational models describing biological systems	26490504	paper	0	1	1	-3.490000	3.310000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+3977660	2013	2	A new reference implementation of the PSICQUIC web service	23671334	paper	0	1	1	-3.890000	-9.889999	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+3439726	2012	1	BirdsEyeView (BEV): graphical overviews of experimental data	23046276	paper	0	1	1	-1.690000	-6.690000	4.000000	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+3632109	2013	1	Enriching the gene set analysis of genome-wide data by incorporating directionality of gene expression and combining statistical hypotheses and methods	23444143	paper	0	1	1	-5.490000	3.310000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+3540420	2013	4	Matching arthropod anatomy ontologies to the Hymenoptera Anatomy Ontology: results from a manual alignment	23303300	paper	0	1	1	5.110000	-8.490000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+3245075	2012	4	The IntAct molecular interaction database in 2012	22121220	paper	0	1	1	-2.690000	-9.490000	4.000000	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+Michael_Kramer	0				author	1	1	2	1.690000	2.770000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+James_Malone	0				author	1	1	2	-8.209999	2.010000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Warren A._Kibbe	0				author	1	1	2	-7.930000	2.970000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+3725151	2013	5	The KUPNetViz: a biological network viewer for multiple -omics datasets in kidney diseases	23883183	paper	0	1	1	-4.490000	5.110000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+4466500	2015	1	Trends in IT Innovation to Build a Next Generation Bioinformatics Solution to Manage and Analyse Biological Big Data Produced by NGS Technologies	26125026	paper	1	1	2	9.510000	8.910000	-4.000000	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+3759020	2013	1	Semantic organization in children with cochlear implants: computational analysis of verbal fluency	24032018	paper	0	1	1	9.910000	-4.690000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+Artem_Lysenko	0				author	1	1	2	-5.750000	-8.469999	-4.000000	0.800000	0.650000	0.000000	0.200000	
+3605104	2013	1	The RAVEN Toolbox and Its Use for Generating a Genome-scale Metabolic Model for <italic>Penicillium chrysogenum</italic>	23555215	paper	0	1	1	5.310000	-0.490000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+Tingsong_Liu	0				author	1	1	2	1.030000	4.630000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+3172300	2011	1	Modulation of Catalytic Activity in Multi-Domain Protein Tyrosine Phosphatases	21931847	paper	0	1	1	-6.690000	-8.889999	4.000000	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+Martin_Preusse	0				author	1	1	2	5.630000	-2.670000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+3531080	2013	1	InnateDB: systems biology of innate immunity and beyond&#x2014;recent updates and continuing curation	23180781	paper	0	1	1	-1.490000	-3.490000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+Dan_Nettleton	0				author	1	1	2	9.050001	-2.170000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Patrick Xuechun_Zhao	0				author	1	1	2	1.010000	4.990000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+3197281	2011	1	The Reactome BioMart	22012987	paper	0	1	1	7.910000	-2.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+5153655	2016	1	Comparative Systems Analyses Reveal Molecular Signatures of Clinically tested Vaccine Adjuvants	27958370	paper	0	1	1	-0.690000	-4.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+Peter_Woollard	0				author	1	1	2	3.970000	-7.270000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+2896911	2010	2	"A global network of transcription factors, involving E2A, EBF1 and Foxo1, that orchestrates the B cell fate"	20543837	paper	0	1	1	7.310000	-0.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+4659159	2015	1	Impact of microRNA-130a on the neutrophil proteome	26608132	paper	0	1	1	0.110000	-2.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+2793266	2009	1	Phylogeny-guided interaction mapping in seven eukaryotes	19948065	paper	0	1	1	-0.690000	7.710000	4.000000	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+3912678	2013	5	A comprehensive machine-readable view of the mammalian cholesterol biosynthesis pathway	23583456	paper	0	1	1	4.110000	-0.490000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+545798	2004	3	Integrating phenotypic and expression profiles to map arsenic-response networks	15575969	paper	0	1	1	-5.090000	8.110001	4.000000	0.000000	0.000000	0.000000	0.200000	2004:Cytoscape
+Basil_Nikolau	0				author	1	1	2	8.710001	-0.710000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Matthew B_Carson	0				author	1	1	2	0.870000	-8.889999	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Barry_Demchak	0				author	1	1	2	0.790000	1.850000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Junaid_Gamieldien	0				author	1	1	2	7.910000	8.389999	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Luis M._Rodriguez-R	0				author	1	1	2	-10.070000	-6.610000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+4288400	2014	16	The Cytoscape app article collection	25580224	paper	0	1	1	7.710000	8.110001	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4546821	2015	3	Automatically visualise and analyse data on pathways using PathVisioRPC from any programming environment	26298294	paper	0	1	1	5.910000	0.710000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+2682202	2009	1	Host Cell Factors in HIV Replication: Meta-Analysis of Genome-Wide Studies	19478882	paper	0	1	1	7.710000	-2.290000	4.000000	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+4147923	2014	2	Extracting patterns of database and software usage from the bioinformatics literature	25161253	paper	0	1	1	8.710001	4.510000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+5052669	2016	2	The lncRNA landscape of breast cancer reveals a role for DSCAM-AS1 in breast cancer progression	27666543	paper	0	1	1	4.310000	1.110000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4133763	2014	88	Cytoscape: the network visualization tool for GenomeSpace workflows	25165537	paper	0	1	1	-6.690000	3.110000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+Sita_Saunders	0				author	1	1	2	4.610000	-3.510000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+1751555	2007	1	CellCircuits: a database of protein network models	17135207	paper	0	1	1	-0.890000	-6.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2007:Cytoscape
+4168754	2014	45	WikiPathways App for Cytoscape: Making biological pathways amenable to network analysis and visualization	25254103	paper	0	1	1	-5.290000	-3.690000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4562606	2015	1	"Genomic, Proteomic, and Metabolomic Data Integration Strategies"	26396492	paper	1	1	2	9.309999	-3.890000	-4.000000	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4982211	2016	1	COMAN: a web server for comprehensive metatranscriptomics analysis	27515514	paper	0	1	1	0.710000	-6.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4619599	2015	1	Cancer Specific Long Noncoding RNAs Show Differential Expression Patterns and Competing Endogenous RNA Potential in Hepatocellular Carcinoma	26492393	paper	0	1	1	-2.290000	4.510000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+3965093	2014	1	The MIntAct project&#x2014;IntAct as a common curation platform for 11 molecular interaction databases	24234451	paper	0	1	1	3.910000	1.710000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+3531051	2013	2	The disease and gene annotations (DGA): an annotation resource for human disease	23197658	paper	0	1	1	8.309999	-8.289999	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+Daniel_Maticzka	0				author	1	1	2	4.170000	-2.310000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+3712731	2012	2	Annotating Cancer Variants and Anti-Cancer Therapeutics in Reactome	24213504	paper	0	1	1	-5.690000	2.310000	4.000000	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+3245084	2012	5	PlantNATsDB: a comprehensive database of plant natural antisense transcripts	22058132	paper	0	1	1	-4.490000	-4.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+4415485	2015	9	A visual review of the interactome of LRRK2: Using deep-curated molecular interaction data to represent biology	25648416	paper	0	1	1	7.110000	-2.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4845325	2016	1	Network-driven plasma proteomics expose molecular changes in the Alzheimer&#x2019;s brain	27112350	paper	0	1	1	-9.490000	1.710000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+3528629	2012	1	Quantitatively integrating molecular structure and bioactivity profile evidence into drug-target relationship analysis	22559876	paper	0	1	1	-5.490000	8.510000	4.000000	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+2896146	2010	1	BioMet Toolbox: genome-wide analysis of metabolism	20483918	paper	0	1	1	9.110001	-3.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+3598643	2013	9	The 3rd DBCLS BioHackathon: improving life science data integration with Semantic Web technologies	23398680	paper	0	1	1	-3.690000	-9.490000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+Helen_Parkinson	0				author	1	1	2	-6.930000	2.250000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+2788232	2009	1	Genome-Wide Association Data Reveal a Global Map of Genetic Interactions among Protein Complexes	20041197	paper	0	1	1	-8.690001	-7.290000	4.000000	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+Maia J._Benner	0				author	1	1	2	-2.550000	-2.550000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+4309402	2015	1	Acute and Chronic Plasma Metabolomic and Liver Transcriptomic Stress Effects in a Mouse Model with Features of Post-Traumatic Stress Disorder	25629821	paper	0	1	1	-2.690000	9.910000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4286167	2014	1	The Human Colostrum Whey ProteomeIs Altered in GestationalDiabetes Mellitus	25338220	paper	0	1	1	-9.090000	0.310000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4699901	2015	2	The Detection of Emerging Trends Using Wikipedia Traffic Data and Context Networks	26720074	paper	1	0	1	-8.289999	9.110001	-4.000000	0.000000	0.000000	0.000000	0.200000	2015:Neo4j
+4533317	2015	1	Characterisation of peripheral blood mononuclear cell microRNA in hepatitis B-related acute-on-chronic liver failure	26267843	paper	0	1	1	-8.289999	1.710000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+Charles_Auffray	0				author	1	1	2	-4.550000	-9.610001	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Bo_Yu	0				author	1	1	2	-1.070000	-9.889999	-4.000000	0.800000	0.650000	0.000000	0.200000	
+4409848	2015	1	Making proteomics data accessible and reusable: Current state of proteomics databases and repositories	25158685	paper	0	1	1	-4.490000	-6.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+Keiichiro_Ono	0				author	1	1	2	2.190000	1.950000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Yasset_Perez-Riverol	0				author	1	1	2	-0.890000	-3.750000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+4722177	2016	6	"HRGRN: A Graph Search-Empowered Integrative Database of Arabidopsis Signaling Transduction, Metabolism and Gene Regulation Networks"	26657893	paper	1	1	2	1.710000	5.510000	-4.000000	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+Jean-Philippe_Meyniel	0				author	1	1	2	8.990000	8.070000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+5348118	2016	2	Inhibition of fat cell differentiation in 3T3-L1 pre-adipocytes by all-trans retinoic acid: Integrative analysis of transcriptomic and phenotypic data	28331816	paper	0	1	1	1.510000	8.710001	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4845066	2016	1	Scaling in topological properties of brain networks	27112129	paper	0	1	1	2.310000	3.910000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+2816673	2010	1	Network-Based Elucidation of Human Disease Similarities Reveals Common Functional Modules Enriched for Pluripotent Drug Targets	20140234	paper	0	1	1	1.310000	3.310000	4.000000	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+Yanguang_Chu	0				author	1	1	2	-0.230000	6.450000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Weixi_Zhang	0				author	1	1	2	0.870000	4.570000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Bachir_Balech	0				author	1	1	2	-4.870000	3.650000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+4820913	2016	1	The systems biology format converter	27044654	paper	0	1	1	-5.290000	3.710000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+3679525	2013	2	Temporal transcriptional response to ethylene gas drives growth hormone cross-regulation in <italic>Arabidopsis</italic>	23795294	paper	0	1	1	1.710000	-6.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+Dmitry_Grapov	0				author	1	1	2	9.510000	-4.790000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Ole_Lund	0				author	1	1	2	6.310000	-3.410000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Dagmar_Waltemath	0				author	1	1	2	-4.870000	-3.110000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Alan C._Evans	0				author	1	1	2	8.870001	-9.730000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+2927425	2010	1	Identifying Molecular Effects of Diet through Systems Biology: Influence of Herring Diet on Sterol Metabolism and Protein Turnover in Mice	20808764	paper	0	1	1	-0.290000	-2.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+3443057	2012	2	Cancer core modules identification through genomic and transcriptomic changes correlation detection at network level	22691569	paper	0	1	1	-1.490000	6.310000	4.000000	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+3161081	2011	2	Global and Local Features of Semantic Networks: Evidence from the Hebrew Mental Lexicon	21887343	paper	0	1	1	0.110000	7.110000	4.000000	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+4682164	2015	1	Long-term neural and physiological phenotyping of a single human	26648521	paper	0	1	1	0.510000	-0.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4338111	2015	3	PathVisio 3: An Extendable Pathway Analysis Toolbox	25706687	paper	0	1	1	2.910000	-4.290000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+3855388	2013	1	CyTargetLinker: A Cytoscape App to Integrate Regulatory Interactions in Network Analysis	24340000	paper	1	1	2	-8.289999	-4.290000	-4.000000	0.000000	0.000000	0.000000	0.200000	2013:Neo4jCytoscape
+Krzysztof J._Gorgolewski	0				author	1	1	2	9.049999	-9.389999	-4.000000	0.000000	0.650000	0.000000	0.200000	
+4702772	2016	4	WikiPathways: capturing the full diversity of pathway knowledge	26481357	paper	0	1	1	8.910000	5.510000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+5167366	2016	4	Developing integrated crop knowledge networks to advance candidate gene discovery	28018846	paper	0	1	1	5.910000	-4.690000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4702830	2016	2	DESM: portal for microbial knowledge exploration systems	26546514	paper	0	1	1	7.910000	0.710000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4670004	2015	130	CyREST: Turbocharging Cytoscape Access for External Tools via a RESTful API	26672762	paper	0	1	1	0.110000	3.910000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4537452	2015	14	"Integrative network-based analysis of mRNA and microRNA expression in 1,25-dihydroxyvitamin D<sub>3</sub>-treated cancer cells"	26276506	paper	0	1	1	2.510000	-1.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+Robert_Hoehndorf	0				author	1	1	2	-5.070000	3.810000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+4394967	2015	6	Visualizing collaborative electronic health record usage for hospitalized patients with heart failure	25710558	paper	1	0	1	1.510000	-9.690001	-4.000000	0.000000	0.000000	0.000000	0.200000	2015:Neo4j
+4092319	2014	3	Enriched biodiversity data as a resource and service	25057255	paper	1	0	1	-5.690000	3.510000	-4.000000	0.000000	0.000000	0.000000	0.200000	2014:Neo4j
+3866081	2013	1	Network-based stratification of tumor mutations	24037242	paper	0	1	1	-2.490000	5.310000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+Sebastian_K&#xF6;hler	0				author	1	1	2	-0.350000	6.290000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Joel T._Dudley	0				author	1	1	2	-3.970000	6.730000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Carsten_Marr	0				author	1	1	2	4.890000	-3.810000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+2189715	2007	4	Broadening the horizon &#x2013; level 2.5 of the HUPO-PSI format for molecular interactions	17925023	paper	0	1	1	-0.090000	-4.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2007:Cytoscape
+3653729	2013	1	Effects of smoking and smoking cessation on human serum metabolite profile: results from the KORA cohort study	23497222	paper	0	1	1	-8.090000	-6.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+3842757	2013	7	Are graph databases ready for bioinformatics?	24135261	paper	1	0	1	0.710000	-8.289999	-4.000000	0.000000	0.000000	0.000000	0.200000	2013:Neo4j
+Kwanjeera_Wanichthanarak	0				author	1	1	2	8.770000	-3.110000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+4349868	2015	2	Identifying Prognostic Features by Bottom-Up Approach and Correlating to Drug Repositioning	25738841	paper	0	1	1	3.110000	0.710000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4853038	2016	1	Effects of individually silenced N-glycosylation sites and non-synonymous single-nucleotide polymorphisms on the fusogenic function of human syncytin-2	26853155	paper	0	1	1	4.510000	4.310000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+Jiafei_Chen	0				author	1	1	2	-0.230000	4.510000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Irina_Balaur	0				author	1	1	2	-4.150000	-10.070000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+2758592	2009	4	Systematic Characterisation of Cellular Localisation and Expression Profiles of Proteins Containing MHC Ligands	19826487	paper	0	1	1	9.309999	2.110000	4.000000	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+4971676	2016	1	Mango: combining and analyzing heterogeneous biological networks	27489569	paper	1	1	2	3.910000	-6.890000	-4.000000	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+5408918	2017	18	Recon2Neo4j: applying graph database technologies for managing comprehensive genome-scale networks	27993779	paper	1	1	2	8.910000	-4.090000	-4.000000	0.000000	0.000000	0.000000	0.200000	2017:Neo4jCytoscape
+4881910	2016	4	Data-Driven Identification of Risk Factors of Patient Satisfaction at a Large Urban Academic Medical Center	27228056	paper	0	1	1	-2.090000	-5.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+Mark_Westgate	0				author	1	1	2	9.530001	-1.410000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+4264639	2014	86	Cytoscape tools for the web age: D3.js and Cytoscape.js exporters	25520778	paper	0	1	1	-0.490000	-8.690001	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4065045	2014	9	A Systems Biology Approach to the Analysis of Subset-Specific Responses to Lipopolysaccharide in Dendritic Cells	24949855	paper	0	1	1	-5.490000	0.710000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+3445822	2012	1	The role of molecular chaperonins in warm ischemia and reperfusion injury in the steatotic liver: A proteomic study	22962947	paper	0	1	1	9.309999	4.710000	4.000000	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+2939597	2010	6	The DBCLS BioHackathon: standardization and interoperability for bioinformatics web services and workflows. The DBCLS BioHackathon Consortium*	20727200	paper	0	1	1	-1.890000	8.710001	4.000000	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+C&#xE9;cile_Neuv&#xE9;glise	0				author	1	1	2	9.730000	7.970000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+2801700	2009	1	Filling gaps in PPAR-alpha signaling through comparative nutrigenomics analysis	20003344	paper	0	1	1	-4.290000	0.510000	4.000000	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+4352687	2015	6	"Combining computational models, semantic annotations and simulation experiments in a graph database"	25754863	paper	1	0	1	-4.290000	-2.490000	-4.000000	0.000000	0.000000	0.000000	0.200000	2015:Neo4j
+Bingyu_Zhang	0				author	1	1	2	0.110000	5.510000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+3852131	2013	1	"Integrated analysis, transcriptome-lipidome, reveals the effects of <italic>INO-</italic>level (<italic>INO2 </italic>and <italic>INO4</italic>) on lipid metabolism in yeast"	24456840	paper	0	1	1	0.510000	-3.290000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+4103495	2014	49	Porting and using PanGIA for Cytoscape 3: challenges and solutions	25075307	paper	0	1	1	4.110000	-3.690000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+Marcus A._Badgeley	0				author	1	1	2	-4.270000	5.130000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Pooja_Mandaviya	0				author	1	1	2	-8.969999	-3.690000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+2569944	2008	11	Presenting and exploring biological pathways with PathVisio	18817533	paper	0	1	1	-0.690000	2.310000	4.000000	0.000000	0.000000	0.000000	0.200000	2008:Cytoscape
+Olaf_Wolkenhauer	0				author	1	1	2	-4.530000	-2.770000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+3815060	2013	10	Mapping Condition-Dependent Regulation of Lipid Metabolism in <italic>Saccharomyces cerevisiae</italic>	24062529	paper	0	1	1	7.710000	4.310000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+Xinbin_Dai	0				author	1	1	2	1.250000	6.410000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+5342422	2016	1	Ranking novel cancer driving synthetic lethal gene pairs using TCGA data	27438146	paper	0	1	1	7.710000	7.510000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+Manhoi_Hur	0				author	1	1	2	9.710001	-2.430000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+4246458	2014	9	A network biology workflow to study transcriptomics data of the diabetic liver	25399255	paper	0	1	1	3.910000	7.510000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+Cumhur Yusuf_Demirkale	0				author	1	1	2	8.870001	-2.430000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Xiaohua_Su	0				author	1	1	2	1.230000	5.510000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Nicole_Washington	0				author	1	1	2	0.790000	6.170001	-4.000000	0.000000	0.650000	0.000000	0.200000	
+4987881	2016	1	miRNet - dissecting miRNA-target interactions and functional associations through network-based visual analysis	27105848	paper	0	1	1	-2.290000	1.910000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+5139139	2016	45	STON: exploring biological pathways using the SBGN standard and graph databases	27919219	paper	1	0	1	-5.090000	-9.690001	-4.000000	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+5179129	2016	4	MicroRNA and Transcription Factor Gene Regulatory Network Analysis Reveals Key Regulatory Elements Associated with Prostate Cancer Progression	28005952	paper	0	1	1	2.710000	-6.490000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+Melissa A._Haendel	0				author	1	1	2	0.770000	5.290000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+4652617	2015	3	The role of ontologies in biological and biomedical research: a functional perspective	25863278	paper	0	1	1	1.510000	4.310000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+Joon-Yong_Lee	0				author	1	1	2	10.250000	-2.150000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+3169508	2011	6	Exploring pathway interactions in insulin resistant mouse liver	21843341	paper	0	1	1	-1.290000	-8.289999	4.000000	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+Mansoor_Saqi	0				author	1	1	2	-5.790000	-9.070000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+4450212	2015	3	Identification of Glioblastoma Phosphotyrosine-Containing Proteins with Two-Dimensional Western Blotting and Tandem Mass Spectrometry	26090378	paper	0	1	1	1.710000	-5.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+3782717	2013	1	Capturing cooperative interactions with the PSI-MI format	24067240	paper	0	1	1	0.110000	-1.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+3711819	2013	3	An Improved Method for TAL Effectors DNA-Binding Sites Prediction Reveals Functional Convergence in TAL Repertoires of <italic>Xanthomonas oryzae</italic> Strains	23869221	paper	0	1	1	0.910000	-1.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+2788213	2009	2	Systems-Level Comparison of Host-Responses Elicited by Avian H5N1 and Seasonal H1N1 Influenza Viruses in Primary Human Macrophages	20011590	paper	0	1	1	0.710000	-4.290000	4.000000	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+3965056	2014	1	NeXO Web: the NeXO ontology database and visualization platform	24271398	paper	1	1	2	1.510000	2.110000	-4.000000	0.000000	0.000000	0.000000	0.200000	2014:Neo4jCytoscape
+4128259	2014	2	Understanding Protein&#x2013;Nanoparticle Interaction:A New Gateway to Disease Therapeutics	24831101	paper	0	1	1	-3.890000	-9.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+1431712	2006	1	Interactome networks: the state of the science	16515723	paper	0	1	1	-8.090000	3.710000	4.000000	0.000000	0.000000	0.000000	0.200000	2006:Cytoscape
+4409855	2015	5	Open source libraries and frameworks for biological data visualisation: A guide for developers	25475079	paper	1	1	2	-0.890000	-4.290000	-4.000000	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4331812	2015	1	A systems biology approach toward understanding seed composition in soybean	25708381	paper	1	1	2	9.710001	-1.490000	-4.000000	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4361730	2015	1	Insights from 20&#xA0;years of bacterial genome sequencing	25722247	paper	1	0	1	6.310000	-2.890000	-4.000000	0.000000	0.000000	0.000000	0.200000	2015:Neo4j
+Dexter_Pratt	0				author	1	1	2	0.510000	1.850000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Rolf_Backofen	0				author	1	1	2	4.730000	-3.830000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Stephane_Heymans	0				author	1	1	2	-3.830000	9.710001	-4.000000	0.000000	0.650000	0.000000	0.200000	
+2809107	2010	2	Time-Resolved and Tissue-Specific Systems Analysis of the Pathogenesis of Insulin Resistance	20098690	paper	0	1	1	6.910000	-5.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+3902002	2014	1	Risk miRNA screening of ovarian cancer based on miRNA functional synergistic network	24444095	paper	0	1	1	2.110000	-8.889999	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4005636	2014	1	MyTaxa: an advanced taxonomic classifier for genomic and metagenomic sequences	24589583	paper	1	0	1	-9.690001	-6.490000	-4.000000	0.000000	0.000000	0.000000	0.200000	2014:Neo4j
+2981879	2010	1	Concept and application of a computational vaccinology workflow	21067549	paper	0	1	1	4.110000	9.110001	4.000000	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+Irina A._Roznov&#x103;&#x163;	0				author	1	1	2	-5.950000	-8.930000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+4702940	2016	1	PubChem Substance and Compound databases	26400175	paper	1	0	1	-1.090000	-9.690001	-4.000000	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+4457114	2015	1	Development of data representation standards by the human proteome organization proteomics standards initiative	25726569	paper	0	1	1	-3.290000	6.110000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4247387	2014	1	Proteome-wide analysis reveals an age-associated cellular phenotype of <italic>in situ</italic> aged human fibroblasts	25411231	paper	0	1	1	7.510000	-0.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4615630	2015	1	SimiRa: A tool to identify coregulation between microRNAs and RNA-binding proteins	26383775	paper	1	1	2	5.110000	-2.890000	-4.000000	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4702420	2016	2	"TRAPLINE: a standardized and automated pipeline for RNA sequencing data analysis, evaluation and annotation"	26738481	paper	0	1	1	-1.690000	-7.890000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+Lianyi_Han	0				author	1	1	2	-0.610000	-9.710001	-4.000000	0.000000	0.650000	0.000000	0.200000	
+4492103	2015	1	PubChem structure&#x2013;activity relationship (SAR) clusters	26150895	paper	0	1	1	9.910000	-1.090000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+1175993	2005	1	Validation and refinement of gene-regulatory pathways on a network of physical interactions	15998451	paper	0	1	1	8.309999	-1.290000	4.000000	0.000000	0.000000	0.000000	0.200000	2005:Cytoscape
+4086107	2014	1	NetworkAnalyst - integrative approaches for protein&#x2013;protein interaction network analysis and visual exploration	24861621	paper	1	1	2	-2.490000	-2.290000	-4.000000	0.000000	0.000000	0.000000	0.200000	2014:Neo4jCytoscape
+4121291	2014	1	Long Noncoding RNA Expression Profiles of Lung Adenocarcinoma Ascertained by Microarray Analysis	25089627	paper	0	1	1	0.910000	-0.490000	4.000000	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4489294	2015	1	"The BioMart community portal: an innovative alternative to large, centralized data repositories"	25897122	paper	0	1	1	-9.490000	-2.690000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4960687	2016	17	Representing and querying disease networks using graph databases	27462371	paper	1	1	2	-5.290000	-8.889999	-4.000000	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4874630	2016	8	Reactome from a WikiPathways Perspective	27203685	paper	0	1	1	1.310000	2.710000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4977773	2016	1	"Computational characterization of Iron metabolism in the Tsetse disease vector, <italic>Glossina morsitans</italic>: IRE stem-loops"	27503259	paper	0	1	1	8.309999	3.710000	4.000000	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+5210586	2017	1	The Monarch Initiative: an integrative data and analytic platform connecting phenotypes to genotypes across species	27899636	paper	1	0	1	-0.090000	5.910000	-4.000000	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+4726433	2016	3	Semantic interrogation of a multi knowledge domain ontological model of tendinopathy identifies four strong candidate risk genes	26804977	paper	1	0	1	8.309999	8.910000	-4.000000	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+Qinjun_Huang	0				author	1	1	2	0.330000	6.110000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Fabian_Theis	0				author	1	1	2	5.410000	-2.070000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+Nick_Ransom	0				author	1	1	2	9.290001	-1.710000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+Jianguo_Xia	0				author	1	1	2	-1.650000	-3.090000	-4.000000	0.800000	0.650000	0.000000	0.200000	
+4602072	2015	1	Disease insights through cross-species phenotype comparisons	26092691	paper	0	1	1	8.309999	-2.490000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4801359	2016	4	miTALOS v2: Analyzing Tissue Specific microRNA Function	26998997	paper	1	0	1	-1.090000	3.710000	-4.000000	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+4473262	2015	1	The Human Blood Metabolome-Transcriptome Interface	26086077	paper	0	1	1	-7.890000	0.910000	4.000000	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4653389	2015	55	cyNeo4j: connecting Neo4j and Cytoscape	26272981	paper	1	1	2	-3.290000	9.710001	-4.000000	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+Heiko_Lickert	0				author	1	1	2	6.070000	-1.930000	-4.000000	0.000000	0.650000	0.000000	0.200000	
+-
+#From	To	affiliation	_r	_g	_b	_width	_text
+2998519	Eve Syrkin_Wurtele	"Department of Genetics, Development and Cell Biology, Iowa State University, Ames, IA 50011, USA"	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+4141640	Keiichiro_Ono	"Department of Medicine, University of California San Diego, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4349868	Ling_Li	"Shanghai Center for Bioinformation Technology, Shanghai Institutes of Biomedicine, Shanghai Academy of Science and Technology, Shanghai, 201203, P. R. China"	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+2714472	Thomas_Kelder	"Department of Bioinformatics - BiGCaT, Maastricht University, Maastricht, The Netherlands"	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+4670728	Jie_Chen	                  1                Center for Genomics and Systems Biology        Department of Biology        New York University        New York        NY        USA      	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+2718524	Robert_Stevens	"School of Computer Science, University of Manchester, Oxford Road, Manchester M13 9PL, UK"	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+4702420	Olaf_Wolkenhauer	"Department of Systems Biology and Bioinformatics, University of Rostock, 18057 Rostock, Germany "	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4252261	Thomas_Kelder	"Microbiology &amp; Systems Biology, TNO, Zeist, The Netherlands "	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4252261	Georg_Summer	"Microbiology &amp; Systems Biology, TNO, Zeist, The Netherlands "	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4252261	Marijana_Radonjic	"Microbiology &amp; Systems Biology, TNO, Zeist, The Netherlands "	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4474540	Qi_Liu	"Center for Quantitative Sciences, Vanderbilt University School of Medicine, Nashville, TN 37232, USA"	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4058954	Trey_Ideker	"Department of Medicine and 2Department of Computer Science and Engineering, University of California San Diego, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4058954	Michael_Yu	"Department of Medicine and 2Department of Computer Science and Engineering, University of California San Diego, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4058954	Janusz_Dutkowski	"Department of Medicine and 2Department of Computer Science and Engineering, University of California San Diego, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4058954	Michael_Kramer	"Department of Medicine and 2Department of Computer Science and Engineering, University of California San Diego, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+2958747	Trey_Ideker	"Department of Vertebrate Genomics, Max Planck Institute for Molecular Genetics, Ihnestr. 63-73, 14195 Berlin, Germany, 2Department of Medicine and 3Department of Bioengineering, University of California, San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+2958747	Keiichiro_Ono	"Department of Vertebrate Genomics, Max Planck Institute for Molecular Genetics, Ihnestr. 63-73, 14195 Berlin, Germany, 2Department of Medicine and 3Department of Bioengineering, University of California, San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+4264639	Trey_Ideker	"Department of Medicine, University of California, San Diego, La Jolla, CA 92093-0688, USA"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4264639	Barry_Demchak	"Department of Medicine, University of California, San Diego, La Jolla, CA 92093-0688, USA"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4264639	Keiichiro_Ono	"Department of Medicine, University of California, San Diego, La Jolla, CA 92093-0688, USA"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+2958306	Juan Antonio_Vizca&#xED;no	"EMBL Outstation, European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge, UK"	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+3977660	Henning_Hermjakob	"EMBL&#x2013;European Bioinformatics Institute, Hinxton,Cambridge CB10 1SD, UK, 2Department of Biology, University of Rome Tor Vergata,Rome, 00133, Italy, 3Institut de Biologie et Chimie des Prot&#xE9;ines, UMR5086CNRS/Lyon1 University, 69367, France, 4The J. Craig Venter Institute, Rockville,Maryland, MD 20850, USA, 5Department of Molecular Biology andBiochemistry&#x2014;Simon Fraser University, Burnaby, British Columbia V5A 1S6, Canada,6Department of Medicine, University of California, San Diego, La Jolla, CA92093, USA, 7Department of Bioengineering, University of California, San Diego,La Jolla, CA 92093, USA and 8Department of Energy Institute for Genomics andProteomics, University of California, Los Angeles, Los Angeles, CA 90095, USA"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+3977660	Keiichiro_Ono	"EMBL&#x2013;European Bioinformatics Institute, Hinxton,Cambridge CB10 1SD, UK, 2Department of Biology, University of Rome Tor Vergata,Rome, 00133, Italy, 3Institut de Biologie et Chimie des Prot&#xE9;ines, UMR5086CNRS/Lyon1 University, 69367, France, 4The J. Craig Venter Institute, Rockville,Maryland, MD 20850, USA, 5Department of Molecular Biology andBiochemistry&#x2014;Simon Fraser University, Burnaby, British Columbia V5A 1S6, Canada,6Department of Medicine, University of California, San Diego, La Jolla, CA92093, USA, 7Department of Bioengineering, University of California, San Diego,La Jolla, CA 92093, USA and 8Department of Energy Institute for Genomics andProteomics, University of California, Los Angeles, Los Angeles, CA 90095, USA"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+3439726	Eve Syrkin_Wurtele	"Department of Genetics, Cell &amp; Development Biology, Iowa State University, Ames, Iowa, 50011, USA"	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+3439726	Ling_Li	"Department of Genetics, Cell &amp; Development Biology, Iowa State University, Ames, Iowa, 50011, USA"	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+2682202	Trey_Ideker	"Department of Bioengineering, University of California, San Diego, La Jolla, California, United States of America"	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+4546821	Martina_Kutmon	"Department of Bioinformatics - BiGCaT, Maastricht University, P.O. Box 616, UNS 50 Box 19, 6200 MD Maastricht, The Netherlands "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4820913	Martina_Kutmon	"Department of Bioinformatics, BiGCaT, Maastricht University, Maastricht, 6229 The Netherlands "	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+2542360	Intawat_Nookaew	"Department of Chemical Engineering, Faculty of Engineering, King Mongkut's University of Technology Thonburi, Bangkok 10140, Thailand"	0.000000	0.000000	0.000000	0.200000	2008:Cytoscape
+3679525	Trey_Ideker	"Departments of Medicine and Bioengineering, University of California, San Diego, San Diego, United States"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+3653729	Fabian_Theis	"Institute of Bioinformatics and Systems Biology, Helmholtz Zentrum M&#xFC;nchen, Ingolst&#xE4;dter Landstra&#xDF;e 1, Neuherberg, 85764, Germany"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+3842757	Lars Juhl_Jensen	"Department of Metabolic Genetics, Novo Nordisk Foundation Center for Basic Metabolic Research, University of Copenhagen, 2100 Copenhagen &#xD8;, Denmark and 2Department of Disease Systems Biology, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, 2100 Copenhagen N, Denmark"	0.000000	0.000000	0.000000	0.200000	2013:Neo4j
+2731838	Trey_Ideker	"Program in Bioinformatics, University of California San Diego, La Jolla, United States of America"	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+4838348	Khader_Shameer	"National Centre for Biological Sciences, Tata Institute of Fundamental Research, GKVK campus, Bangalore 560 065, India"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+3531147	James_Malone	"Functional Genomics Team, EMBL-EBI, Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+3531147	Helen_Parkinson	"Functional Genomics Team, EMBL-EBI, Wellcome Trust Genome Campus, Hinxton CB10 1SD and 2Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton CB10 1SA, UK"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+3245176	Seth_Carbon	"Department of Genetics, University of Cambridge, Downing Street, Cambridge CB2 3EH, UK, 2Lawrence Berkeley National Laboratory, Genomics Division, Berkeley, CA 94720, USA and 3Ontario Institute for Cancer Research, MaRS Centre, Toronto, ON, Canada M5G 0A3"	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+3245176	Suzanna E._Lewis	"Department of Genetics, University of Cambridge, Downing Street, Cambridge CB2 3EH, UK, 2Lawrence Berkeley National Laboratory, Genomics Division, Berkeley, CA 94720, USA and 3Ontario Institute for Cancer Research, MaRS Centre, Toronto, ON, Canada M5G 0A3"	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+4908366	Khader_Shameer	Department of Genetics and Genomic Sciences	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4908366	Marcus A._Badgeley	Department of Genetics and Genomic Sciences	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4908366	Joel T._Dudley	Department of Genetics and Genomic Sciences	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4908366	Benjamin S._Glicksberg	Department of Genetics and Genomic Sciences	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+3001121	Martina_Kutmon	"University of Ottawa, Ottawa Ontario, Canada"	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+4015281	Intawat_Nookaew	"Department of Chemical and Biological Engineering, Chalmers University of Technology, Gothenburg, Sweden"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+4446272	Thomas_Kelder	"Microbiology and Systems Biology, TNO, Zeist, The Netherlands "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4446272	Marijana_Radonjic	"Microbiology and Systems Biology, TNO, Zeist, The Netherlands "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4987881	Jianguo_Xia	"Institute of Parasitology, McGill University, Sainte Anne de Bellevue, Qu&#xE9;bec H9X 3V9, Canada"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+5139139	Irina_Balaur	"European Institute for Systems Biology and Medicine (EISBM), CIRI UMR 5308, CNRS-ENS-UCBL-INSERM, Universit&#xE9; de Lyon, 50 Avenue Tony Garnier, Lyon, 69007 France "	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+5139139	Charles_Auffray	"European Institute for Systems Biology and Medicine (EISBM), CIRI UMR 5308, CNRS-ENS-UCBL-INSERM, Universit&#xE9; de Lyon, 50 Avenue Tony Garnier, Lyon, 69007 France "	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+5139139	Alexander_Mazein	"European Institute for Systems Biology and Medicine (EISBM), CIRI UMR 5308, CNRS-ENS-UCBL-INSERM, Universit&#xE9; de Lyon, 50 Avenue Tony Garnier, Lyon, 69007 France "	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+5139139	Mansoor_Saqi	"European Institute for Systems Biology and Medicine (EISBM), CIRI UMR 5308, CNRS-ENS-UCBL-INSERM, Universit&#xE9; de Lyon, 50 Avenue Tony Garnier, Lyon, 69007 France "	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+5139139	Dagmar_Waltemath	"Department of Systems Biology and Bioinformatics, University of Rostock, Rostock, 18051 Germany "	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+5179129	Olaf_Wolkenhauer	"Department of Systems Biology and Bioinformatics, University of Rostock, Rostock, Germany      "	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+2824678	Thomas_Kelder	"Department of Bioinformatics - BiGCaT, Maastricht University, Maastricht, the Netherlands"	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+3110186	Intawat_Nookaew	"Department of Chemical and Biological Engineering, Chalmers University of Technology, Gothenburg, Sweden"	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+2788232	Trey_Ideker	"Department of Bioengineering, University of California San Diego, La Jolla, California, United States of America      "	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+3182870	Trey_Ideker	"Departments of Medicine and Bioengineering, University of California San Diego, La Jolla, California, United States of America      "	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+3182870	Janusz_Dutkowski	"Departments of Medicine and Bioengineering, University of California San Diego, La Jolla, California, United States of America      "	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+3848080	Olaf_Wolkenhauer	"Department of Systems Biology and Bioinformatics, University of Rostock, 18051 Rostock, Germany"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+4653389	Barry_Demchak	"4Department of Medicine, University of California, San Diego, La Jolla, CA, USA"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4653389	Stephane_Heymans	"1Center for Heart Failure Research, Cardiovascular Research Institute Maastricht (CARIM), University Hospital Maastricht, Maastricht, The Netherlands,"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4653389	Marijana_Radonjic	"3EdgeLeap B.V., Utrecht, The Netherlands and"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4653389	Thomas_Kelder	"3EdgeLeap B.V., Utrecht, The Netherlands and"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4653389	Keiichiro_Ono	"4Department of Medicine, University of California, San Diego, La Jolla, CA, USA"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4653389	Georg_Summer	"1Center for Heart Failure Research, Cardiovascular Research Institute Maastricht (CARIM), University Hospital Maastricht, Maastricht, The Netherlands,"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+2475545	Thomas_Kelder	UNKNOWN	0.000000	0.000000	0.000000	0.200000	2008:Cytoscape
+4133763	Trey_Ideker	"Department of Medicine, University of California, San Diego, La Jolla, 92093-0688, USA"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4133763	Barry_Demchak	"Department of Medicine, University of California, San Diego, La Jolla, 92093-0688, USA"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+5052669	Rolf_Backofen	"Department of Computer Science and Centre for Biological Signaling Studies (BIOSS), University of Freiburg, Freiburg 79110, Germany"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+3540420	James P._Balhoff	"Department of Entomology, North Carolina State University, Campus Box 7613, Raleigh, NC 27695-7613, 2Department of Entomology, Pennsylvania State University, 501 ASI Building, University Park, PA 16802, 3Illinois Natural History Survey, 1816 South Oak Street, Champaign, IL 61820, 4Department of Invertebrate Zoology, American Museum of Natural History, Central Park West at 79th St., New York, NY 10024-5192, 5National Evolutionary Synthesis Center, Durham, NC 27705 and 6Department of Biology, University of North Carolina, Chapel Hill, NC 27599-3280, USA"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+3653101	Suzanna E._Lewis	"Genomics Division, Lawrence Berkeley National Laboratory        Berkeley, CA, USA      "	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+3653101	Christopher J._Mungall	"Genomics Division, Lawrence Berkeley National Laboratory        Berkeley, CA, USA      "	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+2788213	Robert E. W._Hancock	"Centre for Microbial Diseases and Immunity Research, University of British Columbia, Vancouver, British Columbia, Canada"	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+2569944	Thomas_Kelder	"Department of Bioinformatics, BiGCaT Maastricht University, Universiteitssingel 40, 6229 ER Maastricht, the Netherlands"	0.000000	0.000000	0.000000	0.200000	2008:Cytoscape
+3105496	Robert_Stevens	"School of Computer Science, University of Manchester, Oxford Road, Manchester, M13 9PL, UK"	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+4288400	Barry_Demchak	"University of California, San Diego, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4288400	Trey_Ideker	"University of California, San Diego, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4288400	Keiichiro_Ono	"University of California, San Diego, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4309402	Dmitry_Grapov	"NIH West Coast Metabolomics Center, University of California Davis, Davis, CA, United States of America"	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+3725151	Robert_Stevens	"School of Computer Science, University of Manchester, Kilburn Building, Oxford Road, Manchester M13 9PL United Kingdom"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+2745575	Jian_Zhang	"Protein Information Resource, Department of Biochemistry and Molecular &amp; Cellular Biology, Georgetown University Medical Center, Washington, D.C., United States of America"	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+3172300	Khader_Shameer	"National Centre for Biological Sciences (TIFR), Bangalore, India"	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+545798	Trey_Ideker	"Department of Bioengineering, University of California San Diego, 9500 Gilman Drive, La Jolla, CA 92093-0412, USA"	0.000000	0.000000	0.000000	0.200000	2004:Cytoscape
+3531080	Robert E. W._Hancock	"Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A1S6, Canada, 2Animal &amp; Bioscience Research Department, AGRIC, Teagasc, Grange, Dunsany, County Meath, Ireland and 3Department of Microbiology and Immunology, University of British Columbia, Vancouver, BC, V6T 1Z1, Canada"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+4726433	Junaid_Gamieldien	"South African National Bioinformatics Institute/MRC Unit for Bioinformatics Capacity Development, University of the Western Cape, Bellville, South Africa"	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+2935528	Marijana_Radonjic	"TNO Quality of Life, PO Box 360, 6700 AJ Zeist, The Netherlands "	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+5153655	Intawat_Nookaew	"Department of Biology and Biological Engineering, Chalmers, University of Technology, Gothenburg, Sweden"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+3197281	Henning_Hermjakob	"Ontario Institute for Cancer Research, Toronto, ON, M5G0A3, Canada, 2European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, 3Faculty of Life Science, University of Manchester, Michael Smith Building, Oxford Road, Manchester M13 9PT, UK, 4NYU School of Medicine, Department of Biochemistry, New York, NY 10016, 5Cold Spring Harbor Laboratory, Bioinformatics and Genomics, Cold Spring Harbor, NY 11724, USA and 6Department of Molecular Genetics, University of Toronto, Toronto, ON, M5S 1A1, Canada"	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+4450212	Ling_Li	"Key Laboratory of Cancer Proteomics of Chinese Ministry of Health, Xiangya Hospital, Central South University, 87 Xiangya Road, Changsha, Hunan 410008, China"	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+3782717	Henning_Hermjakob	"Structural and Computational Biology Unit, European Molecular Biology Laboratory (EMBL), Meyerhofstrasse 1, D-69117 Heidelberg, Germany, 2Proteomics Services, EMBL Outstation, European Bioinformatics Institute (EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, UK and 3UMR 5086 CNRS - Universit&#xE9; Lyon 1, Institut de Biologie et Chimie des Prot&#xE9;ines, 7 passage du Vercors, 69367 Lyon Cedex 07, France"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+2896180	Henning_Hermjakob	"Helmholtz Zentrum M&#xFC;nchen - German Research Center for Environmental Health (GmbH), Institute for Bioinformatics and Systems Biology, Ingolst&#xE4;dter Landstra&#xDF;e 1, D-85764 Neuherberg, Germany and 2European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK"	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+3847961	Patrick Xuechun_Zhao	"Bioinformatics Lab, Plant Biology Division, Samuel Roberts Noble Foundation, 2510 Sam Noble Parkway, Ardmore, OK 73401, USA"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+3847961	Jun_Li	"Bioinformatics Lab, Plant Biology Division, Samuel Roberts Noble Foundation, 2510 Sam Noble Parkway, Ardmore, OK 73401, USA"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+3950724	Patrick Xuechun_Zhao	"Plant Biology Division, the Samuel Roberts Noble Foundation, 2510 Sam Noble Parkway, Ardmore, OK 73401, USA and 2School of Forest Resources and Environmental Science, Michigan Technological University, 1400 Townsend Drive, Houghton, MI 49931, USA"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+3950724	Tingsong_Liu	"Plant Biology Division, the Samuel Roberts Noble Foundation, 2510 Sam Noble Parkway, Ardmore, OK 73401, USA and 2School of Forest Resources and Environmental Science, Michigan Technological University, 1400 Townsend Drive, Houghton, MI 49931, USA"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+3950724	Jun_Li	"Plant Biology Division, the Samuel Roberts Noble Foundation, 2510 Sam Noble Parkway, Ardmore, OK 73401, USA and 2School of Forest Resources and Environmental Science, Michigan Technological University, 1400 Townsend Drive, Houghton, MI 49931, USA"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+2582614	Trey_Ideker	"Department of Bioengineering, University of California San Diego, La Jolla, CA 92093, USA, 2Center for Genomics and Proteomics, Lee Gil Ya Cancer and Diabetes Institute, Gachon University of Medicine and Science, Incheon 406-799, Republic of Korea, 3Structural Biology Laboratory, Salk Institute for Biology Studies, 10010 North Torrey Pines Road, La Jolla, CA 92037, USA, 4Department of Bio and Brain Engineering, Korea Advanced Institute of Science and Technology (KAIST), Daejeon 305-701, Republic of Korea, 5Bioinformatics Program, University of California San Diego, La Jolla, CA 92093, USA, 6Biotechnology Center, Technische Universit&#xE4;t, 01062 Dresden, Germany and 7School of Biological Sciences, Research Center for Functional Cellulomics, Institute of Microbiology, Seoul National University, Seoul 151-747, Republic of Korea"	0.000000	0.000000	0.000000	0.200000	2008:Cytoscape
+2238868	Lars Juhl_Jensen	"Samuel Lunenfeld Research Institute, Mount Sinai Hospital, Toronto, Canada, 2Center for Cancer Research, Massachusetts Institute of Technology, Cambridge, USA, 3The Institute of Cancer Research, London, UK, 4European Molecular Biology Laboratory, Heidelberg and 5Max-Delbr&#xFC;ck-Centre for Molecular Medicine, Berlin, Germany"	0.000000	0.000000	0.000000	0.200000	2008:Cytoscape
+4473262	Fabian J._Theis	"Institute of Computational Biology, Helmholtz Zentrum M&#xFC;nchen, Neuherberg, Germany      "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4147923	Robert_Stevens	"School of Computer Science, 2Manchester Institute of Biotechnology and 3Computational and Evolutionary Biology, Faculty of Life Sciences, The University of Manchester, Manchester M13 9PL, UK"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4466500	Alain_Malpertuy	"ATRAGENE, 33-35 rue Ledru-Rollin, 94200 Ivry-sur-Seine, France"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4466500	C&#xE9;cile_Fairhead	"Institut de G&#xE9;n&#xE9;tique et Microbiologie, UMR 8621 CNRS-Universit&#xE9; Paris Sud, B&#xE2;t 400, UFR des Sciences, 91405 Orsay Cedex, France"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4466500	Jean-Philippe_Meyniel	"Isoft, Les Algorithmes, B&#xE2;timent Euclide, Route de l'Orme, 91190 Saint-Aubin, France"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4466500	C&#xE9;cile_Neuv&#xE9;glise	"INRA, UMR 1319 Micalis, 78352 Jouy-en-Josas, France"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4466500	Alexandre G._de Brevern	"INSERM, U 1134, DSIMB, 75739 Paris, France"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+3759020	Dror Y._Kenett	"School of Physics and Astronomy, The Reymond and Beverly Sackler Faculty of Exact Sciences, Tel-Aviv University        Tel-Aviv, Israel      "	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+2189715	Henning_Hermjakob	"European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge, UK"	0.000000	0.000000	0.000000	0.200000	2007:Cytoscape
+2189715	Peter_Woollard	"Glaxo Smithkline Medicines Research Centre, Gunnels Wood Road, Stevenage, Herts, UK"	0.000000	0.000000	0.000000	0.200000	2007:Cytoscape
+2653649	Hannah_Tipney	"Center for Computational Pharmacology, University of Colorado at Denver, Denver, Colorado, United States of America      "	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+3013646	Henning_Hermjakob	"European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, UK, 2Ontario Institute for Cancer Research, Informatics and Bio-Computing, Toronto, ON, M5G0A3, Canada, 3St. John's University, College of Pharmacy and Allied Health Professions, Queens, NY 11439, 4NYU School of Medicine, Department of Biochemistry, New York, NY 10016, 5US Food and Drug Administration, Center for Food Safety and Applied Nutrition, Laurel, MD 20708, 6Hunter College, School of Health Sciences, New York, NY 10010, 7Cold Spring Harbor Laboratory, Bioinformatics and Genomics, Cold Spring Harbor, NY 11724, USA, 8University of Toronto, Department of Molecular Genetics, Toronto, ON, M5S 1A1, Canada"	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+4825662	Bachir_Balech	"Istituto di Biomembrane e Bioenergetica, CNR, Via Giovanni Amendola 165/A, 70126 Bari, Italy"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+2896911	Trey_Ideker	"Department of Bioengineering and Department of Cellular and Molecular Medicine, University of California, San Diego, La Jolla, CA 92093"	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+2896911	Janusz_Dutkowski	"Department of Bioengineering and Department of Cellular and Molecular Medicine, University of California, San Diego, La Jolla, CA 92093"	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+4982211	Jun_Li	"Systems Biology &amp; Bioinformatics Group, School of Biological Sciences, The University of Hong Kong, Pokfulam Road, Hong Kong, Hong Kong "	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4619599	Jian_Zhang	"Department of Surgery, The Chinese University of Hong Kong, Prince of Wales Hospital, Shatin, New Territories, Hong Kong SAR, China"	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+3712731	Henning_Hermjakob	"European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, UK; E-Mails:  (H.H.)"	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+3965093	Henning_Hermjakob	"European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK, 2School of Animal and Comparative Biomedical Sciences, The University of Arizona, Tucson, AZ 85721-0036, USA, 3Swiss-Prot Group, SIB Swiss Institute of Bioinformatics, CMU, 1 Rue Michel-Servet, CH-1211 Geneva 4, Switzerland, 4Department of Biology, University of Rome Tor Vergata, Rome 00133, Italy, 5Ontario Cancer Institute, the Campbell Family Institute for Cancer Research, and Techna Institute, University Health Network, Toronto, Ontario M5G 0A3, Canada, 6Cardiovascular Gene Annotation Initiative, Centre for Cardiovascular Genetics, Institute of Cardiovascular Science, University College London, London WC1E 6BT, UK, 7Centre for Microbial Diseases and Immunity Research, University of British Columbia, Vancouver, British Columbia V6T 1Z4 Canada, 8Mechanobiology Institute, National University of Singapore, T-Lab #05-01, 5A Engineering Drive 1, Singapore 117411, Singapore, 9Department of Cancer Research and Molecular Medicine, Norwegian University of Science and Technology, 7489 Trondheim, Norway, 10Research Institute IRCSS &#x201C;Fondazione Santa Lucia&#x201D;, Rome 00179, Italy, 11Molecular Connections Pvt. Ltd., Bangalore 560 004, India, 12Institut de Biologie et Chimie des Prot&#xE9;ines, Unit&#xE9; Mixte de Recherche 5086, Centre National de la Recherche Scientifique, Universit&#xE9; Lyon 1, Lyon, France and 13Structural and Computational Biology Unit, European Molecular Biology Laboratory (EMBL), Meyerhofstrasse 1, D-69117 Heidelberg, Germany"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+3531051	Warren A._Kibbe	"The Department of Electronics and Information Engineering, Huazhong University of Science and Technology, Wuhan, Hubei 430074, China, 2Department of Digestive Surgery, State Key Laboratory of Cancer Biology and Institute of Digestive Diseases, Xijing Hospital, 127 Changle Western Road, Xi'an, Shanxi Province 710033, China, 3Northwestern University Biomedical Informatics Center (NUBIC), NUCATS, Feinberg School of Medicine, Northwestern University, Chicago, IL 60611, USA, 4The Robert H. Lurie Comprehensive Cancer Center, Northwestern University, Chicago, IL 60611, USA and 5Biomedical Informatics Research Center, Marshfield Center, Marshfield, WI 54449, USA"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+4383880	James_Malone	"European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK"	0.000000	0.000000	0.000000	0.200000	2015:Neo4j
+4383880	Helen_Parkinson	"European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK"	0.000000	0.000000	0.000000	0.200000	2015:Neo4j
+4383880	Christopher J._Mungall	"Genomics Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA"	0.000000	0.000000	0.000000	0.200000	2015:Neo4j
+4383880	Warren A._Kibbe	"Center for Biomedical Informatics and Information Technology, National Cancer Institute, 9609 Medical Center Drive, Rockville, MD 20850, USA"	0.000000	0.000000	0.000000	0.200000	2015:Neo4j
+4537452	Susan L._Coort	"Department of Bioinformatics - BiGCaT, NUTRIM School for Nutrition, Toxicology and Metabolism, Maastricht University, Maastricht, The Netherlands "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4537452	Martina_Kutmon	"Department of Bioinformatics - BiGCaT, NUTRIM School for Nutrition, Toxicology and Metabolism, Maastricht University, Maastricht, The Netherlands "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+1175993	Trey_Ideker	"Department of Bioengineering, University of California at San Diego, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2005:Cytoscape
+2809107	Thomas_Kelder	"Department of Bioinformatics, Maastricht University, Maastricht, The Netherlands"	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+3902002	Jun_Li	"Department of Gynecology and Obstetrics, Shengjing Hospital of China Medical University, No.36, Sanhao Street, Heping District, Shenyang, Liaoning Province 110004, China"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+3420874	Trey_Ideker	"Department of Medicine, University of California San Diego, La Jolla, California, United States of America"	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+2939597	Keiichiro_Ono	"Database Center for Life Science, Research Organization of Information and Systems, 2-11-16 Yayoi, Bunkyo-ku, Tokyo, 113-0032, Japan"	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+4005636	Luis M._Rodriguez-R	"Centre for Bioinformatics and Computational Genomics, and School of Biology, Georgia Institute of Technology, Atlanta, GA 30332, USA and 2School of Civil and Environmental Engineering, Georgia Institute of Technology, Atlanta, GA 30332, USA"	0.000000	0.000000	0.000000	0.200000	2014:Neo4j
+4981961	Qi_Liu	"School of Life Science, Shanxi University, Taiyuan, 030006 China "	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+3245032	Martina_Kutmon	"Department of Bioinformatics&#x2014;BiGCaT, Maastricht University, Maastricht, The Netherlands, 2Gladstone Institute of Cardiovascular Disease, San Francisco, California, USA and 3Netherlands Consortium for Systems Biology (NCSB), The Netherlands"	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+3245032	Thomas_Kelder	"Department of Bioinformatics&#x2014;BiGCaT, Maastricht University, Maastricht, The Netherlands, 2Gladstone Institute of Cardiovascular Disease, San Francisco, California, USA and 3Netherlands Consortium for Systems Biology (NCSB), The Netherlands"	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+3031041	Trey_Ideker	"Department of Medicine and 2Department of Bioengineering, University of California, San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+3031041	Keiichiro_Ono	"Department of Medicine and 2Department of Bioengineering, University of California, San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+4845325	Trey_Ideker	"Departments of Bioengineering and Medicine, University of California San Diego, La Jolla, CA USA "	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+3245084	Jian_Zhang	"Department of Bioinformatics, State Key Laboratory of Plant Physiology and Biochemistry, College of Life Sciences, Zhejiang University, Hangzhou, 310058 and 2State Key Laboratory of Crop Genetic Improvement, College of Life Science and Technology, Huazhong Agricultural University, Wuhan, 430070, P.R. China"	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+4415485	Henning_Hermjakob	"European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI)          Hinxton, UK        "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+3031552	Robert E. W._Hancock	"Department of Microbiology and Immunology, University of British Columbia, Vancouver, Canada"	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+2793266	Janusz_Dutkowski	"Institute of Informatics, University of Warsaw, Banacha 2, 02-097 Warsaw, Poland"	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+4659159	Lars Juhl_Jensen	"Disease Systems Biology Program, Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, University of Copenhagen, Blegdamsvej 3B, DK-2200 Copenhagen N, Denmark "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+3912678	Alexander_Mazein	"Division of Pathway Medicine, University of Edinburgh, Chancellor's Building, Little France Crescent, Edinburgh EH16 4SB, Scotland, UK"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+2927425	Intawat_Nookaew	"Life Sciences/Systems Biology, Department of Chemical and Biological Engineering, Chalmers University of Technology, Gothenburg, Sweden"	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+4682164	Krzysztof J._Gorgolewski	"Department of Psychology, Stanford University, Stanford, California 94305, USA"	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4682164	Vanessa_Sochat	"Biomedical Informatics Program, Stanford University, Stanford, California 94305, USA"	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+3443057	Rui_Wang	"Computational Biology and Bioinformatics Program, Institute for Genome Science and Policy, Duke University Medical Center, Durham, NC, USA"	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+3161081	Dror Y._Kenett	"School of Physics and Astronomy, The Reymond and Beverly Sackler Faculty of Exact Sciences, Tel-Aviv University, Tel-Aviv, Israel"	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+4244535	Jie_Chen	"Department of Urology, Jinan Central Hospital Affiliated to Shandong University, Jinan, 250013 Shandong China "	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4460923	Matthew B_Carson	"Department of Bioengineering/Bioinformatics, University of Illinois at Chicago, 835 S. Wolcott, Chicago, IL 60612, USA"	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4175592	Anil_Wipat	"School of Computing Science, Claremont Tower, Newcastle University, Newcastle upon Tyne NE1 7RU, UK"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+3077072	Anil_Wipat	"School of Computing Science, Faculty of Science Agriculture and Engineering, Newcastle University, Newcastle upon Tyne NE1 7RU, 2Bioinformatics Support Unit, Institute for Cell and Molecular Biosciences, Faculty of Medical Sciences, Newcastle University, Newcastle upon Tyne NE2 4HH, 3Centre for Integrative Systems Biology of Ageing and Nutrition, Institute for Ageing and Health, Faculty of Medical Sciences, Newcastle University, Newcastle upon Tyne NE4 5PL, 4School of Mathematics and Statistics, Faculty of Science Agriculture and Engineering, Newcastle University, Newcastle upon Tyne NE1 7RU and 5Institute for Cell and Molecular Biosciences, Faculty of Medical Sciences, Newcastle University, Newcastle upon Tyne NE2 4HH, UK"	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+3077072	Simon J._Cockell	"School of Computing Science, Faculty of Science Agriculture and Engineering, Newcastle University, Newcastle upon Tyne NE1 7RU, 2Bioinformatics Support Unit, Institute for Cell and Molecular Biosciences, Faculty of Medical Sciences, Newcastle University, Newcastle upon Tyne NE2 4HH, 3Centre for Integrative Systems Biology of Ageing and Nutrition, Institute for Ageing and Health, Faculty of Medical Sciences, Newcastle University, Newcastle upon Tyne NE4 5PL, 4School of Mathematics and Statistics, Faculty of Science Agriculture and Engineering, Newcastle University, Newcastle upon Tyne NE1 7RU and 5Institute for Cell and Molecular Biosciences, Faculty of Medical Sciences, Newcastle University, Newcastle upon Tyne NE2 4HH, UK"	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+3592423	Dan_Nettleton	"Department of Genetics, Development, and Cell Biology, 2Department of Electrical and Computer Engineering, 3Department of Statistics, Iowa State University, Ames, IA 50011, USA and 4Department of Computer Science and Engineering, Indian Institute of Technology Bombay, Powai, Mumbai 400076, India"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+4286171	Dmitry_Grapov	"NIHWest Coast Metabolomics Center, Universityof California, Davis, California 95616, United States"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+5221424	Benjamin S._Glicksberg	UNKNOWN	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+5221424	Joel T._Dudley	UNKNOWN	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+5221424	Marcus A._Badgeley	UNKNOWN	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+5221424	Khader_Shameer	UNKNOWN	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+3852131	Intawat_Nookaew	"Systems and Synthetic Biology, Department of Chemical and Biological Engineering, Chalmers University of Technology, Gothenburg, Sweden"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+4103495	Barry_Demchak	"University of California, San Diego, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4352687	Dagmar_Waltemath	"University of Rostock, Department of Computer Science, Albert-Einstein-Stra&#xDF;e 22, D-18059 Rostock, Germany, 2Department of Systems Biology and Bioinformatics, University of Rostock, Ulmenstrasse 69, 18057 Rostock, Germany and 3Stellenbosch Institute for Advanced Study (STIAS), Wallenberg Research Centre at Stellenbosch University, Stellenbosch 7600, South Africa"	0.000000	0.000000	0.000000	0.200000	2015:Neo4j
+4352687	Olaf_Wolkenhauer	"University of Rostock, Department of Computer Science, Albert-Einstein-Stra&#xDF;e 22, D-18059 Rostock, Germany, 2Department of Systems Biology and Bioinformatics, University of Rostock, Ulmenstrasse 69, 18057 Rostock, Germany and 3Stellenbosch Institute for Advanced Study (STIAS), Wallenberg Research Centre at Stellenbosch University, Stellenbosch 7600, South Africa"	0.000000	0.000000	0.000000	0.200000	2015:Neo4j
+4055858	Qi_Liu	"Department of Bioinformatics and Biostatistics, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University        Shanghai, China      "	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4168754	Martina_Kutmon	"Department of Bioinformatics - BiGCaT, Maastricht University, Maastricht, 6229 ER, Netherlands"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4562606	Johannes F_Fahrmann	"University of California, Genome Center, Davis, CA, USA."	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4562606	Dmitry_Grapov	"CDS Creative Data Solutions, Ballwin, MO, USA."	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4562606	Kwanjeera_Wanichthanarak	"University of California, Genome Center, Davis, CA, USA."	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4383992	Stephen H._Bryant	"National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bldg. 38 A, Room 8N805, 8600 Rockville Pike, Bethesda, MD 20894, USA"	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4383992	Jane_He	"National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bldg. 38 A, Room 8N805, 8600 Rockville Pike, Bethesda, MD 20894, USA"	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+3967113	Christopher J._Rawlings	"Rothamsted Research, Computational and Systems Biology, Harpenden, AL5 2JQ, UK"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4699901	Dror Y._Kenett	"Center for Polymer Studies and Department of Physics, Boston University, Boston, United States of America"	0.000000	0.000000	0.000000	0.200000	2015:Neo4j
+4533317	Jun_Li	"State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, Collaborative Innovation Center for Diagnosis and Treatment of Infectious Diseases, The First Affiliated Hospital, Zhejiang University School of Medicine. 79 Qingchun Rd., Hangzhou, 310003. China"	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4247387	Fabian_Theis	"Department of Mathematics, Technical University Munich, Garching, Germany"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4615630	Fabian_Theis	"Helmholtz Zentrum M&#xFC;nchen &#x2013; German Research Center for Environmental Health; Institute of Diabetes and Regeneration Research; Neuherberg, Germany"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4615630	Daniel_Maticzka	"Bioinformatics; Department of Computer Science; University of Freiburg; Freiburg, Germany"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4615630	Heiko_Lickert	"Helmholtz Zentrum M&#xFC;nchen &#x2013; German Research Center for Environmental Health; Institute of Diabetes and Regeneration Research; Neuherberg, Germany"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4615630	Carsten_Marr	"Helmholtz Zentrum M&#xFC;nchen &#x2013; German Research Center for Environmental Health; Institute of Computational Biology; Neuherberg, Germany"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4615630	Rolf_Backofen	"Bioinformatics; Department of Computer Science; University of Freiburg; Freiburg, Germany"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4615630	Sita_Saunders	"Bioinformatics; Department of Computer Science; University of Freiburg; Freiburg, Germany"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4615630	Martin_Preusse	"Helmholtz Zentrum M&#xFC;nchen &#x2013; German Research Center for Environmental Health; Institute of Computational Biology; Neuherberg, Germany"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4409848	Juan Antonio_Vizca&#xED;no	"          European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus          Hinxton, Cambridge, UK        "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4409848	Henning_Hermjakob	"          European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus          Hinxton, Cambridge, UK        "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4409848	Rui_Wang	"          European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus          Hinxton, Cambridge, UK        "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4409848	Yasset_Perez-Riverol	"          European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus          Hinxton, Cambridge, UK        "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+5348118	Fabian J._Theis	"Institute of Computational Biology, Helmholtz Center Munich, German Research Center for Environmental Health, Oberschlei&#xDF;heim, Germany"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+2289880	Trey_Ideker	"Program in Bioinformatics, University of California San Diego, La Jolla, California, United States of America      "	0.000000	0.000000	0.000000	0.200000	2008:Cytoscape
+4743622	Dagmar_Waltemath	"Department of Systems Biology and Bioinformatics, University of Rostock, Rostock, Germany and"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4743622	Olaf_Wolkenhauer	"Department of Systems Biology and Bioinformatics, University of Rostock, Rostock, Germany and"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+2835567	Anil_Wipat	"Centre for Integrated Systems Biology of Ageing and Nutrition, Institute for Ageing and Health, Newcastle University, Newcastle upon Tyne, UK"	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+3866081	Trey_Ideker	"Department of Computer Science and Engineering, University of California San Diego, CA"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+4338111	Thomas_Kelder	"EdgeLeap B.V., Utrecht, The Netherlands      "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4338111	Martina_Kutmon	"Department of Bioinformatics - BiGCaT, Maastricht University, Maastricht, The Netherlands      "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+3855388	Chris T. A._Evelo	"Department of Bioinformatics - BiGCaT, NUTRIM School for Nutrition, Toxicology and Metabolism, University of Maastricht, Maastricht, The Netherlands"	0.000000	0.000000	0.000000	0.200000	2013:Neo4jCytoscape
+3855388	Pooja_Mandaviya	"Department of Bioinformatics - BiGCaT, NUTRIM School for Nutrition, Toxicology and Metabolism, University of Maastricht, Maastricht, The Netherlands"	0.000000	0.000000	0.000000	0.200000	2013:Neo4jCytoscape
+3855388	Thomas_Kelder	"TNO, Research Group Microbiology and Systems Biology, Zeist, The Netherlands"	0.000000	0.000000	0.000000	0.200000	2013:Neo4jCytoscape
+3855388	Susan L._Coort	"Department of Bioinformatics - BiGCaT, NUTRIM School for Nutrition, Toxicology and Metabolism, University of Maastricht, Maastricht, The Netherlands"	0.000000	0.000000	0.000000	0.200000	2013:Neo4jCytoscape
+3855388	Martina_Kutmon	"Department of Bioinformatics - BiGCaT, NUTRIM School for Nutrition, Toxicology and Metabolism, University of Maastricht, Maastricht, The Netherlands"	0.000000	0.000000	0.000000	0.200000	2013:Neo4jCytoscape
+3965056	Keiichiro_Ono	"Department of Medicine, University of California San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2014:Neo4jCytoscape
+3965056	Michael_Kramer	"Department of Medicine, University of California San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2014:Neo4jCytoscape
+3965056	Barry_Demchak	"Department of Medicine, University of California San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2014:Neo4jCytoscape
+3965056	Trey_Ideker	"Department of Medicine, University of California San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2014:Neo4jCytoscape
+3965056	Dexter_Pratt	"Department of Medicine, University of California San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2014:Neo4jCytoscape
+3965056	Michael_Yu	"Department of Medicine, University of California San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2014:Neo4jCytoscape
+3965056	Janusz_Dutkowski	"Department of Medicine, University of California San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2014:Neo4jCytoscape
+4128259	Khader_Shameer	"Department of Biochemistry and Molecular Biology, &#x2021;Division of Biomedical Statisticsand Informatics, Department of Health Sciences Research, &#x22A5;Molecular MedicineProgram, and #ProteomicsResearch Center, Mayo Clinic, Rochester, Minnesota 55905, United States"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+1751555	Trey_Ideker	"Division of Biology, University of California          San Diego, 9500 Gilman Drive, La Jolla, CA 92037, USA        "	0.000000	0.000000	0.000000	0.200000	2007:Cytoscape
+4670004	Barry_Demchak	"Department of Medicine, University of California, San Diego, CA, 92093-0688, USA"	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4670004	Keiichiro_Ono	"Department of Medicine, University of California, San Diego, CA, 92093-0688, USA"	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4702830	Robert_Hoehndorf	"King Abdullah University of Science and Technology (KAUST), Computational Bioscience Research Center (CBRC), Thuwal 23955-6900, Kingdom of Saudi Arabia"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+5167366	Artem_Lysenko	"Rothamsted Research, Department of Computational and Systems Biology, UK"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+2896146	Intawat_Nookaew	"Department of Chemical and Biological Engineering, Chalmers University of Technology, G&#xF6;teborg, Sweden and 2Center for Microbial Biotechnology, Technical University of Denmark, Lyngby, Denmark"	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+3528629	Qi_Liu	"Department of Bioinformatics, Tongji University, 200092, Shanghai, China"	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+3598643	Keiichiro_Ono	"Database Center for Life Science, Research Organization of Information and Systems, 2-11-16, Yayoi, Bunkyo-ku, Tokyo, 113-0032, Japan"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+4092319	Robert_Hoehndorf	"        &#x2021;&#x2021;        Aberystwyth University, Aberystwyth, United Kingdom      "	0.000000	0.000000	0.000000	0.200000	2014:Neo4j
+4092319	Bachir_Balech	"Institute of Biomembranes and Bioenergetics, National Research Council, Bari, Italy      "	0.000000	0.000000	0.000000	0.200000	2014:Neo4j
+4394967	Matthew B_Carson	"Division of Health and Biomedical Informatics, Department of Preventive Medicine, Northwestern University, Chicago, IL, USA"	0.000000	0.000000	0.000000	0.200000	2015:Neo4j
+4801359	Fabian J._Theis	"Institute of Computational Biology, Helmholtz Zentrum M&#xFC;nchen, German Research Center for Environmental Health, Neuherberg, Germany      "	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+4801359	Martin_Preusse	"Institute of Computational Biology, Helmholtz Zentrum M&#xFC;nchen, German Research Center for Environmental Health, Neuherberg, Germany      "	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+4602072	Suzanna E._Lewis	"Genomics Division, Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA 94720 USA "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4602072	Christopher J._Mungall	"Genomics Division, Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA 94720 USA "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4602072	Damian_Smedley	"Skarnes Faculty Group, Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SA UK "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4602072	Matthew_Brush	"University Library and Department of Medical Informatics and Epidemiology, Oregon Health &amp; Science University, Portland, OR USA "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4602072	Sebastian_K&#xF6;hler	"Computational Biology Group, Institute for Medical Genetics and Human Genetics, Universitatsklinikum Charit&#xE9;, Augustenburger Platz 1, 13353 Berlin, Germany "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4602072	Peter N._Robinson	"Computational Biology Group, Institute for Medical Genetics and Human Genetics, Universitatsklinikum Charit&#xE9;, Augustenburger Platz 1, 13353 Berlin, Germany "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4602072	Nicole_Vasilevsky	"University Library and Department of Medical Informatics and Epidemiology, Oregon Health &amp; Science University, Portland, OR USA "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4602072	Nicole_Washington	"Genomics Division, Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA 94720 USA "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4602072	Melissa A._Haendel	"University Library and Department of Medical Informatics and Epidemiology, Oregon Health &amp; Science University, Portland, OR USA "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4881910	Joel T._Dudley	"Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, 770 Lexington Ave., 15th floor, New York, NY 10065, United States of America      "	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4881910	Benjamin S._Glicksberg	"Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, 770 Lexington Ave., 15th floor, New York, NY 10065, United States of America      "	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4286167	Dmitry_Grapov	"National Institute of Health West Coast MetabolomicsCenter, &#x2021;Genome Center, &#xA7;Genome Center ProteomicsCore Facility, &#x22A5;Department of Food Science and Technology, and &#xB6;Foods for Health Institute, University of California Davis, Davis, California 95616, United States"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+3170566	Keiichiro_Ono	"Database Center for Life Science, Research Organization of Information and Systems, 2-11-16 Yayoi, Bunkyo-ku, Tokyo, 113-0032, Japan"	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+4482044	Jian_Zhang	"China National Rice Research Institute, Hangzhou, 311400 China "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4772745	Trey_Ideker	"Department of Medicine, University of California San Diego, La Jolla CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4772745	Janusz_Dutkowski	"Department of Medicine, University of California San Diego, La Jolla CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4772745	Michael_Kramer	"Department of Medicine, University of California San Diego, La Jolla CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+3245075	Henning_Hermjakob	"EMBL Outstation, European Bioinformatics Institute (EBI), Wellcome Trust Genome Campus Hinxton, Cambridge CB10 1SD, UK, 2Swiss Institute of Bioinformatics, CMU, 1 rue Michel Servet, 1211-4 Geneva, Switzerland, 3Ontario Cancer Institute, Toronto Medical Discovery Tower, Toronto, Ontario, Canada M5G 1L7, 4Centre for Microbial Diseases and Immunity Research, University of British Columbia, Vancouver, BC, Canada V6T 1Z4 and 5Molecular Connections Private Limited, Basavanagudi, Bangalore 560 004, India"	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+4981870	Xiaohua_Su	"State Key Laboratory of Tree Genetics and Breeding, Research Institute of Forestry, Chinese Academy of Forestry, Key Laboratory of Tree Breeding and Cultivation, State Forestry Administration, Beijing 100091, China"	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4981870	Weixi_Zhang	"State Key Laboratory of Tree Genetics and Breeding, Research Institute of Forestry, Chinese Academy of Forestry, Key Laboratory of Tree Breeding and Cultivation, State Forestry Administration, Beijing 100091, China"	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4981870	Yanguang_Chu	"State Key Laboratory of Tree Genetics and Breeding, Research Institute of Forestry, Chinese Academy of Forestry, Key Laboratory of Tree Breeding and Cultivation, State Forestry Administration, Beijing 100091, China"	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4981870	Bingyu_Zhang	"State Key Laboratory of Tree Genetics and Breeding, Research Institute of Forestry, Chinese Academy of Forestry, Key Laboratory of Tree Breeding and Cultivation, State Forestry Administration, Beijing 100091, China"	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4981870	Qinjun_Huang	"State Key Laboratory of Tree Genetics and Breeding, Research Institute of Forestry, Chinese Academy of Forestry, Key Laboratory of Tree Breeding and Cultivation, State Forestry Administration, Beijing 100091, China"	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4981870	Qi_Liu	"State Key Laboratory of Tree Genetics and Breeding, Research Institute of Forestry, Chinese Academy of Forestry, Key Laboratory of Tree Breeding and Cultivation, State Forestry Administration, Beijing 100091, China"	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4981870	Jiafei_Chen	"State Key Laboratory of Tree Genetics and Breeding, Research Institute of Forestry, Chinese Academy of Forestry, Key Laboratory of Tree Breeding and Cultivation, State Forestry Administration, Beijing 100091, China"	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4981870	Changjun_Ding	"State Key Laboratory of Tree Genetics and Breeding, Research Institute of Forestry, Chinese Academy of Forestry, Key Laboratory of Tree Breeding and Cultivation, State Forestry Administration, Beijing 100091, China"	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+3669790	Khader_Shameer	"Division of Biomedical Statistics and Informatics &amp; Division of Cardiovascular Diseases, Mayo Clinic, Rochester 55905, USA"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+4767623	Barry_Demchak	"Department of Medicine, University of California, San Diego, La Jolla, USA"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4767623	Trey_Ideker	"Department of Medicine, University of California, San Diego, La Jolla, USA"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+2686536	Henning_Hermjakob	"Cold Spring Harbor Laboratory, Cold Spring Harbor, NY 11724, 2College of Pharmacy and Allied Health Professions, St. John's University, Queens, NY 11439, USA, 3European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK, 4Lawrence Berkeley National Laboratory, Berkeley, CA 94720, 5Hunter College, New York, NY 10010, 6NYU School of Medicine, New York, NY 10016, USA and 7Ontario Institute for Cancer Research, Toronto, ON, Canada M5G0A3"	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+4652617	Robert_Hoehndorf	UNKNOWN	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+3169508	Thomas_Kelder	"Department of Bioinformatics, Maastricht University, Maastricht, The Netherlands"	0.000000	0.000000	0.000000	0.200000	2011:Cytoscape
+5342422	Qi_Liu	"Department of Central Laboratory, Shanghai Tenth People's Hospital, School of Life Sciences and Technology, Tongji University, Shanghai, China"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+2649164	Damian_Smedley	"European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, UK"	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+4316181	Henning_Hermjakob	"Max Planck Institute of Biochemistry, Am Klopferspitz 18, 82152 Matinsried, Germany, 2European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK, 3Department of Physiology and 4Department of Medicine, Division of Cardiology, David Geffen School of Medicine at UCLA, 675 Charles E. Young Drive, MRL Building, Suite 1609, Los Angeles, California 90095, USA and 5Biomedical Hosting LLC, Arlington, Massachusetts 02474, USA"	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4045758	Ling_Li	"School of Life Sciences and Technology, Tongji University, Shanghai, P.R.China"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4489294	Damian_Smedley	"Wellcome Trust Sanger Institute, Welcome Trust Genome Campus, Hinxton, CB10 1SD, UK"	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4960687	Christopher J_Rawlings	"Rothamsted Research, Harpenden, West Common, Hertfordshire, AL5 2JQ UK "	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4960687	Charles_Auffray	"European Institute for Systems Biology and Medicine (EISBM), CIRI UMR CNRS 5308, CNRS-ENS-UCBL-INSERM, Lyon, France "	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4960687	Mansoor_Saqi	"European Institute for Systems Biology and Medicine (EISBM), CIRI UMR CNRS 5308, CNRS-ENS-UCBL-INSERM, Lyon, France "	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4960687	Alexander_Mazein	"European Institute for Systems Biology and Medicine (EISBM), CIRI UMR CNRS 5308, CNRS-ENS-UCBL-INSERM, Lyon, France "	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4960687	Irina A._Roznov&#x103;&#x163;	"European Institute for Systems Biology and Medicine (EISBM), CIRI UMR CNRS 5308, CNRS-ENS-UCBL-INSERM, Lyon, France "	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4960687	Artem_Lysenko	"Rothamsted Research, Harpenden, West Common, Hertfordshire, AL5 2JQ UK "	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4873016	Anil_Wipat	"Interdisciplinary Computing and Complex BioSystems (ICOS) Research Group, School of Computing Science, Newcastle University, Newcastle upon Tyne, United Kingdom      "	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+4873016	Simon J._Cockell	"Bioinformatics Support Unit, Newcastle University, Newcastle upon Tyne, United Kingdom      "	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+4873016	Peter_Woollard	"Computational Biology Department, Quantitative Sciences, GlaxoSmithKline Research &amp; Development Ltd, Stevenage, Hertfordshire, United Kingdom      "	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+4736989	Anil_Wipat	"Interdisciplinary Computing and Complex BioSystems Research Group, School of Computing Science, University of Newcastle-upon-Tyne, Newcastle upon Tyne, United Kingdom"	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+4736989	Hannah_Tipney	"Computational Biology, Target Sciences, GSK R&amp;D, GlaxoSmithKline, Stevenage, Hertfordshire, United Kingdom"	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+4736989	Simon J._Cockell	"Bioinformatics Support Unit, University of Newcastle-upon-Tyne, United Kingdom"	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+3711819	Luis M._Rodriguez-R	"UMR 186 R&#xE9;sistance des Plantes aux Bioagresseurs, Institut de Recherche pour le D&#xE9;veloppement, Montpellier, France"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+2758592	Ole_Lund	"Center for Biological Sequence Analysis, Department of Systems Biology, Technical University of Denmark, Lyngby, Denmark"	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+4853038	Rui_Wang	"State Key Laboratory of Reproductive Biology, Institute of Zoology, Chinese Academy of Sciences, Beijing, China"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4409855	Juan Antonio_Vizca&#xED;no	"          European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus          Hinxton, Cambridge, UK        "	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4409855	Henning_Hermjakob	"          European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus          Hinxton, Cambridge, UK        "	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4409855	Yasset_Perez-Riverol	"          European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus          Hinxton, Cambridge, UK        "	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4409855	Rui_Wang	"          European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus          Hinxton, Cambridge, UK        "	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4331812	Jackie_Shanks	"Department of Chemical and Biological Engineering, Iowa State University, Ames, Iowa 50011, USA"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4331812	Zebulun_Arendsee	"Department of Genetics, Development and Cell Biology, Iowa State University, Ames, Iowa 50011, USA"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4331812	Eve Syrkin_Wurtele	"Department of Genetics, Development and Cell Biology, Iowa State University, Ames, Iowa 50011, USA"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4331812	Cumhur Yusuf_Demirkale	"Department of Statistics, Iowa State University, Ames, Iowa 50011, USA"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4331812	Nick_Ransom	"Department of Genetics, Development and Cell Biology, Iowa State University, Ames, Iowa 50011, USA"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4331812	Vidya_Iyer	"Department of Chemical and Biological Engineering, Iowa State University, Ames, Iowa 50011, USA"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4331812	Dan_Nettleton	"Department of Statistics, Iowa State University, Ames, Iowa 50011, USA"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4331812	Ling_Li	"Department of Genetics, Development and Cell Biology, Iowa State University, Ames, Iowa 50011, USA"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4331812	Basil_Nikolau	"Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, Iowa 50011, USA"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4331812	Wenxu_Zhou	"Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, Iowa 50011, USA"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4331812	Joon-Yong_Lee	"Department of Genetics, Development and Cell Biology, Iowa State University, Ames, Iowa 50011, USA"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4331812	Zhihong_Song	"Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, Iowa 50011, USA"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4331812	Mark_Westgate	"Department of Agronomy, Iowa State University, Ames, Iowa 50011, USA"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+4331812	Manhoi_Hur	"Department of Genetics, Development and Cell Biology, Iowa State University, Ames, Iowa 50011, USA"	0.000000	0.000000	0.000000	0.200000	2015:Neo4jCytoscape
+2981879	Georg_Summer	"University of Applied Sciences, Softwarepark 11, 4232 Hagenberg, Austria"	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+3964965	Jian_Zhang	"Protein Information Resource, Georgetown University Medical Center, WA 20007, USA, 2Center for Bioinformatics and Computational Biology, University of Delaware, Newark, DE 19711, USA, 3Department of Bioinformatics and Computational Biology, The Jackson Laboratory, Bar Harbor, ME 04609, USA, 4Department of Biochemistry and Molecular Pharmacology, NYU School of Medicine, NY 10016, USA, 5Department of Neurology, University at Buffalo School of Medicine and Biomedical Sciences, Buffalo, NY 14203, USA, 6Center of Excellence in Bioinformatics and Life Sciences, University at Buffalo, Buffalo, NY 14203, USA, 7Department of Immunology, Duke University Medical Center, Durham, NC 27705, USA and 8Department of Oral Diagnostic Sciences, University at Buffalo School of Dental Medicine, Buffalo, NY 14214, USA"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4492103	Lianyi_Han	"National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Department of Health and Human Services, 8600 Rockville Pike, Bethesda, MD 20894 USA "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4492103	Bo_Yu	"National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Department of Health and Human Services, 8600 Rockville Pike, Bethesda, MD 20894 USA "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4492103	Sunghwan_Kim	"National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Department of Health and Human Services, 8600 Rockville Pike, Bethesda, MD 20894 USA "	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4246458	Martina_Kutmon	"Department of Bioinformatics - BiGCaT, NUTRIM School for Nutrition, Toxicology and Metabolism, Maastricht University Maastricht, Kragujevac, The Netherlands "	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+2801700	Marijana_Radonjic	"TNO Quality of Life, BU Biosciences, the Netherlands"	0.000000	0.000000	0.000000	0.200000	2009:Cytoscape
+4874630	Susan L._Coort	"Department of Bioinformatics&#x2014;BiGCaT, Maastricht University, Maastricht, The Netherlands      "	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4874630	Martina_Kutmon	"Department of Bioinformatics&#x2014;BiGCaT, Maastricht University, Maastricht, The Netherlands      "	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4977773	Junaid_Gamieldien	"South African Medical Research Council Bioinformatics Unit, The South African National Bioinformatics Institute (SANBI), University of the Western Cape, Robert Sobukwe Street, Bellville, South Africa "	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+3605104	Intawat_Nookaew	"Department of Chemical and Biological Engineering, Chalmers University of Technology, Gothenburg, Sweden      "	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+4363943	Marijana_Radonjic	"TNO, Research Group Microbiology &amp; Systems Biology, Zeist, The Netherlands"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+4363943	Thomas_Kelder	"TNO, Research Group Microbiology &amp; Systems Biology, Zeist, The Netherlands"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+5067895	Robert_Stevens	"School of Computer Science, University of Manchester, Oxford Road, Manchester, M13 9PL UK "	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+4998145	Bo_Yu	"Department of Respiratory Medicine, People's Hospital of Liaocheng, Liaocheng, Shandong 252000, P.R. China"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+5210586	Melissa A._Haendel	"Department of Medical Informatics and Clinical Epidemiology and OHSU Library, Oregon Health &amp; Science University, Portland, OR, 97239, USA"	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+5210586	Damian_Smedley	"William Harvey Research Institute, Barts &amp; The London School of Medicine &amp; Dentistry, Queen Mary University of London, Charterhouse Square, London EC1M 6BQ, UK"	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+5210586	Matthew_Brush	"Department of Medical Informatics and Clinical Epidemiology and OHSU Library, Oregon Health &amp; Science University, Portland, OR, 97239, USA"	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+5210586	Christopher J._Mungall	"Environmental Genomics and Systems Biology, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720, USA"	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+5210586	Suzanna E._Lewis	"Environmental Genomics and Systems Biology, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720, USA"	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+5210586	James P._Balhoff	"RTI International, Research Triangle Park, NC, 27709, USA"	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+5210586	Nicole_Washington	"Environmental Genomics and Systems Biology, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720, USA"	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+5210586	Nicole_Vasilevsky	"Department of Medical Informatics and Clinical Epidemiology and OHSU Library, Oregon Health &amp; Science University, Portland, OR, 97239, USA"	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+5210586	Seth_Carbon	"Environmental Genomics and Systems Biology, Lawrence Berkeley National Laboratory, Berkeley, CA, 94720, USA"	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+5210586	Peter N._Robinson	"Institute for Medical Genetics and Human Genetics, Charit&#xE9;-Universit&#xE4;tsmedizin Berlin, Augustenburger Platz 1, 13353 Berlin, Germany"	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+5210586	Sebastian_K&#xF6;hler	"Institute for Medical Genetics and Human Genetics, Charit&#xE9;-Universit&#xE4;tsmedizin Berlin, Augustenburger Platz 1, 13353 Berlin, Germany"	0.000000	0.000000	0.000000	0.200000	2017:Neo4j
+4086107	Robert E. W._Hancock	"Department of Microbiology and Immunology, University of British Columbia, Vancouver, Canada"	0.000000	0.000000	0.000000	0.200000	2014:Neo4jCytoscape
+4086107	Maia J._Benner	"Department of Microbiology and Immunology, University of British Columbia, Vancouver, Canada"	0.000000	0.000000	0.000000	0.200000	2014:Neo4jCytoscape
+4086107	Jianguo_Xia	"Department of Microbiology and Immunology, University of British Columbia, Vancouver, Canada"	0.000000	0.000000	0.000000	0.200000	2014:Neo4jCytoscape
+4457114	Juan Antonio_Vizca&#xED;no	"8European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge, UK"	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4457114	Henning_Hermjakob	"8European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge, UK"	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+4702940	Jian_Zhang	"National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Department of Health and Human Services, Bethesda, MD 20894, USA"	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+4702940	Jane_He	"National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Department of Health and Human Services, Bethesda, MD 20894, USA"	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+4702940	Jie_Chen	"National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Department of Health and Human Services, Bethesda, MD 20894, USA"	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+4702940	Bo_Yu	"National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Department of Health and Human Services, Bethesda, MD 20894, USA"	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+4702940	Lianyi_Han	"National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Department of Health and Human Services, Bethesda, MD 20894, USA"	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+4702940	Stephen H._Bryant	"National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Department of Health and Human Services, Bethesda, MD 20894, USA"	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+4702940	Sunghwan_Kim	"National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Department of Health and Human Services, Bethesda, MD 20894, USA"	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+4361730	Intawat_Nookaew	"Comparative Genomics Group, Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831 USA "	0.000000	0.000000	0.000000	0.200000	2015:Neo4j
+4361730	Ole_Lund	"Center for Biological Sequence Analysis, Department of Systems Biology, The Technical University of Denmark, Kgs. Lyngby, 2800 Denmark "	0.000000	0.000000	0.000000	0.200000	2015:Neo4j
+3815060	Intawat_Nookaew	"Center for Microbial Biotechnology, DTU Systems Biology, Technical University of Denmark, DK-2800 Kongens Lyngby, Denmark"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+5103253	Vanessa_Sochat	"Program in Biomedical Informatics, Stanford University, Stanford, California USA "	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+5103253	Alan C._Evans	"McGill Centre for Integrative Neuroscience (MCIN), Ludmer Centre for Neuroinformatics and Mental Health, Montreal Neurological Institute (MNI), McGill University, Montr&#xE9;al, Qu&#xE9;bec Canada "	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+5103253	Krzysztof J._Gorgolewski	"Poldrack Lab, Department of Psychology, Stanford University, Stanford, CA USA "	0.000000	0.000000	0.000000	0.200000	2016:Neo4j
+5408918	Christopher J._Rawlings	"Rothamsted Research, Harpenden, West Common, Hertfordshire AL5 2JQ, UK"	0.000000	0.000000	0.000000	0.200000	2017:Neo4jCytoscape
+5408918	Charles_Auffray	"European Institute for Systems Biology and Medicine (EISBM), CIRI CNRS UMR 5308, CNRS-ENS-UCBL-INSERM, Lyon, France"	0.000000	0.000000	0.000000	0.200000	2017:Neo4jCytoscape
+5408918	Mansoor_Saqi	"European Institute for Systems Biology and Medicine (EISBM), CIRI CNRS UMR 5308, CNRS-ENS-UCBL-INSERM, Lyon, France"	0.000000	0.000000	0.000000	0.200000	2017:Neo4jCytoscape
+5408918	Artem_Lysenko	"Rothamsted Research, Harpenden, West Common, Hertfordshire AL5 2JQ, UK"	0.000000	0.000000	0.000000	0.200000	2017:Neo4jCytoscape
+5408918	Alexander_Mazein	"European Institute for Systems Biology and Medicine (EISBM), CIRI CNRS UMR 5308, CNRS-ENS-UCBL-INSERM, Lyon, France"	0.000000	0.000000	0.000000	0.200000	2017:Neo4jCytoscape
+5408918	Irina_Balaur	"European Institute for Systems Biology and Medicine (EISBM), CIRI CNRS UMR 5308, CNRS-ENS-UCBL-INSERM, Lyon, France"	0.000000	0.000000	0.000000	0.200000	2017:Neo4jCytoscape
+4971676	Hui-Hsien_Chou	"Department of Genetics, Development and Cell Biology, Iowa State University, Iowa, 50011 Ames USA "	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4971676	Hyejin_Cho	"Department of Genetics, Development and Cell Biology, Iowa State University, Iowa, 50011 Ames USA "	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4971676	Jennifer_Chang	"Department of Genetics, Development and Cell Biology, Iowa State University, Iowa, 50011 Ames USA "	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+1431712	Trey_Ideker	"Department of Bioengineering, University of California San Diego, 9500 Gilman Drive, Mail Code 0412, La Jolla, CA 92093, USA"	0.000000	0.000000	0.000000	0.200000	2006:Cytoscape
+4065045	Robert E. W._Hancock	"Centre for Microbial Diseases &amp; Immunity Research, University of British Columbia, Vancouver, British Columbia, Canada"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+3445822	James_Malone	"Department of Medicine, Washington University in St. Louis, School of Medicine, St Louis, MO, USA"	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+4702772	Susan L._Coort	"Department of Bioinformatics - BiGCaT, NUTRIM, Maastricht University, Maastricht, 6229 ER Maastricht, The Netherlands"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+4702772	Martina_Kutmon	"Department of Bioinformatics - BiGCaT, NUTRIM, Maastricht University, Maastricht, 6229 ER Maastricht, The Netherlands"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+3597018	Peter N._Robinson	"Institute for Medical and Human Genetics, Charit&#xE9;-Universit&#xE4;tsmedizin Berlin, Augustenburger Platz 1, 13353 Berlin, Germany"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+3597018	Sebastian_K&#xF6;hler	"Institute for Medical and Human Genetics, Charit&#xE9;-Universit&#xE4;tsmedizin Berlin, Augustenburger Platz 1, 13353 Berlin, Germany"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+3597018	Suzanna E._Lewis	"Genomics Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+3597018	Damian_Smedley	"European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, UK"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+3597018	Christopher J._Mungall	"Genomics Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+4845066	Alan C._Evans	"McConnell Brain Imaging Center, Montreal Neurological Institute, McGill University, Montreal, QC H3A 2B4, Canada"	0.000000	0.000000	0.000000	0.200000	2016:Cytoscape
+2816673	Joel T._Dudley	"Stanford Center for Biomedical Informatics Research, Stanford University, Stanford, California, United States of America      "	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+4722177	Patrick Xuechun_Zhao	"Plant Biology Division, The Samuel Roberts Noble Foundation, 2510 Sam Noble Parkway, Ardmore, OK 73401, USA"	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4722177	Tingsong_Liu	"Plant Biology Division, The Samuel Roberts Noble Foundation, 2510 Sam Noble Parkway, Ardmore, OK 73401, USA"	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4722177	Jun_Li	"Plant Biology Division, The Samuel Roberts Noble Foundation, 2510 Sam Noble Parkway, Ardmore, OK 73401, USA"	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4722177	Xinbin_Dai	"Plant Biology Division, The Samuel Roberts Noble Foundation, 2510 Sam Noble Parkway, Ardmore, OK 73401, USA"	0.000000	0.000000	0.000000	0.200000	2016:Neo4jCytoscape
+4626853	Jun_Li	Korea Advanced Institute of Science and Technology	0.000000	0.000000	0.000000	0.200000	2015:Cytoscape
+2971579	Stephen H._Bryant	"National Center for Biotechnology Information, National Institutes of Health, 8600 Rockville Pike, Bethesda, MD 20894, USA"	0.000000	0.000000	0.000000	0.200000	2010:Cytoscape
+3483157	Eve Syrkin_Wurtele	"Dept of Genetics, Development and Cell Biology, Iowa State University, Ames, IA, USA"	0.000000	0.000000	0.000000	0.200000	2012:Cytoscape
+3632109	Intawat_Nookaew	"Department of Chemical and Biological Engineering, Chalmers University of Technology, Gothenburg 412 96, Sweden"	0.000000	0.000000	0.000000	0.200000	2013:Cytoscape
+4121291	Jie_Chen	"Department of Intensive Care Unit, the First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China"	0.000000	0.000000	0.000000	0.200000	2014:Cytoscape
+
