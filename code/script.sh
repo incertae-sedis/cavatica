@@ -63,7 +63,9 @@ do
     [[ -f "${TERM}_pmc.ids" ]] ||perl ${CODEDIR}/searchPMCBtwnPubDates.pl ${TERM} ${TERM}_pmc.ids
     [[ -f "${TERM}_pmc.xml" ]] || echo "${CODEDIR}/pmc_xml.sh ${TERM}_pmc.ids > ${TERM}_pmc.xml"
     [[ -f "${TERM}_pmc.xml" ]] || ${CODEDIR}/pmc_xml.sh ${TERM}_pmc.ids > ${TERM}_pmc.xml
-
+    query=`echo $TERM |sed 's/+/ /g'`
+    [[ -f "${TERM}_pmc.hmtl" ]] || ${CODEDIR}/pubmed_fulltext_analyzer_v4.pl ${query} ${TERM}_pmc.xml > ${TERM}_pmc.html
+    
     echo "===== Generate authors and paper lists"
     KEYWORD=`echo $TERM | sed 's/+/ /g'`
     [[ -f "${TERM}_authors_pmc.tsv" ]] || ${CODEDIR}/bothlist_pmc.pl "${KEYWORD}" ${TERM}_papers_pmc.tsv ${TERM}_authors_pmc.tsv ${TERM}_pmc.xml 2> /dev/null # silence incomplete author information
