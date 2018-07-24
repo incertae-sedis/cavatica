@@ -4,17 +4,17 @@
 singularity
 
 #git clone repo with singularity file
-git clone -b https://github.com/TeamMango/cavatica.git
+git clone -b singularity_implementation https://github.com/TeamMango/cavatica.git
 
 #move into that folder
-cd diamondsingularity
+cd cavaticasingularity
 
 #see whats in singularity file
 ls
-cat Singularity
+cat cavaticasingularity
 
 #build singularity file
-sudo singularity build diamond.smg Singularity
+sudo singularity build singularity.smg cavaticasingularity
 
 #run singularity file
-singularity run diamond.simg
+singularity run singularity.simg
