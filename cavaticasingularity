@@ -6,9 +6,7 @@ From: ubuntu
     apt-get install -y git
     git clone -b docker_implementation https://github.com/TeamMango/cavatica.git
     DEBIAN_FRONTEND=noninteractive apt-get install -y r-base 
-
-%files
-   /cavatica/data/test
-
+    
 %runscript
+   exec cd /data/test
    ../../code/script.sh
