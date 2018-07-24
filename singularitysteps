@@ -17,4 +17,4 @@ cat cavaticasingularity
 sudo singularity build singularity.smg cavaticasingularity
 
 #run singularity file
-singularity run singularity.simg
+singularity run singularity.smg
