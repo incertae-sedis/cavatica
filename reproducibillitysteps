@@ -10,7 +10,7 @@ sudo apt -y install r-base
 perl --version
 
 #clone repo
-git clone https://github.com/incertae-sedis/cavatica.git
+git clone https://github.com/TeamMango/cavatica.git
 
 #example fetching PubMed and PMC papers containing the word "Neo4j" and "Cytoscape".
 cd cavatica/data
