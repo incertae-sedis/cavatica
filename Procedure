@@ -1,0 +1,20 @@
+# this is for project Cavatica team 4
+# Cavatica is forked here
+# we are using the new github link: https://github.com/incertae-sedis/cavatica
+#looking at dependencies we need to have r and perl installed, perl is already on Ubuntu 18
+sudo apt update
+sudo apt -y install r-base
+R --version # to check if it is installed
+#In order to access R to install packages first run:
+sudo apt-get install libcurl4-openssl-dev 
+# the command is R, after you're done with R, you need to use this command quit(save = "default", status = 0, runLast = TRUE)
+to download packages like ggplot2 and readr just go to the main directort (cd ..) , command R, in the R environment  install.packages(c("Rcpp", "readr")), and install.packages("ggplot2")
+
+
+git clone https://github.com/incertae-sedis/cavatica.git
+cd cavatica/data
+mkdir test
+cd test
+echo "Neo4j" > config.txt
+echo "Cytoscape" >> config.txt
+../../code/script.sh
