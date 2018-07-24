@@ -37,3 +37,13 @@ env
 export R_LIBS_USER=~/.local/lib/R/site-library >> ~/.profile
 #now install packages
 R CMD INSTALL
+
+#error caused by resetting the library path
+Loading required package: ggplot2
+Loading required package: readr
+ggplot2   readr
+   TRUE   FALSE
+There were 21 warnings (use warnings() to see them)
+Error in library(readr) : there is no package called 'readr'
+Execution halted
+The command '/bin/sh -c ../../code/script.sh' returned a non-zero code: 1
