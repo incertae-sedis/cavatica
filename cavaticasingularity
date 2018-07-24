@@ -2,11 +2,13 @@ Bootstrap: docker
 From: ubuntu
 
 %post
-    apt-get update
-    apt-get install -y python3
+    apt-get -y update
+    apt-get install -y git
+    git clone -b docker_implementation https://github.com/TeamMango/cavatica.git
+    DEBIAN_FRONTEND=noninteractive apt-get install -y r-base 
 
 %files
-   script.py /tmp
+   /cavatica/data/test
 
 %runscript
-   python3 /tmp/script.py
+   ../../code/script.sh
