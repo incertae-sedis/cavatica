@@ -1,0 +1,9 @@
+#create jetstream instance
+
+#check if R is installed
+
+#check if perl is installed
+perl --version
+
+#clone repo
+git clone https://github.com/incertae-sedis/cavatica.git
