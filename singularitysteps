@@ -7,7 +7,7 @@ singularity
 git clone -b singularity_implementation https://github.com/TeamMango/cavatica.git
 
 #move into that folder
-cd cavaticasingularity
+cd cavatica
 
 #see whats in singularity file
 ls
