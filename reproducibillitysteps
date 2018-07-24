@@ -15,6 +15,7 @@ cd test
 echo "Neo4j" > config.txt
 echo "Cytoscape" >> config.txt
 ../../code/script.sh
+#####
 #error message:
 #Installing packages into ‘/usr/local/lib/R/site-library’
 #(as ‘lib’ is unspecified)
@@ -24,3 +25,15 @@ echo "Cytoscape" >> config.txt
 #  unable to install packages
 #Calls: check.packages -> install.packages
 #Execution halted
+#####
+#If you want to install a package for yourself only you don't need to give R super-user privileges 
+#but you need to specify an installation target. One convenient way to do this is with an environment variable:
+#https://askubuntu.com/questions/931375/r-and-rstudio-installation-and-package-error
+export R_LIBS_USER=~/.local/lib/R/site-library
+#check env variables, should see R_LIBS_USER
+env
+#append export file to profile to assure that this environment variable 
+#is set before starting R or it won't find the packages installed to that location
+export R_LIBS_USER=~/.local/lib/R/site-library >> ~/.profile
+#now install packages
+R CMD INSTALL
