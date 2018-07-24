@@ -39,7 +39,8 @@ R
 install.packages(c("Rcpp", "readr"))
 install.packages("ggplot2")
 
-git clone https://github.com/incertae-sedis/cavatica.git
+#clone docker_implementation branch, and some of the code needed to be taken out
+git clone -b docker_implementation https://github.com/TeamMango/cavatica.git
 cd cavatica/data
 mkdir test
 cd test
