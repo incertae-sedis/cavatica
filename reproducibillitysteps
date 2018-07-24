@@ -48,8 +48,9 @@ echo "Neo4j" > config.txt
 echo "Cytoscape" >> config.txt
 ../../code/script.sh
 
-Just FYI if you want to install a package for yourself only you don't need to give R super-user privileges. use env var
-#####
+###########
+#Below is not functional code...needs work 
+#Just FYI if you want to install a package for yourself only you don't need to give R super-user privileges. use env var
 #https://askubuntu.com/questions/931375/r-and-rstudio-installation-and-package-error
 export R_LIBS_USER=~/.local/lib/R/site-library
 #check env variables, should see R_LIBS_USER
