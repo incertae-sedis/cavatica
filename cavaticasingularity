@@ -8,5 +8,5 @@ From: ubuntu
     DEBIAN_FRONTEND=noninteractive apt-get install -y r-base 
     
 %runscript
-   exec cd /data/test
+   exec /data/test
    ../../code/script.sh
