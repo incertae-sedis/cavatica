@@ -1,6 +1,10 @@
 #create jetstream instance
 
 #check if R is installed
+R --version
+#if R is not installed
+sudo apt update
+sudo apt -y install r-base
 
 #check if perl is installed
 perl --version
@@ -26,9 +30,7 @@ echo "Cytoscape" >> config.txt
 #Calls: check.packages -> install.packages
 #Execution halted
 
-sudo apt update
-sudo apt -y install r-base
-R --version # to check if it is installed
+
 #In order to access R to install packages first run:
 sudo apt-get install libcurl4-openssl-dev 
 # the command is R, after you're done with R, you need to use this command quit(save = "default", status = 0, runLast = TRUE)
