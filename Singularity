@@ -14,4 +14,9 @@ From: ubuntu
     ../../code/script.sh
     find /cavatica/data/output -type l | xargs rm
 %environment
-    export PATH=/:$PATH
+    export PATH=/:$PATH 
+%labels    
+    author="Jennifer Chang"
+	title="Cavatica: A pipeline for identifying author adoption trends among software or methods"
+	doi="10.1109/BIBM.2017.8217990"
+	last-update="2018-07-26"
