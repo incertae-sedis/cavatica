@@ -1,0 +1,20 @@
+#open jetstream instance
+
+#run singularity
+singularity
+
+#git clone repo with singularity file
+git clone -b singularity_implementation https://github.com/TeamMango/cavatica.git
+
+#move into that folder
+cd cavatica
+
+#see whats in singularity file
+ls
+cat cavaticasingularity
+
+#build singularity file
+sudo singularity build singularity.smg cavaticasingularity
+
+#run singularity file
+singularity run singularity.smg
