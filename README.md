@@ -30,7 +30,7 @@ singularity run --bind output:/cavatica/data/output TeamMango-cavatica-master-la
 The results of the search will appear in the `output` directory next to your `config.txt` file.
 
 ## Value of Reproducible Research
-[Accomplishments and opportunities](https://hackmd.io/s/r1Vxf9wVX)
+[Accomplishments and opportunities of reproducing and containerizing this project](https://hackmd.io/s/r1Vxf9wVX)
 
 ## Publications
 
