@@ -2,10 +2,10 @@ Bootstrap: docker
 From: ubuntu
 
 %labels
-    author "Jennifer Chang"
-    title "Cavatica: A pipeline for identifying author adoption trends among software or methods"
-    doi "10.1109/BIBM.2017.8217990"
-    last-update "2018-07-26"
+    author Jennifer Chang
+    title Cavatica: A pipeline for identifying author adoption trends among software or methods
+    doi 10.1109/BIBM.2017.8217990
+    last-update 2018-07-26
 %post
     apt-get -y update
     apt-get install -y git
