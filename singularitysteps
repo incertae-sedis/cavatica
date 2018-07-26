@@ -11,10 +11,10 @@ cd cavatica
 
 #see whats in singularity file
 ls
-cat cavaticasingularity
+cat Singularity
 
 #build singularity file
-sudo singularity build singularity.smg cavaticasingularity
+sudo singularity build singularity.smg Singularity
 
 #run singularity file
 singularity run singularity.smg
