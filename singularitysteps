@@ -4,7 +4,7 @@
 singularity
 
 #git clone repo with singularity file
-git clone -b singularity_implementation https://github.com/TeamMango/cavatica.git
+git clone https://github.com/TeamMango/cavatica.git
 
 #move into that folder
 cd cavatica
