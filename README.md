@@ -28,6 +28,10 @@ Once you have entered the terms in the `config.txt` file, return to the same dir
 singularity run --bind output:/cavatica/data/output TeamMango-cavatica-master-latest.simg
 ```
 The results of the search will appear in the `output` directory next to your `config.txt` file.
+
+## Value of Reproducible Research
+[Accomplishments and opportunities](https://hackmd.io/s/r1Vxf9wVX)
+
 ## Publications
 
 * J. Chang and H. Chou, "[Cavatica: A pipeline for identifying author adoption trends among software or methods](https://www.computer.org/csdl/proceedings/bibm/2017/3050/00/08217990-abs.html)," 2017 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Kansas City, MO, USA, 2017, pp. 2145-2150.
