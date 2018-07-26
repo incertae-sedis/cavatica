@@ -2,7 +2,7 @@
 [![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/1322)
 [![Docker Automated build](https://img.shields.io/docker/automated/griffinac/cavatica.svg)](https://hub.docker.com/r/griffinac/cavatica/)
 
-This is a fork of [Cavatica](https://github.com/incertae-sedis/cavatica), a pipeline for fetching PubMed and PubMed Central data and co-author network analysis. This tool can be used to identify author trends among several search terms. This repo provides a container for easily reproducing and running Cavatica through a container.
+This is a fork of [Cavatica](https://github.com/incertae-sedis/cavatica), a pipeline for fetching PubMed and PubMed Central data and co-author network analysis, written by Jennifer Chang. This tool can be used to identify author trends among several search terms. This repo provides a container for easily reproducing and running Cavatica through a container.
 
 ##Singularity Container
 A singularity container of Cavatica is available on [Singularity Hub](https://singularity-hub.org/collections/1322). Using singularity you can download the contained with the following command:
