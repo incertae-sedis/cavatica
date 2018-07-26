@@ -16,5 +16,9 @@ cat Singularity
 #build singularity file
 sudo singularity build singularity.smg Singularity
 
+#make directory for output
+mkdir singularity_output
+cd singularity_output
+ 
 #run singularity file
 singularity run singularity.smg
