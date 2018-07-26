@@ -3,7 +3,7 @@ From: ubuntu
 %post
     apt-get -y update
     apt-get install -y git
-    git clone -b singularity_implementation https://github.com/TeamMango/cavatica.git
+    git clone https://github.com/TeamMango/cavatica.git
     chmod -R go+rw /cavatica/ 
     DEBIAN_FRONTEND=noninteractive apt-get install -y r-base 
     echo "install.packages(\"ggplot2\", repos=\"https://cran.rstudio.com\")" | R --no-save
