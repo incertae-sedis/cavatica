@@ -2,9 +2,6 @@
 [![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/1322)
 [![Docker Automated build](https://img.shields.io/docker/automated/griffinac/cavatica.svg)](https://hub.docker.com/r/griffinac/cavatica/)
 
-**Author**: Jennifer Chang | **Initial Commit**: July 2016 
-<p style="text-align: center;">***** Cavatica has been adopted by the incertae-sedis group. *****</p>
-
 This is a fork of [Cavatica](https://github.com/incertae-sedis/cavatica), a pipeline for fetching PubMed and PubMed Central data and co-author network analysis. This tool can be used to identify author trends among several search terms. This repo provides a container for easily reproducing and running Cavatica through a container.
 
 ##Singularity Container
@@ -30,7 +27,7 @@ Once you have entered the terms in the `config.txt` file, return to the same dir
 ```
 singularity run --bind output:/cavatica/data/output TeamMango-cavatica-master-latest.simg
 ```
-
+The results of the search will appear in the `output` directory next to your `config.txt` file.
 ## Publications
 
 * J. Chang and H. Chou, "[Cavatica: A pipeline for identifying author adoption trends among software or methods](https://www.computer.org/csdl/proceedings/bibm/2017/3050/00/08217990-abs.html)," 2017 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Kansas City, MO, USA, 2017, pp. 2145-2150.
