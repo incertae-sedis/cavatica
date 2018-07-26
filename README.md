@@ -12,7 +12,7 @@ A singularity container of Cavatica is available on [Singularity Hub](https://si
 ```
 singularity pull shub://TeamMango/cavatica:latest
 ```
-When run, the container will look for a text file called `config.txt` in a directory called `output`. Place the terms that you want Cavatica to search for in this file. In Ubuntu, you can use the following commands to create this file:
+When run, the container will look for a text file called `config.txt` in a directory called `output` in the same directory as the `.simg` you just downloaded. Place the terms that you want Cavatica to search for in this file. In Ubuntu, you can use the following commands to create this file:
 ```
 mkdir output
 echo "YOURSEARCHTERM" > ./output/config.txt
