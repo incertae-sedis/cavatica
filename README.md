@@ -29,6 +29,12 @@ singularity run --bind output:/cavatica/data/output TeamMango-cavatica-master-la
 ```
 The results of the search will appear in the `output` directory next to your `config.txt` file.
 
+##Docker Container
+You can pull the docker container with the following command:
+```
+docker build 
+```
+
 ## Value of Reproducible Research
 [Accomplishments and opportunities of reproducing and containerizing this project](https://hackmd.io/s/r1Vxf9wVX)
 
