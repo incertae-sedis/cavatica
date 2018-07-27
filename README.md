@@ -30,7 +30,7 @@ singularity run --bind output:/cavatica/data/output TeamMango-cavatica-master-la
 The results of the search will appear in the `output` directory next to your `config.txt` file.
 
 ## Docker Container
-You can pull the docker container with the following command:
+A docker container of Cavatica is available on [Docker Hub](https://hub.docker.com/r/griffinac/cavatica/). You can pull the docker container with the following command:
 ```
 docker pull griffinac/cavatica
 ```
