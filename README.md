@@ -34,7 +34,7 @@ You can pull the docker container with the following command:
 ```
 docker pull griffinac/cavatica
 ```
-To run the docker container, move into the directory where you want to generate output from Cavatica. Create two files called `multitool-pubmed.tsv`, `multitool-pmc.tsv`, and `config.txt`. In Ubuntu you can do this with the following command:
+To run the docker container, move into the directory where you want to generate output from Cavatica. Create three files called `multitool-pubmed.tsv`, `multitool-pmc.tsv`, and `config.txt`. In Ubuntu you can do this with the following command:
 ```
 touch multitool-pubmed.tsv multitool-pmc.tsv config.txt
 ```
