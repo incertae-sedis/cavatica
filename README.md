@@ -4,7 +4,7 @@
 
 This is a fork of [Cavatica](https://github.com/incertae-sedis/cavatica), a pipeline for fetching PubMed and PubMed Central data and co-author network analysis, written by Jennifer Chang. This tool can be used to identify author trends among several search terms. This repo provides a container for easily reproducing and running Cavatica through a container.
 
-The pipeline for both Singularity and Docker was ran on a virtual machine, [Jetstream](https://jetstream-cloud.org/).
+The pipeline for both Singularity and Docker was ran on [Jetstream](https://jetstream-cloud.org/), which is a national science and engineering cloud led by the Indiana University Pervasive Technology Institute.
 
 ## Singularity Container
 A singularity container of Cavatica is available on [Singularity Hub](https://singularity-hub.org/collections/1322). Using singularity you can download the contained with the following command:
