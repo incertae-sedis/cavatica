@@ -43,7 +43,7 @@ All three files must be present in the directory where you run the container. In
 visant,1999,2006
 cytoscape,1994,2003
 ```
-In the same directory, run the docker container:
+In the same directory as config.txt, run the docker container:
 ```
 docker run -v "$PWD":/cavatica/output griffinac/cavatica
 ```
