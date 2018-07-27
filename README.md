@@ -4,7 +4,7 @@
 
 This is a fork of [Cavatica](https://github.com/incertae-sedis/cavatica), a pipeline for fetching PubMed and PubMed Central data and co-author network analysis, written by Jennifer Chang. This tool can be used to identify author trends among several search terms. This repo provides a container for easily reproducing and running Cavatica through a container.
 
-##Singularity Container
+## Singularity Container
 A singularity container of Cavatica is available on [Singularity Hub](https://singularity-hub.org/collections/1322). Using singularity you can download the contained with the following command:
 ```
 singularity pull shub://TeamMango/cavatica:latest
@@ -29,7 +29,7 @@ singularity run --bind output:/cavatica/data/output TeamMango-cavatica-master-la
 ```
 The results of the search will appear in the `output` directory next to your `config.txt` file.
 
-##Docker Container
+## Docker Container
 You can pull the docker container with the following command:
 ```
 docker pull griffinac/cavatica
