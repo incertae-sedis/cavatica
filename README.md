@@ -20,8 +20,8 @@ echo "YOURSEARCHTERM,1996,2006" > ./output/config.txt
 ```
 Each search term and year range should occupy it's own line. If you want to search for use of the term cytoscape and VisANT between 1994 and 2000, `config.txt` would look like this:
 ```
-cytoscape,1994,2000
-visant,1994,2000
+visant,1999,2006
+cytoscape,1994,2003
 ```
 Once you have entered the terms in the `config.txt` file, return to the same directory as the .simg image and run the following command:
 ```
@@ -32,8 +32,22 @@ The results of the search will appear in the `output` directory next to your `co
 ##Docker Container
 You can pull the docker container with the following command:
 ```
-docker build 
+docker pull griffinac/cavatica
 ```
+To run the docker container, move into the directory where you want to generate output from Cavatica. Create two files called `multitool-pubmed.tsv`, `multitool-pmc.tsv`, and `config.txt`. In Ubuntu you can do this with the following command:
+```
+touch multitool-pubmed.tsv multitool-pmc.tsv config.txt
+```
+All three files must be present in the directory where you run the container. In `config.txt` enter the search terms that you want Cavatica to search for, with each term on a new line. Optional year ranges can be indicated with commas:
+```
+visant,1999,2006
+cytoscape,1994,2003
+```
+In the same directory, run the docker container:
+```
+docker run -v "$PWD":/cavatica/output griffinac/cavatica
+```
+If on windows, `"$PWD"` should be replaced with the absolute path to your current directory. The files produced by Cavatica should appear on running the container. If you wish to rerun the search with different terms, make sure that the `multitool-pubmed.tsv` and `multitool-pmc.tsv` files are still in the folder. 
 
 ## Value of Reproducible Research
 [Accomplishments and opportunities of reproducing and containerizing this project](https://hackmd.io/s/r1Vxf9wVX)
