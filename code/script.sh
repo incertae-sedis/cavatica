@@ -36,7 +36,8 @@ do
     [[ -f "${TERM}_papers_pm.tsv" ]] || ${CODEDIR}/paperlist_pm.pl ${TERM}_pm.xml > ${TERM}_papers_pm.tsv
 
     echo "===== Generate Paper Count barcharts"
-    [[ -f "${TERM}_pm.png" ]] || ${CODEDIR}/mkBarchart.R ${TERM}_papers_pm.tsv ${TERM}_pm.png 1996 2018
+#    [[ -f "${TERM}_pm.png" ]] || ${CODEDIR}/mkBarchart.R ${TERM}_papers_pm.tsv ${TERM}_pm.png 1996 2018
+    [[ -f "${TERM}_pm.png" ]] || ${CODEDIR}/mkBarchart.R ${TERM}_papers_pm.tsv ${TERM}_pm.png
 done
 
 wc -l *pm.ids >> logfile.txt
@@ -72,7 +73,8 @@ do
 
     
     echo "===== Generate Paper Count barcharts"
-    [[ -f "${TERM}_pmc.png" ]] || ${CODEDIR}/mkBarchart.R ${TERM}_papers_pmc.tsv ${TERM}_pmc.png 1996 2018
+#    [[ -f "${TERM}_pmc.png" ]] || ${CODEDIR}/mkBarchart.R ${TERM}_papers_pmc.tsv ${TERM}_pmc.png 1996 2018
+    [[ -f "${TERM}_pmc.png" ]] || ${CODEDIR}/mkBarchart.R ${TERM}_papers_pmc.tsv ${TERM}_pmc.png
 done
 
 wc -l *pmc.ids >> logfile.txt
