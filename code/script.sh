@@ -61,7 +61,9 @@ perl ${CODEDIR}/hack.pl trends-temp3.txt > trends_pm.txt
 for TERM in "${ARR[@]}"
 do
     echo -e "===== Search ${TERM} in PMC\n"
-    [[ -f "${TERM}_pmc.ids" ]] ||perl ${CODEDIR}/searchPMCBtwnPubDates.pl ${TERM} ${TERM}_pmc.ids
+#    [[ -f "${TERM}_pmc.ids" ]] ||perl ${CODEDIR}/searchPMCBtwnPubDates.pl ${TERM} ${TERM}_pmc.ids
+    [[ -f "${TERM}_pmc.ids" ]] || echo "${CODEDIR}/pmc_ids.sh ${TERM} > ${TERM}_pmc.ids"
+    [[ -f "${TERM}_pmc.ids" ]] || ${CODEDIR}/pmc_ids.sh ${TERM} > ${TERM}_pmc.ids
     [[ -f "${TERM}_pmc.xml" ]] || echo "${CODEDIR}/pmc_xml.sh ${TERM}_pmc.ids > ${TERM}_pmc.xml"
     [[ -f "${TERM}_pmc.xml" ]] || ${CODEDIR}/pmc_xml.sh ${TERM}_pmc.ids > ${TERM}_pmc.xml
     query=`echo $TERM |sed 's/+/ /g'`
