@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/incertae-sedis/cavatica.svg?branch=master)](https://travis-ci.org/incertae-sedis/cavatica) [![github release](https://img.shields.io/github/release/incertae-sedis/cavatica.svg?label=current+release)](https://github.com/incertae-sedis/cavatica/releases)
+[![Build Status](https://travis-ci.org/incertae-sedis/cavatica.svg?branch=master)](https://travis-ci.org/incertae-sedis/cavatica) [![github release](https://img.shields.io/github/release/incertae-sedis/cavatica.svg?label=current+release)](https://github.com/incertae-sedis/cavatica/releases)[![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/1322)
+[![Docker Automated build](https://img.shields.io/docker/automated/griffinac/cavatica.svg)](https://hub.docker.com/r/griffinac/cavatica/)
 
 **Author**: Jennifer Chang | **Initial Commit**: July 2016 
 <p style="text-align: center;">***** Cavatica has been adopted by the incertae-sedis group. *****</p>
@@ -140,19 +141,10 @@ iGraph:Neo4j 13
 
 PMC results usually return more papers since search terms like "Neo4j" or "Cytoscape" are being matched to the fulltext, instead of just the title and abstract. This may return more accurate trend tables since sometimes software names are only mentioned in the methods and not in the abstract.
 
-## Publications
-
-* J. Chang and H. Chou, "[Cavatica: A pipeline for identifying author adoption trends among software or methods](https://www.computer.org/csdl/proceedings/bibm/2017/3050/00/08217990-abs.html)," 2017 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Kansas City, MO, USA, 2017, pp. 2145-2150.
-
-[![Build Status](https://travis-ci.org/incertae-sedis/cavatica.svg?branch=master)](https://travis-ci.org/incertae-sedis/cavatica) [![github release](https://img.shields.io/github/release/incertae-sedis/cavatica.svg?label=current+release)](https://github.com/incertae-sedis/cavatica/releases)
-[![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/1322)
-[![Docker Automated build](https://img.shields.io/docker/automated/griffinac/cavatica.svg)](https://hub.docker.com/r/griffinac/cavatica/)
-
-This is a fork of [Cavatica](https://github.com/incertae-sedis/cavatica), a pipeline for fetching PubMed and PubMed Central data and co-author network analysis, written by Jennifer Chang. This tool can be used to identify author trends among several search terms. This repo provides a container for easily reproducing and running Cavatica through a container.
-
-The pipeline for both Singularity and Docker was ran on an Ubuntu 18.04 instance on [Jetstream](https://jetstream-cloud.org/), which is a national science and engineering cloud led by the Indiana University Pervasive Technology Institute.
-
 ## Singularity Container
+
+This repo provides a container for easily reproducing and running Cavatica through a container. The pipeline for both Singularity and Docker was ran on an Ubuntu 18.04 instance on [Jetstream](https://jetstream-cloud.org/), which is a national science and engineering cloud led by the Indiana University Pervasive Technology Institute.
+
 A singularity container of Cavatica is available on [Singularity Hub](https://singularity-hub.org/collections/1322). Using singularity you can download the contained with the following command:
 ```
 singularity pull shub://TeamMango/cavatica:latest
@@ -203,4 +195,3 @@ If on windows, `"$PWD"` should be replaced with the absolute path to your curren
 ## Publications
 
 * J. Chang and H. Chou, "[Cavatica: A pipeline for identifying author adoption trends among software or methods](https://www.computer.org/csdl/proceedings/bibm/2017/3050/00/08217990-abs.html)," 2017 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Kansas City, MO, USA, 2017, pp. 2145-2150.
-
