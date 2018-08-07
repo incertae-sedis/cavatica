@@ -11,7 +11,7 @@ if(length(args)<2){
 }else{
   infile=args[1]
   outfile=args[2]
-}
+} 
 
 # ===== Libraries
 
@@ -39,8 +39,8 @@ print(paste("Loading: ",infile))
 suppressMessages(data<-read_delim(infile,"\t"))
 
 query_term<-infile
-minyear=min(data$year)
-maxyear=max(data$year)
+minyear=min(as.numeric(data$year), na.rm=TRUE)
+maxyear=max(as.numeric(data$year), na.rm=TRUE)
 
 if(length(args)>2) minyear=as.numeric(args[3])
 if(length(args)>3) maxyear=as.numeric(args[4])
