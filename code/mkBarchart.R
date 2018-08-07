@@ -58,10 +58,10 @@ title=paste("Papers in ",infile,"'; n=",length(data$year),sep="")
 #if(ggplot_build(p)$layout$panel_ranges[[1]]$y.range[2]<10){
 #  p<-qplot(data$year,fill=I('royalblue'),binwidth=0.5,xlab="Year of Publication",ylab="Number of papers",
 #           main=title)+
-#    scale_x_continuous(breaks=seq(minyear,maxyear,1),limits=c((minyear-0.5),(maxyear+0.5)))+
+#   scale_x_continuous(breaks=seq(minyear,maxyear,1),limits=c((minyear-0.5),(maxyear+0.5)))+
 #    scale_y_continuous(breaks=seq(0,10,2),limits=c(-0.5,10))+
- #   theme_classic()+
- #   geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
+#    theme_classic()+
+#    geom_text(stat='count',aes(label=..count..),vjust=-0.25)+
 #    theme(axis.text.x = element_text(angle = 45, hjust = 1))
 #}
 
