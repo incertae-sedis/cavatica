@@ -1,7 +1,6 @@
-[![Build Status](https://travis-ci.org/incertae-sedis/cavatica.svg?branch=master)](https://travis-ci.org/incertae-sedis/cavatica) [![github release](https://img.shields.io/github/release/incertae-sedis/cavatica.svg?label=current+release)](https://github.com/incertae-sedis/cavatica/releases)[![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/1322)
-[![Docker Automated build](https://img.shields.io/docker/automated/griffinac/cavatica.svg)](https://hub.docker.com/r/griffinac/cavatica/)
+[![Build Status](https://travis-ci.org/incertae-sedis/cavatica.svg?branch=master)](https://travis-ci.org/incertae-sedis/cavatica) [![github release](https://img.shields.io/github/release/incertae-sedis/cavatica.svg?label=current+release)](https://github.com/incertae-sedis/cavatica/releases) [![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/1322) [![Docker Automated build](https://img.shields.io/docker/automated/griffinac/cavatica.svg)](https://hub.docker.com/r/griffinac/cavatica/)
 
-**Author**: Jennifer Chang | **Initial Commit**: July 2016 
+**Initial Commit**: July 2016 
 <p style="text-align: center;">***** Cavatica has been adopted by the incertae-sedis group. *****</p>
 
 # Cavatica
