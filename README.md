@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/incertae-sedis/cavatica.svg?branch=master)](https://travis-ci.org/incertae-sedis/cavatica) [![github release](https://img.shields.io/github/release/incertae-sedis/cavatica.svg?label=current+release)](https://github.com/incertae-sedis/cavatica/releases) [![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/1322) [![Docker Automated build](https://img.shields.io/docker/automated/griffinac/cavatica.svg)](https://hub.docker.com/r/griffinac/cavatica/)
+[![Build Status](https://travis-ci.org/incertae-sedis/cavatica.svg?branch=master)](https://travis-ci.org/incertae-sedis/cavatica) [![github release](https://img.shields.io/github/release/incertae-sedis/cavatica.svg?label=current+release)](https://github.com/incertae-sedis/cavatica/releases) [![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/1322) [![Docker Automated build](https://img.shields.io/docker/automated/incertaesedis/cavatica.svg)](https://hub.docker.com/r/incertaesedis/cavatica/)
 
 **Initial Commit**: July 2016 
 <p style="text-align: center;">***** Cavatica has been adopted by the incertae-sedis group. *****</p>
@@ -169,23 +169,31 @@ singularity run --bind output:/cavatica/data/output TeamMango-cavatica-master-la
 The results of the search will appear in the `output` directory next to your `config.txt` file.
 
 ## Docker Container
-A docker container of Cavatica is available on [Docker Hub](https://hub.docker.com/r/griffinac/cavatica/). You can pull the docker container with the following command:
+A docker container of Cavatica is available on [Docker Hub](https://hub.docker.com/r/incertaesedis/cavatica/). You can pull the docker container with the following command:
+
 ```
-docker pull griffinac/cavatica
+docker pull incertaesedis/cavatica
 ```
+
 To run the docker container, move into the directory where you want to generate output from Cavatica. Create three files called `multitool-pubmed.tsv`, `multitool-pmc.tsv`, and `config.txt`. In Ubuntu you can do this with the following command:
+
 ```
 touch multitool-pubmed.tsv multitool-pmc.tsv config.txt
 ```
+
 All three files must be present in the directory where you run the container. In `config.txt` enter the search terms that you want Cavatica to search for, with each term on a new line. Optional year ranges can be indicated with commas:
+
 ```
 visant,1999,2006
 cytoscape,1994,2003
 ```
+
 In the same directory as config.txt, run the docker container:
+
 ```
-docker run -v "$PWD":/cavatica/output griffinac/cavatica
+docker run -v ${PWD}:/cavatica/data/output incertaesedis/cavatica
 ```
+
 If on windows, `"$PWD"` should be replaced with the absolute path to your current directory. The files produced by Cavatica should appear on running the container. If you wish to rerun the search with different terms, make sure that the `multitool-pubmed.tsv` and `multitool-pmc.tsv` files are still in the folder. 
 
 ## Value of Reproducible Research
