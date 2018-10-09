@@ -44,6 +44,12 @@ do
 done
 echo "center(c);"
 
+# Count authors and papers in combined graph
+echo "int c_authors=0;"
+echo "int c_papers=0;"
+echo "foreach node in c where type==\"paper\" set c_papers++;"
+echo "foreach node in c where type==\"author\" set c_authors++;"
+
 # Pull out multi-tool Authors
 echo "foreach node in c set sum=$item;"
 echo "auto mul=select link from c where out.sum>1;"
