@@ -7,8 +7,28 @@ Given a search term, fetches the PubMed IDs. The maximum ammount returned is 10,
 
 ```
 $ bash pubmed_ids.sh query > query_pm.ids
-$ # More concrete example
+```
+
+Example run:
+
+```
 $ bash pubmed_ids.sh Neo4j > Neo4j_pm.ids
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1152    0  1152    0     0   3226      0 --:--:-- --:--:-- --:--:--  3226
+<Count>26</Count>
+<RetMax>26</RetMax>
+
+$ less Neo4j_pm.ids
+
+30935389
+30689784
+30864352
+30444913
+30271886
+...
+
 ```
 
 --
@@ -18,8 +38,30 @@ Given a search term, fetches the PMC IDs. The maximum ammount returned is 10,000
 
 ```
 $ bash pmc_ids.sh query > query_pmc.ids
-$ # More concrete example
+```
+
+Example run:
+
+```
 $ bash pmc_ids.sh Neo4j > Neo4j_pmc.ids
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  3108    0  3108    0     0   8200      0 --:--:-- --:--:-- --:--:--  8178
+<Count>136</Count>
+<RetMax>136</RetMax>
+
+$ less Neo4j_pmc.ids
+
+PMC6459178
+PMC6444506
+PMC6393361
+PMC6384242
+PMC6376747
+PMC6410296
+PMC6348742
+...
+
 ```
 
 --
@@ -136,7 +178,9 @@ Citation Information:
 ```
  Csardi G, Nepusz T: The igraph software package for complex network research, InterJournal, Complex
   Systems 1695. 2006. http://igraph.org
-```# Get Data - Ebot
+```
+
+# Get Data - Ebot
 
 Use a combination of Ebot (NCBI) scripts and personal perl scripts to fetch co-authorship networks and full xml records from PubMed and PubMedCentral.
 
