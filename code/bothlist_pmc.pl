@@ -23,8 +23,8 @@ $keyword = lc $keyword; # comment this line to do case sensitive search
 open PAPER, ">$paper_file_name" or die "can't open paper TSV file $paper_file_name to write";
 open AUTHOR, ">$author_file_name" or die "can't open author TSV file $author_file_name to write";
 
-print PAPER "pmid\tyear\tcount\ttitle\totherid\n";
-print AUTHOR "pmid\tforename_lastname\taffiliation\n";
+print PAPER "pmcid\tyear\tcount\ttitle\tpubmedid\n";
+print AUTHOR "pmcid\tforename_lastname\taffiliation\n";
 
 while (<>) {
   if (/<article /) {
@@ -111,7 +111,7 @@ while (<>) {
     $count -= () = $copy =~ /\.$keyword\./g; # uncount cases like www.cytoscape.org
     if ($count>0) {
       if ($pmcid) {
-	print PAPER "$pmcid\t$year\t$count\t$title\t$pmid\n";
+	print PAPER "PMC$pmcid\t$year\t$count\t$title\t$pmid\n";
 	warn "PMC id $pmcid has no year info" unless length($year);
 	warn "PMC id $pmcid has no author info" unless @authors>0;
 	for (@authors) {
