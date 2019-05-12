@@ -111,6 +111,42 @@ while (<>) {
     $count -= () = $copy =~ /\.$keyword\./g; # uncount cases like www.cytoscape.org
     if ($count>0) {
       if ($pmcid) {
+	  $title=~ s/<italic>//g;
+	  $title=~ s/<\/italic>//g;
+	  $title=~ s/<bold>//g;
+	  $title=~ s/<\/bold>//g;
+	  $title=~ s/<named-content content-type="genus-species">//g;
+	  $title=~ s/<\/named-content>//g;
+	  $title=~ s/<sub>//g;
+	  $title=~ s/<\/sub>//g;
+	  $title=~ s/<sup>//g;
+	  $title=~ s/<\/sup>//g;
+	  $title=~ s/<styled-content style="fixed-case">//g;
+	  $title=~ s/<\/styled-content>//g;
+	  $title=~ s/&#x2013;/_/g;
+	  $title=~ s/&#x2018;/'/g;
+	  $title=~ s/&#x2019;/'/g;
+	  $title=~ s/&#x3B2;/beta/g;
+	  $title=~ s/&#x2122;/(tm)/g;
+	  $title=~ s/&#x3B1;/alpha/g;
+	  $title=~ s/&#x3B3;/gamma/g;
+ 	  $title=~ s/&#x2014;/-/g;
+ 	  $title=~ s/&#x2010;/-/g;
+ 	  $title=~ s/&#x201C;/"/g;
+ 	  $title=~ s/&#x201D;/"/g;
+	  $title=~ s/<named-content content-type="taxon-name">//g;
+	  $title=~ s/<named-content content-type="family">//g;
+	  $title=~ s/<named-content content-type="genus">//g;
+	  $title=~ s/<named-content content-type="order">//g;
+	  $title=~ s/<named-content content-type="species">//g;
+	  $title=~ s/&#xA0;/ /g;
+	  $title=~ s/&#x101;/a/g;
+	  $title=~ s/&#xE9;/e/g;
+	  $title=~ s/&#xAE;/(r)/g;
+	  $title=~ s/<sc>//g;
+	  $title=~ s/<\/sc>//g;
+	  $title=~ s/\t/ /g;
+
 	print PAPER "PMC$pmcid\t$year\t$count\t$title\t$pmid\n";
 	warn "PMC id $pmcid has no year info" unless length($year);
 	warn "PMC id $pmcid has no author info" unless @authors>0;

@@ -18,6 +18,7 @@ grep "^<RetMax" temp.pm >&2
 
 cat temp.pm |grep "<Id>" |\
  sed 's/<Id>//g; s/<\/Id>//g' |\
- tr '\t' ' ' | sed 's/ //g'
+ tr '\t' ' ' | sed 's/ //g' |\
+ awk -F'\t' '{print "PMC"$1}'
 
 sleep 1;
