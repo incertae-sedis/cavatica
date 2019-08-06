@@ -138,7 +138,9 @@ while (<>) {
   } elsif ($collect_ref && /<fn id=\"(.+?)\"/) {
     $ref_id = $1;
   } elsif ($collect_ref && /<pub-id pub-id-type=\"pmid\">(\d+)<\/pub-id>/) {
-    $refs{$ref_id} = $1;
+      if(defined $ref_id && length $ref_id > 0){
+	  $refs{$ref_id} = $1;
+      }
   } elsif ($collect_ref && /<mixed-citation/) {
     chomp;
     my $line = $_;
@@ -150,9 +152,13 @@ while (<>) {
     }
 #    print STDERR "$line\n" if $ref_id eq "B49";
     if ($line =~ /<pub-id pub-id-type=\"pmid\">(\d+)<\/pub-id>/) {
-      $refs{$ref_id} = $1;
+      if(defined $ref_id && length $ref_id > 0){
+	  $refs{$ref_id} = $1;
+      }
     } elsif ($line =~ /<mixed-citation[^>]*>(.+)<\/mixed-citation/) {
-      $refs{$ref_id} = $1;
+	if(defined $ref_id && length $ref_id > 0){
+	  $refs{$ref_id} = $1;
+	}
     }
   } elsif ($collect_ref && /<element-citation/) {
     chomp;
@@ -164,12 +170,18 @@ while (<>) {
       $line .= $_;
     }
     if ($line =~ /<pub-id pub-id-type=\"pmid\">(\d+)<\/pub-id>/) {
-      $refs{$ref_id} = $1;
+	if(defined $ref_id && length $ref_id > 0){
+	    $refs{$ref_id} = $1;
+	}
     } elsif ($line =~ /<element-citation[^>]*>(.+)<\/element-citation/) {
-      $refs{$ref_id} = $1;
+	if(defined $ref_id && length $ref_id > 0){
+	    $refs{$ref_id} = $1;
+	}
     }
   } elsif ($collect_ref && /<ext-link[^>]*>([^<]+)<\/ext-link/) {
-    $refs{$ref_id} = "<a href=\"$1\">$1</a>";
+	if(defined $ref_id && length $ref_id > 0){
+	  $refs{$ref_id} = "<a href=\"$1\">$1</a>";
+      }
   } elsif ($collect_ref && /<\/ref-list>/) {
     print OUTPUT "<li> " if @citations>0;
     for (@citations) {
