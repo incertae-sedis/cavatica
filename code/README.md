@@ -81,6 +81,17 @@ Given a list of PMC ids saved as a text file (e.g. query_pmc.ids), fetch the PMC
 $ bash pmc_xml.sh query_pmc.ids > query_pmc.xml
 ```
 --
+
+**pmc_getpdf.sh**
+
+Given a list of PMC IDs in a text file, fetch the pdfs of the articles.
+
+```
+$ bash pmc_getpdf.sh pmcids.txt
+```
+
+Will name the pdfs by the PMCID and place in current folder.
+
 **authorlist_pm.pl**
 
 Pulls out the paper to author list from the PubMed XML files
