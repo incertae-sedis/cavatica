@@ -5,8 +5,7 @@
 set -e
 set -u
 
-while read pmcid
-do
+while read pmcid; do
     echo ${pmcid}
     curl --location "https://www.ncbi.nlm.nih.gov/pmc/articles/${pmcid}/pdf" > ${pmcid}.pdf
     sleep 1

@@ -12,8 +12,7 @@ echo "node(string pmid, int year, string journal, string title, string type) nt;
 echo "link<string affiliation> lt;"
 echo "node(nt) c_node;"
 
-for TERM in "${arr[@]}"
-do
+for TERM in "${arr[@]}"; do
     net=`echo ${TERM} | sed 's/+/_/g' |awk '{print $1}'`
     echo "node(nt, int ${net}_I) nnt;"
     echo "node(c_node,nnt) c_node;"
@@ -39,8 +38,7 @@ echo "graph(c_node,lt) c;"
 item="0"
 
 # Create Combined Graph
-for TERM in "${arr[@]}"
-do    
+for TERM in "${arr[@]}"; do
     net=`echo $TERM | sed 's/+/_/g' |awk '{print $1}'`
     item="${item}+${net}_I"
     echo "c.+=${net};"
@@ -60,8 +58,7 @@ echo "auto mul=select link from c where out.sum>1;"
 
 # Label multi-tool Authors
 echo "foreach node in mul where type==\"paper\" set _text=year.\":\";"
-for TERM in "${arr[@]}"
-do
+for TERM in "${arr[@]}"; do
     net=`echo $TERM | sed 's/+/_/g' | awk '{print $1}'`
     echo "foreach node in mul where type==\"paper\" && ${net}_I==1 set _text=_text.\"${net}\";"
 done

@@ -9,16 +9,14 @@ CODEDIR=../code
 arr=""
 
 # User can pass in a term, instead of using config.txt
-if [ $# -ge 1 ]
-then
+if [[ $# -ge 1 ]]; then
     arr=$1
 else
     arr=`awk -F',' 'NR>1 {print $1}' ../config.txt`
 fi
 
 touch $OUTDIR/logfile.txt
-for TERM in $arr
-do
+for TERM in $arr; do
     date
     date >> $OUTDIR/logfile.txt
     echo "Searching Pubmed between 1996 and 2016: $TERM"

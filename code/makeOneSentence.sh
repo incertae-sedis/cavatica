@@ -3,15 +3,13 @@
 arr=""
 
 # User can pass in a term, instead of using config.txt
-if [ $# -ge 1 ]
-then
+if [[ $# -ge 1 ]]; then
     arr=$1
 else
     arr=`awk -F',' 'NR>1 {print $1}' config.txt`
 fi
 
-for TERM in $arr
-do
+for TERM in $arr; do
     echo "Processing $TERM"
     query=`echo $TERM |sed 's/+/ /g'`
     perl pubmed_text_analyzer2.pl "$query" $INDIR/$TERM-pubmed.xml > $TERM.html
