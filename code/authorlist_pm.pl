@@ -6,40 +6,45 @@ use strict;
 use warnings;
 
 # ===================== Variables
-my $unknown="-";
+my $unknown = "-";
 
-my $pmid="pmid";
-my $forename="forename";
-my $lastname="lastname";
-my $affiliation="affiliation";
+my $pmid        = "pmid";
+my $forename    = "forename";
+my $lastname    = "lastname";
+my $affiliation = "affiliation";
 
 # ===================== Functions
-sub printoutput{
-    print join("\t",$pmid, "${forename}_${lastname}", $affiliation,),"\n";
-    $lastname=$unknown;
-    $forename=$unknown;
-    $affiliation=$unknown;
+sub printoutput {
+    print join( "\t", $pmid, "${forename}_${lastname}", $affiliation, ), "\n";
+    $lastname    = $unknown;
+    $forename    = $unknown;
+    $affiliation = $unknown;
 }
 
 # ===================== Main
 printoutput;
-$pmid=$unknown;
+$pmid = $unknown;
 
-while(<>){
-    if(/<\/PubmedArticle>/){
-	$pmid=$unknown;
-    }elsif(/<\/Author>/){
-	printoutput;	
-    }elsif(/<PMID Version="\d+">(\d+)<\/PMID>/ && $pmid eq $unknown){
-	$pmid=$1;
-    }elsif(/<LastName>(.+)<\/LastName>/){
-	$lastname=$1;
-	$lastname=~s/ /_/g;
-    }elsif(/<ForeName>(.+)<\/ForeName>/){
-	$forename=$1;
-	$forename=~s/ /_/g;
-    }elsif(/<Affiliation>(.+)<\/Affiliation>/){
-	$affiliation=$1;
+while (<>) {
+    if (/<\/PubmedArticle>/) {
+        $pmid = $unknown;
+    }
+    elsif (/<\/Author>/) {
+        printoutput;
+    }
+    elsif ( /<PMID Version="\d+">(\d+)<\/PMID>/ && $pmid eq $unknown ) {
+        $pmid = $1;
+    }
+    elsif (/<LastName>(.+)<\/LastName>/) {
+        $lastname = $1;
+        $lastname =~ s/ /_/g;
+    }
+    elsif (/<ForeName>(.+)<\/ForeName>/) {
+        $forename = $1;
+        $forename =~ s/ /_/g;
+    }
+    elsif (/<Affiliation>(.+)<\/Affiliation>/) {
+        $affiliation = $1;
     }
 }
 

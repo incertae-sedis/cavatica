@@ -8,8 +8,7 @@ INDIR=../DATA
 
 arr=`awk -F',' 'NR>1 {print $1}' ../config.txt`
 
-for TERM in $arr
-do
+for TERM in $arr; do
     net=`echo ${TERM} | sed 's/+/ /g' |awk '{print $1}'`
     echo "auto temp=${net};"
     echo "int i=${net}_authors+${net}_papers;"

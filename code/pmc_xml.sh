@@ -15,23 +15,21 @@ mkdir .pmtmp
 IDLIST=$1
 TOT=`grep -cv "^$" ${IDLIST}`
 while read IDS; do
-    if [ $NUM -ge 100 ]
-    then
-	echo "===== Fetching ids $((FILE-99)) to $FILE of ${TOT} total IDs" >&2
-	curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc${QUERY}&retmode=xml&tool=ebot" > .pmtmp/${FILE}.xml
-	sleep 0.2;
-	NUM=1;
-	QUERY="&id=${IDS}";
-	FILE=$((FILE+100));
+    if [[ $NUM -ge 100 ]] ; then
+	    echo "===== Fetching ids $((FILE-99)) to $FILE of ${TOT} total IDs" >&2
+	    curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc${QUERY}&retmode=xml&tool=ebot" > .pmtmp/${FILE}.xml
+	    sleep 0.2;
+	    NUM=1;
+	    QUERY="&id=${IDS}";
+	    FILE=$((FILE+100));
     else
-	NUM=$((NUM+1))
-	QUERY="$QUERY&id=${IDS}"
+	    NUM=$((NUM+1))
+	    QUERY="$QUERY&id=${IDS}"
     fi
 done < ${IDLIST}
 
 # ======================= if number of IDs is not a multiple of 100, fetch last group
-if [ $NUM -gt 0 ]
-then
+if [[ $NUM -gt 0 ]]; then
     echo "===== Fetching ids $((FILE-99)) to $((FILE-100+NUM)) of ${TOT} IDs" >&2
     curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc${QUERY}&retmode=xml&tool=ebot" > .pmtmp/${FILE}.xml
 fi

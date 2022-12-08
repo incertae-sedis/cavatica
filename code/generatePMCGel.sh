@@ -8,8 +8,7 @@ echo "node(string pmid, int year, string journal, string title, string otherid, 
 echo "link<string affiliation> lt;"
 echo "node(nt) c_node;"
 
-for TERM in "${arr[@]}"
-do
+for TERM in "${arr[@]}"; do
     net=`echo ${TERM} | sed 's/+/_/g' |awk '{print $1}'`
     echo "node(nt, int ${net}_I) nnt;"
     echo "node(c_node,nnt) c_node;"
