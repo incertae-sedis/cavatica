@@ -1,0 +1,124 @@
+#! /usr/bin/env nextflow
+
+params.config = false
+
+process PUBMED_ID {
+  input: val(term)
+  output: path("${term}_pm.ids")
+  script:
+  """
+  #! /usr/bin/env bash
+  pubmed_ids.sh ${term} > ${term}_pm.ids
+  sleep 10
+  [ -s ${term}_pm.ids ] || exit 1
+  """
+}
+
+process PUBMED_XML {
+  input: path(term_pmids)
+  output: path("${term_pmids.simpleName}.xml")
+  script:
+  """
+  #! /usr/bin/env bash
+  pubmed_xml.sh ${term_pmids} > temp.xml 
+  xmllint --format temp.xml &> ${term_pmids.simpleName}.xml
+  """
+}
+
+process AUTHOR_PM {
+  input: path(term_xml)
+  output: path("${term_xml.simpleName}_authors.tsv")
+  script:
+  """
+  #! /usr/bin/env bash
+  authorlist_pm.pl ${term_xml} > ${term_xml.simpleName}_authors.tsv
+  """
+}
+
+process PAPER_PM {
+  input: path(term_xml)
+  output: path("${term_xml.simpleName}_papers.tsv")
+  script:
+  """
+  #! /usr/bin/env bash
+  paperlist_pm.pl ${term_xml} > ${term_xml.simpleName}_papers.tsv
+  """
+}
+
+process PUBMED_QC {
+  input: path(term_xml)
+  output: path("${term_xml.simpleName}_qc.html")
+  script:
+  """
+  #! /usr/bin/env bash
+  TERM=`echo ${term_xml.simpleName} | sed 's/_pm//'`
+  pubmed_text_analyzer2.pl "\$TERM" ${term_xml} > ${term_xml.simpleName}_qc.html
+  """
+}
+
+process PUBMED_PLOT {
+  input: path(papers_tsv)
+  output: path("${papers_tsv.simpleName}.png")
+  script:
+  """
+  #! /usr/bin/env bash
+  mkBarchart.R ${papers_tsv} ${papers_tsv.simpleName}.png
+  """
+}
+
+process PMC_ID {
+  input: val(term)
+  output: path("${term}_pmc.ids")
+  script:
+  """
+  #! /usr/bin/env bash
+  pmc_ids.sh ${term} > ${term}_pmc.ids
+  sleep 10
+  [ -s ${term}_pmc.ids ] || exit 1
+  """
+}
+
+process PMC_XML {
+  input: path(term_pmcids)
+  output: path("${term_pmcids.simpleName}.xml")
+  script:
+  """
+  #! /usr/bin/env bash
+  pmc_xml.sh ${term_pmcids} > ${term_pmcids.simpleName}.xml
+  """
+}
+
+process PMC_AUTHOR_PAPER {
+  input: path(term_xml)
+  output: tuple path("${term_xml.simpleName}_authors.tsv"), path("${term_xml.simpleName}_papers.tsv")
+  script:
+  """
+  #! /usr/bin/env bash
+  TERM=`echo ${term_xml.simpleName} | sed 's/_pmc.xml//'`
+  bothlist_pmc.pl \$TERM ${term_xml.simpleName}_papers.tsv ${term_xml.simpleName}_authors.tsv ${term_xml} 
+  """
+}
+
+workflow {
+
+  term_ch = Channel.fromPath("$params.config", checkIfExists: true)
+  | splitCsv(header: false)
+  | map { it -> it[0]}
+  | view { "=== $it" }
+
+  /* PubMed */
+  term_ch
+  | PUBMED_ID
+  | PUBMED_XML
+  | ( AUTHOR_PM & PAPER_PM & PUBMED_QC)
+
+  PAPER_PM.out | PUBMED_PLOT
+
+  /* PubMed Central */
+  term_ch
+  | PMC_ID
+  | PMC_XML
+  | PMC_AUTHOR_PAPER // Need to fix the XML parser here
+  | view
+
+}
