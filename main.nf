@@ -4,25 +4,29 @@ params.config = false
 params.term = false
 
 process PUBMED_ID {
-  executor 'local' 
+  executor 'local'
+  maxForks 1  
   input: val(term)
   output: path("${term}_pm.ids")
   script:
   """
   #! /usr/bin/env bash
   pubmed_ids.sh ${term} > ${term}_pm.ids
-  sleep 10
+  sleep 11
   [ -s ${term}_pm.ids ] || exit 1
   """
 }
 
 process PUBMED_XML {
+  maxForks 1
   input: path(term_pmids)
   output: path("${term_pmids.simpleName}.xml")
   script:
   """
   #! /usr/bin/env bash
   pubmed_xml.sh ${term_pmids} > ${term_pmids.simpleName}.xml
+  sleep 13
+  [ -s ${term_pmids.simpleName}.xml ] || exit 1
   """
 }
 
@@ -68,24 +72,28 @@ process PUBMED_PLOT {
 }
 
 process PMC_ID {
+  maxForks 1
   input: val(term)
   output: path("${term}_pmc.ids")
   script:
   """
   #! /usr/bin/env bash
   pmc_ids.sh ${term} > ${term}_pmc.ids
-  sleep 10
+  sleep 17
   [ -s ${term}_pmc.ids ] || exit 1
   """
 }
 
 process PMC_XML {
+  maxForks 1
   input: path(term_pmcids)
   output: path("${term_pmcids.simpleName}.xml")
   script:
   """
   #! /usr/bin/env bash
   pmc_xml.sh ${term_pmcids} > ${term_pmcids.simpleName}.xml
+  sleep 19
+  [ -s ${term_pmcids.simpleName}.xml ] || exit 1
   """
 }
 
@@ -111,6 +119,16 @@ process PMC_QC {
   """
 }
 
+process GEL_CODE {
+  input: val(terms)
+  output: path("pubmed.gel")
+  script:
+  """
+  echo $terms | tr ' ' '\n' > config.txt
+  generateGel.sh > pubmed.gel
+  """
+
+}
 workflow {
 
   if (params.term) {
@@ -138,5 +156,9 @@ workflow {
   PAPER_PM.out 
   | concat(PMC_AUTHOR_PAPER.out | map { n -> n.get(1)})
   | PUBMED_PLOT
+  | view
+
+  term_ch 
+  | flatten
   | view
 }
