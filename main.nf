@@ -119,15 +119,24 @@ process PMC_QC {
   """
 }
 
-process GEL_CODE {
+process PM_GEL_CODE {
   input: val(terms)
   output: path("pubmed.gel")
   script:
   """
-  echo $terms | tr ' ' '\n' > config.txt
+  echo $terms | sed 's/\\[//g' | sed 's/\\]//g' | tr ' ' '\n' > config.txt
   generateGel.sh > pubmed.gel
   """
+}
 
+process PMC_GEL_CODE {
+  input: val(terms)
+  output: path("pmc.gel")
+  script:
+  """
+  echo $terms | sed 's/\\[//g' | sed 's/\\]//g' | tr ' ' '\n' > config.txt
+  generatePMCGel.sh > pmc.gel
+  """
 }
 workflow {
 
@@ -159,6 +168,7 @@ workflow {
   | view
 
   term_ch 
-  | flatten
+  | collect
   | view
+  | (PM_GEL_CODE & PMC_GEL_CODE)
 }

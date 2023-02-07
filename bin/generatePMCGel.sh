@@ -12,9 +12,9 @@ for TERM in "${arr[@]}"; do
     net=`echo ${TERM} | sed 's/+/_/g' |awk '{print $1}'`
     echo "node(nt, int ${net}_I) nnt;"
     echo "node(c_node,nnt) c_node;"
-    echo "graph(nnt,lt) ${net}=import(\"${TERM}_papers_pmc.tsv\",\"\t\");"
+    echo "graph(nnt,lt) ${net}=import(\"${TERM}_pmc_papers.tsv\",\"\t\");"
     echo "foreach node in ${net} set type=\"paper\";"
-    echo "${net}.+=import(\"${TERM}_authors_pmc.tsv\",\"\t\",1);"
+    echo "${net}.+=import(\"${TERM}_pmc_authors.tsv\",\"\t\",1);"
     echo "${net}.-={(\"pmid\"),(\"forename_lastname\")};"
     echo "foreach link in ${net} set in.type=\"paper\", out.type=\"author\",out._g=0.65;"
     echo "foreach node in ${net} where (in+out)>1 && type==\"author\" set _r=0.8;"
