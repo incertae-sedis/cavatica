@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/incertae-sedis/cavatica.svg?branch=master)](https://travis-ci.org/incertae-sedis/cavatica) [![github release](https://img.shields.io/github/release/incertae-sedis/cavatica.svg?label=current+release)](https://github.com/incertae-sedis/cavatica/releases) [![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/1322) [![Docker Automated build](https://img.shields.io/docker/cloud/build/incertaesedis/cavatica.svg)](https://hub.docker.com/r/incertaesedis/cavatica/) [![Docker Pulls](https://img.shields.io/docker/pulls/incertaesedis/cavatica.svg)](https://hub.docker.com/r/incertaesedis/cavatica/)
+[![Build Status](https://travis-ci.org/incertae-sedis/cavatica.svg?branch=main)](https://travis-ci.org/incertae-sedis/cavatica) [![github release](https://img.shields.io/github/release/incertae-sedis/cavatica.svg?label=current+release)](https://github.com/incertae-sedis/cavatica/releases) [![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/1322) [![Docker Automated build](https://img.shields.io/docker/cloud/build/incertaesedis/cavatica.svg)](https://hub.docker.com/r/incertaesedis/cavatica/) [![Docker Pulls](https://img.shields.io/docker/pulls/incertaesedis/cavatica.svg)](https://hub.docker.com/r/incertaesedis/cavatica/)
 
 **Initial Commit**: July 2016 
 <p style="text-align: center;">***** Cavatica has been adopted by the incertae-sedis group. *****</p>
@@ -9,7 +9,7 @@ Code and pipeline for fetching PubMed and PubMed Central data and co-author netw
 An example, I've used these scripts to do a multi-network analysis of network analysis papers and their software. 
 [Wiki Page Here](https://github.com/incertae-sedis/cavatica/wiki)
 
-<img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Adder.png" width="600" alt="Added">
+<img src="https://github.com/incertae-sedis/cavatica/blob/main/IMG/Adder.png" width="600" alt="Added">
 
 The name comes from Charlotte's Web since her full name was Charlotte A. Cavatica. Although Cavatica also refers to barn spider.
 
@@ -17,7 +17,7 @@ The name comes from Charlotte's Web since her full name was Charlotte A. Cavatic
 
 <p style="text-align: center;">***** Cavatica pipeline has been modified so no longer relies on Ebot. *****</p>
 
-<img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/plan.png" width="600" alt="Plan">
+<img src="https://github.com/incertae-sedis/cavatica/blob/main/IMG/plan.png" width="600" alt="Plan">
 
 <!--
 [List of Entrez Databases](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/einfo.fcgi)
@@ -54,7 +54,7 @@ echo "Cytoscape" >> config.txt
 This will create tabular files (list of papers `Neo4j_papers_pm.tsv` and list of authors `Neo4j_authors_pm.tsv`). Open the png files `Neo4j_pm.png` to see a barchart of the number of papers by year.
 
 
-<img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Neo4j-pubmedcounts.png" width="400" alt="Neo4j count"><img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Cytoscape-pubmedcounts.png" width="400" alt="Cavatica count">
+<img src="https://github.com/incertae-sedis/cavatica/blob/main/IMG/Neo4j-pubmedcounts.png" width="400" alt="Neo4j count"><img src="https://github.com/incertae-sedis/cavatica/blob/main/IMG/Cytoscape-pubmedcounts.png" width="400" alt="Cavatica count">
 
 Can also open the html files to check the one sentence usages of Neo4j and Cavatica
 
@@ -92,8 +92,8 @@ This will create a transition table and export the file. It will also load and v
 
 <table>
 <tr><td>Neo4j</td><td>Cytoscape</td</tr>
-<tr><td><img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Neo4j.png" width="300" alt="Neo4j network"></td>
-<td><img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Cytoscape.png" width="300" alt="Cavatica network"></td</tr>
+<tr><td><img src="https://github.com/incertae-sedis/cavatica/blob/main/IMG/Neo4j.png" width="300" alt="Neo4j network"></td>
+<td><img src="https://github.com/incertae-sedis/cavatica/blob/main/IMG/Cytoscape.png" width="300" alt="Cavatica network"></td</tr>
 </table>
 Going back to your terminal, rerun the script file and it will continue.
 
