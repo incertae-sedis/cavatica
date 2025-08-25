@@ -23,10 +23,10 @@ def helpMsg() {
      nextflow run incertae-sedis/cavatica --all --term "search term here"
 
    PubMed only:
-     nextflow run main.nf --pubmed --config config.txt
+     nextflow run incertae-sedis/cavatica --pubmed --config config.txt
 
    PubMed Central only:
-     nextflow run main.nf --pmc --config config.txt
+     nextflow run incertae-sedis/cavatica --pmc --config config.txt
 
    Analysis arguments:
     --all                   Run both PubMed and PMC analysis [default:'${params.all}'].
