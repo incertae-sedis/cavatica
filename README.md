@@ -1,12 +1,45 @@
 [![Build Status](https://travis-ci.org/incertae-sedis/cavatica.svg?branch=main)](https://travis-ci.org/incertae-sedis/cavatica) [![github release](https://img.shields.io/github/release/incertae-sedis/cavatica.svg?label=current+release)](https://github.com/incertae-sedis/cavatica/releases) [![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/1322) [![Docker Automated build](https://img.shields.io/docker/cloud/build/incertaesedis/cavatica.svg)](https://hub.docker.com/r/incertaesedis/cavatica/) [![Docker Pulls](https://img.shields.io/docker/pulls/incertaesedis/cavatica.svg)](https://hub.docker.com/r/incertaesedis/cavatica/)
 
-**Initial Commit**: July 2016 
+# Usage
+
+The full pipeline can be run using Nextflow
+
+
+```bash
+# Define some search terms
+echo "IQtree" > config.txt
+echo "BEAST" >> config.txt
+
+# Pull PubMed and PubMed Central data
+nextflow run incertae-sedis/cavatica \
+  -r main \
+  --config config.txt
+
+# Or directly
+nextflow run incertae-sedis/cavatica \
+  -r main \
+  --term BEAST
+```
+
+However, you can also run these as stand-alone scripts:
+
+```bash
+# Fetch IDs
+bash bin/pm_ids.sh BEAST > BEAST.ids
+# Fetch XML
+bash bin/pm_xml.sh BEAST.ids > BEAST.xml
+# Get authors.tsv and papers.tsv
+perl bin/authorlist_pm.pl BEAST_pm.xml > BEAST_authors_pm.tsv
+perl bin/paperlist_pm.pl BEAST_pm.xml > BEAST_papers_pm.tsv
+```
+
+**Initial Commit**: July 2016
 <p style="text-align: center;">***** Cavatica has been adopted by the incertae-sedis group. *****</p>
 
 # Cavatica
-Code and pipeline for fetching PubMed and PubMed Central data and co-author network analysis. This tool can be used to identify author trends among several search terms. 
+Code and pipeline for fetching PubMed and PubMed Central data and co-author network analysis. This tool can be used to identify author trends among several search terms.
 
-An example, I've used these scripts to do a multi-network analysis of network analysis papers and their software. 
+An example, I've used these scripts to do a multi-network analysis of network analysis papers and their software.
 [Wiki Page Here](https://github.com/incertae-sedis/cavatica/wiki)
 
 <img src="https://github.com/incertae-sedis/cavatica/blob/main/IMG/Adder.png" width="600" alt="Added">
@@ -40,7 +73,7 @@ git clone https://github.com/incertae-sedis/cavatica.git
 
 ## Basic Example
 
-Here is a basic example fetching PubMed and PMC papers containing the word "Neo4j" and "Cytoscape". 
+Here is a basic example fetching PubMed and PMC papers containing the word "Neo4j" and "Cytoscape".
 
 ```
 cd cavatica/data
