@@ -117,7 +117,7 @@ mkdir test
 cd test
 echo "Neo4j" > config.txt
 echo "Cytoscape" >> config.txt
-../../code/script.sh
+../../bin/script.sh
 ```
 
 This will create tabular files (list of papers `Neo4j_papers_pm.tsv` and list of authors `Neo4j_authors_pm.tsv`). Open the png files `Neo4j_pm.png` to see a barchart of the number of papers by year.
@@ -167,7 +167,7 @@ This will create a transition table and export the file. It will also load and v
 Going back to your terminal, rerun the script file and it will continue.
 
 ```
-../../code/script.sh
+../../bin/script.sh
 ```
 
 The transitions should be saved in `trends_pm.txt`. The following trends_pm.txt indicates that authors switched from cytoscape to Neo4j 9 times, while authors switched from Neo4j to Cytoscape 3 times.

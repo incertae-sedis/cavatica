@@ -125,7 +125,7 @@ $ Rscript mkBarchart.R query_papers_pm.tsv query_pm.tiff
 $ Rscript mkBarchart.R query_papers_pm.tsv query_pm.tiff 1996 2016
 ```
 
-<img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Cytoscape-pubmedcounts.png" width="300" alt="PubMed counts"><img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Cytoscape-full-pubmedcounts.png" width="300" alt="PMC counts">
+<img src="https://github.com/incertae-sedis/cavatica/blob/main/IMG/Cytoscape-pubmedcounts.png" width="300" alt="PubMed counts"><img src="https://github.com/incertae-sedis/cavatica/blob/main/IMG/Cytoscape-full-pubmedcounts.png" width="300" alt="PMC counts">
 
 --
 **rismed_pm.R**
@@ -145,7 +145,7 @@ $ mv *.tsv ../DATA/.
 $ mv *.png ../IMG/.
 ```
 
-<img src="https://github.com/incertae-sedis/cavatica/blob/master/IMG/Cytoscape-pubmedcounts.png" width="600" alt="Cytoscape">
+<img src="https://github.com/incertae-sedis/cavatica/blob/main/IMG/Cytoscape-pubmedcounts.png" width="600" alt="Cytoscape">
 
 **Citation for the RISmed R Package**
 
@@ -249,7 +249,7 @@ Citation for the Ebot Scripts:
 # Author:  Eric W. Sayers  sayers@ncbi.nlm.nih.gov
 # http://www.ncbi.nlm.nih.gov/Class/PowerTools/eutils/course.html
 #
-#  
+#
 # ---------------------------------------------------------------------------
 ```
 Mango
@@ -275,12 +275,12 @@ These scripts load and merge multiple network files, identifies multi-term autho
 
 The tsv files are the input for basicrun2.pl in order to generate the author adoption table.
 
-If you want to visualize the co-authorship publication network, it is highly recommended that you open the "pubmed.gel" or "pmc.gel" scripts, comment out the export command, and change the labeles from the full terms to one letter codes for ease of reading. 
+If you want to visualize the co-authorship publication network, it is highly recommended that you open the "pubmed.gel" or "pmc.gel" scripts, comment out the export command, and change the labeles from the full terms to one letter codes for ease of reading.
 
 The exported tsv files can then be used to create the transition matrix.
 
 ```
-$ bash counttrends.sh multitool-pubmed.tsv 
+$ bash counttrends.sh multitool-pubmed.tsv
 ```
 
 Citation information for Mango Graph Studio
