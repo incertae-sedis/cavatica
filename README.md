@@ -66,6 +66,7 @@ Launching `../main.nf` [astonishing_shannon] DSL2 - revision: 4ca01360a9
     -profile                Configuration profile to use. Can use multiple (comma separated)
                             Available: local, slurm, singularity, docker [default:local]
    Optional other arguments:
+    --outdir                Output directory [default:'results']
     --help                  Print this help message
 ```
 

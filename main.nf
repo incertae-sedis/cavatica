@@ -1,18 +1,5 @@
 #! /usr/bin/env nextflow
 
-// List of terms
-params.config = false
-
-// Pass in the term
-params.term = false
-
-// Run all pubmed and pubmed central queries
-params.all = false
-
-// Only run one or the other
-params.pubmed = params.all
-params.pmc = params.all
-
 def helpMsg() {
   log.info """
    Usage:
@@ -41,6 +28,7 @@ def helpMsg() {
     -profile                Configuration profile to use. Can use multiple (comma separated)
                             Available: local, slurm, singularity, docker [default:local]
    Optional other arguments:
+    --outdir                Output directory [default:'${params.outdir}']
     --help                  Print this help message
 """
 }
