@@ -4,7 +4,6 @@
 
 The full pipeline can be run using Nextflow
 
-
 ```bash
 # Define some search terms
 echo "IQtree" > config.txt
@@ -31,6 +30,43 @@ bash bin/pm_xml.sh BEAST.ids > BEAST.xml
 # Get authors.tsv and papers.tsv
 perl bin/authorlist_pm.pl BEAST_pm.xml > BEAST_authors_pm.tsv
 perl bin/paperlist_pm.pl BEAST_pm.xml > BEAST_papers_pm.tsv
+```
+
+For the nextflow pipeline help statement:
+
+```bash
+nextflow run incertae-sedis/cavatica --help
+
+N E X T F L O W  ~  version 23.04.4
+Launching `../main.nf` [astonishing_shannon] DSL2 - revision: 4ca01360a9
+
+   Usage:
+   The typical command for running the pipeline are as follows:
+
+   Run both PubMed and PubMed Central analysis
+     nextflow run incertae-sedis/cavatica --all --config config.txt
+     nextflow run incertae-sedis/cavatica --all --term "search term here"
+
+   PubMed only:
+     nextflow run main.nf --pubmed --config config.txt
+
+   PubMed Central only:
+     nextflow run main.nf --pmc --config config.txt
+
+   Analysis arguments:
+    --all                   Run both PubMed and PMC analysis [default:'false'].
+    --pubmed                Only run PubMed analysis [default:'false'].
+    --pmc                   Only run PubMed Central analysis [default:'false'].
+
+   Read input arguments:
+    --config                 Text file with a search term per line, this is for multi-network analysis
+    --term                   Search term to search for in PubMed or PubMed Central data, will only give you one network.
+
+   Optional configuration arguments:
+    -profile                Configuration profile to use. Can use multiple (comma separated)
+                            Available: local, slurm, singularity, docker [default:local]
+   Optional other arguments:
+    --help                  Print this help message
 ```
 
 **Initial Commit**: July 2016
@@ -96,7 +132,7 @@ Can also open the html files to check the one sentence usages of Neo4j and Cavat
 <td>
 <h1>Sentences that contain Neo4j</h1>
 <p>2018 <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=29377902">29377902</a>
- Reactome graph database: Efficient access to complex pathway data.<ul><li>Here 
+ Reactome graph database: Efficient access to complex pathway data.<ul><li>Here
 we present the rationale behind the adoption of a graph database (<b>Neo4j</b>) as well as the new ContentService (REST API) that provides access to these data. </ul></p><p>2018 <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=28936969">28936969</a> Systematic integration of biomedical knowledge prioritizes drugs for repurposing.<ul><li>First, we constructed Hetionet (<b>neo4j</b>.het.io), an integrative network encoding knowledge from millions of biomedical studies. </ul></p><p>2017 <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=28416946">28416946</a> Use of Graph Database for the Integration of Heterogeneous Biological Data.<ul><li>Here, we demonstrate the feasibility of using a graph-based database for complex biological relationships by comparing the performance between MySQL and <b>Neo4j</b>, one of the most widely used graph databases. <li>When we tested the query execution performance of MySQL versus <b>Neo4j</b>, we found that <b>Neo4j</b> outperformed MySQL in all cases. <li>These results show that using graph-based databases, such as <b>Neo4j</b>, is an efficient way to store complex biological relationships. </ul></p>
 
 ...
@@ -227,7 +263,7 @@ In the same directory as config.txt, run the docker container:
 docker run -v ${PWD}:/cavatica/data/output incertaesedis/cavatica
 ```
 
-If on windows, `"$PWD"` should be replaced with the absolute path to your current directory. The files produced by Cavatica should appear on running the container. If you wish to rerun the search with different terms, make sure that the `multitool-pubmed.tsv` and `multitool-pmc.tsv` files are still in the folder. 
+If on windows, `"$PWD"` should be replaced with the absolute path to your current directory. The files produced by Cavatica should appear on running the container. If you wish to rerun the search with different terms, make sure that the `multitool-pubmed.tsv` and `multitool-pmc.tsv` files are still in the folder.
 
 ## Value of Reproducible Research
 [Accomplishments and opportunities of reproducing and containerizing this project](https://hackmd.io/s/r1Vxf9wVX)
